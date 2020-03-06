@@ -1,0 +1,6 @@
+{
+  "insecure-registries": [
+    "registry.jiangxingai.com:5000",
+    "harbor.jiangxingai.com"
+  ]
+}

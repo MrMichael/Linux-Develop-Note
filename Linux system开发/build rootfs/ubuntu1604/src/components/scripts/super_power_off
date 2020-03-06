@@ -1,0 +1,17 @@
+#!/bin/bash
+
+power_off_time=$1
+reboot_interval_fixed=$2
+
+lock_file="/app/bootstrap/scripts/power_control.lock"
+core_file="/app/bootstrap/scripts/super_power_off_core"
+
+exec 3>${lock_file}
+flock -w 1 3
+if [ $? -eq 1 ]; then
+	echo "Resource is busy"
+	exit 1
+fi
+
+${core_file} ${power_off_time} ${reboot_interval_fixed}
+echo "send ${power_off_time} ${reboot_interval_fixed} to MCU"

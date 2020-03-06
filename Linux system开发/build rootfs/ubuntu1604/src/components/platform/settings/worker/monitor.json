@@ -1,0 +1,16 @@
+{
+  "mongodb": {
+    "database": "monitor",
+    "collection": "config",
+    "port": 27017,
+    "host": "EDGEBOX_SED_MASTER_IP"
+  },
+  "db": {
+    "password": "root",
+    "username": "root",
+    "database": "telegraf",
+    "port": 8086,
+    "host": "EDGEBOX_SED_MASTER_IP"
+  },
+  "host_ip": "EDGEBOX_SED_HOST_IP"
+}

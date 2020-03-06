@@ -1,0 +1,20 @@
+{
+  "nginx_rtmp": {
+    "rtmp_port": 1935,
+    "web_port": 18080
+  },
+  "mongodb": {
+    "addr": "mongodb://127.0.0.1",
+    "db": "adm"
+  },
+  "mongodb_host": {
+    "addr": "mongodb://EDGEBOX_SED_MASTER_IP",
+    "db": "host-manager"
+  },
+  "host_ip": "EDGEBOX_SED_HOST_IP",
+  "master_ip": "EDGEBOX_SED_MASTER_IP",
+  "apigateway": {
+    "addr": "http://EDGEBOX_SED_MASTER_IP:9000",
+    "mq_api": "/internalapi/v1/system/infrastructure/messagequeue"
+  }
+}

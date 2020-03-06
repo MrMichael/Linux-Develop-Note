@@ -1,0 +1,3 @@
+
+supervisorctl stop adm
+reboot

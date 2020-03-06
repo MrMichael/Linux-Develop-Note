@@ -1,0 +1,9 @@
+{
+    "log-opts": {
+        "max-size": "500m", 
+        "max-file": "3"
+    }, 
+    "insecure-registries": [
+        "registry.jiangxingai.com:5000"
+    ]
+}

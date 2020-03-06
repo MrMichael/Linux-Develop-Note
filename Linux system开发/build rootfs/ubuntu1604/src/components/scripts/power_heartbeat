@@ -1,0 +1,23 @@
+#!/bin/bash
+
+lock_file="/app/bootstrap/scripts/power_control.lock"
+core_file="/app/bootstrap/scripts/super_power_off_core"
+
+power_off_time="-1"
+reboot_interval_fixed="-1"
+retry_time=10
+
+while true
+do
+	exec 3>${lock_file}
+	flock -w 1 3
+	if [ $? -eq 1 ]; then
+		echo "Resource is busy, retry after ${retry_time} seconds"
+	else
+		echo "send ${power_off_time} ${reboot_interval_fixed} to MCU"
+               	${core_file} ${power_off_time} ${reboot_interval_fixed}
+	fi
+	flock -u 3
+	exec 3>&-
+	sleep ${retry_time}
+done
