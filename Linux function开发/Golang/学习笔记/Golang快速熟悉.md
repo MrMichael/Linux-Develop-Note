@@ -239,24 +239,24 @@ sudo apt-get install bison ed gawk gcc libc6-dev make
   sudo tar -zxvf go1.13.4.src.tar.gz -C /usr/local
     ```
   
- 编译源代码
+   编译源代码
   
-  ```shell
-  cd /usr/local/go//src
-  ./all.bash		# 包含安装测试
-  # 或
-  ./make.bash 	# 仅构建
+    ```shell
+    cd /usr/local/go/src
+    ./all.bash		# 包含安装测试
+    # 或
+    ./make.bash 	# 仅构建
     ```
   
-  Go 安装目录（`$GOROOT`）的文件夹结构：
+    Go 安装目录（`$GOROOT`）的文件夹结构：
   
-  - `/bin`：包含可执行文件，如：编译器，Go 工具
-    - `/doc`：包含示例程序，代码工具，本地文档等
-    - `/lib`：包含文档模版
-    - `/misc`：包含与支持 Go 编辑器有关的配置文件以及 cgo 的示例
-    - `/os_arch`：包含标准库的包的对象文件（`.a`）
-    - `/src`：包含源代码构建脚本和标准库的包的完整源代码（Go 是一门开源语言）
-    - `/src/cmd`：包含 Go 和 C 的编译器和命令行脚本
+    - `/bin`：包含可执行文件，如：编译器，Go 工具
+      - `/doc`：包含示例程序，代码工具，本地文档等
+      - `/lib`：包含文档模版
+      - `/misc`：包含与支持 Go 编辑器有关的配置文件以及 cgo 的示例
+      - `/os_arch`：包含标准库的包的对象文件（`.a`）
+      - `/src`：包含源代码构建脚本和标准库的包的完整源代码（Go 是一门开源语言）
+      - `/src/cmd`：包含 Go 和 C 的编译器和命令行脚本
 
 ##### 3）创建工作区并测试
 
@@ -468,7 +468,7 @@ go doc package function # 获取某个函数在某个包中的文档注释，例
   
   # 如果在包的路径下，可以直接install
   cd $GOPATH/src/github.com/user/hello
-  go install
+  go install 
   ```
 
 - 运行程序

@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 #### 1.无法ping www.baidu.com
 
 添加dns 解析

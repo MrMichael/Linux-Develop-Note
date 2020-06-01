@@ -259,15 +259,18 @@ sudo cp galcore.ko /lib/modules/
 
 # 导入rknpu 动态链接库
 cp -r ~/rknpu/drivers/linux-aarch64/usr/lib/* /usr/lib/
+
 # 导入rknn api 动态链接库及头文件
 cp ~/rknpu/rknn/rknn_api/librknn_api/lib64/librknn_api.so /usr/lib/
 sudo cp ~/rknpu/rknn/rknn_api/librknn_api/include/rknn_api.h /usr/include/
 
 # 安装python3 rknn软件包
 sudo pip3 install  /home/admin/rknpu/rknn/python/rknn1808-1.2.0-cp36-cp36m-linux_aarch64.whl
+#sudo cp ~/rknpu/rknn/rknn_api/librknn_api/lib64/librknn_api.so  /usr/local/lib/python3.6/dist-packages/rknn/
 
 # 导入galcore.ko insmod脚本
 sudo cp ~/rknpu/drivers/common/etc/init.d/S05NPU_init /etc/init.d/
+sudo cp ~/rknpu/drivers/common/usr/lib/cl_viv_vx_ext.h/ /usr/lib/
 
 # 修改/etc/rc.local
 	/etc/init.d/S05NPU_init start
