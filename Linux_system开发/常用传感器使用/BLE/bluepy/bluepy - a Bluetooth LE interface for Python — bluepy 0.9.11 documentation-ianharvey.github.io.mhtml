@@ -1,0 +1,1508 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://ianharvey.github.io/bluepy-doc/index.html
+Subject: =?utf-8?Q?bluepy=20-=20a=20Bluetooth=20LE=20interface=20for=20Python=20?=
+ =?utf-8?Q?=E2=80=94=20bluepy=200.9.11=20documentation?=
+Date: Tue, 16 Jun 2020 09:23:42 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----"
+
+
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/html
+Content-ID: <frame-5BD8A61A176A8BAE95BE47870DA3C3E7@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ianharvey.github.io/bluepy-doc/index.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:=
+css-be4273b7-48a4-4336-b8e5-81f2a4ba93f6@mhtml.blink" /><link rel=3D"styles=
+heet" type=3D"text/css" href=3D"cid:css-5eb20785-4234-433b-9862-28b5a5b7036=
+6@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css=
+-ec9e23e8-a820-4042-8751-6a2a61462f41@mhtml.blink" /><link rel=3D"styleshee=
+t" type=3D"text/css" href=3D"cid:css-b204b6c2-91fc-4141-b942-24f4cb270fe7@m=
+html.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d3=
+6d584e-166f-4c06-b1b0-eece3530045e@mhtml.blink" /><link rel=3D"stylesheet" =
+type=3D"text/css" href=3D"cid:css-b6689fe2-0908-480b-a2e6-cc50ad13cdb7@mhtm=
+l.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ee137=
+e18-4195-4d90-a73b-adf10805ac01@mhtml.blink" /><link rel=3D"stylesheet" typ=
+e=3D"text/css" href=3D"cid:css-6f30e4b6-cd9b-4d0f-8b66-23f317e0acb5@mhtml.b=
+link" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-79a60e51=
+-1fee-4dc9-8929-d66125b16625@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-f69524b3-60a3-4866-8354-4921ad5de24f@mhtml.bl=
+ink" />
+   =20
+   =20
+    <title>bluepy - a Bluetooth LE interface for Python =E2=80=94 bluepy 0.=
+9.11 documentation</title>
+   =20
+    <link rel=3D"stylesheet" href=3D"https://ianharvey.github.io/bluepy-doc=
+/_static/classic.css" type=3D"text/css">
+    <link rel=3D"stylesheet" href=3D"https://ianharvey.github.io/bluepy-doc=
+/_static/pygments.css" type=3D"text/css">
+   =20
+   =20
+   =20
+   =20
+   =20
+    <link rel=3D"top" title=3D"bluepy 0.9.11 documentation" href=3D"https:/=
+/ianharvey.github.io/bluepy-doc/index.html#">
+    <link rel=3D"next" title=3D"The Peripheral class" href=3D"https://ianha=
+rvey.github.io/bluepy-doc/peripheral.html">=20
+  </head>
+  <body role=3D"document">
+    <div class=3D"related" role=3D"navigation" aria-label=3D"related naviga=
+tion">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://ianharvey.github.io/bluepy-doc/genindex.html" =
+title=3D"General Index" accesskey=3D"I">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://ianharvey.github.io/bluepy-doc/peripheral.html=
+" title=3D"The Peripheral class" accesskey=3D"N">next</a> |</li>
+        <li class=3D"nav-item nav-item-0"><a href=3D"https://ianharvey.gith=
+ub.io/bluepy-doc/index.html#">bluepy 0.9.11 documentation</a> =C2=BB</li>=
+=20
+      </ul>
+    </div> =20
+
+    <div class=3D"document">
+      <div class=3D"documentwrapper">
+        <div class=3D"bodywrapper">
+          <div class=3D"body" role=3D"main">
+           =20
+  <div class=3D"section" id=3D"bluepy-a-bluetooth-le-interface-for-python">
+<h1><code class=3D"docutils literal"><span class=3D"pre">bluepy</span></cod=
+e> - a Bluetooth LE interface for Python<a class=3D"headerlink" href=3D"htt=
+ps://ianharvey.github.io/bluepy-doc/index.html#bluepy-a-bluetooth-le-interf=
+ace-for-python" title=3D"Permalink to this headline">=C2=B6</a></h1>
+<p><code class=3D"docutils literal"><span class=3D"pre">bluepy</span></code=
+> is a Python module which allows communication with Bluetooth Low
+Energy devices. The current implementation runs on Linux
+(internally it uses code from the <a class=3D"reference external" href=3D"h=
+ttp://www.bluez.org/">BlueZ project</a>), although it can be ported to othe=
+r
+platforms.</p>
+<p>To browse the API documentation, it is recommended to start with <a clas=
+s=3D"reference internal" href=3D"https://ianharvey.github.io/bluepy-doc/per=
+ipheral.html#peripheral"><span>The Peripheral class</span></a>.</p>
+<p>Contents:</p>
+<div class=3D"toctree-wrapper compound">
+<ul>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/peripheral.html">The <code class=3D"docutils l=
+iteral"><span class=3D"pre">Peripheral</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/peripheral.html#constructor">Constructor</a></=
+li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/peripheral.html#instance-methods">Instance Met=
+hods</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/peripheral.html#properties">Properties</a></li=
+>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanner.html">The <code class=3D"docutils lite=
+ral"><span class=3D"pre">Scanner</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanner.html#constructor">Constructor</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanner.html#instance-methods">Instance Method=
+s</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanner.html#sample-code">Sample code</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanentry.html">The <code class=3D"docutils li=
+teral"><span class=3D"pre">ScanEntry</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanentry.html#constructor">Constructor</a></l=
+i>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanentry.html#instance-methods">Instance Meth=
+ods</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/scanentry.html#properties">Properties</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/delegate.html">The <code class=3D"docutils lit=
+eral"><span class=3D"pre">DefaultDelegate</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/delegate.html#constructor">Constructor</a></li=
+>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/delegate.html#instance-methods">Instance Metho=
+ds</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/uuid.html">The <code class=3D"docutils literal=
+"><span class=3D"pre">UUID</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/uuid.html#constructor">Constructor</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/uuid.html#instance-methods">Instance Methods</=
+a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/uuid.html#properties">Properties</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/service.html">The <code class=3D"docutils lite=
+ral"><span class=3D"pre">Service</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/service.html#constructor">Constructor</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/service.html#instance-methods">Instance Method=
+s</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/service.html#properties">Properties</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/characteristic.html">The <code class=3D"docuti=
+ls literal"><span class=3D"pre">Characteristic</span></code> class</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/characteristic.html#constructor">Constructor</=
+a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/characteristic.html#instance-methods">Instance=
+ Methods</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/characteristic.html#properties">Properties</a>=
+</li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/descriptor.html">The <code class=3D"docutils l=
+iteral"><span class=3D"pre">Descriptor</span></code> class</a></li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/notifications.html">Working with notifications=
+</a><ul>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/notifications.html#example-code">Example code<=
+/a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://ia=
+nharvey.github.io/bluepy-doc/assignednumbers.html">Assigned Numbers</a></li=
+>
+</ul>
+</div>
+</div>
+<div class=3D"section" id=3D"indices-and-tables">
+<h1>Indices and tables<a class=3D"headerlink" href=3D"https://ianharvey.git=
+hub.io/bluepy-doc/index.html#indices-and-tables" title=3D"Permalink to this=
+ headline">=C2=B6</a></h1>
+<ul class=3D"simple">
+<li><a class=3D"reference internal" href=3D"https://ianharvey.github.io/blu=
+epy-doc/genindex.html"><span>Index</span></a></li>
+<li><a class=3D"reference internal" href=3D"https://ianharvey.github.io/blu=
+epy-doc/py-modindex.html"><span>Module Index</span></a></li>
+<li><a class=3D"reference internal" href=3D"https://ianharvey.github.io/blu=
+epy-doc/search.html"><span>Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class=3D"sphinxsidebar" role=3D"navigation" aria-label=3D"main n=
+avigation">
+        <div class=3D"sphinxsidebarwrapper">
+  <h3><a href=3D"https://ianharvey.github.io/bluepy-doc/index.html#">Table =
+Of Contents</a></h3>
+  <ul>
+<li><a class=3D"reference internal" href=3D"https://ianharvey.github.io/blu=
+epy-doc/index.html#"><code class=3D"docutils literal"><span class=3D"pre">b=
+luepy</span></code> - a Bluetooth LE interface for Python</a></li>
+<li><a class=3D"reference internal" href=3D"https://ianharvey.github.io/blu=
+epy-doc/index.html#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class=3D"topless"><a href=3D"https://ianharvey.github.io/bluepy-doc/pe=
+ripheral.html" title=3D"next chapter">The <code class=3D"docutils literal">=
+<span class=3D"pre">Peripheral</span></code> class</a></p>
+  <div role=3D"note" aria-label=3D"source link">
+    <h3>This Page</h3>
+    <ul class=3D"this-page-menu">
+      <li><a href=3D"https://ianharvey.github.io/bluepy-doc/_sources/index.=
+txt" rel=3D"nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id=3D"searchbox" style=3D"" role=3D"search">
+  <h3>Quick search</h3>
+    <form class=3D"search" action=3D"https://ianharvey.github.io/bluepy-doc=
+/search.html" method=3D"get">
+      <input type=3D"text" name=3D"q">
+      <input type=3D"submit" value=3D"Go">
+     =20
+     =20
+    </form>
+    <p class=3D"searchtip" style=3D"font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+
+        </div>
+      </div>
+      <div class=3D"clearer"></div>
+    </div>
+    <div class=3D"related" role=3D"navigation" aria-label=3D"related naviga=
+tion">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://ianharvey.github.io/bluepy-doc/genindex.html" =
+title=3D"General Index">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://ianharvey.github.io/bluepy-doc/peripheral.html=
+" title=3D"The Peripheral class">next</a> |</li>
+        <li class=3D"nav-item nav-item-0"><a href=3D"https://ianharvey.gith=
+ub.io/bluepy-doc/index.html#">bluepy 0.9.11 documentation</a> =C2=BB</li>=
+=20
+      </ul>
+    </div>
+    <div class=3D"footer" role=3D"contentinfo">
+        =C2=A9 Copyright 2014, Ian Harvey.
+      Created using <a href=3D"http://sphinx-doc.org/">Sphinx</a> 1.3.3.
+    </div>
+ =20
+</body><div style=3D"width: 32px !important; height: 32px !important; displ=
+ay: none; background: rgb(255, 255, 255) !important; border-radius: 16px !i=
+mportant; box-shadow: rgb(136, 136, 136) 4px 4px 8px !important; position: =
+absolute !important; z-index: 2147483647 !important; --darkreader-inline-bg=
+image: initial; --darkreader-inline-bgcolor:#bcbab6; --darkreader-inline-bo=
+xshadow:#6f6d68 4px 4px 8px;" data-darkreader-inline-bgimage=3D"" data-dark=
+reader-inline-bgcolor=3D"" data-darkreader-inline-boxshadow=3D""><svg href=
+=3D"javascript:void(0)" style=3D"width:24px;height:24px;margin:4px!importan=
+t;" "width=3D"24" height=3D"24" viewBox=3D"0 0 768 768"><path d=3D"M672 640=
+.5v-417c0-18-13.5-31.5-31.5-31.5h-282l37.5 129h61.5v-33h34.5v33h115.5v33h-4=
+0.5c-10.5 40.5-33 79.5-61.5 112.5l87 85.5-22.5 24-87-85.5-28.5 28.5 25.5 88=
+.5-64.5 64.5h225c18 0 31.5-13.5 31.5-31.5zM447 388.5c7.5 15 19.5 34.5 36 54=
+ 39-46.5 49.5-88.5 49.5-88.5h-127.5l10.5 34.5h31.5zM423 412.5l19.5 70.5 18-=
+16.5c-15-16.5-27-34.5-37.5-54zM355.5 339c0-7.381-0.211-16.921-3-22.5h-126v4=
+9.5h70.5c-4.5 19.5-24 48-67.5 48-42 0-76.5-36-76.5-78s34.5-78 76.5-78c24 0 =
+39 10.5 48 19.5l3 1.5 39-37.5-3-1.5c-24-22.5-54-34.5-87-34.5-72 0-130.5 58.=
+5-130.5 130.5s58.5 130.5 130.5 130.5c73.5 0 126-52.5 126-127.5zM640.5 160.5=
+c34.5 0 63 28.5 63 63v417c0 34.5-28.5 63-63 63h-256.5l-31.5-96h-225c-34.5 0=
+-63-28.5-63-63v-417c0-34.5 28.5-63 63-63h192l28.5 96h292.5z" style=3D"fill:=
+ rgb(62, 132, 244); --darkreader-inline-fill:#2b65c2;" data-darkreader-inli=
+ne-fill=3D""></path></svg></div></html>
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-be4273b7-48a4-4336-b8e5-81f2a4ba93f6@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5eb20785-4234-433b-9862-28b5a5b70366@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ec9e23e8-a820-4042-8751-6a2a61462f41@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble, embed[type=3D"application/pdf"] { filter: brightness(85%) cont=
+rast(85%) !important; }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b204b6c2-91fc-4141-b942-24f4cb270fe7@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d36d584e-166f-4c06-b1b0-eece3530045e@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(188, 186, 182) !important; }
+
+html, body, input, textarea, select, button { background-color: rgb(188, 18=
+6, 182); }
+
+html, body, input, textarea, select, button { border-color: rgb(67, 69, 70)=
+; color: rgb(19, 19, 19); }
+
+a { color: rgb(19, 61, 185); }
+
+table { border-color: rgb(104, 103, 100); }
+
+::placeholder { color: rgb(134, 131, 124); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(169, 165, 159) !important; color: rgb(19, 19, 19) !=
+important; }
+
+::-webkit-scrollbar { background-color: rgb(180, 177, 172); color: rgb(81, =
+82, 82); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(139, 135, 128); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(117, 114, 109); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(81, 82, 82); }
+
+::-webkit-scrollbar-corner { background-color: rgb(188, 186, 182); }
+
+* { }
+
+::selection { background-color: rgb(19, 81, 157) !important; color: rgb(188=
+, 186, 182) !important; }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b6689fe2-0908-480b-a2e6-cc50ad13cdb7@mhtml.blink
+
+@charset "utf-8";
+
+div.related ul { list-style-image: initial; }
+
+div.sphinxsidebar ul { list-style-image: initial; }
+
+div.sphinxsidebar ul ul, div.sphinxsidebar ul.want-points { list-style-imag=
+e: initial; }
+
+div.sphinxsidebar input { border-color: rgb(109, 170, 156); }
+
+img { border-color: initial; }
+
+ul.search li { background-image: url("https://ianharvey.github.io/bluepy-do=
+c/_static/file.png"); }
+
+ul.search li div.context { color: rgb(111, 109, 104); }
+
+table.indextable tr.cap { background-color: rgb(180, 178, 172); }
+
+div.modindex-jumpbox { border-top-color: rgb(168, 164, 158); border-bottom-=
+color: rgb(168, 164, 158); }
+
+div.genindex-jumpbox { border-top-color: rgb(168, 164, 158); border-bottom-=
+color: rgb(168, 164, 158); }
+
+div.sidebar { border-color: rgb(157, 154, 146); background-color: rgb(183, =
+181, 176); }
+
+div.topic { border-color: rgb(157, 154, 146); }
+
+table.docutils { border-color: initial; }
+
+table.docutils td, table.docutils th { border-top-color: initial; border-le=
+ft-color: initial; border-right-color: initial; border-bottom-color: rgb(13=
+5, 131, 125); }
+
+table.field-list td, table.field-list th { border-color: initial !important=
+; }
+
+table.footnote td, table.footnote th { border-color: initial !important; }
+
+table.citation { border-left-color: rgb(104, 103, 100); }
+
+table.citation td { border-bottom-color: initial; }
+
+ol.arabic { list-style-image: initial; }
+
+ol.loweralpha { list-style-image: initial; }
+
+ol.upperalpha { list-style-image: initial; }
+
+ol.lowerroman { list-style-image: initial; }
+
+ol.upperroman { list-style-image: initial; }
+
+dt:target, .highlighted { background-color: rgb(200, 181, 52); }
+
+.system-message { background-color: rgb(163, 159, 152); border-color: rgb(1=
+85, 19, 19); }
+
+.footnote:target { background-color: rgb(163, 159, 152); }
+
+.accelerator { text-decoration-color: initial; }
+
+abbr, acronym { border-bottom-color: initial; }
+
+td.linenos pre { border-color: initial; background-color: transparent; colo=
+r: rgb(135, 131, 125); }
+
+div.code-block-caption code { background-color: transparent; }
+
+code.descname { background-color: transparent; }
+
+code.descclassname { background-color: transparent; }
+
+code.xref, a code { background-color: transparent; }
+
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code { background-color: tr=
+ansparent; }
+
+body { background-color: rgb(42, 45, 47); color: rgb(19, 19, 19); }
+
+div.document { background-color: rgb(37, 70, 83); }
+
+div.body { background-color: rgb(188, 186, 182); color: rgb(19, 19, 19); }
+
+div.footer { color: rgb(188, 186, 182); }
+
+div.footer a { color: rgb(188, 186, 182); text-decoration-color: initial; }
+
+div.related { background-color: rgb(49, 52, 55); color: rgb(188, 186, 182);=
+ }
+
+div.related a { color: rgb(188, 186, 182); }
+
+div.sphinxsidebar h3 { color: rgb(188, 186, 182); }
+
+div.sphinxsidebar h3 a { color: rgb(188, 186, 182); }
+
+div.sphinxsidebar h4 { color: rgb(188, 186, 182); }
+
+div.sphinxsidebar p { color: rgb(188, 186, 182); }
+
+div.sphinxsidebar ul { color: rgb(188, 186, 182); }
+
+div.sphinxsidebar a { color: rgb(109, 170, 156); }
+
+div.sphinxsidebar input { border-color: rgb(109, 170, 156); }
+
+a { color: rgb(54, 81, 100); text-decoration-color: initial; }
+
+a:visited { color: rgb(54, 81, 100); text-decoration-color: initial; }
+
+a:hover { text-decoration-color: initial; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h=
+6 { background-color: rgb(180, 178, 172); color: rgb(40, 62, 79); border-bo=
+ttom-color: rgb(157, 154, 146); }
+
+a.headerlink { color: rgb(148, 29, 29); text-decoration-color: initial; }
+
+a.headerlink:hover { background-color: rgb(148, 29, 29); color: rgb(188, 18=
+6, 182); }
+
+div.note { background-color: rgb(178, 175, 169); border-color: rgb(157, 154=
+, 146); }
+
+div.seealso { background-color: rgb(173, 170, 164); border-color: rgb(203, =
+203, 67); }
+
+div.topic { background-color: rgb(178, 175, 169); }
+
+div.warning { background-color: rgb(180, 177, 172); border-color: rgb(203, =
+67, 67); }
+
+pre { background-color: rgb(173, 170, 164); color: rgb(49, 53, 55); border-=
+top-color: rgb(141, 137, 130); border-bottom-color: rgb(141, 137, 130); bor=
+der-left-color: initial; border-right-color: initial; }
+
+code { background-color: rgb(179, 176, 171); }
+
+th { background-color: rgb(173, 170, 164); }
+
+.warning code { background-image: initial; background-color: rgb(165, 161, =
+155); }
+
+.note code { background-image: initial; background-color: rgb(164, 160, 153=
+); }
+
+div.viewcode-block:target { background-color: rgb(166, 162, 156); border-to=
+p-color: rgb(141, 137, 130); border-bottom-color: rgb(141, 137, 130); }
+
+div.code-block-caption { color: rgb(179, 176, 170); background-color: rgb(3=
+7, 70, 83); }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ee137e18-4195-4d90-a73b-adf10805ac01@mhtml.blink
+
+@charset "utf-8";
+
+.highlight .hll { background-color: rgb(173, 170, 164); }
+
+.highlight { background-image: initial; background-color: rgb(173, 170, 164=
+); }
+
+.highlight .c { color: rgb(61, 102, 113); }
+
+.highlight .err { border-color: rgb(185, 19, 19); }
+
+.highlight .k { color: rgb(19, 92, 40); }
+
+.highlight .o { color: rgb(86, 86, 86); }
+
+.highlight .cm { color: rgb(61, 102, 113); }
+
+.highlight .cp { color: rgb(19, 92, 40); }
+
+.highlight .c1 { color: rgb(61, 102, 113); }
+
+.highlight .cs { color: rgb(61, 102, 113); background-color: rgb(184, 181, =
+177); }
+
+.highlight .gd { color: rgb(123, 19, 19); }
+
+.highlight .gr { color: rgb(185, 19, 19); }
+
+.highlight .gh { color: rgb(19, 19, 102); }
+
+.highlight .gi { color: rgb(19, 123, 19); }
+
+.highlight .go { color: rgb(49, 53, 55); }
+
+.highlight .gp { color: rgb(148, 80, 25); }
+
+.highlight .gu { color: rgb(102, 19, 102); }
+
+.highlight .gt { color: rgb(19, 63, 163); }
+
+.highlight .kc { color: rgb(19, 92, 40); }
+
+.highlight .kd { color: rgb(19, 92, 40); }
+
+.highlight .kn { color: rgb(19, 92, 40); }
+
+.highlight .kp { color: rgb(19, 92, 40); }
+
+.highlight .kr { color: rgb(19, 92, 40); }
+
+.highlight .kt { color: rgb(113, 40, 19); }
+
+.highlight .m { color: rgb(40, 102, 71); }
+
+.highlight .s { color: rgb(61, 92, 123); }
+
+.highlight .na { color: rgb(61, 92, 123); }
+
+.highlight .nb { color: rgb(19, 92, 40); }
+
+.highlight .nc { color: rgb(29, 105, 137); }
+
+.highlight .no { color: rgb(71, 135, 169); }
+
+.highlight .nd { color: rgb(73, 75, 76); }
+
+.highlight .ni { color: rgb(163, 71, 49); }
+
+.highlight .ne { color: rgb(19, 92, 40); }
+
+.highlight .nf { color: rgb(23, 45, 101); }
+
+.highlight .nl { color: rgb(19, 40, 92); }
+
+.highlight .nn { color: rgb(29, 105, 137); }
+
+.highlight .nt { color: rgb(23, 45, 94); }
+
+.highlight .nv { color: rgb(147, 71, 169); }
+
+.highlight .ow { color: rgb(19, 92, 40); }
+
+.highlight .w { color: rgb(146, 143, 135); }
+
+.highlight .mb { color: rgb(40, 102, 71); }
+
+.highlight .mf { color: rgb(40, 102, 71); }
+
+.highlight .mh { color: rgb(40, 102, 71); }
+
+.highlight .mi { color: rgb(40, 102, 71); }
+
+.highlight .mo { color: rgb(40, 102, 71); }
+
+.highlight .sb { color: rgb(61, 92, 123); }
+
+.highlight .sc { color: rgb(61, 92, 123); }
+
+.highlight .sd { color: rgb(61, 92, 123); }
+
+.highlight .s2 { color: rgb(61, 92, 123); }
+
+.highlight .se { color: rgb(61, 92, 123); }
+
+.highlight .sh { color: rgb(61, 92, 123); }
+
+.highlight .si { color: rgb(83, 123, 164); }
+
+.highlight .sx { color: rgb(148, 80, 25); }
+
+.highlight .sr { color: rgb(42, 73, 107); }
+
+.highlight .s1 { color: rgb(61, 92, 123); }
+
+.highlight .ss { color: rgb(72, 98, 35); }
+
+.highlight .bp { color: rgb(19, 92, 40); }
+
+.highlight .vc { color: rgb(147, 71, 169); }
+
+.highlight .vg { color: rgb(147, 71, 169); }
+
+.highlight .vi { color: rgb(147, 71, 169); }
+
+.highlight .il { color: rgb(40, 102, 71); }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6f30e4b6-cd9b-4d0f-8b66-23f317e0acb5@mhtml.blink
+
+@charset "utf-8";
+
+div.h5-ext-layer, div[adid], txpdiv[data-role=3D"hd-ad-adapter-interactivel=
+ayer"], div.m-video-play.js-play > a.m-video-bannerTitle.js-video-bannerTit=
+le, div#slide_ad, #Ad_windows, #Layeraa1, #Layeraa2, #MsnDialog.ad, #MyMove=
+Ad, #QQ_Full, #ZAML, #\31 280_adv, #aafoot.top_box, #aafoot[class^=3D"top_b=
+ox"], #aaheadtop, #aatop.top_box, #aatop[class^=3D"top_box"], #ad-SNSSplash=
+Ad, #ad08 { display: none !important; }
+
+#ad6cn, #adBody07, #adLeftFloat, #adRightFloat, #ad_box1, #ad_box2, #ad_ful=
+l, #ad_globle_div, #ad_headerbanner, #adrights14, #ads_c_tpc, #ads_in_video=
+, #ads_top_video, #adtop1, #adv-2, #adv-3, #adx_cggp, #body > #left-promoti=
+on, #body > #right-promotion, #bottomAD { display: none !important; }
+
+#bottombanner, #breadCrumb + .c + .t[style=3D"margin-top:8px"], #breadCrumb=
+ + .t[style=3D"margin-top:8px"], #comiis_xizi_gg02, #container > .sectionBa=
+nner, #crazy_ad_float, #crazy_ad_layer, #cs_left_couplet, #cs_right_couplet=
+, #dbgg, #duilian_left, #duilian_right, #eis_pad1, #eis_pad2, #everydayadv_=
+mask, #fk_faiVisitStateAd, #floatAd, #floatad-winpop, #footer_fix_ggw, #fra=
+meS8CyqB { display: none !important; }
+
+#fuo_top_float, #fwin_popad_7ree, #fwin_popad_7ree + #fwin_dialog, #gg1, #g=
+g300, #googleAD1, #googleAD2, #googleAD3, #googleAdIndexTop, #haoetv, #haoe=
+tv1, #haoxinqing_me_img, #js-ad-map, #js_ads_banner_top, #js_ads_banner_top=
+_slide, #kfivtwin, #kfpopupDiv, #ks > .DaKuang, #ldgindexbuttom, #leftCoupl=
+e { display: none !important; }
+
+#leftCouplet, #leftFloat + #rightFloat, #leftFloat[style=3D"z-index: 999; p=
+osition: fixed; left: 0px; bottom: 0px;"], #left_couple, #left_couplet.clos=
+e_discor, #left_down_float_ad, #left_float + #right_float, #left_float.clos=
+e_discor, #left_up_float_ad, #lovexin1, #lovexin11, #lovexin12, #lovexin121=
+, #lovexin13, #lovexin14, #lovexin2, #lt-ad-radio, #menu + #topBox, #menu +=
+ script + #topBox, #miaov_float_layer { display: none !important; }
+
+#micast_ads, #modalgg, #movieInfoRight, #mv_ad_dom, #mv_float_layer, #my-ad=
+sFPR, #nav + .slider-spons, #navcontainer + .moneyarea, #netease_mail_foote=
+r, #new_pop_ad, #news_top_advert, #olfullad, #overture_ads_bottom_td, #over=
+ture_ads_top_td, #photo--content-title-bottomx--foot, #photo-header-title-c=
+ontent-text-dallor, #piao_div_0[style*=3D"width:140px;"], #piao_div_1[style=
+*=3D"width:140px;"], #piao_div_2[style*=3D"width:140px;"], #piao_div_3[styl=
+e*=3D"width:140px;"] { display: none !important; }
+
+#piao_div_4[style*=3D"width:140px;"], #piao_div_5[style*=3D"width:140px;"],=
+ #player_banner[style*=3D"fixed;"], #popup.t, #pp-modal-id, #ptcmsad1, #qj9=
+60a, #qj960b, #reportPop, #results.content-main > .eLeft, #rightCouple, #ri=
+ghtCouple + #leftFloat, #rightCouplet, #rightCouplet + #leftFloat, #right_c=
+ouple, #right_couple + #left_float, #right_couplet.close_discor, #right_dow=
+n_float_ad, #right_float.close_discor, #right_up_float_ad { display: none !=
+important; }
+
+#search > a[href=3D"/top1.html"], #sitefocus.focus, #snActive-wrap, #sponso=
+rAdDiv2, #swtleft[style^=3D"position:fixed;"], #table1[width=3D"468"][heigh=
+t=3D"50"], #table1[width=3D"794"][height=3D"60"], #table1[width=3D"812"][he=
+ight=3D"50"], #table1[width=3D"812"][height=3D"60"], #tanx-con-1, #tanx-fol=
+d-main, #textggs, #top-gg-container, #top_ads0, #top_box > a[onclick^=3D"ja=
+vascript"], #toperAd2, #tr_ad1, #tr_ad10, #tr_ad11, #tr_ad2 { display: none=
+ !important; }
+
+#tr_ad3, #tr_ad4, #tr_ad5, #tr_ad6, #tr_ad7, #tr_ad8, #tr_ad9, #tripadvisor=
+-ad, #widget-quan, #wp > .V-videoFloat, #wrapper > .topad, #xianliaome_ads,=
+ #xinnxi, .Text-Advertising, ._cggp, ._ggs, ._popIn_recommend_article_ad, .=
+_popIn_recommend_article_ad_reserved, .a_cn, .a_fl { display: none !importa=
+nt; }
+
+.a_fr, .a_mu, .a_oscar1, .a_p, .a_pb, .a_pr, .a_pt, .a_ssk_cn, .a_sxc, .a_x=
+sfl, .aab-post, .aasd-text, .aasdwa, .ad-above-footer, .ad-below-adjacent-p=
+ost, .ad-below-header-menu, .ad-below-post-title, .ad-below-related-post, .=
+ad-couplet-common, .ad-left-down { display: none !important; }
+
+.ad-left-top, .ad-right-down, .ad-right-top, .ad-shine-panel, .ad-site, .ad=
+250left, .ad250right, .ad300left, .ad336left, .ad990x130, .ad990x90, .ad_co=
+uplebanner, .ad_fixed, .ad_footerbanner, .ad_headerbanner, .ad_hf, .ad_righ=
+t_1, .ad_right_2, .ad_thread, .ad_top_close + .bd { display: none !importan=
+t; }
+
+.adbox-bg.adscounter, .ads > a > img[src*=3D".sinaimg."], .ads_desktop, .ad=
+s_mobile, .adsense160, .adsense200, .adsoho, .advInfoElem, .afc_popup, .ann=
+iversary-wrap-2018, .artad, .asb-index, .asb-post, .assort-ad, .aub-post, .=
+baiduad, .banner-ad-section, .bdyp-sygg-ul, .below_ads, .bm.a_c { display: =
+none !important; }
+
+.bn728-100, .bn728-93, .bottomSponsor, .broadcastMe[style=3D"width: 1200px;=
+"], .btn.btn-default.hotwords[target=3D"_blank"], .bus_adsbox, .buyaoa-belo=
+w, .cari-ads, .chat-ad, .chat-right-ad, .chat-sysbroadcast-ad, .chat-top-ad=
+, .comiis_ad, .comiis_adbox, .comiis_guanggao, .comiis_guanggao_tit, .commo=
+n-topad, .common_ad, .con_ad, .con_search + #carousel-example-generic[style=
+^=3D"max-width: 1170px;"] { display: none !important; }
+
+.container > .ads, .content > a > .topline, .content-video > .ads, .content=
+-video > .ads-player, .content_ad_300, .corner-gg, .couplet_9cb0d, .ctm_ad,=
+ .customSlideshow-ad-below, .d_banner_inner, .dipiao, .edtj, .eis_muad, .er=
+ror > #qqs, .event_fullscreen_gg_modal, .f-sign-cont[data-dysign-adid], .fe=
+d-part-case > .ads-img, .ff-ads, .float-adv-left-bottom, .float-adv-left-to=
+p { display: none !important; }
+
+.float-adv-right-bottom, .float-adv-right-top, .floatAd, .float_bot_right, =
+.fnwehjnc12, .frAd, .full-ads, .full.banners12, .getads, .gg1000, .gg430, .=
+gg_300, .gg_728, .gg_950, .gg_960, .gg_full, .ggad, .ggbox, .gggpost-above,=
+ .ggpost-below { display: none !important; }
+
+.ggtop, .ggw, .global_video_bottom_dbtc, .google-ad2_fixed, .google_adsense=
+2, .gpost-below, .gpt_ads_box, .guangjiaodebupachuanxiede, .guruin-ads, .ha=
+o123-unionad-pic, .hbp > .wp_banner, .headxx11xiaoapp, .heg > .div-list, .h=
+is-sign-cont[data-dysign-adid], .hlol_ad, .hongbao_hd, .iHead960x90, .ibtad=
+, .index-top-ad, .index-top-gg { display: none !important; }
+
+.index-wz-ad, .index_alert_gg, .indexad2, .indexad3, .indexad4, .itopbar + =
+.container, .jav-nav + .bcpic, .jingqun_tu, .jq_mediav_ad_report, .jqrp_inf=
+oflow_ad, .kf_qycn_com_cckf_welcomebox, .leftadv, .listok > a > img[src*=3D=
+".alicdn.com"][width=3D"980"][height=3D"80"], .listok > a > img[style^=3D"w=
+idth:980px;height:"], .loc-home-top-adv-new, .lol-ad, .lol_ad, .lyzm-preven=
+t, .main-ad-l, .main-ad-r { display: none !important; }
+
+.main-ad-r + .topad, .main[style=3D"border:#7D8C8E solid 1px;height: 23px;"=
+], .maomi-content > .section-banner, .mediav-newsfeed-listitem-type-1, .med=
+iavAd_report, .mediavfeed-newsitem, .menutab_ad, .ml_ad1, .ml_ad3, .ml_ad5,=
+ .mlad, .mod + #bottomBox, .my-cat.my-cat-header, .mylist > a[target=3D"_ba=
+nk"] > img[src*=3D".alicdn.com/"], .mylist > a[target=3D"_bank"] > img[src*=
+=3D"kanjiantu."], .newstyle > .container > a[target=3D"_blank"], .overBanne=
+r.dowloadBtn, .pagead_3, .pagecon + .ad1, .pcgg { display: none !important;=
+ }
+
+.player + .sponsor, .player-bottom-gg, .pop[style=3D"right: 10px;"], .privi=
+lege-promote, .qq_nr_lad, .qzhfaaa, .readmidad, .right > .content > .ads, .=
+room-ad-bottom, .room-ad-top, .room-ad-video-down, .rtcenter_game, .scupioa=
+dslot, .spon-img[src*=3D".alicdn."], .subject_link[href$=3D"/thread-index-f=
+id-1-tid-12848.htm"], .sxAdBox, .t5[style=3D"border:1px solid #a6cbe7;"] + =
+.t[style=3D"margin-top:8px"], .table_ad, .textadlist, .theme_custom_slidebo=
+x-ad-below { display: none !important; }
+
+.tmall_ad_container, .tooltip > #tp, .top-read-ad, .topSponsor, .top_box > =
+#foot, .top_box > #indextop, .top_box > #news, .top_box > li > a[href^=3D"/=
+js/app.htm?"], .top_func_ad, .toy52_outer, .toy52apparel_ALL, .trad1, .trad=
+3, .twavt-ads, .wemziguanggao, .wf_ad_block, .widget-qianhuiji, .widget-top=
+adding, .widget-xlxba, .widget_adbox { display: none !important; }
+
+.widget_ui_ads, .widget_ui_asb, .widget_ui_aub, .widget_ui_textasb, .widget=
+_ui_textaub, .wordurl[style=3D"   width: 42%; float:left; text-align: cente=
+r;"], .wp > .ad-box, .wp.a_f, .wp.a_h, .wp.a_t, .wp_headline + .ad1, .wrap.=
+mt10.clearfix > .box.top_box, .wumii-bottom-popup, .wumii-widget-ad, .wzad,=
+ .xzbox-gh, .yd_ad, .yd_ad1, .yd_ad2, .yd_ad3 { display: none !important; }
+
+.yd_ad5, .yd_ad6, .zhedangceng_ggg, .zone_wap_banner2, a[href*=3D".com/?Age=
+nt=3D"], a[href=3D"http://t.cn/A6hQCVsv"], a[href^=3D"/e/public/ClickAd?adi=
+d=3D"], a > img[src*=3D".sinaimg."][src$=3D".gif"][style*=3D"width:960"], a=
+ > img[width=3D"960"][src*=3D".alicdn.com/"], a > img[width=3D"960"][src*=
+=3D".sinaimg."], a > img[width=3D"980"][src*=3D".sinaimg."], a#wrapper_left=
+_bg[target=3D"_blank"], a#wrapper_right_bg[target=3D"_blank"], a[href*=3D".=
+05bq.com/"], a[href*=3D".05cg.com/"], a[href*=3D".08an.com/"], a[href*=3D".=
+123ch.cn"], a[href*=3D".17yyba.com/"], a[href*=3D".222bz.com/"], a[href*=3D=
+".41gw.com/"] { display: none !important; }
+
+a[href*=3D".726188.com"], a[href*=3D".7wkw.com"], a[href*=3D".9xiazaiqi.com=
+"], a[href*=3D".acuxrecv.cn"], a[href*=3D".ahhxwavi.cn"], a[href*=3D".bayiy=
+y.com/download."], a[href*=3D".biwbmsyt.cn"], a[href*=3D".cangpie.com/"], a=
+[href*=3D".chouchuai.com/"], a[href*=3D".chuairan.com/"], a[href*=3D".com/?=
+Extend=3D"], a[href*=3D".com/?p=3D"][target=3D"_blank"] > img[src$=3D".gif"=
+], a[href*=3D".com/Register.aspx?aid=3D"], a[href*=3D".com/Register/?a=3D"]=
+, a[href*=3D".com?aff=3D"], a[href*=3D".com?intr=3D"], a[href*=3D".dajiang9=
+9.com"], a[href*=3D".dongtaisteel.com/"], a[href*=3D".downok.com"], a[href*=
+=3D".dpcpfw.com/"] { display: none !important; }
+
+a[href*=3D".gongnou.com/"], a[href*=3D".gsxzq.com/"], a[href*=3D".guzaosf.c=
+om/"], a[href*=3D".hbjimin.com/"], a[href*=3D".iziyo.com/"], a[href*=3D".li=
+aochuo.com/"], a[href*=3D".mieseng.com/"], a[href*=3D".qpokok.com/"], a[hre=
+f*=3D".qpzqxz.com/"], a[href*=3D".qtj5.com/"], a[href*=3D".quankan.tv"], a[=
+href*=3D".tbb168.com"], a[href*=3D".tduou.com/"], a[href*=3D".ttz5.cn"], a[=
+href*=3D".tudown.com/"], a[href*=3D".umeng.com"]:not([href=3D"http://www.um=
+eng.com/"]) > img, a[href*=3D".wenpie.com/"], a[href*=3D".wjLkj.com/"], a[h=
+ref*=3D".xlgqy.com/"], a[href*=3D".xrzzk.com/"] { display: none !important;=
+ }
+
+a[href*=3D".yb2843.vip"], a[href*=3D".yyk2.com/"], a[href*=3D"/602034.com"]=
+, a[href*=3D"/?INTR=3D"], a[href*=3D"/?Intr=3D"], a[href*=3D"/?intr=3D"], a=
+[href*=3D"/Register?a=3D"], a[href*=3D"/du505.com"], a[href*=3D"itoon.app"]=
+, a[href*=3D"nnqp.vip"], a[href*=3D"ywslxq.com"], a[href=3D"/e/member/regis=
+ter/index.php?tobind=3D0&groupid=3D1"], a[href=3D"/gghtml/tyc.html"], a[hre=
+f=3D"http://t.cn/E2PgiG1"], a[href=3D"http://t.cn/Ex0cCbt"], a[href=3D"http=
+://www.tw787.com/"], a[href=3D"http://www.yabovip5.cc/"], a[href^=3D"http:/=
+/172.247.157.176/"], a[href^=3D"http://ad.moemoe."], a[href^=3D"http://go.g=
+otourl.xyz/"] { display: none !important; }
+
+a[href^=3D"http://pic.gunqiu.com/"], a[href^=3D"http://www.upupoo.com"], a[=
+href^=3D"https://hi.potvpn.com/?from=3D"], a[href^=3D"https://luolidao.vip/=
+"], a[onclick^=3D"javascript:pc_"] > img[src*=3D".alicdn.com"], a[style=3D"=
+display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;bord=
+er-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"], body .has=
+-ad, body[class|=3D"view"] > .ad-box, body[onload*=3D"u()"] > #x, center > =
+a[target=3D"_blank"] > img[style=3D"padding- bottom:5px;width:960px;height:=
+120px;"], center > a[target=3D"_blank"] > img[style=3D"padding- bottom:5px;=
+width:960px;height:60px;"], div#ad_id, div#xinxi, div[class^=3D"ADTOPLB_"],=
+ div[id^=3D"ad_thread"], form + .div-search-box.col-lg-offset-2.col-lg-8 > =
+a[target=3D"_blank"], img[data-link][data-src*=3D"/u/"]:not([data-link*=3D"=
+/i/"]), img[data-src*=3D".alicdn.com/img/ibank/"][src=3D"/static/images/loa=
+dingerror.gif"], img[src$=3D"/img/tianbo.gif"], img[src*=3D".qpic.cn"][widt=
+h=3D"980"][height=3D"80"] { display: none !important; }
+
+img[src*=3D".sinaimg."][style=3D"width:1025px;height:80px"], img[src*=3D".s=
+inaimg."][style=3D"width:150px;height:300px"], script + #coupletBox, script=
+ + #rbbox, script[src=3D"/js/sy2.js"] + div[align=3D"center"], span[title=
+=3D"neteasefooter"], table[style=3D"border:#7D8C8E solid 1px;height: 30px;t=
+ext-align: center;"], [style=3D"display:none"] + iframe[scrolling=3D"no"][s=
+rc*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborde=
+r=3D"0"], div:not(#video)[style^=3D"width: 100%;"][style$=3D"display: block=
+;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D=
+"&"][width][height][frameborder=3D"0"], div:not([id]):not([class]):not([sty=
+le]) > div:not([id]):not([class]):not([style]) > iframe[scrolling=3D"no"][s=
+rc*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborde=
+r=3D"0"]:not([src^=3D"http://www.facebook.com/"]), div[style^=3D"width: 100=
+%;"][style$=3D"margin: 0px;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D=
+"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[style=
+^=3D"width: 100%;"][style$=3D"opacity: 100;"] iframe[scrolling=3D"no"][src*=
+=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=
+=3D"0"], div[style^=3D"width: 100%;"][style$=3D"overflow: hidden;"] iframe[=
+scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width]=
+[height][frameborder=3D"0"], div[style^=3D"width: 100%;"][style$=3D"visibil=
+ity: visible;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=
+=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[style^=3D"width: 1=
+00%;"][style$=3D"z-index: inherit;"] iframe[scrolling=3D"no"][src*=3D"//"][=
+src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], a[=
+href*=3D"/cpro."], a[href*=3D"/cpro/"], #bd-hl-content, #container > #pic_c=
+ontainer, #container > .item.title_normal { display: none !important; }
+
+#container > .item.title_top, #container > .wrapper > .fl, #container > a.b=
+lock, #container.container > a.item, #cpro_container, #img-txt-wrapper > #t=
+itle_desc_div, #wrapper > div[style=3D"padding:3px;"] > #pic, .container > =
+.pic_container, .container > a.mid-wrapper, a[href*=3D"/mobads.php?"], div[=
+id][style=3D"width: 100%;"] > div > div > iframe[scrolling=3D"no"][src^=3D"=
+http"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"=
+0"], div[id][style=3D"width: 100%;"] > div > iframe[scrolling=3D"no"][src^=
+=3D"http"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=
+=3D"0"], div[id][style=3D"width: 100%;"] > iframe[scrolling=3D"no"][src^=3D=
+"http"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D=
+"0"], div[id^=3D"_"] > iframe[scrolling=3D"no"][src^=3D"http"][width][heigh=
+t][frameborder=3D"0"], div[style=3D"width: 100%;"]:not([id]):not([class]) >=
+ iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"=
+][width][height][frameborder=3D"0"], div[style^=3D"width: 100%;"]:not([id])=
+:not([class]) > iframe[scrolling=3D"no"][src^=3D"http"][src*=3D"?"][src*=3D=
+"=3D"][src*=3D"&"][width][height][frameborder=3D"0"]:not([allowfullscreen])=
+, .footer > #box[style=3D"width:100%;height:100%;position:fixed;top:0"], a[=
+href*=3D".gotourls.bid"], a[href^=3D"http://yunbofangbt."], div[align=3D"ce=
+nter"] > a[href^=3D"/url/"] > img[src*=3D".alicdn.com"] { display: none !im=
+portant; }
+
+div[align=3D"center"] > a[href^=3D"/url/"] > img[src*=3D".qpic.cn"], #downd=
+iv > .downcode, .readerListADbox, a[href*=3D"://mgzs.cdn.bcebos.com/"], a[h=
+ref^=3D"https://uds24.com/"], #asx_text, #wp > .V-video-floats, .b_oscar1, =
+.b_pr, .b_sxc, .b_sxp, .float-left12 > .div-list, a[onclick*=3D"/dasp.php?a=
+=3D"], #j-new-ad, .a_sxfl, .a_sxmu, .a_sxp, .a_sxpb, .heg > .partner-list, =
+a[href^=3D"/dasp.php?a=3D"] { display: none !important; }
+
+#toptb + div[align=3D"center"], .it618_firstad_flex, table[style=3D"border:=
+#e8e8e8 1px solid;"] + div[style=3D"margin-top:5px"] > table[style=3D"width=
+:100%;"][cellspacing=3D"0"][cellpadding=3D"1"][bordercolor=3D"#22222"][bord=
+er=3D"1"] { display: none !important; }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-79a60e51-1fee-4dc9-8929-d66125b16625@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f69524b3-60a3-4866-8354-4921ad5de24f@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(203, 174, 99) !important; border-col=
+or: rgb(161, 133, 19) !important; color: rgb(54, 46, 23) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ianharvey.github.io/bluepy-doc/_static/classic.css
+
+@charset "utf-8";
+
+@import url("basic.css");
+
+body { font-family: sans-serif; font-size: 100%; background-color: rgb(17, =
+48, 61); color: rgb(0, 0, 0); margin: 0px; padding: 0px; }
+
+div.document { background-color: rgb(28, 78, 99); }
+
+div.documentwrapper { float: left; width: 100%; }
+
+div.bodywrapper { margin: 0px 0px 0px 230px; }
+
+div.body { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); paddi=
+ng: 0px 20px 30px; }
+
+div.footer { color: rgb(255, 255, 255); width: 100%; padding: 9px 0px; text=
+-align: center; font-size: 75%; }
+
+div.footer a { color: rgb(255, 255, 255); text-decoration: underline; }
+
+div.related { background-color: rgb(19, 63, 82); line-height: 30px; color: =
+rgb(255, 255, 255); }
+
+div.related a { color: rgb(255, 255, 255); }
+
+div.sphinxsidebar { }
+
+div.sphinxsidebar h3 { font-family: "Trebuchet MS", sans-serif; color: rgb(=
+255, 255, 255); font-size: 1.4em; font-weight: normal; margin: 0px; padding=
+: 0px; }
+
+div.sphinxsidebar h3 a { color: rgb(255, 255, 255); }
+
+div.sphinxsidebar h4 { font-family: "Trebuchet MS", sans-serif; color: rgb(=
+255, 255, 255); font-size: 1.3em; font-weight: normal; margin: 5px 0px 0px;=
+ padding: 0px; }
+
+div.sphinxsidebar p { color: rgb(255, 255, 255); }
+
+div.sphinxsidebar p.topless { margin: 5px 10px 10px; }
+
+div.sphinxsidebar ul { margin: 10px; padding: 0px; color: rgb(255, 255, 255=
+); }
+
+div.sphinxsidebar a { color: rgb(152, 219, 204); }
+
+div.sphinxsidebar input { border: 1px solid rgb(152, 219, 204); font-family=
+: sans-serif; font-size: 1em; }
+
+a { color: rgb(53, 95, 124); text-decoration: none; }
+
+a:visited { color: rgb(53, 95, 124); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h=
+6 { font-family: "Trebuchet MS", sans-serif; background-color: rgb(242, 242=
+, 242); font-weight: normal; color: rgb(32, 67, 92); border-bottom: 1px sol=
+id rgb(204, 204, 204); margin: 20px -20px 10px; padding: 3px 0px 3px 10px; =
+}
+
+div.body h1 { margin-top: 0px; font-size: 200%; }
+
+div.body h2 { font-size: 160%; }
+
+div.body h3 { font-size: 140%; }
+
+div.body h4 { font-size: 120%; }
+
+div.body h5 { font-size: 110%; }
+
+div.body h6 { font-size: 100%; }
+
+a.headerlink { color: rgb(198, 15, 15); font-size: 0.8em; padding: 0px 4px;=
+ text-decoration: none; }
+
+a.headerlink:hover { background-color: rgb(198, 15, 15); color: white; }
+
+div.body p, div.body dd, div.body li { text-align: justify; line-height: 13=
+0%; }
+
+div.admonition p.admonition-title + p { display: inline; }
+
+div.admonition p { margin-bottom: 5px; }
+
+div.admonition pre { margin-bottom: 5px; }
+
+div.admonition ul, div.admonition ol { margin-bottom: 5px; }
+
+div.note { background-color: rgb(238, 238, 238); border: 1px solid rgb(204,=
+ 204, 204); }
+
+div.seealso { background-color: rgb(255, 255, 204); border: 1px solid rgb(2=
+55, 255, 102); }
+
+div.topic { background-color: rgb(238, 238, 238); }
+
+div.warning { background-color: rgb(255, 228, 228); border: 1px solid rgb(2=
+55, 102, 102); }
+
+p.admonition-title { display: inline; }
+
+p.admonition-title::after { content: ":"; }
+
+pre { padding: 5px; background-color: rgb(238, 255, 204); color: rgb(51, 51=
+, 51); line-height: 120%; border-top: 1px solid rgb(170, 204, 153); border-=
+bottom: 1px solid rgb(170, 204, 153); border-image: initial; border-left: n=
+one; border-right: none; }
+
+code { background-color: rgb(236, 240, 243); padding: 0px 1px; font-size: 0=
+.95em; }
+
+th { background-color: rgb(238, 221, 238); }
+
+.warning code { background: rgb(239, 194, 194); }
+
+.note code { background: rgb(214, 214, 214); }
+
+.viewcode-back { font-family: sans-serif; }
+
+div.viewcode-block:target { background-color: rgb(244, 222, 191); border-to=
+p: 1px solid rgb(170, 204, 153); border-bottom: 1px solid rgb(170, 204, 153=
+); }
+
+div.code-block-caption { color: rgb(239, 239, 239); background-color: rgb(2=
+8, 78, 99); }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ianharvey.github.io/bluepy-doc/_static/basic.css
+
+@charset "utf-8";
+
+div.clearer { clear: both; }
+
+div.related { width: 100%; font-size: 90%; }
+
+div.related h3 { display: none; }
+
+div.related ul { margin: 0px; padding: 0px 0px 0px 10px; list-style: none; =
+}
+
+div.related li { display: inline; }
+
+div.related li.right { float: right; margin-right: 5px; }
+
+div.sphinxsidebarwrapper { padding: 10px 5px 0px 10px; }
+
+div.sphinxsidebar { float: left; width: 230px; margin-left: -100%; font-siz=
+e: 90%; }
+
+div.sphinxsidebar ul { list-style: none; }
+
+div.sphinxsidebar ul ul, div.sphinxsidebar ul.want-points { margin-left: 20=
+px; list-style: square; }
+
+div.sphinxsidebar ul ul { margin-top: 0px; margin-bottom: 0px; }
+
+div.sphinxsidebar form { margin-top: 10px; }
+
+div.sphinxsidebar input { border: 1px solid rgb(152, 219, 204); font-family=
+: sans-serif; font-size: 1em; }
+
+div.sphinxsidebar #searchbox input[type=3D"text"] { width: 170px; }
+
+div.sphinxsidebar #searchbox input[type=3D"submit"] { width: 30px; }
+
+img { border: 0px; max-width: 100%; }
+
+ul.search { margin: 10px 0px 0px 20px; padding: 0px; }
+
+ul.search li { padding: 5px 0px 5px 20px; background-image: url("file.png")=
+; background-repeat: no-repeat; background-position: 0px 7px; }
+
+ul.search li a { font-weight: bold; }
+
+ul.search li div.context { color: rgb(136, 136, 136); margin: 2px 0px 0px 3=
+0px; text-align: left; }
+
+ul.keywordmatches li.goodmatch a { font-weight: bold; }
+
+table.contentstable { width: 90%; }
+
+table.contentstable p.biglink { line-height: 150%; }
+
+a.biglink { font-size: 1.3em; }
+
+span.linkdescr { font-style: italic; padding-top: 5px; font-size: 90%; }
+
+table.indextable { width: 100%; }
+
+table.indextable td { text-align: left; vertical-align: top; }
+
+table.indextable dl, table.indextable dd { margin-top: 0px; margin-bottom: =
+0px; }
+
+table.indextable tr.pcap { height: 10px; }
+
+table.indextable tr.cap { margin-top: 10px; background-color: rgb(242, 242,=
+ 242); }
+
+img.toggler { margin-right: 3px; margin-top: 3px; cursor: pointer; }
+
+div.modindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bot=
+tom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+div.genindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bot=
+tom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+a.headerlink { visibility: hidden; }
+
+h1:hover > a.headerlink, h2:hover > a.headerlink, h3:hover > a.headerlink, =
+h4:hover > a.headerlink, h5:hover > a.headerlink, h6:hover > a.headerlink, =
+dt:hover > a.headerlink, caption:hover > a.headerlink, p.caption:hover > a.=
+headerlink, div.code-block-caption:hover > a.headerlink { visibility: visib=
+le; }
+
+div.body p.caption { text-align: inherit; }
+
+div.body td { text-align: left; }
+
+.field-list ul { padding-left: 1em; }
+
+.first { margin-top: 0px !important; }
+
+p.rubric { margin-top: 30px; font-weight: bold; }
+
+img.align-left, .figure.align-left, object.align-left { clear: left; float:=
+ left; margin-right: 1em; }
+
+img.align-right, .figure.align-right, object.align-right { clear: right; fl=
+oat: right; margin-left: 1em; }
+
+img.align-center, .figure.align-center, object.align-center { display: bloc=
+k; margin-left: auto; margin-right: auto; }
+
+.align-left { text-align: left; }
+
+.align-center { text-align: center; }
+
+.align-right { text-align: right; }
+
+div.sidebar { margin: 0px 0px 0.5em 1em; border: 1px solid rgb(221, 221, 18=
+7); padding: 7px 7px 0px; background-color: rgb(255, 255, 238); width: 40%;=
+ float: right; }
+
+p.sidebar-title { font-weight: bold; }
+
+div.topic { border: 1px solid rgb(204, 204, 204); padding: 7px 7px 0px; mar=
+gin: 10px 0px; }
+
+p.topic-title { font-size: 1.1em; font-weight: bold; margin-top: 10px; }
+
+div.admonition { margin-top: 10px; margin-bottom: 10px; padding: 7px; }
+
+div.admonition dt { font-weight: bold; }
+
+div.admonition dl { margin-bottom: 0px; }
+
+p.admonition-title { margin: 0px 10px 5px 0px; font-weight: bold; }
+
+div.body p.centered { text-align: center; margin-top: 25px; }
+
+table.docutils { border: 0px; border-collapse: collapse; }
+
+table caption span.caption-number { font-style: italic; }
+
+table caption span.caption-text { }
+
+table.docutils td, table.docutils th { padding: 1px 8px 1px 5px; border-wid=
+th: 0px 0px 1px; border-top-style: initial; border-top-color: initial; bord=
+er-left-style: initial; border-left-color: initial; border-right-style: ini=
+tial; border-right-color: initial; border-bottom-style: solid; border-botto=
+m-color: rgb(170, 170, 170); }
+
+table.field-list td, table.field-list th { border: 0px !important; }
+
+table.footnote td, table.footnote th { border: 0px !important; }
+
+th { text-align: left; padding-right: 5px; }
+
+table.citation { border-left: 1px solid gray; margin-left: 1px; }
+
+table.citation td { border-bottom: none; }
+
+div.figure { margin: 0.5em; padding: 0.5em; }
+
+div.figure p.caption { padding: 0.3em; }
+
+div.figure p.caption span.caption-number { font-style: italic; }
+
+div.figure p.caption span.caption-text { }
+
+ol.arabic { list-style: decimal; }
+
+ol.loweralpha { list-style: lower-alpha; }
+
+ol.upperalpha { list-style: upper-alpha; }
+
+ol.lowerroman { list-style: lower-roman; }
+
+ol.upperroman { list-style: upper-roman; }
+
+dl { margin-bottom: 15px; }
+
+dd p { margin-top: 0px; }
+
+dd ul, dd table { margin-bottom: 10px; }
+
+dd { margin-top: 3px; margin-bottom: 10px; margin-left: 30px; }
+
+dt:target, .highlighted { background-color: rgb(251, 229, 78); }
+
+dl.glossary dt { font-weight: bold; font-size: 1.1em; }
+
+.field-list ul { margin: 0px; padding-left: 1em; }
+
+.field-list p { margin: 0px; }
+
+.optional { font-size: 1.3em; }
+
+.sig-paren { font-size: larger; }
+
+.versionmodified { font-style: italic; }
+
+.system-message { background-color: rgb(255, 221, 170); padding: 5px; borde=
+r: 3px solid red; }
+
+.footnote:target { background-color: rgb(255, 255, 170); }
+
+.line-block { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+.line-block .line-block { margin-top: 0px; margin-bottom: 0px; margin-left:=
+ 1.5em; }
+
+.guilabel, .menuselection { font-family: sans-serif; }
+
+.accelerator { text-decoration: underline; }
+
+.classifier { font-style: oblique; }
+
+abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+
+pre { overflow: auto hidden; }
+
+td.linenos pre { padding: 5px 0px; border: 0px; background-color: transpare=
+nt; color: rgb(170, 170, 170); }
+
+table.highlighttable { margin-left: 0.5em; }
+
+table.highlighttable td { padding: 0px 0.5em; }
+
+div.code-block-caption { padding: 2px 5px; font-size: small; }
+
+div.code-block-caption code { background-color: transparent; }
+
+div.code-block-caption + div > div.highlight > pre { margin-top: 0px; }
+
+div.code-block-caption span.caption-number { padding: 0.1em 0.3em; font-sty=
+le: italic; }
+
+div.code-block-caption span.caption-text { }
+
+div.literal-block-wrapper { padding: 1em 1em 0px; }
+
+div.literal-block-wrapper div.highlight { margin: 0px; }
+
+code.descname { background-color: transparent; font-weight: bold; font-size=
+: 1.2em; }
+
+code.descclassname { background-color: transparent; }
+
+code.xref, a code { background-color: transparent; font-weight: bold; }
+
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code { background-color: tr=
+ansparent; }
+
+.viewcode-link { float: right; }
+
+.viewcode-back { float: right; font-family: sans-serif; }
+
+div.viewcode-block:target { margin: -1px -10px; padding: 0px 10px; }
+
+img.math { vertical-align: middle; }
+
+div.body div.math p { text-align: center; }
+
+span.eqno { float: right; }
+
+@media print {
+  div.document, div.documentwrapper, div.bodywrapper { width: 100%; margin:=
+ 0px !important; }
+  div.sphinxsidebar, div.related, div.footer, #top-link { display: none; }
+}
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ianharvey.github.io/bluepy-doc/_static/pygments.css
+
+@charset "utf-8";
+
+.highlight .hll { background-color: rgb(255, 255, 204); }
+
+.highlight { background: rgb(238, 255, 204); }
+
+.highlight .c { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .err { border: 1px solid rgb(255, 0, 0); }
+
+.highlight .k { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .o { color: rgb(102, 102, 102); }
+
+.highlight .cm { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cp { color: rgb(0, 112, 32); }
+
+.highlight .c1 { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cs { color: rgb(64, 128, 144); background-color: rgb(255, 240, =
+240); }
+
+.highlight .gd { color: rgb(160, 0, 0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(255, 0, 0); }
+
+.highlight .gh { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gi { color: rgb(0, 160, 0); }
+
+.highlight .go { color: rgb(51, 51, 51); }
+
+.highlight .gp { color: rgb(198, 93, 9); font-weight: bold; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(128, 0, 128); font-weight: bold; }
+
+.highlight .gt { color: rgb(0, 68, 221); }
+
+.highlight .kc { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kd { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kn { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kp { color: rgb(0, 112, 32); }
+
+.highlight .kr { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kt { color: rgb(144, 32, 0); }
+
+.highlight .m { color: rgb(32, 128, 80); }
+
+.highlight .s { color: rgb(64, 112, 160); }
+
+.highlight .na { color: rgb(64, 112, 160); }
+
+.highlight .nb { color: rgb(0, 112, 32); }
+
+.highlight .nc { color: rgb(14, 132, 181); font-weight: bold; }
+
+.highlight .no { color: rgb(96, 173, 213); }
+
+.highlight .nd { color: rgb(85, 85, 85); font-weight: bold; }
+
+.highlight .ni { color: rgb(213, 85, 55); font-weight: bold; }
+
+.highlight .ne { color: rgb(0, 112, 32); }
+
+.highlight .nf { color: rgb(6, 40, 126); }
+
+.highlight .nl { color: rgb(0, 32, 112); font-weight: bold; }
+
+.highlight .nn { color: rgb(14, 132, 181); font-weight: bold; }
+
+.highlight .nt { color: rgb(6, 40, 115); font-weight: bold; }
+
+.highlight .nv { color: rgb(187, 96, 213); }
+
+.highlight .ow { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mb { color: rgb(32, 128, 80); }
+
+.highlight .mf { color: rgb(32, 128, 80); }
+
+.highlight .mh { color: rgb(32, 128, 80); }
+
+.highlight .mi { color: rgb(32, 128, 80); }
+
+.highlight .mo { color: rgb(32, 128, 80); }
+
+.highlight .sb { color: rgb(64, 112, 160); }
+
+.highlight .sc { color: rgb(64, 112, 160); }
+
+.highlight .sd { color: rgb(64, 112, 160); font-style: italic; }
+
+.highlight .s2 { color: rgb(64, 112, 160); }
+
+.highlight .se { color: rgb(64, 112, 160); font-weight: bold; }
+
+.highlight .sh { color: rgb(64, 112, 160); }
+
+.highlight .si { color: rgb(112, 160, 208); font-style: italic; }
+
+.highlight .sx { color: rgb(198, 93, 9); }
+
+.highlight .sr { color: rgb(35, 83, 136); }
+
+.highlight .s1 { color: rgb(64, 112, 160); }
+
+.highlight .ss { color: rgb(81, 121, 24); }
+
+.highlight .bp { color: rgb(0, 112, 32); }
+
+.highlight .vc { color: rgb(187, 96, 213); }
+
+.highlight .vg { color: rgb(187, 96, 213); }
+
+.highlight .vi { color: rgb(187, 96, 213); }
+
+.highlight .il { color: rgb(32, 128, 80); }
+------MultipartBoundary--GQeKbkJuZKda3kRVGXAJhjxaNwnm5Mgk7G7i3V2jOC------

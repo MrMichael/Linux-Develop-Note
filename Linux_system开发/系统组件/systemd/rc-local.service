@@ -1,0 +1,12 @@
+[Unit]
+Description=rc.local script
+After=networking.service
+Before=getty@tty1.service
+
+[Service]
+User=root
+Type=oneshot
+ExecStart=/etc/rc.local
+
+[Install]
+WantedBy=multi-user.target

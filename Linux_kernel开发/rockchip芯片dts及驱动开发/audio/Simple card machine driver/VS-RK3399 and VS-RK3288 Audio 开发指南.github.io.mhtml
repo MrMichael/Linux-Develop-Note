@@ -1,0 +1,4462 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/
+Subject: =?utf-8?Q?VS-RK3399=20and=20VS-RK3288=20Audio=20=E5=BC=80=E5=8F=91=E6=8C?=
+ =?utf-8?Q?=87=E5=8D=97=20-=20Fantasy=20Blogs?=
+Date: Tue, 20 Oct 2020 12:19:26 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----"
+
+
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/html
+Content-ID: <frame-D8EECE368444C08E77AE1C4FB7AE470E@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/
+
+<!DOCTYPE html><html lang=3D"zh-cn" itemscope=3D"" itemtype=3D"http://schem=
+a.org/WebPage"><head><meta http-equiv=3D"Content-Type" content=3D"text/html=
+; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:c=
+ss-51e52004-e368-4995-a270-8e903a8ac9ad@mhtml.blink" /><link rel=3D"stylesh=
+eet" type=3D"text/css" href=3D"cid:css-2dab91d9-4b2d-4120-a000-9ea7e75ade36=
+@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-=
+9a94a752-61c5-41e0-90c5-b20b90014eb5@mhtml.blink" /><link rel=3D"stylesheet=
+" type=3D"text/css" href=3D"cid:css-1497b27b-d5d5-4427-8546-1ca15a1c3a7c@mh=
+tml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7d4=
+39ba8-2919-4f70-8582-f4aa1cebccc8@mhtml.blink" /><link rel=3D"stylesheet" t=
+ype=3D"text/css" href=3D"cid:css-2e02e68f-920c-4b04-b130-7f7d012fe081@mhtml=
+.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-63da4e=
+ff-6d78-470a-935e-5c2bb3d40b83@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-ea39375d-ec99-4e2b-882b-bebfa0bd0c08@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5cb58e97-=
+5a46-4184-b0c9-a1f089b954eb@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-ef6ca722-907c-4e53-961a-32b3c4c21264@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-25e0acee-c9c=
+0-4ef4-b763-37263d5289c8@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-9e5d43bc-a716-4ac0-8265-aad48f03d3f1@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c83ec916-c135-4=
+b48-83a8-899a0bda71c0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-b837cf96-b249-4f00-806b-9f7ffaf50aea@mhtml.blink" />
+ =20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <title>VS-RK3399 and VS-RK3288 Audio =E5=BC=80=E5=8F=91=E6=8C=87=E5=8D=97=
+ - Fantasy Blogs</title>
+ =20
+
+<meta name=3D"renderer" content=3D"webkit">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ maximum-scale=3D1">
+
+<meta name=3D"MobileOptimized" content=3D"width">
+<meta name=3D"HandheldFriendly" content=3D"true">
+
+
+<meta name=3D"applicable-device" content=3D"pc,mobile">
+
+<meta name=3D"theme-color" content=3D"#cab989">
+<meta name=3D"msapplication-navbutton-color" content=3D"#f8f5ec">
+<meta name=3D"apple-mobile-web-app-capable" content=3D"yes">
+<meta name=3D"apple-mobile-web-app-status-bar-style" content=3D"#f8f5ec">
+
+<meta name=3D"mobile-web-app-capable" content=3D"yes">
+
+<meta name=3D"author" content=3D"Fantasy">
+  <meta name=3D"description" content=3D"1 =E6=A6=82=E8=AE=BA 1.1 =E6=A6=82=
+=E8=BF=B0 =E6=9C=AC=E7=AB=A0=E4=B8=BB=E8=A6=81=E6=8F=8F=E8=BF=B0Audio=E7=9A=
+=84=E7=9B=B8=E5=85=B3=E7=9A=84=E6=A6=82=E5=BF=B5=E3=80=81=E4=BB=A3=E7=A0=81=
+=E7=BB=93=E6=9E=84=E3=80=82 1.2 =E6=A6=82=E5=BF=B5 CPU DAI:=E4=B8=BB=E6=8E=
+=A7=E7=AB=AF=E7=9A=84Audio Data Interface=EF=BC=8C=E6=AF=94=E5=A6=82I2S,Spd=
+if,P">
+
+  <meta name=3D"keywords" content=3D"mzd, fantasy, blogs">
+
+
+
+
+
+
+<meta name=3D"generator" content=3D"Hugo 0.53">
+
+
+<link rel=3D"canonical" href=3D"https://mazhidong.github.io/post/aosp/2018-=
+09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/">
+
+
+
+<link rel=3D"icon" href=3D"https://mazhidong.github.io/favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+<link rel=3D"stylesheet" href=3D"https://mazhidong.github.io/sass/jane.min.=
+c8c1ff75dee09b44060a6c38f41b9036bac2512ccdb22d7f296cec12dc786375.css" media=
+=3D"screen" crossorigin=3D"anonymous">
+
+
+
+
+<link rel=3D"stylesheet" href=3D"https://mazhidong.github.io/css/custom.css=
+">
+
+
+<meta property=3D"og:title" content=3D"VS-RK3399 and VS-RK3288 Audio =E5=BC=
+=80=E5=8F=91=E6=8C=87=E5=8D=97">
+<meta property=3D"og:description" content=3D"1 =E6=A6=82=E8=AE=BA 1.1 =E6=
+=A6=82=E8=BF=B0 =E6=9C=AC=E7=AB=A0=E4=B8=BB=E8=A6=81=E6=8F=8F=E8=BF=B0Audio=
+=E7=9A=84=E7=9B=B8=E5=85=B3=E7=9A=84=E6=A6=82=E5=BF=B5=E3=80=81=E4=BB=A3=E7=
+=A0=81=E7=BB=93=E6=9E=84=E3=80=82 1.2 =E6=A6=82=E5=BF=B5 CPU DAI:=E4=B8=BB=
+=E6=8E=A7=E7=AB=AF=E7=9A=84Audio Data Interface=EF=BC=8C=E6=AF=94=E5=A6=82I=
+2S,Spdif,P">
+<meta property=3D"og:type" content=3D"article">
+<meta property=3D"og:url" content=3D"https://mazhidong.github.io/post/aosp/=
+2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%=
+97/"><meta property=3D"article:published_time" content=3D"2018-09-20T00:00:=
+00+00:00">
+<meta property=3D"article:modified_time" content=3D"2018-09-20T00:00:00+00:=
+00">
+
+<meta itemprop=3D"name" content=3D"VS-RK3399 and VS-RK3288 Audio =E5=BC=80=
+=E5=8F=91=E6=8C=87=E5=8D=97">
+<meta itemprop=3D"description" content=3D"1 =E6=A6=82=E8=AE=BA 1.1 =E6=A6=
+=82=E8=BF=B0 =E6=9C=AC=E7=AB=A0=E4=B8=BB=E8=A6=81=E6=8F=8F=E8=BF=B0Audio=E7=
+=9A=84=E7=9B=B8=E5=85=B3=E7=9A=84=E6=A6=82=E5=BF=B5=E3=80=81=E4=BB=A3=E7=A0=
+=81=E7=BB=93=E6=9E=84=E3=80=82 1.2 =E6=A6=82=E5=BF=B5 CPU DAI:=E4=B8=BB=E6=
+=8E=A7=E7=AB=AF=E7=9A=84Audio Data Interface=EF=BC=8C=E6=AF=94=E5=A6=82I2S,=
+Spdif,P">
+
+
+<meta itemprop=3D"datePublished" content=3D"2018-09-20T00:00:00+00:00">
+<meta itemprop=3D"dateModified" content=3D"2018-09-20T00:00:00+00:00">
+<meta itemprop=3D"wordCount" content=3D"2266">
+
+
+
+<meta itemprop=3D"keywords" content=3D"android,kernel,audio,">
+<meta name=3D"twitter:card" content=3D"summary">
+<meta name=3D"twitter:title" content=3D"VS-RK3399 and VS-RK3288 Audio =E5=
+=BC=80=E5=8F=91=E6=8C=87=E5=8D=97">
+<meta name=3D"twitter:description" content=3D"1 =E6=A6=82=E8=AE=BA 1.1 =E6=
+=A6=82=E8=BF=B0 =E6=9C=AC=E7=AB=A0=E4=B8=BB=E8=A6=81=E6=8F=8F=E8=BF=B0Audio=
+=E7=9A=84=E7=9B=B8=E5=85=B3=E7=9A=84=E6=A6=82=E5=BF=B5=E3=80=81=E4=BB=A3=E7=
+=A0=81=E7=BB=93=E6=9E=84=E3=80=82 1.2 =E6=A6=82=E5=BF=B5 CPU DAI:=E4=B8=BB=
+=E6=8E=A7=E7=AB=AF=E7=9A=84Audio Data Interface=EF=BC=8C=E6=AF=94=E5=A6=82I=
+2S,Spdif,P">
+
+<!--[if lte IE 9]>
+  <script src=3D"https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170=
+427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src=3D"https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shi=
+v.min.js"></script>
+  <script src=3D"https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond=
+.min.js"></script>
+<![endif]-->
+
+
+
+
+<meta name=3D"darkreader" content=3D"2c86b411c48f23c10a830f5e510baa60"></he=
+ad>
+<body>
+  <div id=3D"mobile-navbar" class=3D"mobile-navbar">
+  <div class=3D"mobile-header-logo">
+    <a href=3D"https://mazhidong.github.io/" class=3D"logo">Fantasy</a>
+  </div>
+  <div class=3D"mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id=3D"mobile-menu" class=3D"mobile-menu slideout-menu slideout-menu-le=
+ft">
+  <ul class=3D"mobile-menu-list">
+    <li class=3D"mobile-menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/">Home</a>
+         =20
+       =20
+      </li><li class=3D"mobile-menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/post/">Archives</a>
+         =20
+       =20
+      </li><li class=3D"mobile-menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/tags/">Tags</a>
+         =20
+       =20
+      </li><li class=3D"mobile-menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/categories/">Categories</a>
+         =20
+       =20
+      </li><li class=3D"mobile-menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/about/">About</a>
+         =20
+       =20
+      </li>
+   =20
+  </ul>
+</nav>
+
+
+ =20
+   =20
+
+
+
+
+
+
+  <link rel=3D"stylesheet" href=3D"https://mazhidong.github.io/lib/photoswi=
+pe/photoswipe.min.css">
+  <link rel=3D"stylesheet" href=3D"https://mazhidong.github.io/lib/photoswi=
+pe/default-skin/default-skin.min.css">
+
+
+
+
+<div class=3D"pswp" tabindex=3D"-1" role=3D"dialog" aria-hidden=3D"true">
+
+<div class=3D"pswp__bg"></div>
+
+<div class=3D"pswp__scroll-wrap">
+   =20
+    <div class=3D"pswp__container">
+      <div class=3D"pswp__item"></div>
+      <div class=3D"pswp__item"></div>
+      <div class=3D"pswp__item"></div>
+    </div>
+   =20
+    <div class=3D"pswp__ui pswp__ui--hidden">
+    <div class=3D"pswp__top-bar">
+     =20
+      <div class=3D"pswp__counter"></div>
+      <button class=3D"pswp__button pswp__button--close" title=3D"Close (Es=
+c)"></button>
+      <button class=3D"pswp__button pswp__button--share" title=3D"Share"></=
+button>
+      <button class=3D"pswp__button pswp__button--fs" title=3D"Toggle fulls=
+creen"></button>
+      <button class=3D"pswp__button pswp__button--zoom" title=3D"Zoom in/ou=
+t"></button>
+     =20
+     =20
+      <div class=3D"pswp__preloader">
+        <div class=3D"pswp__preloader__icn">
+          <div class=3D"pswp__preloader__cut">
+            <div class=3D"pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=3D"pswp__share-modal pswp__share-modal--hidden pswp__single-=
+tap">
+      <div class=3D"pswp__share-tooltip"></div>
+    </div>
+    <button class=3D"pswp__button pswp__button--arrow--left" title=3D"Previ=
+ous (arrow left)">
+    </button>
+    <button class=3D"pswp__button pswp__button--arrow--right" title=3D"Next=
+ (arrow right)">
+    </button>
+    <div class=3D"pswp__caption">
+      <div class=3D"pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+ =20
+
+ =20
+
+  <header id=3D"header" class=3D"header container">
+    <div class=3D"logo-wrapper">
+  <a href=3D"https://mazhidong.github.io/" class=3D"logo">
+   =20
+      Fantasy
+   =20
+  </a>
+</div>
+
+<nav class=3D"site-navbar">
+  <ul id=3D"menu" class=3D"menu">
+   =20
+   =20
+        <li class=3D"menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/">Home</a>
+         =20
+
+       =20
+
+      </li>
+   =20
+        <li class=3D"menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/post/">Archives</a>
+         =20
+
+       =20
+
+      </li>
+   =20
+        <li class=3D"menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/tags/">Tags</a>
+         =20
+
+       =20
+
+      </li>
+   =20
+        <li class=3D"menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/categories/">Categories</a>
+         =20
+
+       =20
+
+      </li>
+   =20
+        <li class=3D"menu-item">
+       =20
+         =20
+         =20
+            <a class=3D"menu-item-link" href=3D"https://mazhidong.github.io=
+/about/">About</a>
+         =20
+
+       =20
+
+      </li>
+   =20
+   =20
+  </ul>
+</nav>
+
+  </header>
+
+  <div id=3D"mobile-panel" class=3D"slideout-panel slideout-panel-left">
+    <main id=3D"main" class=3D"main bg-llight">
+      <div class=3D"content-wrapper">
+        <div id=3D"content" class=3D"content container">
+          <article class=3D"post bg-white">
+   =20
+    <header class=3D"post-header">
+      <h1 class=3D"post-title">VS-RK3399 and VS-RK3288 Audio =E5=BC=80=E5=
+=8F=91=E6=8C=87=E5=8D=97</h1>
+     =20
+      <div class=3D"post-meta">
+        <time datetime=3D"2018-09-20" class=3D"post-time">
+          2018-09-20
+        </time>
+        <div class=3D"post-category">
+            <a href=3D"https://mazhidong.github.io/categories/android/"> an=
+droid </a>
+           =20
+          </div>
+        <span class=3D"more-meta"> =E7=BA=A6 2266 =E5=AD=97 </span>
+          <span class=3D"more-meta"> =E9=A2=84=E8=AE=A1=E9=98=85=E8=AF=BB 5=
+ =E5=88=86=E9=92=9F </span>
+
+       =20
+       =20
+
+       =20
+       =20
+      </div>
+    </header>
+
+   =20
+   =20
+<div class=3D"post-toc" id=3D"post-toc" style=3D"display: block;">
+  <h2 class=3D"post-toc-title">=E6=96=87=E7=AB=A0=E7=9B=AE=E5=BD=95</h2>
+  <div class=3D"post-toc-content">
+    <nav id=3D"TableOfContents">
+<ul>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#1-%E6%A6%82%E8%AE%=
+BA">1 =E6=A6=82=E8=AE=BA</a>
+<ul>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#1-1-%E6%A6%82%E8%B=
+F%B0">1.1 =E6=A6=82=E8=BF=B0</a></li>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#1-2-%E6%A6%82%E5%B=
+F%B5">1.2 =E6=A6=82=E5=BF=B5</a></li>
+</ul></li>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#2-audio%E5%BC%80%E=
+5%8F%91%E6%8C%87%E5%8D%97">2 Audio=E5=BC=80=E5=8F=91=E6=8C=87=E5=8D=97</a>
+<ul>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#2-2-1-simple-card"=
+>2.2.1 simple-card</a></li>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#2-2-2-%E8%87%AA%E5=
+%AE%9A%E4%B9%89%E7%9A%84machine-driver">2.2.2 =E8=87=AA=E5=AE=9A=E4=B9=89=
+=E7=9A=84Machine Driver</a></li>
+<li><a href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-a=
+nd-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#2-2-3-%E5%A3%B0%E5=
+%8D%A1%E8%B0%83%E8%AF%95">2.2.3 =E5=A3=B0=E5=8D=A1=E8=B0=83=E8=AF=95</a></l=
+i>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+   =20
+    <div class=3D"post-content">
+     =20
+
+<h1 id=3D"1-=E6=A6=82=E8=AE=BA" class=3D"post-content-header">1 =E6=A6=82=
+=E8=AE=BA<a class=3D"header-link" href=3D"https://mazhidong.github.io/post/=
+aosp/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E=
+5%8D%97/#1-%E6%A6%82%E8%AE%BA"><svg viewBox=3D"0 0 16 10" version=3D"1.1" w=
+idth=3D"24" height=3D"24"><path d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 =
+4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09=
+C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 =
+2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53=
+-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></p=
+ath></svg></a></h1>
+
+<h2 id=3D"1-1-=E6=A6=82=E8=BF=B0" class=3D"post-content-header">1.1 =E6=A6=
+=82=E8=BF=B0<a class=3D"header-link" href=3D"https://mazhidong.github.io/po=
+st/aosp/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%8=
+7%E5%8D%97/#1-1-%E6%A6%82%E8%BF%B0"><svg viewBox=3D"0 0 16 10" version=3D"1=
+.1" width=3D"24" height=3D"24"><path d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.=
+55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1=
+-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.=
+22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.=
+09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z=
+"></path></svg></a></h2>
+
+<p>=E6=9C=AC=E7=AB=A0=E4=B8=BB=E8=A6=81=E6=8F=8F=E8=BF=B0Audio=E7=9A=84=E7=
+=9B=B8=E5=85=B3=E7=9A=84=E6=A6=82=E5=BF=B5=E3=80=81=E4=BB=A3=E7=A0=81=E7=BB=
+=93=E6=9E=84=E3=80=82</p>
+
+<h2 id=3D"1-2-=E6=A6=82=E5=BF=B5" class=3D"post-content-header">1.2 =E6=A6=
+=82=E5=BF=B5<a class=3D"header-link" href=3D"https://mazhidong.github.io/po=
+st/aosp/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%8=
+7%E5%8D%97/#1-2-%E6%A6%82%E5%BF%B5"><svg viewBox=3D"0 0 16 10" version=3D"1=
+.1" width=3D"24" height=3D"24"><path d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.=
+55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1=
+-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.=
+22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.=
+09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z=
+"></path></svg></a></h2>
+
+<ul>
+<li>CPU DAI:=E4=B8=BB=E6=8E=A7=E7=AB=AF=E7=9A=84Audio Data Interface=EF=BC=
+=8C=E6=AF=94=E5=A6=82I2S,Spdif,Pdm,Tdm</li>
+<li>CODEC DAI=EF=BC=9A=E5=8D=B3Codec</li>
+<li>DAI_LINK:=E7=BB=91=E5=AE=9ACpu_Dai=E5=92=8CCodec_Dai=E4=B8=BA=E4=B8=80=
+=E4=B8=AA=E5=A3=B0=E5=8D=A1=EF=BC=8C=E7=AD=89=E5=90=8C=E4=BA=8EMachine Driv=
+er=E3=80=82</li>
+<li>DMAENGINE=EF=BC=9A=E7=94=A8=E4=BA=8ECpu=E5=92=8CI2S/Spdif=E7=AD=89Dai=
+=E4=B9=8B=E9=97=B4=E7=9A=84Dma=E4=BC=A0=E8=BE=93=E5=BC=95=E6=93=8E=EF=BC=8C=
+=E5=AE=9E=E9=99=85=E6=98=AF=E9=80=9A=E8=BF=87Dma=E6=9D=A5=E8=BF=9B=E8=A1=8C=
+=E6=95=B0=E6=8D=AE=E7=9A=84=E6=90=AC=E8=BF=90=E3=80=82</li>
+<li>DAPM=EF=BC=9A=E5=8A=A8=E6=80=81=E9=9F=B3=E9=A2=91=E7=94=B5=E6=BA=90=E7=
+=AE=A1=E7=90=86=EF=BC=8C=E7=94=A8=E4=BA=8E=E5=8A=A8=E6=80=81=E7=AE=A1=E7=90=
+=86Codec=E7=AD=89=E7=9A=84=E7=94=B5=E6=BA=90=E7=AE=A1=E7=90=86=EF=BC=8C=E6=
+=A0=B9=E6=8D=AE=E9=80=9A=E8=B7=AF=E7=9A=84=E5=BC=80=E5=90=AF=E9=85=8D=E7=BD=
+=AE=E5=BC=80=E5=85=B3=EF=BC=8C=E4=BB=A5=E8=BE=BE=E5=88=B0=E4=BF=9D=E8=AF=81=
+=E5=8A=9F=E8=83=BD=E7=9A=84=E5=89=8D=E6=8F=90=E4=B8=8B=E5=8A=9F=E8=80=97=E5=
+=B0=BD=E9=87=8F=E5=B0=8F=E3=80=82</li>
+<li>JACK:=E8=80=B3=E6=9C=BA=E7=9A=84=E6=8E=A5=E5=8F=A3=E6=A3=80=E6=B5=8B=EF=
+=BC=8C=E5=A4=A7=E9=83=A8=E5=88=86=E4=BD=BF=E7=94=A8Codec=E8=87=AA=E8=BA=AB=
+=E7=9A=84=E6=A3=80=E6=B5=8B=E6=9C=BA=E5=88=B6=EF=BC=8C=E5=B0=8F=E9=83=A8=E5=
+=88=86=E4=BD=BF=E7=94=A8IO=E6=9D=A5=E8=BF=9B=E8=A1=8C=E6=A8=A1=E6=8B=9F=E3=
+=80=82
+Sound soc  =EF=BC=9A =E4=B8=BB=E8=A6=81=E5=8C=85=E5=90=AB=E5=85=AC=E5=85=B1=
+=E9=83=A8=E5=88=86=E4=BB=A3=E7=A0=81=EF=BC=8C=E5=8C=85=E6=8B=ACdapm=E6=8E=
+=A7=E5=88=B6=EF=BC=8C jack=EF=BC=8Cdmaengine=EF=BC=8C core=E7=AD=89=E7=AD=
+=89=EF=BC=9B    sound/soc/
+rockchip platform =EF=BC=9A Rockchip=E5=B9=B3=E5=8F=B0=E7=9A=84cpu dai=E7=
+=9A=84=E9=A9=B1=E5=8A=A8=EF=BC=8C=E6=AF=94=E5=A6=82I2S, spdif=E7=AD=89=E4=
+=BB=A5=E5=8F=8A=E8=87=AA=E5=AE=9A=E4=B9=89=E5=A3=B0=E5=8D=A1machine driver=
+=EF=BC=9Bsound/soc/rockchip
+generic platform=EF=BC=9Asimple card framework   =EF=BC=9Bsound/soc/generic
+codec driver=EF=BC=9A=E6=89=80=E6=9C=89=E7=9A=84codec driver=E5=AD=98=E6=94=
+=BE=E4=BD=8D=E7=BD=AE =EF=BC=9Bsound/soc/codecs</li>
+</ul>
+
+<h1 id=3D"2-audio=E5=BC=80=E5=8F=91=E6=8C=87=E5=8D=97" class=3D"post-conten=
+t-header">2 Audio=E5=BC=80=E5=8F=91=E6=8C=87=E5=8D=97<a class=3D"header-lin=
+k" href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-and-v=
+s-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#2-audio%E5%BC%80%E5%8F=
+%91%E6%8C%87%E5%8D%97"><svg viewBox=3D"0 0 16 10" version=3D"1.1" width=3D"=
+24" height=3D"24"><path d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.=
+45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22=
+ 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.9=
+8 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-=
+2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></sv=
+g></a></h1>
+
+<p>=E9=9F=B3=E9=A2=91=E5=BC=80=E5=8F=91=E6=8C=87=E5=8D=97
+=E4=B8=80=E4=B8=AA=E5=A3=B0=E5=8D=A1=E5=8C=85=E5=90=ABcpu_dai, codec_dai, =
+=E4=BB=A5=E5=8F=8Adai_link=E7=BB=84=E6=88=90=EF=BC=8C=E5=88=86=E5=88=AB=E5=
+=AF=B9=E5=BA=94cpu dai=E7=9A=84dirver=EF=BC=8C=E6=AF=94=E5=A6=82I2S driver,=
+ spdif driver=EF=BC=9Bcodec driver=EF=BC=8C =E6=AF=94=E5=A6=82rt5640 codec =
+driver=EF=BC=9Bdai_link driver=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AFmachine d=
+river=EF=BC=8C =E6=AF=94=E5=A6=82sound/soc/rockchip/rockchip_rt5640.c=E3=80=
+=82 4.4=E7=9A=84=E5=86=85=E6=A0=B8=E4=B8=AD=E6=94=AF=E6=8C=81=E4=B8=A4=E7=
+=A7=8D=E6=96=B9=E5=BC=8F=E5=88=9B=E5=BB=BA=E5=A3=B0=E5=8D=A1=EF=BC=8C=E4=B8=
+=80=E7=A7=8D=E6=98=AF=E9=80=9A=E7=94=A8=E7=9A=84simple-card framework=EF=BC=
+=8C=E4=B8=80=E7=A7=8D=E6=98=AF=E4=BC=A0=E7=BB=9F=E7=9A=84=E7=BC=96=E5=86=99=
+=E8=87=AA=E5=AE=9A=E4=B9=89=E7=9A=84machine driver=E6=9D=A5=E5=88=9B=E5=BB=
+=BA=E3=80=82=E6=9C=AC=E6=96=87=E6=A1=A3=E5=9D=87=E4=BB=A5rt5640=E4=B8=BA=E4=
+=BE=8B=E3=80=82</p>
+
+<h2 id=3D"2-2-1-simple-card" class=3D"post-content-header">2.2.1 simple-car=
+d<a class=3D"header-link" href=3D"https://mazhidong.github.io/post/aosp/201=
+8-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/=
+#2-2-1-simple-card"><svg viewBox=3D"0 0 16 10" version=3D"1.1" width=3D"24"=
+ height=3D"24"><path d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 =
+0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.=
+98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 1=
+2 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3=
+.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg><=
+/a></h2>
+
+<p>Simple card=E5=8D=B3=E7=AE=80=E5=8D=95=E9=80=9A=E7=94=A8=E7=9A=84machine=
+ driver=EF=BC=8C =E5=A6=82=E6=9E=9Csimple-card=E6=A1=86=E6=9E=B6=E8=B6=B3=
+=E5=A4=9F=E6=BB=A1=E8=B6=B3=E9=9C=80=E6=B1=82=EF=BC=8C=E5=BB=BA=E8=AE=AE=E4=
+=BC=98=E5=85=88=E4=BD=BF=E7=94=A8simple card=E6=A1=86=E6=9E=B6=EF=BC=8C=E7=
+=AE=80=E5=8D=95=EF=BC=8C=E6=96=B9=E4=BE=BF=EF=BC=8C=E4=B8=94=E6=98=93=E7=94=
+=A8=E3=80=82
+1. =E6=B7=BB=E5=8A=A0codec driver=EF=BC=8C=E6=AF=94=E5=A6=82=E6=B7=BB=E5=8A=
+=A0=EF=BC=9Asound/soc/codec/rt5640.c
+2. =E4=BF=AE=E6=94=B9sound/soc/codec/Kconfig=E4=BB=A5=E5=8F=8AMakefile=E5=
+=8A=A0=E5=85=A5=E9=A9=B1=E5=8A=A8=E7=BC=96=E8=AF=91</p>
+
+<ul>
+<li>sound/soc/codec/Kconfig:
+<code>
+config SND_SOC_RT5640 tristate "Realtek ALC5640 CODEC"
+depends on I2C
+sound/soc/codec/Makefile:
+snd-soc-rt5640-objs :=3D rt5640.o
+obj-$(CONFIG_SND_SOC_RT5640) +=3D snd-soc-rt5640.o
+</code></li>
+</ul>
+
+<ol>
+<li><p>menuconfig=E4=B8=ADenable simple card=E4=BB=A5=E5=8F=8Acodec</p>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt">1
+</span><span class=3D"lnt">2
+</span><span class=3D"lnt">3
+</span><span class=3D"lnt">4
+</span><span class=3D"lnt">5
+</span><span class=3D"lnt">6
+</span><span class=3D"lnt">7
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">make menuconfig Device Drivers ---&gt;
+Sound card support ---&gt;
+Advanced Linux Sound Architecture ---&gt;
+ALSA for SoC audio support ---&gt;
+ASoC support for Rockchip  Rockchip I2S Device Driver CODEC drivers ---&gt;
+Realtek ALC5640 CODEC
+ASoC Simple sound card support</pre></td></tr></tbody></table>
+</div>
+</div></li>
+
+<li><p>=E4=BA=A7=E5=93=81=E7=9A=84DTS=E4=B8=AD=E6=B7=BB=E5=8A=A0Simple Card=
+ Node</p></li>
+</ol>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt"> 1
+</span><span class=3D"lnt"> 2
+</span><span class=3D"lnt"> 3
+</span><span class=3D"lnt"> 4
+</span><span class=3D"lnt"> 5
+</span><span class=3D"lnt"> 6
+</span><span class=3D"lnt"> 7
+</span><span class=3D"lnt"> 8
+</span><span class=3D"lnt"> 9
+</span><span class=3D"lnt">10
+</span><span class=3D"lnt">11
+</span><span class=3D"lnt">12
+</span><span class=3D"lnt">13
+</span><span class=3D"lnt">14
+</span><span class=3D"lnt">15
+</span><span class=3D"lnt">16
+</span><span class=3D"lnt">17
+</span><span class=3D"lnt">18
+</span><span class=3D"lnt">19
+</span><span class=3D"lnt">20
+</span><span class=3D"lnt">21
+</span><span class=3D"lnt">22
+</span><span class=3D"lnt">23
+</span><span class=3D"lnt">24
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">rt5640-sound {
+compatible =3D "simple-audio-card";
+simple-audio-card,format =3D "i2s";
+simple-audio-card,name =3D "rockchip,rt5640-codec";
+simple-audio-card,mclk-fs =3D &lt;256&gt;;
+simple-audio-card,widgets =3D "Microphone", "Mic Jack", "Headphone", "Headp=
+hone Jack";
+simple-audio-card,routing =3D "Mic Jack", "MICBIAS1", "IN1P", "Mic Jack", "=
+Headphone Jack", "HPOL", "Headphone Jack", "HPOR";
+simple-audio-card,cpu { sound-dai =3D &lt;&amp;i2s_8ch&gt;;
+};
+simple-audio-card,codec { sound-dai =3D &lt;&amp;rt5640&gt;;
+};
+};
+
+&amp;i2c1
+{ status =3D "okay";
+rt5640: rt5640@1c {
+#sound-dai-cells =3D &lt;0&gt;;
+compatible =3D "realtek,rt5640";
+reg =3D &lt;0x1c&gt;;
+clocks =3D &lt;&amp;cru SCLK_I2S_8CH_OUT&gt;;
+clock-names =3D "mclk";
+realtek,in1-differential;
+};
+};</pre></td></tr></tbody></table>
+</div>
+</div>
+<p>=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F=E7=9A=84=E6=98=AF=EF=BC=8C=E5=A6=82=
+=E4=B8=8Art5640=E7=9A=84clocks=E5=8D=B3mclk=EF=BC=8C upstream=E4=BB=A3=E7=
+=A0=81=E9=81=B5=E5=BE=AA=E8=B0=81=E4=BD=BF=E7=94=A8clk=E8=B0=81=E7=94=B3=E8=
+=AF=B7=E7=9A=84=E5=8E=9F=E5=88=99=EF=BC=8C=E6=89=80=E4=BB=A5=E5=90=8E=E7=BB=
+=AD=E8=87=AA=E5=B7=B1=E6=B7=BB=E5=8A=A0=E7=9A=84codec driver=EF=BC=8C=E5=A6=
+=82=E6=9E=9C=E6=9C=89=E4=BD=BF=E7=94=A8=E5=A4=96=E9=83=A8clk=E4=BD=9C=E4=B8=
+=BAmclk=EF=BC=8C=E9=9C=80=E8=A6=81=E5=81=9A=E5=90=8C=E6=A0=B7=E7=9A=84=E9=
+=80=82=E9=85=8D=E3=80=82</p>
+
+<h2 id=3D"2-2-2-=E8=87=AA=E5=AE=9A=E4=B9=89=E7=9A=84machine-driver" class=
+=3D"post-content-header">2.2.2 =E8=87=AA=E5=AE=9A=E4=B9=89=E7=9A=84Machine =
+Driver<a class=3D"header-link" href=3D"https://mazhidong.github.io/post/aos=
+p/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8=
+D%97/#2-2-2-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84machine-driver"><svg viewBo=
+x=3D"0 0 16 10" version=3D"1.1" width=3D"24" height=3D"24"><path d=3D"M4 9h=
+1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-=
+2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S=
+3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0=
+-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45=
+ 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h2>
+
+<p>=E5=BD=93simple card=E4=B8=8D=E8=B6=B3=E4=BB=A5=E6=BB=A1=E8=B6=B3=E9=9C=
+=80=E6=B1=82=E6=97=B6=EF=BC=8C=E8=BF=99=E4=B8=AA=E6=97=B6=E5=80=99=E5=B0=B1=
+=E9=9C=80=E8=A6=81=E7=BC=96=E5=86=99=E7=9B=B8=E5=AF=B9=E5=BA=94=E7=9A=84mac=
+hine driver=EF=BC=8C=E6=AF=94=E5=A6=82=EF=BC=9Asound/soc/rockchip/rockchip_=
+rt5640.c=EF=BC=8C=E7=84=B6=E5=90=8E=E5=9C=A8=E8=BF=99=E4=B8=AAmachine drive=
+r=E6=B7=BB=E5=8A=A0=E7=89=B9=E6=AE=8A=E7=9A=84=E6=8E=A7=E5=88=B6=EF=BC=8C=
+=E8=B7=AF=E7=94=B1=E7=AD=89=E7=AD=89=E3=80=82=E8=BF=99=E9=87=8C=E4=B8=8D=E5=
+=81=9A=E4=B8=BE=E4=BE=8B=EF=BC=8C=E5=BB=B6=E7=BB=AD=E5=8E=9F=E6=9C=89=E7=9A=
+=84=E6=A0=BC=E5=BC=8F=EF=BC=8C=E4=BB=A5=E5=8F=8A=E7=9B=AE=E5=BD=95=E4=B8=8B=
+=E5=9D=87=E6=9C=89=E5=8F=82=E8=80=83=E4=BB=A3=E7=A0=81=E5=8F=AF=E4=BD=9C=E4=
+=B8=BA=E5=8F=82=E7=85=A7=E3=80=82</p>
+
+<h2 id=3D"2-2-3-=E5=A3=B0=E5=8D=A1=E8=B0=83=E8=AF=95" class=3D"post-content=
+-header">2.2.3 =E5=A3=B0=E5=8D=A1=E8=B0=83=E8=AF=95<a class=3D"header-link"=
+ href=3D"https://mazhidong.github.io/post/aosp/2018-09-20-vs-rk3399-and-vs-=
+rk3288-audio-%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/#2-2-3-%E5%A3%B0%E5%8D%A1=
+%E8%B0%83%E8%AF%95"><svg viewBox=3D"0 0 16 10" version=3D"1.1" width=3D"24"=
+ height=3D"24"><path d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 =
+0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.=
+98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 1=
+2 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3=
+.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg><=
+/a></h2>
+
+<ol>
+<li>=E9=80=9A=E8=BF=87=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=E7=A1=AE=E8=AE=
+=A4=E5=A3=B0=E5=8D=A1=E6=98=AF=E5=90=A6=E6=B3=A8=E5=86=8C=E6=88=90=E5=8A=9F=
+</li>
+</ol>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt">1
+</span><span class=3D"lnt">2
+</span><span class=3D"lnt">3
+</span><span class=3D"lnt">4
+</span><span class=3D"lnt">5
+</span><span class=3D"lnt">6
+</span><span class=3D"lnt">7
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">root@rk3366:/ # cat /proc/asound/cards
+0 [rockchiprt5640c]: rockchip_rt5640 - rockchip,rt5640-codec rockchip,rt564=
+0-codec
+
+root@rk3366:/ # ls -l /dev/snd/
+crw-rw---- system audio 116, 2 2013-01-18 08:51 controlC0
+crw-rw---- system audio 116, 4 2013-01-18 08:51 pcmC0D0c
+crw-rw---- system audio 116, 3 2013-01-18 08:51 pcmC0D0p</pre></td></tr></t=
+body></table>
+</div>
+</div>
+<ol>
+<li>=E9=80=9A=E8=BF=87=E5=91=BD=E4=BB=A4=E8=A1=8C=E6=92=AD=E6=94=BE=E5=BD=
+=95=E5=88=B6=E8=B0=83=E8=AF=95=E5=A3=B0=E5=8D=A1=EF=BC=9A
+=E6=92=AD=E6=94=BE=EF=BC=9A=E4=B8=80=E8=88=AC=E6=92=AD=E6=94=BE1khz 0db=E6=
+=AD=A3=E5=BC=A6=E6=B3=A2=EF=BC=8C=E7=84=B6=E5=90=8E=E5=9C=A8codec=E8=BE=93=
+=E5=87=BA=E7=AB=AF=E7=A4=BA=E6=B3=A2=E5=99=A8=E7=AE=80=E5=8D=95=E6=B5=8B=E9=
+=87=8F=E6=98=AF=E5=90=A6=E5=A4=B1=E7=9C=9F=EF=BC=8C=E6=9D=82=E9=9F=B3=EF=BC=
+=8C=E7=84=B6=E5=90=8E=E5=86=8D=E4=BD=BF=E7=94=A8=E9=9F=B3=E9=A2=91=E5=88=86=
+=E6=9E=90=E4=BB=AA=E6=B5=8B=E8=AF=95=E6=8C=87=E6=A0=87=E3=80=82</li>
+</ol>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt">1
+</span><span class=3D"lnt">2
+</span><span class=3D"lnt">3
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">root@rk3366:/ # tinyplay Usage: tinyplay file.wav
+[-D card] [-d device] [-p period_size] [-n n_periods]
+|root@rk3366:/ # tinyplay /sdcard/test44.wav -D 0 -d 0 -p 1024 -n 3 Playing=
+ sample: 2 ch, 44100 hz, 32 bit</pre></td></tr></tbody></table>
+</div>
+</div>
+<p>=E5=BD=95=E5=88=B6=EF=BC=9A</p>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt">1
+</span><span class=3D"lnt">2
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">root@rk3366:/ # tinycap Usage: tinycap file.wav [-D c=
+ard] [-d device] [-c channels] [-r rate] [-b bits] [-p period_size] [-n n_p=
+eriods]
+|root@rk3366:/ # tinycap /sdcard/rec.wav -D 0 -d 0 =E2=80=93c 2 =E2=80=93r =
+44100 =E2=80=93b 16 =E2=80=93p 1024 =E2=80=93n 3</pre></td></tr></tbody></t=
+able>
+</div>
+</div>
+<ol>
+<li><p>=E9=80=9A=E8=BF=87=E5=91=BD=E4=BB=A4=E8=A1=8C=E8=B0=83=E8=AF=95=E5=
+=A3=B0=E5=8D=A1=E7=9A=84=E9=80=9A=E8=B7=AF=EF=BC=9A
+=E4=B8=80=E8=88=AC=E5=A4=8D=E6=9D=82=E7=9A=84codec=E5=8F=AF=E6=8F=90=E4=BE=
+=9B=E5=90=84=E7=A7=8D=E9=80=9A=E8=B7=AF=E7=9A=84=E9=85=8D=E7=BD=AE=EF=BC=8C=
+=E5=A6=82=E4=B8=8B=E5=9B=BE=EF=BC=9A=E5=88=86=E5=88=AB=E6=98=AF=E6=95=B0=E5=
+=AD=97=E9=83=A8=E5=88=86=E9=80=9A=E8=B7=AF=E5=92=8C=E6=A8=A1=E6=8B=9F=E9=83=
+=A8=E5=88=86=E9=80=9A=E8=B7=AF=EF=BC=8C=E9=80=9A=E8=B7=AF=E6=97=81=E8=BE=B9=
+=E9=83=BD=E6=9C=89=E6=A0=87=E6=B3=A8=E6=8E=A7=E5=88=B6=E7=9A=84=E5=AF=84=E5=
+=AD=98=E5=99=A8bit=EF=BC=8Ccodec driver=E8=B4=9F=E8=B4=A3=E5=B0=86=E8=BF=99=
+=E4=BA=9B=E6=8E=A7=E5=88=B6=E5=AE=9E=E4=BE=8B=E5=8C=96=E4=B8=BAkcontrol=EF=
+=BC=8C=E6=8F=90=E4=BE=9B=E7=BB=99=E4=B8=8A=E5=B1=82=E8=AE=BE=E7=BD=AE=E5=88=
+=87=E6=8D=A2=E9=80=9A=E8=B7=AF=E4=BD=BF=E7=94=A8=EF=BC=8C=E5=AE=9E=E9=99=85=
+=E7=9A=84=E8=B0=83=E8=AF=95=E6=96=B9=E6=B3=95=E4=B8=BA=E4=BB=8E=E6=95=B0=E5=
+=AD=97=E9=83=A8=E5=88=86=E7=9A=84=E9=80=9A=E8=B7=AF=E5=BC=80=E5=A7=8B=EF=BC=
+=8C=E6=AF=94=E5=A6=82DACDAT=E7=84=B6=E5=90=8E=E9=A1=BA=E7=9D=80=E6=89=BE=E5=
+=87=BA=E4=B8=80=E6=9D=A1=E6=9C=80=E4=BC=98=E7=9A=84=E8=B7=AF=E5=BE=84=E5=88=
+=B0=E8=BE=BE=E6=A8=A1=E6=8B=9F=E8=BE=93=E5=87=BA=E7=AB=AF=EF=BC=8C=E6=AF=94=
+=E5=A6=82HPOUT=E3=80=82=E7=84=B6=E5=90=8E=E9=80=9A=E8=BF=87tinymix=E6=8E=A7=
+=E5=88=B6=E8=B7=AF=E5=BE=84=E4=B8=8A=E7=9A=84=E7=9B=B8=E5=BA=94=E8=8A=82=E7=
+=82=B9=E5=BC=80=E5=85=B3=EF=BC=8C=E6=89=93=E9=80=9A=E9=80=9A=E8=B7=AF=E3=80=
+=82</p></li>
+
+<li><p>tinymix =E8=B0=83=E8=AF=95=E9=80=9A=E8=B7=AF=EF=BC=9A</p></li>
+</ol>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt">1
+</span><span class=3D"lnt">2
+</span><span class=3D"lnt">3
+</span><span class=3D"lnt">4
+</span><span class=3D"lnt">5
+</span><span class=3D"lnt">6
+</span><span class=3D"lnt">7
+</span><span class=3D"lnt">8
+</span><span class=3D"lnt">9
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">root@rk3366:/ # tinymix
+Mixer name: 'rockchip,rt5640-codec'
+Number of controls: 123
+ctl type num name value
+0 BOOL 1 Mono Playback Switch Off
+1 INT 2 Mono DAC Playback Volume 175 175
+2 BOOL 2 Speaker Channel Switch Off Off
+3 INT 2 Speaker Playback Volume 31 31
+4 BOOL 2 HP Channel Switch Off Off</pre></td></tr></tbody></table>
+</div>
+</div>
+<p>=E5=8F=AF=E9=80=9A=E8=B7=AFctr id=E6=88=96=E8=80=85name=E6=9D=A5=E6=8E=
+=A7=E5=88=B6=EF=BC=8C=E4=BE=8B=E5=AD=90=E5=A6=82=E4=B8=8B=EF=BC=8C=E4=B8=8D=
+=E5=B8=A6val=E8=AE=BE=E7=BD=AE=E6=97=B6=EF=BC=8C=E4=B8=BA=E6=9F=A5=E8=AF=A2=
+=E8=AF=A5mix=E7=9A=84=E5=BD=93=E5=89=8D=E7=8A=B6=E6=80=81</p>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt">1
+</span><span class=3D"lnt">2
+</span><span class=3D"lnt">3
+</span><span class=3D"lnt">4
+</span><span class=3D"lnt">5
+</span><span class=3D"lnt">6
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">root@rk3366:/ # tinymix 0 1
+root@rk3366:/ # tinymix 0
+Mono Playback Switch: On
+root@rk3366:/ # tinymix "Mono Playback Switch" 1
+root@rk3366:/ # tinymix "Mono Playback Switch"
+Mono Playback Switch: On</pre></td></tr></tbody></table>
+</div>
+</div>
+<ol>
+<li>=E5=A3=B0=E5=8D=A1=E5=8A=9F=E8=83=BD=E4=BB=A5=E5=8F=8A=E9=80=9A=E8=B7=
+=AF=E8=B0=83=E8=AF=95ok=E5=90=8E=EF=BC=8C=E9=9C=80=E8=A6=81=E6=8A=8A=E9=80=
+=9A=E8=B7=AF=E9=85=8D=E7=BD=AE=E9=85=8D=E7=BD=AE=E5=88=B0hal=E5=B1=82=EF=BC=
+=8C=E7=84=B6=E5=90=8E=E5=8F=AF=E4=BB=A5=E9=85=8D=E7=BD=AE=E4=B8=8D=E5=90=8C=
+=E5=9C=BA=E6=99=AF=E4=B8=8B=E7=9A=84=E9=80=9A=E8=B7=AF=E8=B7=AF=E7=94=B1=EF=
+=BC=8C=E9=80=9A=E8=B7=AF=E7=9A=84=E9=85=8D=E7=BD=AE=E5=8D=B3=E4=B8=BAtinymi=
+x=E9=85=8D=E7=BD=AE=E6=88=90=E5=8A=9F=E5=90=8E=E7=9A=84=E9=80=9A=E8=B7=AF=
+=E5=88=97=E8=A1=A8=E7=9A=84=E5=80=BC=EF=BC=8C=E6=8A=8A=E8=BF=99=E4=BA=9B=E5=
+=80=BC=E5=81=9A=E6=88=90=E7=9B=B8=E5=BA=94codec_config.h=E5=8A=A0=E5=85=A5=
+=E5=88=B0hal=E4=B8=AD=EF=BC=8C=E6=AF=94=E5=A6=82=E5=A6=82=E4=B8=8B=EF=BC=9A=
+</li>
+<li>hardware/rockchip/audio/tinyalsa_hal/codec_config/rt5640_config.h</li>
+</ol>
+<div class=3D"highlight"><div class=3D"chroma">
+<table class=3D"lntable"><tbody><tr><td class=3D"lntd">
+<pre class=3D"chroma"><span class=3D"lnt"> 1
+</span><span class=3D"lnt"> 2
+</span><span class=3D"lnt"> 3
+</span><span class=3D"lnt"> 4
+</span><span class=3D"lnt"> 5
+</span><span class=3D"lnt"> 6
+</span><span class=3D"lnt"> 7
+</span><span class=3D"lnt"> 8
+</span><span class=3D"lnt"> 9
+</span><span class=3D"lnt">10
+</span><span class=3D"lnt">11
+</span><span class=3D"lnt">12
+</span><span class=3D"lnt">13
+</span><span class=3D"lnt">14
+</span></pre></td>
+<td class=3D"lntd">
+<pre class=3D"chroma">#ifndef _RT5640_CONFIG_H_
+#define _RT5640_CONFIG_H_
+#include "config.h"
+
+const struct config_control rt5640_speaker_normal_controls[] =3D {
+{ .ctl_name =3D "DAI select", .str_val =3D "1:2|2:1", },
+{ .ctl_name =3D "Mono DAC Playback Volume", .int_val =3D {175, 175}, },
+{ .ctl_name =3D "DAC2 Playback Switch", .int_val =3D {on, on}, },
+
+hardware/rockchip/audio/tinyalsa_hal/codec_config/config_list.h
+struct alsa_sound_card_config sound_card_config_list[] =3D {
+=E2=80=A6=E2=80=A6
+{ .sound_card_name =3D "rockchiprt5640c", .route_table =3D &amp;rt5640_conf=
+ig_table, },
+=E2=80=A6=E2=80=A6</pre></td></tr></tbody></table>
+</div>
+</div>
+<p>=E9=80=9A=E8=BF=87=E4=BB=A5=E4=B8=8A=E6=AD=A5=E9=AA=A4=E5=8D=B3=E5=AE=8C=
+=E6=88=90=E5=9F=BA=E6=9C=AC=E7=9A=84=E5=A3=B0=E5=8D=A1=E5=88=9B=E5=BB=BA=EF=
+=BC=8C=E7=AE=80=E5=8D=95=E8=B0=83=E8=AF=95=EF=BC=8C =E4=BB=A5=E4=B8=8A=E4=
+=BD=BF=E7=94=A8=E7=9A=84tinyplay, tinycap, tinymix=E4=BB=A3=E7=A0=81=E4=BD=
+=8D=E4=BA=8Eandroid/external/tinyalsa=E4=B8=AD=EF=BC=8C=E5=A6=82=E6=9E=9C=
+=E7=B3=BB=E7=BB=9F=E4=B8=AD=E6=B2=A1=E6=9C=89=E8=AF=A5=E5=91=BD=E4=BB=A4=EF=
+=BC=8C=E5=8F=AF=E8=BF=9B=E5=88=B0=E8=AF=A5=E7=9B=AE=E5=BD=95=E6=89=A7=E8=A1=
+=8Cmm=E7=94=9F=E6=88=90=E7=9B=B8=E5=BA=94=E7=9A=84=E5=91=BD=E4=BB=A4=E3=80=
+=82</p>
+
+    </div>
+
+   =20
+   =20
+<div class=3D"post-copyright">
+  <p class=3D"copyright-item">
+    <span class=3D"item-title">=E6=96=87=E7=AB=A0=E4=BD=9C=E8=80=85</span>
+    <span class=3D"item-content">Fantasy</span>
+  </p>
+  <p class=3D"copyright-item">
+    <span class=3D"item-title">=E4=B8=8A=E6=AC=A1=E6=9B=B4=E6=96=B0</span>
+    <span class=3D"item-content">2018-09-20</span>
+  </p>
+ =20
+  <p class=3D"copyright-item">
+    <span class=3D"item-title">=E8=AE=B8=E5=8F=AF=E5=8D=8F=E8=AE=AE</span>
+    <span class=3D"item-content"><a rel=3D"license noopener" href=3D"https:=
+//creativecommons.org/licenses/by-nc-nd/4.0/" target=3D"_blank">CC BY-NC-ND=
+ 4.0</a></span>
+  </p>
+</div>
+
+
+   =20
+   =20
+
+    <footer class=3D"post-footer">
+      <div class=3D"post-tags">
+          <a href=3D"https://mazhidong.github.io/tags/android/">android</a>
+          <a href=3D"https://mazhidong.github.io/tags/kernel/">kernel</a>
+          <a href=3D"https://mazhidong.github.io/tags/audio/">audio</a>
+         =20
+        </div>
+
+     =20
+      <nav class=3D"post-nav">
+       =20
+          <a class=3D"prev" href=3D"https://mazhidong.github.io/post/jni/20=
+18-10-08-string-%E8%BD%ACchar-argv/">
+           =20
+            <i class=3D"iconfont">
+              <svg class=3D"icon" viewBox=3D"0 0 1024 1024" version=3D"1.1"=
+ xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999=
+/xlink" width=3D"18" height=3D"18">
+  <path d=3D"M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035=
+ 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 20=
+4.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.466=
+66-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L25=
+7.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.84=
+4348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.8770=
+77l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.90=
+8486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class=3D"prev-text nav-default">String[] =E8=BD=ACchar* a=
+rgv[]</span>
+            <span class=3D"prev-text nav-mobile">=E4=B8=8A=E4=B8=80=E7=AF=
+=87</span>
+          </a>
+       =20
+          <a class=3D"next" href=3D"https://mazhidong.github.io/post/androi=
+d/2018-09-12-onactivityresult%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/">
+            <span class=3D"next-text nav-default">onActivityResult=E6=89=A7=
+=E8=A1=8C=E6=97=B6=E6=9C=BA</span>
+            <span class=3D"prev-text nav-mobile">=E4=B8=8B=E4=B8=80=E7=AF=
+=87</span>
+           =20
+            <i class=3D"iconfont">
+              <svg class=3D"icon" viewBox=3D"0 0 1024 1024" version=3D"1.1"=
+ xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999=
+/xlink" width=3D"18" height=3D"18">
+  <path d=3D"M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.99803=
+5-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 8=
+19.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46=
+666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l37=
+7.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844=
+348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877=
+077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.0915=
+14 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+ =20
+ =20
+
+ =20
+ =20
+
+ =20
+ =20
+
+ =20
+
+  <div class=3D"post bg-white">
+      <div id=3D"comments-gitment"><div lang=3D"en-US" class=3D"gitment-con=
+tainer gitment-root-container"><div><div lang=3D"en-US" class=3D"gitment-co=
+ntainer gitment-header-container"><span class=3D"gitment-header-like-btn">
+    <svg class=3D"gitment-heart-icon" xmlns=3D"http://www.w3.org/2000/svg" =
+viewBox=3D"0 0 50 50"><path d=3D"M25 39.7l-.6-.5C11.5 28.7 8 25 8 19c0-5 4-=
+9 9-9 4.1 0 6.4 2.3 8 4.1 1.6-1.8 3.9-4.1 8-4.1 5 0 9 4 9 9 0 6-3.5 9.7-16.=
+4 20.2l-.6.5zM17 12c-3.9 0-7 3.1-7 7 0 5.1 3.2 8.5 15 18.1 11.8-9.6 15-13 1=
+5-18.1 0-3.9-3.1-7-7-7-3.5 0-5.4 2.1-6.9 3.8L25 17.1l-1.1-1.3C22.4 14.1 20.=
+5 12 17 12z"></path></svg>
+    Like
+   =20
+  </span><span>
+   =20
+  </span><a class=3D"gitment-header-issue-link" href=3D"https://mazhidong.g=
+ithub.io/post/aosp/2018-09-20-vs-rk3399-and-vs-rk3288-audio-%E5%BC%80%E5%8F=
+%91%E6%8C%87%E5%8D%97/undefined" target=3D"_blank">Issue Page</a></div></di=
+v><div><div lang=3D"en-US" class=3D"gitment-container gitment-comments-cont=
+ainer"><div class=3D"gitment-comments-error">Error: Comments Not Initialize=
+d</div></div></div><div><div lang=3D"en-US" class=3D"gitment-container gitm=
+ent-editor-container">
+      <a class=3D"gitment-editor-avatar" href=3D"https://github.com/login/o=
+auth/authorize?scope=3Dpublic_repo&amp;redirect_uri=3Dhttps%3A%2F%2Fmazhido=
+ng.github.io%2Fpost%2Faosp%2F2018-09-20-vs-rk3399-and-vs-rk3288-audio-%25E5=
+%25BC%2580%25E5%258F%2591%25E6%258C%2587%25E5%258D%2597%2F&amp;client_id=3D=
+a7ad9d79ce4e98eabdc8&amp;client_secret=3D13ffc9363807f8929fe31ce5a7022fb867=
+6dab45" title=3D"login with GitHub">
+              <svg class=3D"gitment-github-icon" xmlns=3D"http://www.w3.org=
+/2000/svg" viewBox=3D"0 0 50 50"><path d=3D"M25 10c-8.3 0-15 6.7-15 15 0 6.=
+6 4.3 12.2 10.3 14.2.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2-.7-1.7-1.7-2.2-1=
+.7-2.2-1.4-.9.1-.9.1-.9 1.5.1 2.3 1.5 2.3 1.5 1.3 2.3 3.5 1.6 4.4 1.2.1-1 .=
+5-1.6 1-2-3.3-.4-6.8-1.7-6.8-7.4 0-1.6.6-3 1.5-4-.2-.4-.7-1.9.1-4 0 0 1.3-.=
+4 4.1 1.5 1.2-.3 2.5-.5 3.8-.5 1.3 0 2.6.2 3.8.5 2.9-1.9 4.1-1.5 4.1-1.5.8 =
+2.1.3 3.6.1 4 1 1 1.5 2.4 1.5 4 0 5.8-3.5 7-6.8 7.4.5.5 1 1.4 1 2.8v4.1c0 .=
+4.3.9 1 .7 6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10z"></path></svg>
+            </a>
+   =20
+    <div class=3D"gitment-editor-main">
+      <div class=3D"gitment-editor-header">
+        <nav class=3D"gitment-editor-tabs">
+          <button class=3D"gitment-editor-tab gitment-selected">Write</butt=
+on>
+          <button class=3D"gitment-editor-tab">Preview</button>
+        </nav>
+        <div class=3D"gitment-editor-login">
+          <a class=3D"gitment-editor-login-link" href=3D"https://github.com=
+/login/oauth/authorize?scope=3Dpublic_repo&amp;redirect_uri=3Dhttps%3A%2F%2=
+Fmazhidong.github.io%2Fpost%2Faosp%2F2018-09-20-vs-rk3399-and-vs-rk3288-aud=
+io-%25E5%25BC%2580%25E5%258F%2591%25E6%258C%2587%25E5%258D%2597%2F&amp;clie=
+nt_id=3Da7ad9d79ce4e98eabdc8&amp;client_secret=3D13ffc9363807f8929fe31ce5a7=
+022fb8676dab45">Login</a> with GitHub
+        </div>
+      </div>
+      <div class=3D"gitment-editor-body">
+        <div class=3D"gitment-editor-write-field">
+          <textarea placeholder=3D"Leave a comment" id=3D"gitment-editor" t=
+itle=3D"Login to Comment" disabled=3D""></textarea>
+        </div>
+        <div class=3D"gitment-editor-preview-field gitment-hidden">
+          <div class=3D"gitment-editor-preview gitment-markdown"></div>
+        </div>
+      </div>
+    </div>
+    <div class=3D"gitment-editor-footer">
+      <a class=3D"gitment-editor-footer-tip" href=3D"https://guides.github.=
+com/features/mastering-markdown/" target=3D"_blank">
+        Styling with Markdown is supported
+      </a>
+      <button class=3D"gitment-editor-submit" title=3D"Login to Comment" di=
+sabled=3D"">Comment</button>
+    </div>
+  </div></div><div><div lang=3D"en-US" class=3D"gitment-container gitment-f=
+ooter-container">
+    Powered by
+    <a class=3D"gitment-footer-project-link" href=3D"https://github.com/ims=
+un/gitment" target=3D"_blank">
+      Gitment
+    </a>
+  </div></div></div></div>
+      <link rel=3D"stylesheet" href=3D"https://mazhidong.github.io/lib/gitm=
+ent/gitment-0.0.3.min.css">
+       =20
+     =20
+     =20
+    </div>
+
+ =20
+ =20
+   =20
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer id=3D"footer" class=3D"footer">
+      <div class=3D"social-links">
+ =20
+ =20
+    <a href=3D"mailto:591888356@qq.com" rel=3D"me noopener" class=3D"iconfo=
+nt" title=3D"email">
+      <svg class=3D"icon" viewBox=3D"0 0 1451 1024" version=3D"1.1" xmlns=
+=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink=
+" width=3D"36" height=3D"36">
+  <path d=3D"M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.0=
+46997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3=
+.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 7=
+64.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 =
+693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.06897=
+9 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.6445=
+01 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.47=
+2759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619=
+.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809=
+523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348=
+.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523=
+L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.01=
+9477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.6038=
+83L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+ =20
+    <a href=3D"https://github.com/mazhidong" rel=3D"me noopener" class=3D"i=
+confont" title=3D"github" target=3D"_blank">
+      <svg class=3D"icon" style=3D"" viewBox=3D"0 0 1024 1024" version=3D"1=
+.1" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1=
+999/xlink" width=3D"36" height=3D"36">
+  <path d=3D"M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688=
+ 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.61866=
+7 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.=
+693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c=
+-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.73=
+6 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.=
+608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-2=
+33.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12=
+.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-=
+11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.21=
+8667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.50933=
+3 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.=
+6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.5=
+62667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750=
+.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href=3D"https://mazhidong.github.io/index.xml" rel=3D"noopener alternate=
+" type=3D"application/rss+xml" class=3D"iconfont" title=3D"rss" target=3D"_=
+blank">
+    <svg class=3D"icon" viewBox=3D"0 0 1024 1024" version=3D"1.1" xmlns=3D"=
+http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink" wi=
+dth=3D"30" height=3D"30">
+  <path d=3D"M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c56=
+1.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.=
+8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1=
+024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784=
+ 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173=
+333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+ =20
+</div>
+
+<div class=3D"copyright">
+  <span class=3D"power-by">
+    Powered by <a class=3D"hexo-link" href=3D"https://gohugo.io/">Hugo</a>
+  </span>
+  <span class=3D"division">|</span>
+  <span class=3D"theme-info">
+    Theme - <a class=3D"theme-link" href=3D"https://github.com/xianmin/hugo=
+-theme-jane">Jane</a>
+  </span>
+
+  <span class=3D"copyright-year">
+    =C2=A9
+   =20
+      2018 -
+    2019
+    <span class=3D"heart">
+     =20
+      <i class=3D"iconfont">
+        <svg class=3D"icon" viewBox=3D"0 0 1025 1024" version=3D"1.1" xmlns=
+=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink=
+" width=3D"14" height=3D"14">
+  <path d=3D"M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-8=
+5-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.=
+5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 =
+0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112=
+.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18=
+.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-17=
+8.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z" fill=3D"#8=
+a8a8a" data-darkreader-inline-fill=3D"" style=3D"--darkreader-inline-fill:#=
+77726b;"></path>
+</svg>
+
+      </i>
+    </span><span class=3D"author">
+        Fantasy
+       =20
+      </span></span>
+
+ =20
+ =20
+
+ =20
+</div>
+
+    </footer>
+
+    <div class=3D"back-to-top" id=3D"back-to-top" style=3D"display: block;"=
+>
+      <i class=3D"iconfont">
+       =20
+        <svg class=3D"icon" viewBox=3D"0 0 1024 1024" version=3D"1.1" xmlns=
+=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink=
+" width=3D"35" height=3D"35">
+  <path d=3D"M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057=
+869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866=
+688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195=
+.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></pat=
+h>
+</svg>
+
+      </i>
+    </div>
+  </div>
+ =20
+
+ =20
+
+
+
+
+
+
+
+
+
+
+
+ =20
+   =20
+   =20
+   =20
+ =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body><div style=3D"width: 32px !important; height: 32px !important; displ=
+ay: none; background: rgb(255, 255, 255) !important; border-radius: 16px !i=
+mportant; box-shadow: rgb(136, 136, 136) 4px 4px 8px !important; position: =
+absolute !important; z-index: 2147483647 !important; --darkreader-inline-bg=
+image: initial; --darkreader-inline-bgcolor:#b2b1ae; --darkreader-inline-bo=
+xshadow:#757169 4px 4px 8px; top: 2896px; left: 351px;" data-darkreader-inl=
+ine-bgimage=3D"" data-darkreader-inline-bgcolor=3D"" data-darkreader-inline=
+-boxshadow=3D""><svg href=3D"javascript:void(0)" style=3D"width:24px;height=
+:24px;margin:4px!important;" "width=3D"24" height=3D"24" viewBox=3D"0 0 768=
+ 768"><path d=3D"M672 640.5v-417c0-18-13.5-31.5-31.5-31.5h-282l37.5 129h61.=
+5v-33h34.5v33h115.5v33h-40.5c-10.5 40.5-33 79.5-61.5 112.5l87 85.5-22.5 24-=
+87-85.5-28.5 28.5 25.5 88.5-64.5 64.5h225c18 0 31.5-13.5 31.5-31.5zM447 388=
+.5c7.5 15 19.5 34.5 36 54 39-46.5 49.5-88.5 49.5-88.5h-127.5l10.5 34.5h31.5=
+zM423 412.5l19.5 70.5 18-16.5c-15-16.5-27-34.5-37.5-54zM355.5 339c0-7.381-0=
+.211-16.921-3-22.5h-126v49.5h70.5c-4.5 19.5-24 48-67.5 48-42 0-76.5-36-76.5=
+-78s34.5-78 76.5-78c24 0 39 10.5 48 19.5l3 1.5 39-37.5-3-1.5c-24-22.5-54-34=
+.5-87-34.5-72 0-130.5 58.5-130.5 130.5s58.5 130.5 130.5 130.5c73.5 0 126-52=
+.5 126-127.5zM640.5 160.5c34.5 0 63 28.5 63 63v417c0 34.5-28.5 63-63 63h-25=
+6.5l-31.5-96h-225c-34.5 0-63-28.5-63-63v-417c0-34.5 28.5-63 63-63h192l28.5 =
+96h292.5z" style=3D"fill: rgb(62, 132, 244); --darkreader-inline-fill:#476d=
+aa;" data-darkreader-inline-fill=3D""></path></svg></div><div style=3D"all:=
+ initial;"><div><template shadowmode=3D"open"><div id=3D"app"><div id=3D"tr=
+anslate-btn" style=3D""><button type=3D"button" class=3D"bp3-button"><span =
+class=3D"btn-icon"></span></button></div><div id=3D"popper-container" class=
+=3D"bp3-elevation-4" style=3D"position: absolute; left: 0px; top: 0px; widt=
+h: 250px;"><div id=3D"translate-panel"><div class=3D"header"><div class=3D"=
+switch-pin"><button type=3D"button" class=3D"bp3-button bp3-minimal bp3-sma=
+ll"><span icon=3D"pin" class=3D"bp3-icon bp3-icon-pin"><svg data-icon=3D"pi=
+n" width=3D"14" height=3D"14" viewBox=3D"0 0 16 16"><desc>pin</desc><path d=
+=3D"M9.41.92c-.51.51-.41 1.5.15 2.56L4.34 7.54C2.8 6.48 1.45 6.05.92 6.58l3=
+.54 3.54-3.54 4.95 4.95-3.54 3.54 3.54c.53-.53.1-1.88-.96-3.42l4.06-5.22c1.=
+06.56 2.04.66 2.55.15L9.41.92z" fill-rule=3D"evenodd"></path></svg></span><=
+/button></div><div class=3D"drag-block"></div><div class=3D"right"><span cl=
+ass=3D"bp3-popover-wrapper"><span class=3D"bp3-popover-target"><button type=
+=3D"button" class=3D"bp3-button bp3-minimal bp3-small settings"><span icon=
+=3D"cog" class=3D"bp3-icon bp3-icon-cog"><svg data-icon=3D"cog" width=3D"14=
+" height=3D"14" viewBox=3D"0 0 16 16"><desc>cog</desc><path d=3D"M15.19 6.3=
+9h-1.85c-.11-.37-.27-.71-.45-1.04l1.36-1.36c.31-.31.31-.82 0-1.13l-1.13-1.1=
+3a.803.803 0 00-1.13 0l-1.36 1.36c-.33-.17-.67-.33-1.04-.44V.79c0-.44-.36-.=
+8-.8-.8h-1.6c-.44 0-.8.36-.8.8v1.86c-.39.12-.75.28-1.1.47l-1.3-1.3c-.3-.3-.=
+79-.3-1.09 0L1.82 2.91c-.3.3-.3.79 0 1.09l1.3 1.3c-.2.34-.36.7-.48 1.09H.79=
+c-.44 0-.8.36-.8.8v1.6c0 .44.36.8.8.8h1.85c.11.37.27.71.45 1.04l-1.36 1.36c=
+-.31.31-.31.82 0 1.13l1.13 1.13c.31.31.82.31 1.13 0l1.36-1.36c.33.18.67.33 =
+1.04.44v1.86c0 .44.36.8.8.8h1.6c.44 0 .8-.36.8-.8v-1.86c.39-.12.75-.28 1.1-=
+.47l1.3 1.3c.3.3.79.3 1.09 0l1.09-1.09c.3-.3.3-.79 0-1.09l-1.3-1.3c.19-.35.=
+36-.71.48-1.1h1.85c.44 0 .8-.36.8-.8v-1.6a.816.816 0 00-.81-.79zm-7.2 4.6c-=
+1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" fill-rule=3D"evenodd">=
+</path></svg></span></button></span></span><button type=3D"button" title=3D=
+"=E5=85=B3=E9=97=AD(Esc)" class=3D"bp3-button bp3-minimal bp3-small"><span =
+icon=3D"cross" class=3D"bp3-icon bp3-icon-cross"><svg data-icon=3D"cross" w=
+idth=3D"18" height=3D"18" viewBox=3D"0 0 16 16"><desc>cross</desc><path d=
+=3D"M9.41 8l3.29-3.29c.19-.18.3-.43.3-.71a1.003 1.003 0 00-1.71-.71L8 6.59l=
+-3.29-3.3a1.003 1.003 0 00-1.42 1.42L6.59 8 3.3 11.29c-.19.18-.3.43-.3.71a1=
+.003 1.003 0 001.71.71L8 9.41l3.29 3.29c.18.19.43.3.71.3a1.003 1.003 0 00.7=
+1-1.71L9.41 8z" fill-rule=3D"evenodd"></path></svg></span></button></div></=
+div><div class=3D"bp3-collapse"><div class=3D"bp3-collapse-body" aria-hidde=
+n=3D"true"><div class=3D"bp3-card bp3-elevation-0 quick-settings"><div><spa=
+n class=3D"bp3-popover-wrapper lang-select"><span class=3D"bp3-popover-targ=
+et"><div class=3D""><button type=3D"button" class=3D"bp3-button bp3-small">=
+<span class=3D"bp3-button-text">=E8=87=AA=E5=8A=A8=E6=A3=80=E6=B5=8B</span>=
+<span icon=3D"caret-down" class=3D"bp3-icon bp3-icon-caret-down"><svg data-=
+icon=3D"caret-down" width=3D"16" height=3D"16" viewBox=3D"0 0 16 16"><desc>=
+caret-down</desc><path d=3D"M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37=
+.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z" fil=
+l-rule=3D"evenodd"></path></svg></span></button></div></span></span><span i=
+con=3D"arrow-right" class=3D"bp3-icon bp3-icon-arrow-right" style=3D"margin=
+: 0px 10px;"><svg data-icon=3D"arrow-right" width=3D"12" height=3D"12" view=
+Box=3D"0 0 16 16"><desc>arrow-right</desc><path d=3D"M14.7 7.29l-5-5a.965.9=
+65 0 00-.71-.3 1.003 1.003 0 00-.71 1.71l3.29 3.29H1.99c-.55 0-1 .45-1 1s.4=
+5 1 1 1h9.59l-3.29 3.29a1.003 1.003 0 001.42 1.42l5-5c.18-.18.29-.43.29-.71=
+s-.12-.52-.3-.7z" fill-rule=3D"evenodd"></path></svg></span><span class=3D"=
+bp3-popover-wrapper lang-select"><span class=3D"bp3-popover-target"><div cl=
+ass=3D""><button type=3D"button" class=3D"bp3-button bp3-small"><span class=
+=3D"bp3-button-text">=E4=B8=AD=E6=96=87(=E7=AE=80=E4=BD=93)</span><span ico=
+n=3D"caret-down" class=3D"bp3-icon bp3-icon-caret-down"><svg data-icon=3D"c=
+aret-down" width=3D"16" height=3D"16" viewBox=3D"0 0 16 16"><desc>caret-dow=
+n</desc><path d=3D"M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4=
+c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z" fill-rule=3D=
+"evenodd"></path></svg></span></button></div></span></span></div><div><labe=
+l class=3D"bp3-control bp3-checkbox bp3-inline"><input type=3D"checkbox"><s=
+pan class=3D"bp3-control-indicator"></span>=E8=B0=B7=E6=AD=8C</label><label=
+ class=3D"bp3-control bp3-checkbox bp3-inline"><input type=3D"checkbox" che=
+cked=3D""><span class=3D"bp3-control-indicator"></span>=E7=99=BE=E5=BA=A6</=
+label><label class=3D"bp3-control bp3-checkbox bp3-inline"><input type=3D"c=
+heckbox"><span class=3D"bp3-control-indicator"></span>=E6=9C=89=E9=81=93</l=
+abel></div><div><label class=3D"bp3-control bp3-checkbox bp3-inline"><input=
+ type=3D"checkbox"><span class=3D"bp3-control-indicator"></span>=E6=98=BE=
+=E7=A4=BA=E6=96=87=E6=9C=AC=E6=A1=86</label><label class=3D"bp3-control bp3=
+-checkbox bp3-inline" style=3D"margin-right: 0px;"><input type=3D"checkbox"=
+><span class=3D"bp3-control-indicator"></span>=E9=BC=A0=E6=A0=87=E6=82=AC=
+=E6=B5=AE=E5=8F=96=E8=AF=8D</label></div><a class=3D"bp3-text-small">=E6=89=
+=93=E5=BC=80=E5=AE=8C=E6=95=B4=E8=AE=BE=E7=BD=AE</a></div></div></div><div =
+class=3D"query-text" style=3D"display: none;"><textarea class=3D"bp3-input =
+bp3-fill"></textarea></div><div class=3D"body"><p>=E8=AF=B7=E8=BE=93=E5=85=
+=A5=E9=9C=80=E8=A6=81=E7=BF=BB=E8=AF=91=E7=9A=84=E6=96=87=E6=9C=AC=E3=80=82=
+</p></div></div><div class=3D"arrow"></div></div></div></template></div></d=
+iv></html>
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-51e52004-e368-4995-a270-8e903a8ac9ad@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2dab91d9-4b2d-4120-a000-9ea7e75ade36@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9a94a752-61c5-41e0-90c5-b20b90014eb5@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, embed[type=3D"application/pdf"] { filter: brightnes=
+s(85%) contrast(85%) !important; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1497b27b-d5d5-4427-8546-1ca15a1c3a7c@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7d439ba8-2919-4f70-8582-f4aa1cebccc8@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #dcdad7; --darkreader-neutral-text=
+: #181a1b; --darkreader-selection-background: #405c7f; --darkreader-selecti=
+on-text: #b2b1ae; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2e02e68f-920c-4b04-b130-7f7d012fe081@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(178, 177, 174) !important; }
+
+html, body, input, textarea, select, button { background-color: rgb(178, 17=
+7, 174); }
+
+html, body, input, textarea, select, button { border-color: rgb(75, 80, 83)=
+; color: rgb(36, 38, 39); }
+
+a { color: rgb(63, 85, 151); }
+
+table { border-color: rgb(113, 109, 101); }
+
+::placeholder { color: rgb(135, 130, 125); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(192, 198, 119) !important; color: rgb(36, 38, 39) !=
+important; }
+
+::-webkit-scrollbar { background-color: rgb(171, 169, 167); color: rgb(86, =
+91, 94); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(138, 134, 129); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(122, 117, 110); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(86, 91, 94); }
+
+::-webkit-scrollbar-corner { background-color: rgb(178, 177, 174); }
+
+* { }
+
+::selection { background-color: rgb(64, 92, 127) !important; color: rgb(178=
+, 177, 174) !important; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-63da4eff-6d78-470a-935e-5c2bb3d40b83@mhtml.blink
+
+@charset "utf-8";
+
+a { background-color: rgba(36, 38, 39, 0); }
+
+a:active, a:hover { outline-color: initial; }
+
+abbr[title] { border-bottom-color: initial; }
+
+mark { background-image: initial; background-color: rgb(151, 151, 63); colo=
+r: rgb(36, 38, 39); }
+
+img { border-color: initial; }
+
+button, input, optgroup, select, textarea { color: inherit; }
+
+fieldset { border-color: rgb(146, 143, 138); }
+
+legend { border-color: initial; }
+
+body { color: rgba(36, 38, 39, 0.84); background-image: initial; background=
+-color: rgb(177, 176, 174); }
+
+@media screen and (max-width: 1080px) {
+  body { border-top-color: initial; }
+}
+
+::selection { background-image: initial; background-color: rgb(159, 74, 62)=
+; color: rgb(178, 177, 174); }
+
+a { color: rgba(36, 38, 39, 0.84); text-decoration-color: initial; }
+
+.bg-llight { background-color: rgb(172, 170, 168); }
+
+.bg-white { background-color: rgb(178, 177, 174); }
+
+.header .site-navbar .menu .menu-item .submenu { list-style-image: initial;=
+ background-image: initial; background-color: rgb(178, 177, 174); border-to=
+p-color: rgb(161, 159, 155); border-right-color: rgb(161, 159, 155); border=
+-left-color: rgb(161, 159, 155); border-bottom-color: initial; }
+
+.header .site-navbar .menu .menu-item .submenu li { border-bottom-color: rg=
+b(161, 159, 155); }
+
+.header .menu a:hover { color: rgb(159, 74, 62); }
+
+.post .post-header { border-bottom-color: rgb(156, 153, 149); }
+
+.post .post-header .post-title .post-pinned svg { fill: rgb(159, 74, 62); }
+
+.post .post-header .post-link { box-shadow: rgba(36, 38, 39, 0) 0px 0px 1px=
+; }
+
+.post .post-header .post-link::before { background-image: initial; backgrou=
+nd-color: rgb(159, 74, 62); }
+
+.post .post-header .post-meta { color: rgb(119, 114, 107); }
+
+.post .post-header .post-meta a { color: inherit; }
+
+.post .post-header .post-meta a:hover { color: rgb(159, 74, 62); }
+
+.post .post-toc .post-toc-title { border-color: initial; }
+
+.post .post-toc .post-toc-content ul ul { list-style-image: initial; }
+
+.post .post-toc .post-toc-content ul ul ul { list-style-image: initial; }
+
+.post .post-toc .post-toc-content ul ul li > a { color: rgb(62, 73, 105); }
+
+.post .post-toc .post-toc-content ul ul li > a:hover { color: rgb(97, 61, 6=
+1); }
+
+@media screen and (min-width: 1080px) {
+  .post .post-toc { border-color: rgb(152, 149, 145); background-image: ini=
+tial; background-color: rgb(178, 177, 174); box-shadow: rgb(97, 104, 107) 0=
+px 0px 1em; }
+}
+
+@media screen and (max-width: 1080px) {
+  .post .post-toc { border-bottom-color: rgb(156, 153, 149); }
+}
+
+.post .post-content h1 { border-bottom-color: rgb(161, 159, 155); }
+
+.post .post-content h2 { border-bottom-color: rgb(161, 159, 155); }
+
+.post .post-content a { color: rgb(159, 74, 62); }
+
+.post .post-content a:hover { border-bottom-color: rgb(159, 74, 62); }
+
+.post .post-content > table { border-color: initial; }
+
+.post .post-content > table td { background-color: rgb(200, 130, 130); bord=
+er-color: rgb(178, 177, 174); }
+
+.post .post-content > table th { background-color: rgb(152, 63, 63); color:=
+ rgb(178, 177, 174); border-color: rgb(178, 177, 174); }
+
+.post .post-content .read-more .read-more-link { color: rgb(159, 74, 62); }
+
+.post .post-content .read-more .read-more-link:hover { border-bottom-color:=
+ rgb(159, 74, 62); }
+
+.post .post-content kbd { background-color: rgb(175, 174, 172); border-colo=
+r: rgb(160, 157, 154) rgb(160, 157, 154) rgb(141, 137, 132); box-shadow: rg=
+b(141, 137, 132) 0px -1px 0px inset; color: rgb(74, 79, 81); }
+
+.post .post-content .task-list { list-style-image: initial; }
+
+.post .post-content code { background-image: initial; background-color: rgb=
+(202, 185, 137); color: rgb(140, 63, 83); }
+
+.post .post-content .highlight > .chroma { border-color: rgb(161, 159, 155)=
+; }
+
+.post .post-content .highlight > .chroma code { color: inherit; }
+
+.post .post-content .highlight > .chroma table::after { color: rgb(138, 135=
+, 129); }
+
+.post .post-content .highlight > .chroma .lnt { color: rgb(151, 148, 143); =
+}
+
+.post .post-content .chroma { color: rgb(63, 109, 123); background-color: r=
+gb(202, 185, 137); }
+
+.post .post-content .chroma .lntd { border-color: initial; }
+
+.post .post-content .chroma .lntable { border-color: initial; }
+
+.post .post-content .chroma .hl { background-color: rgb(199, 199, 125); }
+
+.post .post-content .chroma .k { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .kc { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .kd { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .kn { color: rgb(158, 64, 62); }
+
+.post .post-content .chroma .kp { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .kr { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .kt { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .n { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .na { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nb { color: rgb(134, 84, 64); }
+
+.post .post-content .chroma .bp { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nc { color: rgb(134, 84, 64); }
+
+.post .post-content .chroma .no { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nd { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .ni { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .ne { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nf { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .fm { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nl { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nn { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nx { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .py { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nt { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .nv { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .vc { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .vg { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .vi { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .vm { color: rgb(63, 112, 147); }
+
+.post .post-content .chroma .l { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .ld { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .s { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sa { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sb { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sc { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .dl { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sd { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .s2 { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .se { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sh { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .si { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sx { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .sr { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .s1 { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .ss { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .m { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .mb { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .mf { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .mh { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .mi { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .il { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .mo { color: rgb(63, 122, 117); }
+
+.post .post-content .chroma .ow { color: rgb(93, 97, 61); }
+
+.post .post-content .chroma .c { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .ch { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .cm { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .c1 { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .cs { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .cp { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .cpf { color: rgb(127, 122, 116); }
+
+.post .post-content .chroma .g { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gd { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .ge { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gr { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gh { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gi { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .go { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gp { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gs { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gu { color: rgb(156, 62, 108); }
+
+.post .post-content .chroma .gt { color: rgb(156, 62, 108); }
+
+.post .post-content figure a:hover { border-color: initial; }
+
+.post .post-content figure figcaption h4 { color: rgb(141, 137, 132); }
+
+.post .post-content figure figcaption p { color: rgb(141, 137, 132); }
+
+.post .post-content blockquote { color: rgb(80, 85, 88); background-color: =
+rgb(174, 172, 169); border-left-color: rgb(126, 122, 115); }
+
+@media screen and (min-width: 1080px) {
+  .post .post-content blockquote::before { color: rgb(126, 122, 115); }
+}
+
+.post .post-content blockquote footer { color: rgb(62, 66, 68); }
+
+.post .header-link { fill: currentcolor; }
+
+.post .post-copyright { background-color: rgba(141, 137, 132, 0.1); border-=
+top-color: rgb(163, 161, 157); border-right-color: rgb(163, 161, 157); bord=
+er-bottom-color: rgb(163, 161, 157); border-left-color: initial; }
+
+.post .post-copyright .copyright-item a { color: rgb(159, 74, 62); }
+
+.post .post-copyright .copyright-item a:hover { border-bottom-color: rgb(15=
+9, 74, 62); }
+
+.post .post-reward { border-top-color: rgb(165, 163, 160); }
+
+.post .post-reward .reward-button { color: rgb(159, 74, 62); border-color: =
+rgb(159, 74, 62); }
+
+.post .post-reward .reward-button:hover { color: rgb(177, 176, 174); backgr=
+ound-color: rgb(159, 74, 62); }
+
+.post .post-footer .post-tags a { color: rgb(159, 74, 62); }
+
+.post .post-footer .post-tags a:hover { border-bottom-color: rgb(159, 74, 6=
+2); }
+
+.post .post-footer .post-nav .prev:hover { color: rgb(159, 74, 62); }
+
+.post .post-footer .post-nav .next:hover { color: rgb(159, 74, 62); }
+
+.post .footnotes hr { color: rgb(161, 159, 155); }
+
+.post .fn-content { border-color: rgba(36, 38, 39, 0.1); background-image: =
+initial; background-color: rgb(174, 172, 169); }
+
+.post .shortcode-notice p { color: rgb(88, 94, 97); }
+
+.post .shortcode-notice-title { color: rgb(178, 177, 174); }
+
+.post .shortcode-notice-title.note { background-color: rgb(78, 137, 176); }
+
+.post .shortcode-notice.note p { background-image: initial; background-colo=
+r: rgb(171, 169, 166); }
+
+.post .shortcode-notice-title.tip { background-color: rgba(63, 161, 63, 0.8=
+); }
+
+.post .shortcode-notice.tip p { background-image: initial; background-color=
+: rgb(135, 201, 135); }
+
+.post .shortcode-notice-title.info { background-color: rgb(185, 134, 89); }
+
+.post .shortcode-notice.info p { background-image: initial; background-colo=
+r: rgb(200, 176, 132); }
+
+.post .shortcode-notice-title.warning { background-color: rgba(167, 71, 68,=
+ 0.8); }
+
+.post .shortcode-notice.warning p { background-image: initial; background-c=
+olor: rgb(201, 133, 133); }
+
+.disqus-comment .disqus-button { border-color: rgb(161, 159, 155); color: r=
+gb(126, 122, 115); }
+
+.disqus-comment .disqus-button:hover { color: rgb(45, 47, 49); border-color=
+: rgb(45, 47, 49); }
+
+.pagination li a { background-color: rgb(178, 177, 174); border-color: rgb(=
+54, 57, 58); color: rgb(54, 57, 58); text-decoration-color: initial; }
+
+.pagination .active a { background-color: rgb(54, 57, 58); border-color: rg=
+b(54, 57, 58); color: rgb(178, 177, 174); }
+
+.pagination .prev:hover { color: rgb(159, 74, 62); }
+
+.pagination .next:hover { color: rgb(159, 74, 62); }
+
+.footer .social-links .iconfont:hover { color: rgb(159, 74, 62); }
+
+.footer .social-links .iconfont:hover svg { fill: rgb(159, 74, 62); }
+
+.footer .copyright { color: rgb(119, 114, 107); }
+
+.footer .copyright .hexo-link, .footer .copyright .theme-link { color: rgb(=
+159, 74, 62); }
+
+.archive { background-color: rgb(178, 177, 174); }
+
+.archive .archive-title .archive-post-counter { color: rgb(119, 114, 107); =
+}
+
+.archive .archive-post { border-bottom-color: rgb(151, 148, 143); }
+
+.archive .archive-post .archive-post-time { color: rgb(119, 114, 107); }
+
+.archive .archive-post .archive-post-title .archive-post-link { color: rgb(=
+159, 74, 62); }
+
+.archive .archive-post:hover .archive-post-time { color: rgb(94, 100, 104);=
+ }
+
+.archive .archive-post:hover .archive-post-title .archive-post-link { color=
+: rgb(130, 72, 64); }
+
+.archive .more-post .more-post-link { color: rgb(159, 74, 62); }
+
+.archive .more-post .more-post-link:hover { border-bottom-color: rgb(159, 7=
+4, 62); }
+
+.tag-cloud .tag-cloud-title { color: rgb(159, 74, 62); border-bottom-color:=
+ rgb(159, 74, 62); }
+
+.tag-cloud .tag-cloud-tags a .tag-count { color: rgb(159, 74, 62); }
+
+.tag-cloud .tag-cloud-tags a:active, .tag-cloud .tag-cloud-tags a:focus, .t=
+ag-cloud .tag-cloud-tags a:hover { color: rgb(159, 74, 62); }
+
+.categories .categories-title { color: rgb(159, 74, 62); border-bottom-colo=
+r: rgb(159, 74, 62); }
+
+.categories .categories-tags .category-link .category-count { color: rgb(15=
+9, 74, 62); }
+
+.categories .categories-tags .category-link:active, .categories .categories=
+-tags .category-link:focus, .categories .categories-tags .category-link:hov=
+er { color: rgb(159, 74, 62); }
+
+.slideout-panel { background-color: rgb(177, 176, 174); }
+
+.mobile-navbar { background-image: initial; background-color: rgb(177, 176,=
+ 174); box-shadow: rgb(151, 148, 143) 0px 2px 2px; }
+
+.mobile-navbar .mobile-navbar-icon { color: rgb(159, 74, 62); }
+
+.mobile-navbar .mobile-navbar-icon span { background-color: rgb(159, 74, 62=
+); }
+
+.mobile-menu { background-color: rgba(202, 185, 137, 0.5); }
+
+.mobile-menu .mobile-menu-list { list-style-image: initial; border-top-colo=
+r: rgb(202, 185, 137); }
+
+.mobile-menu .mobile-menu-list .mobile-menu-item > a { border-bottom-color:=
+ rgb(202, 185, 137); }
+
+.mobile-menu .mobile-menu-list a:hover { color: rgb(159, 74, 62); }
+
+.mobile-menu-parent { border-bottom-color: rgb(202, 185, 137); }
+
+.mobile-menu-parent .mobile-submenu-open { border-left-color: rgb(202, 185,=
+ 137); }
+
+.mobile-menu-parent .mobile-submenu-open::before { border-right-color: init=
+ial; border-bottom-color: initial; }
+
+.mobile-submenu-list { border-bottom-color: rgb(202, 185, 137); list-style-=
+image: initial; }
+
+.not-found .error-emoji { color: rgb(64, 68, 70); }
+
+.not-found .error-text { color: rgb(99, 105, 108); }
+
+.not-found .error-link a { color: rgb(159, 74, 62); }
+
+.author-info { background-color: rgb(178, 177, 174); }
+
+.author-info .author-box .author-image img { border-color: rgb(126, 122, 11=
+5); }
+
+.author-info .author-box .author-content .author-title { color: rgb(135, 13=
+1, 125); }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ea39375d-ec99-4e2b-882b-bebfa0bd0c08@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5cb58e97-5a46-4184-b0c9-a1f089b954eb@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(203, 174, 99) !important; border-col=
+or: rgb(161, 133, 19) !important; color: rgb(54, 46, 23) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ef6ca722-907c-4e53-961a-32b3c4c21264@mhtml.blink
+
+@charset "utf-8";
+
+div.h5-ext-layer, txpdiv[data-role=3D"hd-ad-adapter-interactivelayer"], div=
+.m-video-play.js-play > a.m-video-bannerTitle.js-video-bannerTitle, div#sli=
+de_ad, #Ad_windows, #Layeraa1, #Layeraa2, #MsnDialog.ad, #MyMoveAd, #QQ_Ful=
+l, #ZAML, #\31 280_adv, #aafoot.top_box, #aafoot[class^=3D"top_box"], #aahe=
+adtop, #aatop.top_box, #aatop[class^=3D"top_box"], #ad-SNSSplashAd, #ad08, =
+#ad6cn { display: none !important; }
+
+#adBody07, #adLeftFloat, #adRightFloat, #ad_box1, #ad_box2, #ad_full, #ad_g=
+loble_div, #ad_headerbanner, #adad, #adrights14, #ads_c_tpc, #ads_in_video,=
+ #ads_top_video, #adtop1, #adv-2, #adv-3, #adx_cggp, #body > #left-promotio=
+n, #body > #right-promotion, #bottomAD { display: none !important; }
+
+#bottombanner, #breadCrumb + .c + .t[style=3D"margin-top:8px"], #breadCrumb=
+ + .t[style=3D"margin-top:8px"], #comiis_xizi_gg02, #container > .sectionBa=
+nner, #crazy_ad_float, #crazy_ad_layer, #cs_left_couplet, #cs_right_couplet=
+, #dbgg, #duilian_left, #duilian_right, #eis_pad1, #eis_pad2, #everydayadv_=
+mask, #fk_faiVisitStateAd, #floatAd, #floatad-winpop, #footer_fix_ggw, #fra=
+meS8CyqB { display: none !important; }
+
+#fuo_top_float, #fwin_popad_7ree, #fwin_popad_7ree + #fwin_dialog, #gg1, #g=
+g300, #googleAD1, #googleAD2, #googleAD3, #googleAdIndexTop, #haoetv, #haoe=
+tv1, #haoxinqing_me_img, #js-ad-map, #js_ads_banner_top, #js_ads_banner_top=
+_slide, #kfivtwin, #kfpopupDiv, #ks > .DaKuang, #ldgindexbuttom, #leftCoupl=
+e { display: none !important; }
+
+#leftCouplet, #leftFloat + #rightFloat, #leftFloat[style=3D"z-index: 999; p=
+osition: fixed; left: 0px; bottom: 0px;"], #left_couple, #left_couplet.clos=
+e_discor, #left_down_float_ad, #left_float + #right_float, #left_float.clos=
+e_discor, #left_up_float_ad, #lovexin1, #lovexin11, #lovexin12, #lovexin121=
+, #lovexin13, #lovexin14, #lovexin2, #lt-ad-radio, #magneturlpost + .movie =
++ .movie[style=3D"padding:12px; margin-top:15px"], #menu + #topBox, #menu +=
+ script + #topBox { display: none !important; }
+
+#miaov_float_layer, #micast_ads, #modalgg, #movieInfoRight, #mv_ad_dom, #mv=
+_float_layer, #my-adsFPR, #nav + .slider-spons, #navcontainer + .moneyarea,=
+ #netease_mail_footer, #new_pop_ad, #news_top_advert, #olfullad, #overture_=
+ads_bottom_td, #overture_ads_top_td, #photo--content-title-bottomx--foot, #=
+photo-header-title-content-text-dallor, #piao_div_0[style*=3D"width:140px;"=
+], #piao_div_1[style*=3D"width:140px;"], #piao_div_2[style*=3D"width:140px;=
+"] { display: none !important; }
+
+#piao_div_3[style*=3D"width:140px;"], #piao_div_4[style*=3D"width:140px;"],=
+ #piao_div_5[style*=3D"width:140px;"], #player-bottom-ads, #player_banner[s=
+tyle*=3D"fixed;"], #popup.t, #pp-modal-id, #ptcmsad1, #qj960a, #qj960b, #re=
+portPop, #results.content-main > .eLeft, #rightCouple, #rightCouple + #left=
+Float, #rightCouplet, #rightCouplet + #leftFloat, #right_couple, #right_cou=
+ple + #left_float, #right_couplet.close_discor, #right_down_float_ad { disp=
+lay: none !important; }
+
+#right_float.close_discor, #right_up_float_ad, #search > a[href=3D"/top1.ht=
+ml"], #sitefocus.focus, #snActive-wrap, #sponsorAdDiv2, #swtleft[style^=3D"=
+position:fixed;"], #table1[width=3D"468"][height=3D"50"], #table1[width=3D"=
+794"][height=3D"60"], #table1[width=3D"812"][height=3D"50"], #table1[width=
+=3D"812"][height=3D"60"], #tanx-con-1, #tanx-fold-main, #textggs, #top-gg-c=
+ontainer, #top_ads0, #top_box > a[onclick^=3D"javascript"], #toperAd2, #tr_=
+ad1, #tr_ad10 { display: none !important; }
+
+#tr_ad11, #tr_ad2, #tr_ad3, #tr_ad4, #tr_ad5, #tr_ad6, #tr_ad7, #tr_ad8, #t=
+r_ad9, #tripadvisor-ad, #widget-quan, #wp > .V-videoFloat, #wrapper > .topa=
+d, #xianliaome_ads, #xinnxi, .Flagrow-Ads-under-header, .Text-Advertising, =
+._cggp, ._ggs, ._popIn_recommend_article_ad { display: none !important; }
+
+._popIn_recommend_article_ad_reserved, .a_cn, .a_fl, .a_fr, .a_mu, .a_oscar=
+1, .a_p, .a_pb, .a_pr, .a_pt, .a_ssk_cn, .a_sxc, .a_xsfl, .aab-post, .aasd-=
+text, .aasdwa, .ad-above-footer, .ad-below-adjacent-post, .ad-below-header-=
+menu, .ad-below-post-title { display: none !important; }
+
+.ad-below-related-post, .ad-couplet-common, .ad-left-down, .ad-left-top, .a=
+d-right-down, .ad-right-top, .ad-shine-panel, .ad-site, .ad250left, .ad250r=
+ight, .ad300left, .ad336left, .ad990x130, .ad990x90, .ad_couplebanner, .ad_=
+fixed, .ad_footerbanner, .ad_headerbanner, .ad_hf, .ad_right_1 { display: n=
+one !important; }
+
+.ad_right_2, .ad_thread, .ad_top_close + .bd, .adbox-bg.adscounter, .ads > =
+a > img[src*=3D".sinaimg."], .ads_desktop, .ads_mobile, .adsense160, .adsen=
+se200, .adsoho, .advInfoElem, .afc_popup, .anniversary-wrap-2018, .artad, .=
+asb-index, .asb-post, .assort-ad, .aub-post, .baiduad, .banner-ad-section {=
+ display: none !important; }
+
+.bdyp-sygg-ul, .below_ads, .bm.a_c, .bn728-100, .bn728-93, .bottomSponsor, =
+.broadcastMe[style=3D"width: 1200px;"], .btn.btn-default.hotwords[target=3D=
+"_blank"], .bus_adsbox, .buyaoa-below, .cari-ads, .chat-ad, .chat-right-ad,=
+ .chat-sysbroadcast-ad, .chat-top-ad, .comiis_ad, .comiis_adbox, .comiis_gu=
+anggao, .comiis_guanggao_tit, .common-topad { display: none !important; }
+
+.common_ad, .con_ad, .con_search + #carousel-example-generic[style^=3D"max-=
+width: 1170px;"], .container > .ads, .content > a > .topline, .content-vide=
+o > .ads, .content-video > .ads-player, .content_ad_300, .corner-gg, .coupl=
+et_9cb0d, .ctm_ad, .d_banner_inner, .dipiao, .edtj, .eis_muad, .error > #qq=
+s, .event_fullscreen_gg_modal, .f-sign-cont[data-dysign-adid], .fed-part-ca=
+se > .ads-img, .ff-ads { display: none !important; }
+
+.float-adv-left-bottom, .float-adv-left-top, .float-adv-right-bottom, .floa=
+t-adv-right-top, .floatAd, .float_bot_right, .fnwehjnc12, .frAd, .full-ads,=
+ .full.banners12, .getads, .gg1000, .gg430, .gg_300, .gg_728, .gg_950, .gg_=
+960, .gg_full, .gg_tp, .ggad { display: none !important; }
+
+.ggbox, .gggpost-above, .gglist, .ggpost-below, .ggtop, .ggw, .global_video=
+_bottom_dbtc, .google-ad2_fixed, .google_adsense2, .gpost-below, .gpt_ads_b=
+ox, .gsfha3, .guangjiaodebupachuanxiede, .guruin-ads, .hao123-unionad-pic, =
+.hbp > .wp_banner, .headxx11xiaoapp, .heg > .div-list, .his-sign-cont[data-=
+dysign-adid], .hlol_ad { display: none !important; }
+
+.hongbao_hd, .iHead960x90, .ibtad, .index-top-ad, .index-top-gg, .index-wz-=
+ad, .index_alert_gg, .indexad2, .indexad3, .indexad4, .itopbar + .container=
+, .jav-nav + .bcpic, .jingqun_tu, .jq_infoflow_ad_wrap, .jq_mediav_ad_repor=
+t, .jqrp_infoflow_ad, .kf_qycn_com_cckf_welcomebox, .leftadv, .listok > a >=
+ img[src*=3D".alicdn.com"][width=3D"980"][height=3D"80"], .listok > a > img=
+[style^=3D"width:980px;height:"] { display: none !important; }
+
+.loc-home-top-adv-new, .lol-ad, .lol_ad, .lyzm-prevent, .main-ad-l, .main-a=
+d-r, .main-ad-r + .topad, .main[style=3D"border:#7D8C8E solid 1px;height: 2=
+3px;"], .maomi-content > .section-banner, .mediav-newsfeed-listitem-type-1,=
+ .mediavAd_report, .mediavfeed-newsitem, .menutab_ad, .ml_ad1, .ml_ad3, .ml=
+_ad5, .mlad, .mod + #bottomBox, .my-cat.my-cat-header, .mylist > a[target=
+=3D"_bank"] > img[src*=3D".alicdn.com/"] { display: none !important; }
+
+.mylist > a[target=3D"_bank"] > img[src*=3D"kanjiantu."], .newstyle > .cont=
+ainer > a[target=3D"_blank"], .overBanner.dowloadBtn, .pagead_3, .pagecon +=
+ .ad1, .pcd_ad, .pcgg, .player + .sponsor, .player-bottom-gg, .pop[style=3D=
+"right: 10px;"], .privilege-promote, .qq_nr_lad, .qzhfaaa, .readmidad, .rig=
+ht > .content > .ads, .room-ad-bottom, .room-ad-top, .room-ad-video-down, .=
+rtcenter_game, .scupioadslot { display: none !important; }
+
+.self-gg, .spon-img[src*=3D".alicdn."], .subject_link[href$=3D"/thread-inde=
+x-fid-1-tid-12848.htm"], .sxAdBox, .t5[style=3D"border:1px solid #a6cbe7;"]=
+ + .t[style=3D"margin-top:8px"], .table_ad, .textadlist, .theme_custom_slid=
+ebox-ad-below, .tmall_ad_container, .tooltip > #tp, .top-read-ad, .topSpons=
+or, .top_box > #foot, .top_box > #indextop, .top_box > #news, .top_box > li=
+ > a[href^=3D"/js/app.htm?"], .top_func_ad, .toy52_outer, .toy52apparel_ALL=
+, .trad1 { display: none !important; }
+
+.trad3, .twavt-ads, .wemziguanggao, .wf_ad_block, .widget-qianhuiji, .widge=
+t-topadding, .widget-xlxba, .widget_adbox, .widget_ui_ads, .widget_ui_asb, =
+.widget_ui_aub, .widget_ui_textasb, .widget_ui_textaub, .wordurl[style=3D" =
+  width: 42%; float:left; text-align: center;"], .wp > .ad-box, .wp.a2_h, .=
+wp.a_f, .wp.a_h, .wp.a_t, .wp_headline + .ad1 { display: none !important; }
+
+.wrap.mt10.clearfix > .box.top_box, .wumii-bottom-popup, .wumii-widget-ad, =
+.wzad, .xzbox-gh, .yd_ad, .yd_ad1, .yd_ad2, .yd_ad3, .yd_ad5, .yd_ad6, .zhe=
+dangceng_ggg, .zone_wap_banner2, a[href*=3D".com/?Agent=3D"], a[href=3D"htt=
+p://t.cn/A6hQCVsv"], a[href^=3D"/e/public/ClickAd?adid=3D"], a > img[src*=
+=3D".sinaimg."][src$=3D".gif"][style*=3D"width:960"], a > img[width=3D"960"=
+][src*=3D".alicdn.com/"], a > img[width=3D"960"][src*=3D".sinaimg."], a > i=
+mg[width=3D"980"][src*=3D".sinaimg."] { display: none !important; }
+
+a#wrapper_left_bg[target=3D"_blank"], a#wrapper_right_bg[target=3D"_blank"]=
+, a[href$=3D"/liyusheng.com"], a[href*=3D".05bq.com/"], a[href*=3D".05cg.co=
+m/"], a[href*=3D".08an.com/"], a[href*=3D".123ch.cn"], a[href*=3D".17yyba.c=
+om/"], a[href*=3D".222bz.com/"], a[href*=3D".41gw.com/"], a[href*=3D".72618=
+8.com"], a[href*=3D".7wkw.com"], a[href*=3D".9xiazaiqi.com"], a[href*=3D".a=
+cuxrecv.cn"], a[href*=3D".ahhxwavi.cn"], a[href*=3D".bayiyy.com/download."]=
+, a[href*=3D".biwbmsyt.cn"], a[href*=3D".cangpie.com/"], a[href*=3D".chouch=
+uai.com/"], a[href*=3D".chuairan.com/"] { display: none !important; }
+
+a[href*=3D".com/?Extend=3D"], a[href*=3D".com/?p=3D"][target=3D"_blank"] > =
+img[src$=3D".gif"], a[href*=3D".com/Register.aspx?aid=3D"], a[href*=3D".com=
+/Register/?a=3D"], a[href*=3D".com?aff=3D"], a[href*=3D".com?intr=3D"], a[h=
+ref*=3D".dajiang99.com"], a[href*=3D".dongtaisteel.com/"], a[href*=3D".down=
+ok.com"], a[href*=3D".dpcpfw.com/"], a[href*=3D".gongnou.com/"], a[href*=3D=
+".gsxzq.com/"], a[href*=3D".guzaosf.com/"], a[href*=3D".hbjimin.com/"], a[h=
+ref*=3D".iziyo.com/"], a[href*=3D".liaochuo.com/"], a[href*=3D".mieseng.com=
+/"], a[href*=3D".qpokok.com/"], a[href*=3D".qpzqxz.com/"], a[href*=3D".qtj5=
+.com/"] { display: none !important; }
+
+a[href*=3D".quankan.tv"], a[href*=3D".tbb168.com"], a[href*=3D".tduou.com/"=
+], a[href*=3D".ttz5.cn"], a[href*=3D".tudown.com/"], a[href*=3D".umeng.com"=
+]:not([href=3D"http://www.umeng.com/"]) > img, a[href*=3D".wenpie.com/"], a=
+[href*=3D".wjLkj.com/"], a[href*=3D".xlddz.net/"], a[href*=3D".xlgqy.com/"]=
+, a[href*=3D".xrzzk.com/"], a[href*=3D".yabovip2027.com/"], a[href*=3D".yb2=
+843.vip"], a[href*=3D".ybvip5741.vip"], a[href*=3D".yyk2.com/"], a[href*=3D=
+"/602034.com"], a[href*=3D"/?INTR=3D"], a[href*=3D"/?Intr=3D"], a[href*=3D"=
+/?intr=3D"], a[href*=3D"/Register?a=3D"] { display: none !important; }
+
+a[href*=3D"/du505.com"], a[href*=3D"itoon.app"], a[href*=3D"nnqp.vip"], a[h=
+ref*=3D"ywslxq.com"], a[href=3D"/e/member/register/index.php?tobind=3D0&gro=
+upid=3D1"], a[href=3D"/gghtml/tyc.html"], a[href=3D"http://t.cn/E2PgiG1"], =
+a[href=3D"http://t.cn/Ex0cCbt"], a[href=3D"http://www.tw787.com/"], a[href=
+=3D"http://www.yabovip5.cc/"], a[href=3D"https://www.ybvip1879.vip"], a[hre=
+f^=3D"http://172.247.157.176/"], a[href^=3D"http://ad.moemoe."], a[href^=3D=
+"http://go.gotourl.xyz/"], a[href^=3D"http://pic.gunqiu.com/"], a[href^=3D"=
+http://www.upupoo.com"], a[href^=3D"https://hi.potvpn.com/?from=3D"], a[hre=
+f^=3D"https://luolidao.vip/"], a[onclick^=3D"javascript:pc_"] > img[src*=3D=
+".alicdn.com"], a[style=3D"display:inline-block;font-weight:bold;color:#f00=
+;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5p=
+x 5px 5px 0px;"] { display: none !important; }
+
+body .has-ad, body[class|=3D"view"] > .ad-box, body[onload*=3D"u()"] > #x, =
+center > a[target=3D"_blank"] > img[style=3D"padding- bottom:5px;width:960p=
+x;height:120px;"], center > a[target=3D"_blank"] > img[style=3D"padding- bo=
+ttom:5px;width:960px;height:60px;"], div#ad_id, div#xinxi, div[class^=3D"AD=
+TOPLB_"], div[id^=3D"ad_thread"], form + .div-search-box.col-lg-offset-2.co=
+l-lg-8 > a[target=3D"_blank"], img[data-link][data-src*=3D"/u/"]:not([data-=
+link*=3D"/i/"]), img[data-src*=3D".alicdn.com/img/ibank/"][src=3D"/static/i=
+mages/loadingerror.gif"], img[src$=3D"/img/tianbo.gif"], img[src*=3D".qpic.=
+cn"][width=3D"980"][height=3D"80"], img[src*=3D".sinaimg."][style=3D"width:=
+1025px;height:80px"], img[src*=3D".sinaimg."][style=3D"width:150px;height:3=
+00px"], script + #coupletBox, script + #rbbox, script[src=3D"/js/sy2.js"] +=
+ div[align=3D"center"], span[title=3D"neteasefooter"] { display: none !impo=
+rtant; }
+
+table[style=3D"border:#7D8C8E solid 1px;height: 30px;text-align: center;"],=
+ [style=3D"display:none"] + iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?=
+"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div:not(#vi=
+deo)[style^=3D"width: 100%;"][style$=3D"display: block;"] iframe[scrolling=
+=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][=
+frameborder=3D"0"], div:not([id]):not([class]):not([style]) > div:not([id])=
+:not([class]):not([style]) > iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"=
+?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"]:not([src^=
+=3D"http://www.facebook.com/"]), div[style^=3D"width: 100%;"][style$=3D"mar=
+gin: 0px;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"]=
+[src*=3D"&"][width][height][frameborder=3D"0"], div[style^=3D"width: 100%;"=
+][style$=3D"opacity: 100;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?=
+"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[style^=
+=3D"width: 100%;"][style$=3D"overflow: hidden;"] iframe[scrolling=3D"no"][s=
+rc*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborde=
+r=3D"0"], div[style^=3D"width: 100%;"][style$=3D"visibility: visible;"] ifr=
+ame[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][wi=
+dth][height][frameborder=3D"0"], div[style^=3D"width: 100%;"][style$=3D"z-i=
+ndex: inherit;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=
+=3D"][src*=3D"&"][width][height][frameborder=3D"0"], a[href*=3D"/cpro."], a=
+[href*=3D"/cpro/"], #bd-hl-content, #container > #pic_container, #container=
+ > .item.title_normal, #container > .item.title_top, #container > .wrapper =
+> .fl, #container > a.block, #container.container > a.item, #cpro_container=
+, #img-txt-wrapper > #title_desc_div { display: none !important; }
+
+#wrapper > div[style=3D"padding:3px;"] > #pic, .container > .pic_container,=
+ .container > a.mid-wrapper, a[href*=3D"/mobads.php?"], div[id][style=3D"wi=
+dth: 100%;"] > div > div > iframe[scrolling=3D"no"][src^=3D"http"][src*=3D"=
+?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[id][st=
+yle=3D"width: 100%;"] > div > iframe[scrolling=3D"no"][src^=3D"http"][src*=
+=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[id=
+][style=3D"width: 100%;"] > iframe[scrolling=3D"no"][src^=3D"http"][src*=3D=
+"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[id^=
+=3D"_"] > iframe[scrolling=3D"no"][src^=3D"http"][width][height][frameborde=
+r=3D"0"], div[style=3D"width: 100%;"]:not([id]):not([class]) > iframe[scrol=
+ling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][heig=
+ht][frameborder=3D"0"], div[style^=3D"width: 100%;"]:not([id]):not([class])=
+ > iframe[scrolling=3D"no"][src^=3D"http"][src*=3D"?"][src*=3D"=3D"][src*=
+=3D"&"][width][height][frameborder=3D"0"]:not([allowfullscreen]), .footer >=
+ #box[style=3D"width:100%;height:100%;position:fixed;top:0"], a[href*=3D".g=
+otourls.bid"], a[href^=3D"http://yunbofangbt."], div[align=3D"center"] > a[=
+href^=3D"/url/"] > img[src*=3D".alicdn.com"], div[align=3D"center"] > a[hre=
+f^=3D"/url/"] > img[src*=3D".qpic.cn"], #downdiv > .downcode, .box_con[styl=
+e=3D"border-radius:10px;background-color:#ff0000;padding:15px;"], .layui-ro=
+w[style=3D"height:160px;border-radius:10px;background-color:#ff0000;padding=
+:15px;margin:15px;"], .readerListADbox, a[href*=3D".com/tg.html?id=3D"] { d=
+isplay: none !important; }
+
+a[href*=3D"://mgzs.cdn.bcebos.com/"], a[href=3D"/ad2.html"], a[href^=3D"htt=
+ps://uds24.com/"], .txp_ad_center, #asx_text, #wp > .V-video-floats, .b_osc=
+ar1, .b_pr, .b_sxc, .b_sxp, .float-left12 > .div-list, a[onclick*=3D"/dasp.=
+php?a=3D"], #j-new-ad, .a_sxfl, .a_sxmu, .a_sxp, .a_sxpb, .heg > .partner-l=
+ist, a[href^=3D"/dasp.php?a=3D"], #toptb + div[align=3D"center"] { display:=
+ none !important; }
+
+.it618_firstad_flex, table[style=3D"border:#e8e8e8 1px solid;"] + div[style=
+=3D"margin-top:5px"] > table[style=3D"width:100%;"][cellspacing=3D"0"][cell=
+padding=3D"1"][bordercolor=3D"#22222"][border=3D"1"], .tm3all2h4b { display=
+: none !important; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-25e0acee-c9c0-4ef4-b763-37263d5289c8@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9e5d43bc-a716-4ac0-8265-aad48f03d3f1@mhtml.blink
+
+@charset "utf-8";
+
+.pswp { outline-color: initial; }
+
+.pswp__bg { background-image: initial; background-color: rgb(36, 38, 39); }
+
+.pswp__container, .pswp__img { -webkit-tap-highlight-color: transparent; }
+
+.pswp__img--placeholder--blank { background-image: initial; background-colo=
+r: rgb(54, 57, 58); }
+
+.pswp__error-msg { color: rgb(152, 149, 145); }
+
+.pswp__error-msg a { color: rgb(152, 149, 145); text-decoration-color: init=
+ial; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c83ec916-c135-4b48-83a8-899a0bda71c0@mhtml.blink
+
+@charset "utf-8";
+
+.pswp__button { background-image: initial; background-color: initial; borde=
+r-color: initial; box-shadow: none; }
+
+.pswp__button:active { outline-color: initial; }
+
+.pswp__button, .pswp__button--arrow--left::before, .pswp__button--arrow--ri=
+ght::before { background-image: url("blob:https://mazhidong.github.io/d7f58=
+8ac-9097-425b-a779-e956da20919e"); background-color: initial; }
+
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-rat=
+io: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left::before, =
+.pswp--svg .pswp__button--arrow--right::before { background-image: url("blo=
+b:https://mazhidong.github.io/2ae71497-355b-4f94-a71a-562b8262bc69"); }
+  .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--r=
+ight { background-image: initial; background-color: initial; }
+}
+
+.pswp__button--arrow--left, .pswp__button--arrow--right { background-image:=
+ initial; background-color: initial; }
+
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before { b=
+ackground-color: rgba(36, 38, 39, 0.3); }
+
+.pswp__share-modal { background-image: initial; background-color: rgba(36, =
+38, 39, 0.5); }
+
+.pswp__share-tooltip { background-image: initial; background-color: rgb(178=
+, 177, 174); box-shadow: rgba(36, 38, 39, 0.25) 0px 2px 5px; }
+
+.pswp__share-tooltip a { color: rgb(36, 38, 39); text-decoration-color: ini=
+tial; }
+
+.pswp__share-tooltip a:hover { text-decoration-color: initial; color: rgb(3=
+6, 38, 39); }
+
+a.pswp__share--facebook::before { border-color: transparent transparent rgb=
+(178, 177, 174); }
+
+a.pswp__share--facebook:hover { background-image: initial; background-color=
+: rgb(64, 85, 129); color: rgb(178, 177, 174); }
+
+a.pswp__share--facebook:hover::before { border-bottom-color: rgb(64, 85, 12=
+9); }
+
+a.pswp__share--twitter:hover { background-image: initial; background-color:=
+ rgb(76, 132, 174); color: rgb(178, 177, 174); }
+
+a.pswp__share--pinterest:hover { background-image: initial; background-colo=
+r: rgb(152, 149, 145); color: rgb(145, 63, 66); }
+
+a.pswp__share--download:hover { background-image: initial; background-color=
+: rgb(161, 159, 155); }
+
+.pswp__counter { color: rgb(178, 177, 174); }
+
+.pswp__caption small { color: rgb(143, 140, 135); }
+
+.pswp__caption__center { color: rgb(152, 149, 145); }
+
+.pswp__preloader--active .pswp__preloader__icn { background-image: url("htt=
+ps://mazhidong.github.io/lib/photoswipe/default-skin/preloader.gif"); backg=
+round-color: initial; }
+
+.pswp--css_animation .pswp__preloader__icn { background-image: initial; bac=
+kground-color: initial; }
+
+.pswp--css_animation .pswp__preloader__donut { border-color: rgb(178, 177, =
+174) rgb(178, 177, 174) transparent transparent; background-image: initial;=
+ background-color: initial; }
+
+.pswp__top-bar, .pswp__caption { background-color: rgba(36, 38, 39, 0.5); }
+
+.pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption { background-c=
+olor: rgba(36, 38, 39, 0.3); }
+
+.pswp--minimal--dark .pswp__top-bar { background-image: initial; background=
+-color: initial; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b837cf96-b249-4f00-806b-9f7ffaf50aea@mhtml.blink
+
+@charset "utf-8";
+
+.gitment-container { color: rgb(62, 66, 68); }
+
+.gitment-container a, .gitment-container a:visited { text-decoration-color:=
+ initial; }
+
+.gitment-container a:hover { text-decoration-color: initial; }
+
+.gitment-container .gitment-spinner-icon { fill: rgb(62, 66, 68); }
+
+.gitment-comment-like-btn.liked { color: rgb(168, 76, 69); }
+
+.gitment-comment-like-btn.liked svg, .gitment-header-like-btn.liked svg { f=
+ill: rgb(168, 76, 69); }
+
+a.gitment-header-issue-link, a.gitment-header-issue-link:visited { color: r=
+gb(88, 94, 97); }
+
+a.gitment-header-issue-link:hover { color: rgb(88, 94, 97); }
+
+.gitment-comments-list { list-style-image: initial; }
+
+.gitment-editor-avatar .gitment-github-icon { fill: rgb(178, 177, 174); bac=
+kground-color: rgb(62, 66, 68); }
+
+.gitment-comment-main, .gitment-editor-main { border-color: rgb(157, 154, 1=
+51); }
+
+.gitment-comment-main::after, .gitment-comment-main::before, .gitment-edito=
+r-main::after, .gitment-editor-main::before { border-color: transparent; }
+
+.gitment-comment-main::before, .gitment-editor-main::before { border-right-=
+color: rgb(157, 154, 151); }
+
+.gitment-comment-main::after, .gitment-editor-main::after { border-right-co=
+lor: rgb(178, 177, 174); }
+
+.gitment-comment-header { color: rgb(88, 94, 97); background-color: rgb(178=
+, 177, 174); }
+
+.gitment-editor-header { border-bottom-color: rgb(157, 154, 151); }
+
+a.gitment-comment-name, a.gitment-comment-name:visited { color: rgb(88, 94,=
+ 97); }
+
+.gitment-editor-tab { color: rgb(88, 94, 97); text-decoration-color: initia=
+l; background-color: transparent; border-color: transparent; outline-color:=
+ initial; }
+
+.gitment-editor-tab.gitment-selected { color: rgb(62, 66, 68); background-c=
+olor: rgb(178, 177, 174); border-color: rgb(157, 154, 151); }
+
+a.gitment-editor-login-link, a.gitment-editor-login-link:visited, a.gitment=
+-footer-project-link, a.gitment-footer-project-link:visited { color: rgb(63=
+, 118, 161); }
+
+a.gitment-editor-logout-link, a.gitment-editor-logout-link:visited { color:=
+ rgb(88, 94, 97); }
+
+a.gitment-editor-logout-link:hover { color: rgb(63, 118, 161); text-decorat=
+ion-color: initial; }
+
+.gitment-comment-body-folded::before { background-image: linear-gradient(rg=
+ba(178, 177, 174, 0), rgba(178, 177, 174, 0.9)); background-color: initial;=
+ }
+
+.gitment-comment-body-folded::after { color: rgb(88, 94, 97); background-im=
+age: initial; background-color: rgba(178, 177, 174, 0.9); }
+
+.gitment-editor-body textarea { background-color: rgb(178, 177, 174); color=
+: rgb(62, 66, 68); border-color: initial; outline-color: initial; box-shado=
+w: none; }
+
+.gitment-editor-body textarea:focus { background-color: rgb(178, 177, 174);=
+ }
+
+.gitment-editor-preview { background-color: transparent; }
+
+a.gitment-editor-footer-tip { color: rgb(88, 94, 97); }
+
+a.gitment-editor-footer-tip:hover { color: rgb(63, 118, 161); text-decorati=
+on-color: initial; }
+
+.gitment-comments-pagination { list-style-image: initial; }
+
+.gitment-comments-page-item { border-color: rgb(157, 154, 151); }
+
+.gitment-comments-page-item.gitment-selected, .gitment-comments-page-item:h=
+over { background-color: rgb(173, 172, 169); }
+
+.gitment-comments-init-btn, .gitment-editor-submit { color: rgb(178, 177, 1=
+74); background-color: rgb(64, 120, 127); border-color: initial; }
+
+.gitment-comments-init-btn:hover, .gitment-editor-submit:hover { background=
+-color: rgb(63, 111, 117); }
+
+.gitment-comments-init-btn:disabled, .gitment-editor-submit:disabled { colo=
+r: rgba(178, 177, 174, 0.75); background-color: rgb(70, 158, 169); box-shad=
+ow: none; }
+
+.gitment-markdown { color: rgb(62, 66, 68); }
+
+.gitment-markdown .pl-c { color: rgb(125, 121, 114); }
+
+.gitment-markdown .pl-c1, .gitment-markdown .pl-s .pl-v { color: rgb(62, 98=
+, 109); }
+
+.gitment-markdown .pl-e, .gitment-markdown .pl-en { color: rgb(99, 63, 151)=
+; }
+
+.gitment-markdown .pl-s .pl-s1, .gitment-markdown .pl-smi { color: rgb(62, =
+66, 68); }
+
+.gitment-markdown .pl-ent { color: rgb(72, 151, 63); }
+
+.gitment-markdown .pl-k { color: rgb(118, 63, 89); }
+
+.gitment-markdown .pl-pds, .gitment-markdown .pl-s, .gitment-markdown .pl-s=
+ .pl-pse .pl-s1, .gitment-markdown .pl-sr, .gitment-markdown .pl-sr .pl-cce=
+, .gitment-markdown .pl-sr .pl-sra, .gitment-markdown .pl-sr .pl-sre { colo=
+r: rgb(62, 73, 105); }
+
+.gitment-markdown .pl-smw, .gitment-markdown .pl-v { color: rgb(170, 94, 70=
+); }
+
+.gitment-markdown .pl-bu { color: rgb(126, 69, 64); }
+
+.gitment-markdown .pl-c2, .gitment-markdown .pl-ii { color: rgb(174, 173, 1=
+70); background-color: rgb(126, 69, 64); }
+
+.gitment-markdown .pl-sr .pl-cce { color: rgb(72, 151, 63); }
+
+.gitment-markdown .pl-ml { color: rgb(86, 70, 59); }
+
+.gitment-markdown .pl-mh, .gitment-markdown .pl-mh .pl-en, .gitment-markdow=
+n .pl-ms { color: rgb(62, 74, 99); }
+
+.gitment-markdown .pl-mq { color: rgb(59, 86, 86); }
+
+.gitment-markdown .pl-mi { color: rgb(62, 66, 68); }
+
+.gitment-markdown .pl-mb { color: rgb(62, 66, 68); }
+
+.gitment-markdown .pl-md { color: rgb(114, 75, 63); background-color: rgb(2=
+02, 140, 140); }
+
+.gitment-markdown .pl-mi1 { color: rgb(83, 128, 64); background-color: rgb(=
+139, 202, 139); }
+
+.gitment-markdown .pl-mc { color: rgb(142, 113, 63); background-color: rgb(=
+196, 166, 115); }
+
+.gitment-markdown .pl-mi2 { color: rgb(159, 156, 152); background-color: rg=
+b(113, 109, 101); }
+
+.gitment-markdown .pl-mdr { color: rgb(99, 63, 151); }
+
+.gitment-markdown .pl-mo { color: rgb(62, 74, 99); }
+
+.gitment-markdown .pl-ba { color: rgb(84, 90, 93); }
+
+.gitment-markdown .pl-sg { color: rgb(146, 143, 138); }
+
+.gitment-markdown .pl-corl { text-decoration-color: initial; color: rgb(62,=
+ 73, 105); }
+
+.gitment-markdown .octicon { fill: currentcolor; }
+
+.gitment-markdown a { background-color: transparent; color: rgb(64, 94, 130=
+); text-decoration-color: initial; }
+
+.gitment-markdown a:hover { text-decoration-color: initial; }
+
+.gitment-markdown a:not([href]) { color: inherit; text-decoration-color: in=
+itial; }
+
+.gitment-markdown .anchor:focus { outline-color: initial; }
+
+.gitment-markdown hr { background-image: initial; background-color: rgb(164=
+, 162, 159); border-color: initial; }
+
+.gitment-markdown blockquote { color: rgb(96, 102, 105); border-left-color:=
+ rgb(164, 161, 158); }
+
+.gitment-markdown h1, .gitment-markdown h2 { border-bottom-color: rgb(169, =
+167, 164); }
+
+.gitment-markdown h1 .octicon-link, .gitment-markdown h2 .octicon-link, .gi=
+tment-markdown h3 .octicon-link, .gitment-markdown h4 .octicon-link, .gitme=
+nt-markdown h5 .octicon-link, .gitment-markdown h6 .octicon-link { color: r=
+gb(52, 55, 57); }
+
+.gitment-markdown h1:hover .anchor, .gitment-markdown h2:hover .anchor, .gi=
+tment-markdown h3:hover .anchor, .gitment-markdown h4:hover .anchor, .gitme=
+nt-markdown h5:hover .anchor, .gitment-markdown h6:hover .anchor { text-dec=
+oration-color: initial; }
+
+.gitment-markdown h6 { color: rgb(96, 102, 105); }
+
+.gitment-markdown table td, .gitment-markdown table th { border-color: rgb(=
+164, 161, 158); }
+
+.gitment-markdown table tr { background-color: rgb(178, 177, 174); border-t=
+op-color: rgb(152, 149, 145); }
+
+.gitment-markdown table tr:nth-child(2n) { background-color: rgb(173, 172, =
+169); }
+
+.gitment-markdown img { background-color: rgb(178, 177, 174); }
+
+.gitment-markdown code { background-color: rgba(52, 55, 57, 0.05); }
+
+.gitment-markdown pre > code { background-image: initial; background-color:=
+ initial; border-color: initial; }
+
+.gitment-markdown .highlight pre, .gitment-markdown pre { background-color:=
+ rgb(173, 172, 169); }
+
+.gitment-markdown pre code { background-color: transparent; border-color: i=
+nitial; }
+
+.gitment-markdown .full-commit .btn-outline:not(:disabled):hover { color: r=
+gb(63, 89, 119); border-color: rgb(63, 89, 119); }
+
+.gitment-markdown kbd { color: rgb(76, 81, 83); background-color: rgb(177, =
+175, 173); border-color: rgb(152, 149, 145) rgb(152, 149, 145) rgb(128, 124=
+, 117); box-shadow: rgb(128, 124, 117) 0px -1px 0px inset; }
+
+.gitment-markdown :checked + .radio-label { border-color: rgb(64, 94, 130);=
+ }
+
+.gitment-markdown hr { border-bottom-color: rgb(169, 167, 164); }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mazhidong.github.io/sass/jane.min.c8c1ff75dee09b44060a6c38f41b9036bac2512ccdb22d7f296cec12dc786375.css
+
+@charset "utf-8";
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, =
+menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: bas=
+eline; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+[hidden], template { display: none; }
+
+a { background-color: rgba(0, 0, 0, 0); }
+
+a:active, a:hover { outline: 0px; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: 700; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0px; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em; }
+
+hr { box-sizing: content-box; height: 0px; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; =
+margin: 0px; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type=3D"button"], input[type=3D"reset"], input[type=3D"s=
+ubmit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+input { line-height: normal; }
+
+input[type=3D"checkbox"], input[type=3D"radio"] { box-sizing: border-box; p=
+adding: 0px; }
+
+input[type=3D"number"]::-webkit-inner-spin-button, input[type=3D"number"]::=
+-webkit-outer-spin-button { height: auto; }
+
+input[type=3D"search"] { -webkit-appearance: textfield; box-sizing: content=
+-box; }
+
+input[type=3D"search"]::-webkit-search-cancel-button, input[type=3D"search"=
+]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid silver; margin: 0px 2px; padding: 0.35em 0.625=
+em 0.75em; }
+
+legend { border: 0px; padding: 0px; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: 700; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+td, th { padding: 0px; }
+
+html { font-size: 18px; box-sizing: border-box; }
+
+body { padding: 0px; margin: 0px; font-family: "source sans pro", "helvetic=
+a neue", Arial, sans-serif; font-weight: 400; -webkit-font-smoothing: antia=
+liased; line-height: 1.8; color: rgba(0, 0, 0, 0.84); background: rgb(254, =
+254, 254); scroll-behavior: smooth; }
+
+@media screen and (max-width: 1080px) {
+  body { border-top: 0px; }
+}
+
+::selection { background: rgb(192, 91, 77); color: rgb(255, 255, 255); }
+
+img { max-width: 100%; height: auto; display: inline-block; vertical-align:=
+ middle; }
+
+a { color: rgba(0, 0, 0, 0.84); text-decoration: none; }
+
+h1 { font-size: 1.6em; font-family: Athelas, STHeiti, "Microsoft Yahei", se=
+rif; }
+
+h2 { font-size: 1.5em; font-family: Athelas, STHeiti, "Microsoft Yahei", se=
+rif; }
+
+h3 { font-size: 1.3em; font-family: Athelas, STHeiti, "Microsoft Yahei", se=
+rif; }
+
+h4 { font-size: 1.2em; font-family: Athelas, STHeiti, "Microsoft Yahei", se=
+rif; }
+
+h5 { font-size: 1.1em; font-family: Athelas, STHeiti, "Microsoft Yahei", se=
+rif; }
+
+h6 { font-size: 1em; font-family: Athelas, STHeiti, "Microsoft Yahei", seri=
+f; }
+
+.container { margin: 0px auto; width: 1080px; }
+
+@media screen and (max-width: 1080px) {
+  .container { width: 100%; }
+}
+
+.content-wrapper { padding: 3em 0px 1px; }
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top:=
+ 25px; height: 0px; }
+
+.video-container iframe { position: absolute; top: 0px; left: 0px; width: 1=
+00%; height: 100%; }
+
+.bg-llight { background-color: rgb(242, 242, 245); }
+
+.bg-white { background-color: rgb(255, 255, 255); }
+
+.header::before, .header::after { content: " "; display: table; }
+
+.header::after { clear: both; }
+
+.header .logo-wrapper { float: left; padding-left: 15px; }
+
+.header .logo-wrapper .logo { font-size: 36px; font-family: cursive, LiSu, =
+sans-serif; }
+
+@media screen and (max-width: 1080px) {
+  .header .logo-wrapper { display: none; }
+}
+
+.header .site-navbar .menu { float: right; padding-right: 15px; font-family=
+: Athelas, STHeiti, "Microsoft Yahei", serif; }
+
+.header .site-navbar .menu .active { font-weight: 700; }
+
+.header .site-navbar .menu .menu-item { display: inline-block; margin-left:=
+ 1em; margin-right: 1em; position: relative; }
+
+.header .site-navbar .menu .menu-item + .menu-item { margin-left: 10px; }
+
+.header .site-navbar .menu .menu-item .submenu { visibility: hidden; positi=
+on: absolute; top: 120%; list-style: none; padding: 0px; background: rgb(25=
+5, 255, 255); white-space: nowrap; border-top: 1px solid rgb(221, 221, 221)=
+; border-right: 1px solid rgb(221, 221, 221); border-left: 1px solid rgb(22=
+1, 221, 221); border-image: initial; border-bottom: none; transition: all 0=
+.2s ease 0.2s; z-index: 99; }
+
+.header .site-navbar .menu .menu-item .submenu li { border-bottom: 1px soli=
+d rgb(221, 221, 221); }
+
+.header .site-navbar .menu .menu-item .submenu li a { padding: 12px; }
+
+.header .site-navbar .menu .menu-item:hover .submenu { visibility: visible;=
+ transition-delay: 0s; }
+
+.header .site-navbar .menu .menu-item-link { font-size: 18px; }
+
+.header .menu-parent::after { content: " =E2=96=BC"; font-size: 11px; }
+
+.header .menu a:hover { color: rgb(192, 91, 77); }
+
+@media screen and (max-width: 1080px) {
+  .header .site-navbar { display: none; }
+}
+
+.header .menu-item-lang .icon-globe::before { font-size: 0.9em; }
+
+@media screen and (max-width: 1080px) {
+  .header { padding: 50px 0px 0px; text-align: center; }
+}
+
+.post { padding: 3em 5em; margin: 0px 5em 3em; }
+
+.post .post-header { margin-bottom: 20px; text-align: center; padding-botto=
+m: 10px; border-bottom: 2px solid lightgrey; }
+
+.post .post-header .post-title { margin: 0px; font-size: 1.8em; font-weight=
+: 400; font-family: Athelas, STHeiti, "Microsoft Yahei", serif; }
+
+.post .post-header .post-title .post-pinned svg { vertical-align: middle; w=
+idth: 24px; height: 24px; fill: rgb(192, 91, 77); }
+
+.post .post-header .post-link { display: inline-block; vertical-align: midd=
+le; transform: translateZ(0px); backface-visibility: hidden; box-shadow: rg=
+ba(0, 0, 0, 0) 0px 0px 1px; position: relative; overflow: hidden; }
+
+.post .post-header .post-link::before { content: ""; position: absolute; z-=
+index: -1; height: 2px; bottom: 0px; left: 51%; right: 51%; background: rgb=
+(192, 91, 77); transition-duration: 0.2s; transition-property: right, left;=
+ transition-timing-function: ease-out; }
+
+.post .post-header .post-link.active::before, .post .post-header .post-link=
+:active::before, .post .post-header .post-link:focus::before, .post .post-h=
+eader .post-link:hover::before { right: 0px; left: 0px; }
+
+.post .post-header .post-meta { font-size: 14px; color: rgb(138, 138, 138);=
+ }
+
+.post .post-header .post-meta .post-time { font-size: 15px; }
+
+.post .post-header .post-meta .post-category { display: inline; }
+
+.post .post-header .post-meta .post-category a::before { content: "=C2=B7";=
+ }
+
+.post .post-header .post-meta a { color: inherit; }
+
+.post .post-header .post-meta a:hover { color: rgb(192, 91, 77); }
+
+.post .post-header .post-meta .more-meta::before { content: "=C2=B7"; }
+
+.post .post-toc .post-toc-title { font-size: 1em; max-width: 9em; border: 0=
+px; font-weight: 400; padding: 0.05em 0.5em; line-height: 1em; }
+
+.post .post-toc .post-toc-content { display: block; padding: 0.5em 2em 0.5e=
+m 0.5em; margin-top: -1.5em; line-height: 1.3em; }
+
+.post .post-toc .post-toc-content ul { padding-left: 20px; list-style-type:=
+ none; }
+
+.post .post-toc .post-toc-content ul ul { list-style: disc; }
+
+.post .post-toc .post-toc-content ul ul ul { list-style: circle; }
+
+.post .post-toc .post-toc-content ul ul li > a { color: rgb(17, 51, 153); }
+
+.post .post-toc .post-toc-content ul ul li > a:hover { color: rgb(153, 0, 0=
+); }
+
+@media screen and (min-width: 1080px) {
+  .post .post-toc { display: none; border: 1px solid rgb(204, 204, 204); ba=
+ckground: rgb(255, 255, 255); box-shadow: rgb(119, 119, 119) 0px 0px 1em; p=
+osition: fixed; top: 0px; right: 0px; max-height: 80%; overflow: auto; z-in=
+dex: 99; }
+  .post .post-toc .post-toc-content { display: none; }
+  .post .post-toc:hover .post-toc-content { display: block; }
+}
+
+@media screen and (max-width: 1080px) {
+  .post .post-toc { padding: 10px; border-bottom: 2px solid lightgrey; over=
+flow-wrap: break-word; }
+}
+
+.post .post-content { overflow-wrap: break-word; }
+
+.post .post-content h1 { font-weight: 600; font-family: Athelas, STHeiti, "=
+Microsoft Yahei", serif; }
+
+.post .post-content h2 { font-weight: 600; font-family: Athelas, STHeiti, "=
+Microsoft Yahei", serif; }
+
+.post .post-content h3 { font-weight: 600; font-family: Athelas, STHeiti, "=
+Microsoft Yahei", serif; }
+
+.post .post-content h4 { font-weight: 600; font-family: Athelas, STHeiti, "=
+Microsoft Yahei", serif; }
+
+.post .post-content h5 { font-weight: 600; font-family: Athelas, STHeiti, "=
+Microsoft Yahei", serif; }
+
+.post .post-content h6 { font-weight: 600; font-family: Athelas, STHeiti, "=
+Microsoft Yahei", serif; }
+
+.post .post-content h1 { border-bottom: 1px solid rgb(221, 221, 221); margi=
+n-top: 2em; }
+
+.post .post-content h2 { border-bottom: 1px solid rgb(221, 221, 221); margi=
+n-top: 2em; }
+
+.post .post-content h3 { margin-top: 1.5em; }
+
+.post .post-content a { color: rgb(192, 91, 77); word-break: break-all; }
+
+.post .post-content a:hover { border-bottom: 1px solid rgb(192, 91, 77); }
+
+.post .post-content iframe { margin: 0px auto; display: block; width: 100%;=
+ }
+
+.post .post-content > table { border: none; width: 100%; }
+
+.post .post-content > table td { background-color: rgb(240, 228, 228); bord=
+er: 3px solid rgb(255, 255, 255); padding: 5px 15px; }
+
+.post .post-content > table th { text-align: left; background-color: rgb(16=
+6, 91, 91); color: rgb(255, 255, 255); border: 3px solid rgb(255, 255, 255)=
+; padding: 5px 15px; }
+
+.post .post-content .post-summary { margin-bottom: 1em; }
+
+.post .post-content .read-more { text-align: right; }
+
+.post .post-content .read-more .read-more-link { color: rgb(192, 91, 77); f=
+ont-size: 1.1em; font-family: Athelas, STHeiti, "Microsoft Yahei", serif; }
+
+.post .post-content .read-more .read-more-link:hover { border-bottom: 1px s=
+olid rgb(192, 91, 77); }
+
+.post .post-content kbd { display: inline-block; padding: 0.25em; backgroun=
+d-color: rgb(250, 250, 250); border-width: 1px; border-style: solid; border=
+-color: rgb(219, 219, 219) rgb(219, 219, 219) rgb(181, 181, 181); border-im=
+age: initial; border-radius: 3px; box-shadow: rgb(181, 181, 181) 0px -1px 0=
+px inset; font-size: 0.8em; line-height: 1.25; font-family: sfmono-regular,=
+ "liberation mono", "roboto mono", Menlo, Monaco, Consolas, "courier new", =
+Courier, monospace; color: rgb(74, 74, 74); }
+
+.post .post-content dl dt::after { content: ":"; }
+
+.post .post-content .task-list { list-style: none; padding-left: 1.5rem; }
+
+.post .post-content .MJXc-display { overflow: auto hidden; }
+
+.post .post-content code { padding: 3px 7px; background: rgb(248, 245, 236)=
+; border-radius: 4px; color: rgb(199, 37, 78); }
+
+.post .post-content code, .post .post-content pre { font-size: 0.9em; font-=
+family: Menlo, Consolas, "source code pro", Inconsolata, Monaco, "courier n=
+ew", monospace; }
+
+.post .post-content .highlight > .chroma { margin: 1em 0px; overflow-x: aut=
+o; position: relative; border: 2px solid rgb(221, 221, 221); line-height: 1=
+.6; }
+
+.post .post-content .highlight > .chroma code { padding: 0px; color: inheri=
+t; }
+
+.post .post-content .highlight > .chroma pre { margin: 0px; }
+
+.post .post-content .highlight > .chroma table { position: relative; paddin=
+g: 0.8em 0px; }
+
+.post .post-content .highlight > .chroma table::after { position: absolute;=
+ top: 0px; right: 0px; padding: 0px 7px; font-size: 0.8em; font-weight: 700=
+; color: rgb(177, 176, 176); content: "Code"; }
+
+.post .post-content .highlight > .chroma > table::after { content: attr(dat=
+a-lang); text-transform: capitalize; }
+
+.post .post-content .highlight > .chroma .lnt { color: rgb(202, 202, 202); =
+}
+
+.post .post-content .chroma { color: rgb(88, 110, 117); background-color: r=
+gb(248, 245, 236); }
+
+.post .post-content .chroma .lntd { vertical-align: top; padding: 0px; marg=
+in: 0px; border: 0px; }
+
+.post .post-content .chroma .lntable { border-spacing: 0px; padding: 0px; m=
+argin: 0px; border: 0px; width: auto; overflow: auto; display: block; }
+
+.post .post-content .chroma .hl { display: block; width: 100%; background-c=
+olor: rgb(255, 255, 204); }
+
+.post .post-content .chroma .lntd:first-of-type { margin-right: 0.4em; padd=
+ing: 0px 0.8em 0px 0.4em; }
+
+.post .post-content .chroma .ln { margin-right: 0.4em; padding: 0px 0.4em; =
+}
+
+.post .post-content .chroma .k { color: rgb(133, 153, 0); }
+
+.post .post-content .chroma .kc { color: rgb(133, 153, 0); font-weight: 700=
+; }
+
+.post .post-content .chroma .kd { color: rgb(133, 153, 0); }
+
+.post .post-content .chroma .kn { color: rgb(220, 50, 47); font-weight: 700=
+; }
+
+.post .post-content .chroma .kp { color: rgb(133, 153, 0); }
+
+.post .post-content .chroma .kr { color: rgb(133, 153, 0); }
+
+.post .post-content .chroma .kt { color: rgb(133, 153, 0); font-weight: 700=
+; }
+
+.post .post-content .chroma .n { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .na { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nb { color: rgb(203, 75, 22); }
+
+.post .post-content .chroma .bp { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nc { color: rgb(203, 75, 22); }
+
+.post .post-content .chroma .no { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nd { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .ni { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .ne { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nf { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .fm { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nl { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nn { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nx { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .py { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .nt { color: rgb(38, 139, 210); font-weight: 70=
+0; }
+
+.post .post-content .chroma .nv { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .vc { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .vg { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .vi { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .vm { color: rgb(38, 139, 210); }
+
+.post .post-content .chroma .l { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .ld { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .s { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sa { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sb { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sc { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .dl { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sd { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .s2 { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .se { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sh { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .si { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sx { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .sr { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .s1 { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .ss { color: rgb(42, 161, 152); }
+
+.post .post-content .chroma .m { color: rgb(42, 161, 152); font-weight: 700=
+; }
+
+.post .post-content .chroma .mb { color: rgb(42, 161, 152); font-weight: 70=
+0; }
+
+.post .post-content .chroma .mf { color: rgb(42, 161, 152); font-weight: 70=
+0; }
+
+.post .post-content .chroma .mh { color: rgb(42, 161, 152); font-weight: 70=
+0; }
+
+.post .post-content .chroma .mi { color: rgb(42, 161, 152); font-weight: 70=
+0; }
+
+.post .post-content .chroma .il { color: rgb(42, 161, 152); font-weight: 70=
+0; }
+
+.post .post-content .chroma .mo { color: rgb(42, 161, 152); font-weight: 70=
+0; }
+
+.post .post-content .chroma .ow { color: rgb(133, 153, 0); }
+
+.post .post-content .chroma .c { color: rgb(147, 161, 161); font-style: ita=
+lic; }
+
+.post .post-content .chroma .ch { color: rgb(147, 161, 161); font-style: it=
+alic; }
+
+.post .post-content .chroma .cm { color: rgb(147, 161, 161); font-style: it=
+alic; }
+
+.post .post-content .chroma .c1 { color: rgb(147, 161, 161); font-style: it=
+alic; }
+
+.post .post-content .chroma .cs { color: rgb(147, 161, 161); font-style: it=
+alic; }
+
+.post .post-content .chroma .cp { color: rgb(147, 161, 161); font-style: it=
+alic; }
+
+.post .post-content .chroma .cpf { color: rgb(147, 161, 161); font-style: i=
+talic; }
+
+.post .post-content .chroma .g { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gd { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .ge { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gr { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gh { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gi { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .go { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gp { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gs { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gu { color: rgb(211, 54, 130); }
+
+.post .post-content .chroma .gt { color: rgb(211, 54, 130); }
+
+.post .post-content p > img { cursor: pointer; }
+
+.post .post-content figure a:hover { border: 0px; }
+
+.post .post-content figure.center { clear: both; display: block; margin-lef=
+t: auto; margin-right: auto; }
+
+.post .post-content figure.right { float: right; margin-left: 1.5em; }
+
+.post .post-content figure.left { float: left; margin-right: 1.5em; }
+
+.post .post-content figure figcaption { margin-top: 0.5em; text-align: cent=
+er; line-height: 1.5em; }
+
+.post .post-content figure figcaption h4 { color: rgb(181, 181, 181); margi=
+n: 0px; }
+
+.post .post-content figure figcaption p { font-size: 0.9em; color: rgb(181,=
+ 181, 181); font-style: italic; margin: 0px; }
+
+.post .post-content blockquote { margin: 1em auto; color: rgb(85, 85, 85); =
+background-color: rgb(246, 246, 246); border-left: 4px solid rgb(153, 153, =
+153); position: relative; line-height: 1.6; font-family: "Open Sans"; }
+
+@media screen and (min-width: 1080px) {
+  .post .post-content blockquote { padding: 0.2em 2em 0.2em 3em; }
+  .post .post-content blockquote::before { font-family: Arial; content: "=
+=E2=80=9C"; color: rgb(153, 153, 153); font-size: 4em; position: absolute; =
+left: 10px; top: -10px; }
+}
+
+@media screen and (max-width: 1080px) {
+  .post .post-content blockquote { padding: 0.2em 1em; }
+}
+
+.post .post-content blockquote footer { color: rgb(51, 51, 51); margin-bott=
+om: 1em; }
+
+.post .post-content blockquote cite::before { content: "=E2=80=94"; padding=
+-right: 0.3em; padding-left: 0.3em; }
+
+.post .header-link { margin-left: 0.5em; fill: currentcolor; visibility: hi=
+dden; }
+
+.post .post-content-header:hover .header-link { visibility: visible; }
+
+.post .post-copyright { padding: 10px; background-color: rgba(181, 181, 181=
+, 0.1); border-top: 1px solid rgb(225, 225, 225); border-right: 1px solid r=
+gb(225, 225, 225); border-bottom: 1px solid rgb(225, 225, 225); border-imag=
+e: initial; border-left: solid; margin-top: 3em; }
+
+.post .post-copyright .copyright-item { margin: 5px 0px; }
+
+.post .post-copyright .copyright-item a { color: rgb(192, 91, 77); overflow=
+-wrap: break-word; }
+
+.post .post-copyright .copyright-item a:hover { border-bottom: 1px solid rg=
+b(192, 91, 77); }
+
+.post .post-copyright .copyright-item .item-title { display: inline-block; =
+min-width: 5rem; margin-right: 0.5rem; text-align: right; font-weight: 700;=
+ }
+
+.post .post-copyright .copyright-item .item-title::after { content: " :"; }
+
+.post .post-reward { margin-top: 20px; padding-top: 10px; text-align: cente=
+r; border-top: 1px dashed rgb(230, 230, 230); }
+
+.post .post-reward .reward-button { margin: 15px 0px; padding: 3px 7px; dis=
+play: inline-block; color: rgb(192, 91, 77); border: 1px solid rgb(192, 91,=
+ 77); border-radius: 5px; cursor: pointer; }
+
+.post .post-reward .reward-button:hover { color: rgb(254, 254, 254); backgr=
+ound-color: rgb(192, 91, 77); transition: all 0.5s ease 0s; }
+
+.post .post-reward #reward:checked ~ .qr-code { display: block; }
+
+.post .post-reward #reward:checked ~ .reward-button { display: none; }
+
+.post .post-reward .qr-code { display: none; }
+
+.post .post-reward .qr-code .qr-code-image { display: inline-block; min-wid=
+th: 200px; width: 40%; margin-top: 15px; }
+
+.post .post-reward .qr-code .qr-code-image span { display: inline-block; wi=
+dth: 100%; margin: 8px 0px; }
+
+.post .post-reward .qr-code .image { width: 200px; height: 200px; }
+
+.post .post-footer { font-family: Athelas, STHeiti, "Microsoft Yahei", seri=
+f; }
+
+.post .post-footer .post-tags { margin-top: 1em; }
+
+.post .post-footer .post-tags a { color: rgb(192, 91, 77); word-break: brea=
+k-all; margin-right: 10px; }
+
+.post .post-footer .post-tags a:hover { border-bottom: 1px solid rgb(192, 9=
+1, 77); }
+
+.post .post-footer .post-tags a::before { content: "#"; }
+
+.post .post-footer .post-nav { margin-top: 1em; }
+
+.post .post-footer .post-nav::before, .post .post-footer .post-nav::after {=
+ content: " "; display: table; }
+
+.post .post-footer .post-nav::after { clear: both; }
+
+.post .post-footer .post-nav .prev, .post .post-footer .post-nav .next { fo=
+nt-weight: 600; font-size: 18px; font-family: Athelas, STHeiti, "Microsoft =
+Yahei", serif; transition-property: transform; transition-timing-function: =
+ease-out; transition-duration: 0.3s; }
+
+.post .post-footer .post-nav .prev { float: left; }
+
+.post .post-footer .post-nav .prev:hover { color: rgb(192, 91, 77); transfo=
+rm: translateX(-4px); }
+
+.post .post-footer .post-nav .next { float: right; }
+
+.post .post-footer .post-nav .next:hover { color: rgb(192, 91, 77); transfo=
+rm: translateX(4px); }
+
+.post .post-footer .post-nav .nav-mobile { display: none; }
+
+@media screen and (max-width: 1080px) {
+  .post .post-footer .post-nav .nav-default { display: none; }
+  .post .post-footer .post-nav .nav-mobile { display: inline; }
+}
+
+.post .footnotes { margin-top: 50px; font-size: 0.9em; }
+
+.post .footnotes hr { border-style: solid; color: rgb(221, 221, 221); }
+
+.post .footnote-ref { display: inline; position: relative; margin-left: 3px=
+; }
+
+.post .footnote-ref:hover .fn-content { opacity: 1; visibility: visible; tr=
+ansform: translate3d(0px, 0px, 0px) rotate3d(0, 0, 0, 0deg); }
+
+.post .footnote-ref > a { font-weight: 700; }
+
+.post .footnote-ref > a::after { content: "]"; }
+
+.post .footnote-ref > a::before { content: "["; }
+
+.post .fn-content { position: absolute; display: inline-block; z-index: 14;=
+ left: 50%; bottom: 100%; line-height: 1.3; border-radius: 0.5em; border: 1=
+px solid rgba(0, 0, 0, 0.1); background: rgb(246, 246, 246); opacity: 0; vi=
+sibility: hidden; transform: translate3d(0px, -10px, 0px); transition: opac=
+ity 0.3s ease 0s, transform 0.3s ease 0s; }
+
+.post .fn-content .fn-text { display: inline-block; padding: 1em; font-size=
+: 1.2em; z-index: 8; }
+
+.post .fn-content .fn-text a { font-weight: 700; }
+
+.post .shortcode-notice p { padding: 0.6em 1em; display: block; font-size: =
+1em; margin-top: 0px; margin-bottom: 0px; color: rgb(102, 102, 102); }
+
+.post .shortcode-notice-title { color: rgb(255, 255, 255); padding-left: 1e=
+m; font-weight: 700; text-transform: capitalize; }
+
+.post .shortcode-notice-title.note { background-color: rgb(106, 176, 222); =
+}
+
+.post .shortcode-notice.note p { background: rgb(231, 242, 250); }
+
+.post .shortcode-notice-title.tip { background-color: rgba(92, 184, 92, 0.8=
+); }
+
+.post .shortcode-notice.tip p { background: rgb(230, 249, 230); }
+
+.post .shortcode-notice-title.info { background-color: rgb(240, 179, 126); =
+}
+
+.post .shortcode-notice.info p { background: rgb(255, 242, 219); }
+
+.post .shortcode-notice-title.warning { background-color: rgba(217, 83, 79,=
+ 0.8); }
+
+.post .shortcode-notice.warning p { background: rgb(250, 226, 226); }
+
+.disqus-comment { margin: 0px 5em 3em; }
+
+.disqus-comment .disqus-button { cursor: pointer; border: 2px solid rgb(221=
+, 221, 221); color: rgb(153, 153, 153); margin: 0px auto; max-width: 200px;=
+ text-align: center; padding: 10px; transition: all 0.5s ease 0s; }
+
+.disqus-comment .disqus-button:hover { color: rgb(17, 17, 17); border-color=
+: rgb(17, 17, 17); }
+
+@media screen and (max-width: 504px) {
+  .post { padding: 1em; margin: 0px 0px 2em; }
+  .disqus-comment { margin: 0px 1em 2em; }
+  .content-wrapper { padding: 1em 0px 1px; }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 900px) {
+  .post { margin: 0px 2em 2em; }
+  .disqus-comment { margin: 0px 2em 2em; }
+  .content-wrapper { padding: 2em 0px 1px; }
+}
+
+@media screen and (max-width: 899px) and (min-width: 504px) {
+  .post { padding: 1em; margin: 0px 1em 2em; }
+  .disqus-comment { margin: 0px 1em 2em; }
+  .content-wrapper { padding: 1em 0px 1px; }
+}
+
+.pagination { margin: 2em 0px; text-align: center; }
+
+.pagination::before, .pagination::after { content: " "; display: table; }
+
+.pagination::after { clear: both; }
+
+.pagination li { display: inline-block; }
+
+.pagination li a { background-color: rgb(255, 255, 255); margin-left: 0.1em=
+; margin-right: 0.1em; border: 1px solid rgb(34, 34, 34); color: rgb(34, 34=
+, 34); float: left; line-height: 1.42857; padding: 6px 12px; position: rela=
+tive; text-decoration: none; margin-bottom: 0.2em; }
+
+.pagination .active a { background-color: rgb(34, 34, 34); border-color: rg=
+b(34, 34, 34); color: rgb(255, 255, 255); cursor: default; z-index: 2; }
+
+.pagination .prev, .pagination .next { font-weight: 600; font-size: 20px; f=
+ont-family: Athelas, STHeiti, "Microsoft Yahei", serif; transition-property=
+: transform; transition-timing-function: ease-out; transition-duration: 0.3=
+s; }
+
+.pagination .prev { float: left; }
+
+.pagination .prev:hover { color: rgb(192, 91, 77); transform: translateX(-4=
+px); }
+
+.pagination .next { float: right; }
+
+.pagination .next:hover { color: rgb(192, 91, 77); transform: translateX(4p=
+x); }
+
+@media screen and (max-width: 1080px) {
+  .pagination { margin: 1em 0px; }
+}
+
+.footer { margin-top: 2em; }
+
+.footer .social-links { display: flex; justify-content: center; align-items=
+: center; flex-wrap: wrap; }
+
+.footer .social-links .iconfont { font-size: 1.7em; }
+
+.footer .social-links .iconfont + .iconfont { margin-left: 0.5em; }
+
+.footer .social-links .iconfont:hover { color: rgb(192, 91, 77); }
+
+.footer .social-links .iconfont:hover svg { fill: rgb(192, 91, 77); }
+
+.footer .copyright { margin: 10px 0px; color: rgb(138, 138, 138); text-alig=
+n: center; font-family: Athelas, STHeiti, "Microsoft Yahei", serif; }
+
+.footer .copyright .hexo-link, .footer .copyright .theme-link { color: rgb(=
+192, 91, 77); }
+
+.footer .copyright .copyright-year { display: block; }
+
+.footer .copyright .copyright-year .heart { font-size: 14px; }
+
+.archive { margin: 0px 5em 3em; background-color: rgb(255, 255, 255); paddi=
+ng: 1em 5em 5em; }
+
+.archive .archive-title { font-family: Athelas, STHeiti, "Microsoft Yahei",=
+ serif; }
+
+.archive .archive-title.tag, .archive .archive-title.category, .archive .ar=
+chive-title.author { margin: 20px 0px; }
+
+.archive .archive-title .archive-name { margin: 0px; display: inline-block;=
+ font-weight: 400; font-size: 30px; line-height: 32px; }
+
+.archive .archive-title .archive-post-counter { display: none; color: rgb(1=
+38, 138, 138); }
+
+.archive .collection-title { font-family: Athelas, STHeiti, "Microsoft Yahe=
+i", serif; }
+
+.archive .collection-title .archive-year { margin: 2em 0px 0px; font-weight=
+: 400; font-size: 28px; line-height: 30px; }
+
+.archive .archive-post { padding: 15px 20px 5px; border-bottom: 1px solid r=
+gb(202, 202, 202); font-size: 1.1em; display: table; width: 100%; }
+
+.archive .archive-post .archive-post-time { color: rgb(138, 138, 138); disp=
+lay: table-cell; width: 7em; vertical-align: middle; }
+
+.archive .archive-post .archive-post-title { display: table-cell; vertical-=
+align: middle; }
+
+.archive .archive-post .archive-post-title .archive-post-link { color: rgb(=
+192, 91, 77); }
+
+.archive .archive-post:hover { transition: all 0.2s ease-out 0s; transform:=
+ translateX(4px); }
+
+.archive .archive-post:hover .archive-post-time { color: rgb(113, 112, 112)=
+; }
+
+.archive .archive-post:hover .archive-post-title .archive-post-link { color=
+: rgb(161, 70, 57); }
+
+.archive .more-post { text-align: right; }
+
+.archive .more-post .more-post-link { margin-top: 1em; color: rgb(192, 91, =
+77); font-size: 1.1em; font-family: Athelas, STHeiti, "Microsoft Yahei", se=
+rif; }
+
+.archive .more-post .more-post-link:hover { border-bottom: 1px solid rgb(19=
+2, 91, 77); }
+
+@media screen and (max-width: 899px) {
+  .archive { margin: 0px auto 1em; padding: 1em; }
+  .archive .archive-title .archive-name { font-size: 26px; }
+  .archive .collection-title .archive-year { margin: 10px 0px; font-size: 2=
+4px; }
+  .archive .archive-post { padding: 5px 10px; }
+  .archive .archive-post .archive-post-time { font-size: 13px; display: blo=
+ck; }
+  .archive .archive-post .archive-post-title { display: block; }
+}
+
+.tag-cloud { margin: 2em 0px 3em; text-align: center; font-family: Athelas,=
+ STHeiti, "Microsoft Yahei", serif; }
+
+.tag-cloud .tag-cloud-title { display: inline-block; font-size: 24px; color=
+: rgb(192, 91, 77); border-bottom: 2px solid rgb(192, 91, 77); }
+
+.tag-cloud .tag-cloud-tags { margin: 10px 0px; }
+
+.tag-cloud .tag-cloud-tags a { display: inline-block; position: relative; m=
+argin: 5px 10px; overflow-wrap: break-word; transition-duration: 0.2s; tran=
+sition-property: transform; transition-timing-function: ease-out; }
+
+.tag-cloud .tag-cloud-tags a .tag-count { display: inline-block; position: =
+relative; top: -8px; right: -2px; color: rgb(192, 91, 77); font-size: 12px;=
+ }
+
+.tag-cloud .tag-cloud-tags a:active, .tag-cloud .tag-cloud-tags a:focus, .t=
+ag-cloud .tag-cloud-tags a:hover { color: rgb(192, 91, 77); transform: scal=
+e(1.1); }
+
+.categories { margin: 2em 0px 3em; text-align: center; font-family: Athelas=
+, STHeiti, "Microsoft Yahei", serif; }
+
+.categories .categories-title { display: inline-block; font-size: 18px; col=
+or: rgb(192, 91, 77); border-bottom: 2px solid rgb(192, 91, 77); }
+
+.categories .categories-tags { margin: 10px 0px; }
+
+.categories .categories-tags .category-link { display: inline-block; positi=
+on: relative; margin: 5px 10px; overflow-wrap: break-word; transition-durat=
+ion: 0.2s; transition-property: transform; transition-timing-function: ease=
+-out; }
+
+.categories .categories-tags .category-link .category-count { display: inli=
+ne-block; position: relative; top: -8px; right: -2px; color: rgb(192, 91, 7=
+7); font-size: 12px; }
+
+.categories .categories-tags .category-link:active, .categories .categories=
+-tags .category-link:focus, .categories .categories-tags .category-link:hov=
+er { color: rgb(192, 91, 77); transform: scale(1.1); }
+
+.slideout-menu { position: fixed; top: 0px; left: 0px; bottom: 0px; width: =
+180px; min-height: 100vh; overflow-y: hidden; z-index: 0; display: none; }
+
+.slideout-panel { z-index: 1; background-color: rgb(254, 254, 254); min-hei=
+ght: 100%; }
+
+.slideout-open, .slideout-open body, .slideout-open .slideout-panel { overf=
+low: hidden; }
+
+.slideout-open .slideout-menu { display: block; }
+
+.mobile-navbar { display: none; position: fixed; top: 0px; left: 0px; width=
+: 100%; height: 50px; background: rgb(254, 254, 254); box-shadow: rgb(202, =
+202, 202) 0px 2px 2px; text-align: center; transition: transform 300ms ease=
+ 0s; z-index: 99; }
+
+.mobile-navbar.fixed-open { transform: translate3d(180px, 0px, 0px); }
+
+.mobile-navbar .mobile-header-logo { display: inline-block; margin-right: 5=
+0px; }
+
+.mobile-navbar .mobile-header-logo .logo { font-size: 22px; line-height: 50=
+px; font-family: cursive, LiSu, sans-serif; }
+
+.mobile-navbar .mobile-navbar-icon { color: rgb(192, 91, 77); height: 50px;=
+ width: 50px; font-size: 24px; text-align: center; float: left; position: r=
+elative; transition: background 0.5s ease 0s; }
+
+@keyframes clickfirst {=20
+  0% { transform: translateY(6px) rotate(0deg); }
+  100% { transform: translateY(0px) rotate(45deg); }
+}
+
+@keyframes clickmid {=20
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes clicklast {=20
+  0% { transform: translateY(-6px) rotate(0deg); }
+  100% { transform: translateY(0px) rotate(-45deg); }
+}
+
+@keyframes outfirst {=20
+  0% { transform: translateY(0px) rotate(-45deg); }
+  100% { transform: translateY(-6px) rotate(0deg); }
+}
+
+@keyframes outmid {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes outlast {=20
+  0% { transform: translateY(0px) rotate(45deg); }
+  100% { transform: translateY(6px) rotate(0deg); }
+}
+
+.mobile-navbar .mobile-navbar-icon span { position: absolute; left: calc((1=
+00% - 20px) / 2); top: calc((100% - 1px) / 2); width: 20px; height: 1px; ba=
+ckground-color: rgb(192, 91, 77); }
+
+.mobile-navbar .mobile-navbar-icon span:nth-child(1) { transform: translate=
+Y(6px) rotate(0deg); }
+
+.mobile-navbar .mobile-navbar-icon span:nth-child(3) { transform: translate=
+Y(-6px) rotate(0deg); }
+
+.mobile-navbar .mobile-navbar-icon.icon-click span:nth-child(1) { animation=
+-duration: 0.5s; animation-fill-mode: both; animation-name: clickfirst; }
+
+.mobile-navbar .mobile-navbar-icon.icon-click span:nth-child(2) { animation=
+-duration: 0.2s; animation-fill-mode: both; animation-name: clickmid; }
+
+.mobile-navbar .mobile-navbar-icon.icon-click span:nth-child(3) { animation=
+-duration: 0.5s; animation-fill-mode: both; animation-name: clicklast; }
+
+.mobile-navbar .mobile-navbar-icon.icon-out span:nth-child(1) { animation-d=
+uration: 0.5s; animation-fill-mode: both; animation-name: outfirst; }
+
+.mobile-navbar .mobile-navbar-icon.icon-out span:nth-child(2) { animation-d=
+uration: 0.2s; animation-fill-mode: both; animation-name: outmid; }
+
+.mobile-navbar .mobile-navbar-icon.icon-out span:nth-child(3) { animation-d=
+uration: 0.5s; animation-fill-mode: both; animation-name: outlast; }
+
+.mobile-menu { background-color: rgba(248, 245, 236, 0.5); }
+
+.mobile-menu .mobile-menu-list { position: relative; list-style: none; marg=
+in-top: 50px; padding: 0px; border-top: 1px solid rgb(248, 245, 236); }
+
+.mobile-menu .mobile-menu-list .mobile-menu-item > a { padding: 10px 30px; =
+display: block; border-bottom: 1px solid rgb(248, 245, 236); }
+
+.mobile-menu .mobile-menu-list a { font-size: 18px; font-family: Athelas, S=
+THeiti, "Microsoft Yahei", serif; }
+
+.mobile-menu .mobile-menu-list a:hover { color: rgb(192, 91, 77); }
+
+.mobile-menu-parent { position: relative; border-bottom: 1px solid rgb(248,=
+ 245, 236); }
+
+.mobile-menu-parent a { margin-right: 40px; padding: 10px 0px 10px 30px; di=
+splay: block; }
+
+.mobile-menu-parent .mobile-submenu-open { width: 40px; height: 100%; paddi=
+ng: 0px; position: absolute; right: 0px; top: 0px; z-index: 2; border-left:=
+ 1px solid rgb(248, 245, 236); }
+
+.mobile-menu-parent .mobile-submenu-open::before { content: ""; border-righ=
+t: 2px solid; border-bottom: 2px solid; display: inline-block; width: 7px; =
+height: 7px; transform: rotate(-45deg); margin-bottom: -5px; position: abso=
+lute; bottom: 50%; right: 18px; }
+
+.mobile-submenu-show > .mobile-submenu-open::before { transform: rotate(45d=
+eg); }
+
+.mobile-submenu-list { display: none; padding-left: 1em; border-bottom: 1px=
+ solid rgb(248, 245, 236); list-style: none; }
+
+.mobile-submenu-list li > a { display: block; }
+
+.mobile-submenu-list li > a::before { content: "- "; }
+
+@media screen and (max-width: 1080px) {
+  .mobile-navbar { display: block; }
+}
+
+.mobile-menu-item-lang .icon-globe::before { font-size: 0.9em; }
+
+.back-to-top { display: none; position: fixed; right: 2em; bottom: 2em; tra=
+nsition-property: transform; transition-timing-function: ease-out; transiti=
+on-duration: 0.3s; z-index: 10; cursor: pointer; }
+
+.back-to-top:hover { transform: translateY(-5px); }
+
+@media screen and (max-width: 1080px) {
+  .back-to-top { display: none !important; }
+}
+
+.not-found { text-align: center; }
+
+.not-found .error-emoji { color: rgb(54, 54, 54); font-size: 3rem; }
+
+.not-found .error-text { color: rgb(121, 121, 121); font-size: 1.25rem; }
+
+.not-found .error-link { margin-top: 2rem; }
+
+.not-found .error-link a { color: rgb(192, 91, 77); }
+
+.author-info { margin: 0px 5em 3em; background-color: rgb(255, 255, 255); p=
+adding: 2em 5em; text-align: center; }
+
+.author-info .author-box .author-image img { margin: 1em auto; border-radiu=
+s: 50%; border: 1px solid rgb(153, 153, 153); float: left; }
+
+.author-info .author-box .author-content { padding-left: 200px; text-align:=
+ left; }
+
+.author-info .author-box .author-content .author-title { color: rgb(170, 17=
+0, 170); margin-bottom: 0.1em; font-size: 14px; }
+
+.author-info .author-box .author-content .author-name { font-weight: 700; m=
+argin-top: 0px; margin-bottom: 0.5em; }
+
+.author-info .author-box .author-content .author-desc { font-size: 16px; }
+
+.author-info .author-box .author-bottom { clear: both; }
+
+@media screen and (max-width: 1080px) and (min-width: 900px) {
+  .author-info { margin: 0px 2em 2em; }
+}
+
+@media screen and (max-width: 899px) and (min-width: 504px) {
+  .author-info { margin: 0px 1em 2em; padding-left: 1em; padding-right: 1em=
+; }
+}
+
+@media screen and (max-width: 504px) {
+  .author-info { margin: 0px 0px 2em; padding: 1em; }
+  .author-info .author-box .author-image img { float: none; }
+  .author-info .author-box .author-content { padding-left: 0px; text-align:=
+ center; }
+}
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mazhidong.github.io/css/custom.css
+
+@charset "utf-8";
+
+.post { margin: 0px 1em 3em; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mazhidong.github.io/lib/photoswipe/photoswipe.min.css
+
+@charset "utf-8";
+
+.pswp { display: none; position: absolute; width: 100%; height: 100%; left:=
+ 0px; top: 0px; overflow: hidden; touch-action: none; z-index: 1500; text-s=
+ize-adjust: 100%; backface-visibility: hidden; outline: 0px; }
+
+.pswp * { box-sizing: border-box; }
+
+.pswp img { max-width: none; }
+
+.pswp--animate_opacity { opacity: 0.001; will-change: opacity; transition: =
+opacity 333ms cubic-bezier(0.4, 0, 0.22, 1) 0s; }
+
+.pswp--open { display: block; }
+
+.pswp--zoom-allowed .pswp__img { cursor: zoom-in; }
+
+.pswp--zoomed-in .pswp__img { cursor: grab; }
+
+.pswp--dragging .pswp__img { cursor: grabbing; }
+
+.pswp__bg { position: absolute; left: 0px; top: 0px; width: 100%; height: 1=
+00%; background: rgb(0, 0, 0); opacity: 0; backface-visibility: hidden; wil=
+l-change: opacity; }
+
+.pswp__scroll-wrap { position: absolute; left: 0px; top: 0px; width: 100%; =
+height: 100%; overflow: hidden; }
+
+.pswp__container, .pswp__zoom-wrap { touch-action: none; position: absolute=
+; left: 0px; right: 0px; top: 0px; bottom: 0px; }
+
+.pswp__container, .pswp__img { user-select: none; -webkit-tap-highlight-col=
+or: transparent; }
+
+.pswp__zoom-wrap { position: absolute; width: 100%; transform-origin: left =
+top; transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1) 0s; }
+
+.pswp__bg { will-change: opacity; transition: opacity 333ms cubic-bezier(0.=
+4, 0, 0.22, 1) 0s; }
+
+.pswp--animated-in .pswp__bg, .pswp--animated-in .pswp__zoom-wrap { transit=
+ion: none 0s ease 0s; }
+
+.pswp__container, .pswp__zoom-wrap { backface-visibility: hidden; }
+
+.pswp__item { position: absolute; left: 0px; right: 0px; top: 0px; bottom: =
+0px; overflow: hidden; }
+
+.pswp__img { position: absolute; width: auto; height: auto; top: 0px; left:=
+ 0px; }
+
+.pswp__img--placeholder { backface-visibility: hidden; }
+
+.pswp__img--placeholder--blank { background: rgb(34, 34, 34); }
+
+.pswp--ie .pswp__img { left: 0px; top: 0px; width: 100% !important; height:=
+ auto !important; }
+
+.pswp__error-msg { position: absolute; left: 0px; top: 50%; width: 100%; te=
+xt-align: center; font-size: 14px; line-height: 16px; margin-top: -8px; col=
+or: rgb(204, 204, 204); }
+
+.pswp__error-msg a { color: rgb(204, 204, 204); text-decoration: underline;=
+ }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mazhidong.github.io/lib/photoswipe/default-skin/default-skin.min.css
+
+@charset "utf-8";
+
+.pswp__button { width: 44px; height: 44px; position: relative; background: =
+0px center; cursor: pointer; overflow: visible; -webkit-appearance: none; d=
+isplay: block; border: 0px; padding: 0px; margin: 0px; float: right; opacit=
+y: 0.75; transition: opacity 0.2s ease 0s; box-shadow: none; }
+
+.pswp__button:focus, .pswp__button:hover { opacity: 1; }
+
+.pswp__button:active { outline: 0px; opacity: 0.9; }
+
+.pswp__ui--over-close .pswp__button--close { opacity: 1; }
+
+.pswp__button, .pswp__button--arrow--left::before, .pswp__button--arrow--ri=
+ght::before { background: url("default-skin.png") 0px 0px / 264px 88px no-r=
+epeat; width: 44px; height: 44px; }
+
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-rat=
+io: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left::before, =
+.pswp--svg .pswp__button--arrow--right::before { background-image: url("def=
+ault-skin.svg"); }
+  .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--r=
+ight { background: 0px center; }
+}
+
+.pswp__button--close { background-position: 0px -44px; }
+
+.pswp__button--share { background-position: -44px -44px; }
+
+.pswp__button--fs { display: none; }
+
+.pswp--supports-fs .pswp__button--fs { display: block; }
+
+.pswp--fs .pswp__button--fs { background-position: -44px 0px; }
+
+.pswp__button--zoom { display: none; background-position: -88px 0px; }
+
+.pswp--zoom-allowed .pswp__button--zoom { display: block; }
+
+.pswp--zoomed-in .pswp__button--zoom { background-position: -132px 0px; }
+
+.pswp--touch .pswp__button--arrow--left, .pswp--touch .pswp__button--arrow-=
+-right { visibility: hidden; }
+
+.pswp__button--arrow--left, .pswp__button--arrow--right { background: 0px c=
+enter; top: 50%; margin-top: -50px; width: 70px; height: 100px; position: a=
+bsolute; }
+
+.pswp__button--arrow--left { left: 0px; }
+
+.pswp__button--arrow--right { right: 0px; }
+
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before { c=
+ontent: ""; top: 35px; background-color: rgba(0, 0, 0, 0.3); height: 30px; =
+width: 32px; position: absolute; }
+
+.pswp__button--arrow--left::before { left: 6px; background-position: -138px=
+ -44px; }
+
+.pswp__button--arrow--right::before { right: 6px; background-position: -94p=
+x -44px; }
+
+.pswp__counter, .pswp__share-modal { user-select: none; }
+
+.pswp__share-modal { display: block; background: rgba(0, 0, 0, 0.5); width:=
+ 100%; height: 100%; top: 0px; left: 0px; padding: 10px; position: absolute=
+; z-index: 1600; opacity: 0; transition: opacity 0.25s ease-out 0s; backfac=
+e-visibility: hidden; will-change: opacity; }
+
+.pswp__share-modal--hidden { display: none; }
+
+.pswp__share-tooltip { z-index: 1620; position: absolute; background: rgb(2=
+55, 255, 255); top: 56px; border-radius: 2px; display: block; width: auto; =
+right: 44px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px; transform: transl=
+ateY(6px); transition: transform 0.25s ease 0s; backface-visibility: hidden=
+; will-change: transform; }
+
+.pswp__share-tooltip a { display: block; padding: 8px 12px; color: rgb(0, 0=
+, 0); text-decoration: none; font-size: 14px; line-height: 18px; }
+
+.pswp__share-tooltip a:hover { text-decoration: none; color: rgb(0, 0, 0); =
+}
+
+.pswp__share-tooltip a:first-child { border-radius: 2px 2px 0px 0px; }
+
+.pswp__share-tooltip a:last-child { border-radius: 0px 0px 2px 2px; }
+
+.pswp__share-modal--fade-in { opacity: 1; }
+
+.pswp__share-modal--fade-in .pswp__share-tooltip { transform: translateY(0p=
+x); }
+
+.pswp--touch .pswp__share-tooltip a { padding: 16px 12px; }
+
+a.pswp__share--facebook::before { content: ""; display: block; width: 0px; =
+height: 0px; position: absolute; top: -12px; right: 15px; border-width: 6px=
+; border-style: solid; border-color: transparent transparent rgb(255, 255, =
+255); border-image: initial; pointer-events: none; }
+
+a.pswp__share--facebook:hover { background: rgb(62, 92, 154); color: rgb(25=
+5, 255, 255); }
+
+a.pswp__share--facebook:hover::before { border-bottom-color: rgb(62, 92, 15=
+4); }
+
+a.pswp__share--twitter:hover { background: rgb(85, 172, 238); color: rgb(25=
+5, 255, 255); }
+
+a.pswp__share--pinterest:hover { background: rgb(204, 204, 204); color: rgb=
+(206, 39, 45); }
+
+a.pswp__share--download:hover { background: rgb(221, 221, 221); }
+
+.pswp__counter { position: absolute; left: 0px; top: 0px; height: 44px; fon=
+t-size: 13px; line-height: 44px; color: rgb(255, 255, 255); opacity: 0.75; =
+padding: 0px 10px; }
+
+.pswp__caption { position: absolute; left: 0px; bottom: 0px; width: 100%; m=
+in-height: 44px; }
+
+.pswp__caption small { font-size: 11px; color: rgb(187, 187, 187); }
+
+.pswp__caption__center { text-align: left; max-width: 420px; margin: 0px au=
+to; font-size: 13px; padding: 10px; line-height: 20px; color: rgb(204, 204,=
+ 204); }
+
+.pswp__caption--empty { display: none; }
+
+.pswp__caption--fake { visibility: hidden; }
+
+.pswp__preloader { width: 44px; height: 44px; position: absolute; top: 0px;=
+ left: 50%; margin-left: -22px; opacity: 0; transition: opacity 0.25s ease-=
+out 0s; will-change: opacity; direction: ltr; }
+
+.pswp__preloader__icn { width: 20px; height: 20px; margin: 12px; }
+
+.pswp__preloader--active { opacity: 1; }
+
+.pswp__preloader--active .pswp__preloader__icn { background: url("preloader=
+.gif") 0px 0px no-repeat; }
+
+.pswp--css_animation .pswp__preloader--active { opacity: 1; }
+
+.pswp--css_animation .pswp__preloader--active .pswp__preloader__icn { anima=
+tion: 500ms linear 0s infinite normal none running clockwise; }
+
+.pswp--css_animation .pswp__preloader--active .pswp__preloader__donut { ani=
+mation: 1000ms cubic-bezier(0.4, 0, 0.22, 1) 0s infinite normal none runnin=
+g donut-rotate; }
+
+.pswp--css_animation .pswp__preloader__icn { background: 0px center; opacit=
+y: 0.75; width: 14px; height: 14px; position: absolute; left: 15px; top: 15=
+px; margin: 0px; }
+
+.pswp--css_animation .pswp__preloader__cut { position: relative; width: 7px=
+; height: 14px; overflow: hidden; }
+
+.pswp--css_animation .pswp__preloader__donut { box-sizing: border-box; widt=
+h: 14px; height: 14px; border-width: 2px; border-style: solid; border-color=
+: rgb(255, 255, 255) rgb(255, 255, 255) transparent transparent; border-ima=
+ge: initial; border-radius: 50%; position: absolute; top: 0px; left: 0px; b=
+ackground: 0px center; margin: 0px; }
+
+@media screen and (max-width: 1024px) {
+  .pswp__preloader { position: relative; left: auto; top: auto; margin: 0px=
+; float: right; }
+}
+
+@-webkit-keyframes clockwise {=20
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes clockwise {=20
+  100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes donut-rotate {=20
+  50% { transform: rotate(-140deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes donut-rotate {=20
+  50% { transform: rotate(-140deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.pswp__ui { -webkit-font-smoothing: auto; visibility: visible; opacity: 1; =
+z-index: 1550; }
+
+.pswp__top-bar { position: absolute; left: 0px; top: 0px; height: 44px; wid=
+th: 100%; }
+
+.pswp__caption, .pswp__top-bar, .pswp--has_mouse .pswp__button--arrow--left=
+, .pswp--has_mouse .pswp__button--arrow--right { backface-visibility: hidde=
+n; will-change: opacity; transition: opacity 333ms cubic-bezier(0.4, 0, 0.2=
+2, 1) 0s; }
+
+.pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button=
+--arrow--right { visibility: visible; }
+
+.pswp__top-bar, .pswp__caption { background-color: rgba(0, 0, 0, 0.5); }
+
+.pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption { background-c=
+olor: rgba(0, 0, 0, 0.3); }
+
+.pswp__ui--idle .pswp__top-bar { opacity: 0; }
+
+.pswp__ui--idle .pswp__button--arrow--left, .pswp__ui--idle .pswp__button--=
+arrow--right { opacity: 0; }
+
+.pswp__ui--hidden .pswp__top-bar, .pswp__ui--hidden .pswp__caption, .pswp__=
+ui--hidden .pswp__button--arrow--left, .pswp__ui--hidden .pswp__button--arr=
+ow--right { opacity: 0.001; }
+
+.pswp__ui--one-slide .pswp__button--arrow--left, .pswp__ui--one-slide .pswp=
+__button--arrow--right, .pswp__ui--one-slide .pswp__counter { display: none=
+; }
+
+.pswp__element--disabled { display: none !important; }
+
+.pswp--minimal--dark .pswp__top-bar { background: 0px center; }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mazhidong.github.io/lib/gitment/gitment-0.0.3.min.css
+
+@charset "utf-8";
+
+.gitment-markdown hr::after, .gitment-markdown::after { clear: both; }
+
+.gitment-container { font-family: sans-serif; font-size: 14px; line-height:=
+ 1.5; color: rgb(51, 51, 51); overflow-wrap: break-word; }
+
+.gitment-container * { box-sizing: border-box; }
+
+.gitment-container :disabled { cursor: not-allowed; }
+
+.gitment-container a, .gitment-container a:visited { cursor: pointer; text-=
+decoration: none; }
+
+.gitment-container a:hover { text-decoration: underline; }
+
+.gitment-container .gitment-hidden { display: none; }
+
+.gitment-container .gitment-spinner-icon { fill: rgb(51, 51, 51); animation=
+: 1s steps(12) 0s infinite normal none running gitment-spin; }
+
+@-webkit-keyframes gitment-spin {=20
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes gitment-spin {=20
+  100% { transform: rotate(360deg); }
+}
+
+.gitment-header-container, .gitment-root-container { margin: 19px 0px; }
+
+.gitment-comment-like-btn, .gitment-comment-reply-btn, .gitment-header-like=
+-btn { cursor: pointer; }
+
+.gitment-comment-like-btn, .gitment-comment-reply-btn { float: right; }
+
+.gitment-comment-like-btn.liked { color: rgb(244, 67, 54); }
+
+.gitment-header-like-btn svg { vertical-align: middle; height: 30px; }
+
+.gitment-comment-like-btn svg, .gitment-comment-reply-btn svg { vertical-al=
+ign: middle; height: 20px; }
+
+.gitment-comment-like-btn.liked svg, .gitment-header-like-btn.liked svg { f=
+ill: rgb(244, 67, 54); }
+
+a.gitment-header-issue-link, a.gitment-header-issue-link:visited { float: r=
+ight; line-height: 30px; color: rgb(102, 102, 102); }
+
+a.gitment-header-issue-link:hover { color: rgb(102, 102, 102); }
+
+.gitment-comments-empty, .gitment-comments-error, .gitment-comments-loading=
+ { text-align: center; margin: 50px 0px; }
+
+.gitment-comments-list { list-style: none; padding-left: 0px; margin: 0px 0=
+px 38px; }
+
+.gitment-comment, .gitment-editor-container { position: relative; min-heigh=
+t: 60px; padding-left: 60px; margin: 19px 0px; }
+
+.gitment-comment-avatar, .gitment-editor-avatar { float: left; margin-left:=
+ -60px; }
+
+.gitment-comment-avatar, .gitment-comment-avatar-img, .gitment-editor-avata=
+r svg, .gitment-editor-avatar-img { width: 44px; height: 44px; border-radiu=
+s: 3px; }
+
+.gitment-editor-avatar .gitment-github-icon { fill: rgb(255, 255, 255); bac=
+kground-color: rgb(51, 51, 51); }
+
+.gitment-comment-main, .gitment-editor-main { position: relative; border: 1=
+px solid rgb(207, 216, 220); border-radius: 0px; }
+
+.gitment-comment-main::after, .gitment-comment-main::before, .gitment-edito=
+r-main::after, .gitment-editor-main::before { position: absolute; top: 11px=
+; left: -16px; display: block; width: 0px; height: 0px; pointer-events: non=
+e; content: ""; border-color: transparent; border-style: solid solid outset=
+; }
+
+.gitment-comment-main::before, .gitment-editor-main::before { border-width:=
+ 8px; border-right-color: rgb(207, 216, 220); }
+
+.gitment-comment-main::after, .gitment-editor-main::after { margin-top: 1px=
+; margin-left: 2px; border-width: 7px; border-right-color: rgb(255, 255, 25=
+5); }
+
+.gitment-comment-header { margin: 12px 15px; color: rgb(102, 102, 102); bac=
+kground-color: rgb(255, 255, 255); border-radius: 3px; }
+
+.gitment-editor-header { padding: 0px; margin: 0px; border-bottom: 1px soli=
+d rgb(207, 216, 220); }
+
+a.gitment-comment-name, a.gitment-comment-name:visited { font-weight: 600; =
+color: rgb(102, 102, 102); }
+
+.gitment-editor-tabs { margin-bottom: -1px; margin-left: -1px; }
+
+.gitment-editor-tab { display: inline-block; padding: 11px 12px; font-size:=
+ 14px; line-height: 20px; color: rgb(102, 102, 102); text-decoration: none;=
+ background-color: transparent; border-width: 0px 1px; border-style: solid;=
+ border-color: transparent; border-radius: 0px; white-space: nowrap; cursor=
+: pointer; user-select: none; outline: 0px; }
+
+.gitment-editor-tab.gitment-selected { color: rgb(51, 51, 51); background-c=
+olor: rgb(255, 255, 255); border-color: rgb(207, 216, 220); }
+
+.gitment-editor-login { float: right; margin-top: -30px; margin-right: 15px=
+; }
+
+a.gitment-editor-login-link, a.gitment-editor-login-link:visited, a.gitment=
+-footer-project-link, a.gitment-footer-project-link:visited { color: rgb(33=
+, 150, 243); }
+
+a.gitment-editor-logout-link, a.gitment-editor-logout-link:visited { color:=
+ rgb(102, 102, 102); }
+
+a.gitment-editor-logout-link:hover { color: rgb(33, 150, 243); text-decorat=
+ion: none; }
+
+.gitment-comment-body { position: relative; margin: 12px 15px; overflow: hi=
+dden; border-radius: 3px; }
+
+.gitment-comment-body-folded::after, .gitment-comment-body-folded::before {=
+ position: absolute; left: 0px; pointer-events: none; width: 100%; display:=
+ block !important; }
+
+.gitment-comment-body-folded { cursor: pointer; }
+
+.gitment-comment-body-folded::before { content: ""; top: 0px; bottom: 50px;=
+ background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.=
+9)); }
+
+.gitment-comment-body-folded::after { text-align: center; color: rgb(102, 1=
+02, 102); height: 50px; line-height: 50px; bottom: 0px; background: rgba(25=
+5, 255, 255, 0.9); content: "Click to Expand" !important; }
+
+.gitment-editor-body { margin: 0px; }
+
+.gitment-comment-body > :first-child, .gitment-editor-preview > :first-chil=
+d { margin-top: 0px !important; }
+
+.gitment-comment-body > :last-child, .gitment-editor-preview > :last-child =
+{ margin-bottom: 0px !important; }
+
+.gitment-editor-body textarea { display: block; width: 100%; min-height: 15=
+0px; max-height: 500px; padding: 16px; resize: vertical; max-width: 100%; m=
+argin: 0px; font-size: 14px; line-height: 1.6; background-color: rgb(255, 2=
+55, 255); color: rgb(51, 51, 51); vertical-align: middle; border: none; bor=
+der-radius: 0px; outline: 0px; box-shadow: none; overflow: visible; }
+
+.gitment-editor-body textarea:focus { background-color: rgb(255, 255, 255);=
+ }
+
+.gitment-editor-preview { min-height: 150px; padding: 16px; background-colo=
+r: transparent; width: 100%; font-size: 14px; line-height: 1.5; overflow-wr=
+ap: break-word; }
+
+.gitment-editor-footer { padding: 0px; margin-top: 10px; }
+
+.gitment-editor-footer::after { display: table; clear: both; content: ""; }
+
+a.gitment-editor-footer-tip { display: inline-block; padding-top: 10px; fon=
+t-size: 12px; color: rgb(102, 102, 102); }
+
+a.gitment-editor-footer-tip:hover { color: rgb(33, 150, 243); text-decorati=
+on: none; }
+
+.gitment-comments-pagination { list-style: none; text-align: right; border-=
+radius: 0px; margin: -19px 0px 19px; }
+
+.gitment-comments-page-item { display: inline-block; cursor: pointer; borde=
+r: 1px solid rgb(207, 216, 220); margin-left: -1px; padding: 0.25rem 0.5rem=
+; }
+
+.gitment-comments-page-item.gitment-selected, .gitment-comments-page-item:h=
+over { background-color: rgb(245, 245, 245); }
+
+.gitment-comments-init-btn, .gitment-editor-submit { color: rgb(255, 255, 2=
+55); background-color: rgb(0, 188, 212); position: relative; display: inlin=
+e-block; padding: 7px 13px; font-size: 14px; font-weight: 600; line-height:=
+ 20px; white-space: nowrap; vertical-align: middle; cursor: pointer; user-s=
+elect: none; background-size: 110% 110%; border: none; -webkit-appearance: =
+none; }
+
+.gitment-comments-init-btn:hover, .gitment-editor-submit:hover { background=
+-color: rgb(0, 172, 193); }
+
+.gitment-comments-init-btn:disabled, .gitment-editor-submit:disabled { colo=
+r: rgba(255, 255, 255, 0.75); background-color: rgb(77, 208, 225); box-shad=
+ow: none; }
+
+.gitment-editor-submit { float: right; }
+
+.gitment-footer-container { margin-top: 30px; margin-bottom: 20px; text-ali=
+gn: right; font-size: 12px; }
+
+.gitment-markdown { text-size-adjust: 100%; color: rgb(51, 51, 51); font-fa=
+mily: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans=
+-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size=
+: 16px; line-height: 1.5; overflow-wrap: break-word; }
+
+.gitment-markdown .pl-c { color: rgb(150, 152, 150); }
+
+.gitment-markdown .pl-c1, .gitment-markdown .pl-s .pl-v { color: rgb(0, 134=
+, 179); }
+
+.gitment-markdown .pl-e, .gitment-markdown .pl-en { color: rgb(121, 93, 163=
+); }
+
+.gitment-markdown .pl-s .pl-s1, .gitment-markdown .pl-smi { color: rgb(51, =
+51, 51); }
+
+.gitment-markdown .pl-ent { color: rgb(99, 163, 92); }
+
+.gitment-markdown .pl-k { color: rgb(167, 29, 93); }
+
+.gitment-markdown .pl-pds, .gitment-markdown .pl-s, .gitment-markdown .pl-s=
+ .pl-pse .pl-s1, .gitment-markdown .pl-sr, .gitment-markdown .pl-sr .pl-cce=
+, .gitment-markdown .pl-sr .pl-sra, .gitment-markdown .pl-sr .pl-sre { colo=
+r: rgb(24, 54, 145); }
+
+.gitment-markdown .pl-smw, .gitment-markdown .pl-v { color: rgb(237, 106, 6=
+7); }
+
+.gitment-markdown .pl-bu { color: rgb(181, 42, 29); }
+
+.gitment-markdown .pl-c2, .gitment-markdown .pl-ii { color: rgb(248, 248, 2=
+48); background-color: rgb(181, 42, 29); }
+
+.gitment-markdown .pl-c2::before { content: "^M"; }
+
+.gitment-markdown .pl-sr .pl-cce { font-weight: 700; color: rgb(99, 163, 92=
+); }
+
+.gitment-markdown .pl-ml { color: rgb(105, 58, 23); }
+
+.gitment-markdown .pl-mh, .gitment-markdown .pl-mh .pl-en, .gitment-markdow=
+n .pl-ms { font-weight: 700; color: rgb(29, 62, 129); }
+
+.gitment-markdown .pl-mq { color: teal; }
+
+.gitment-markdown .pl-mi { font-style: italic; color: rgb(51, 51, 51); }
+
+.gitment-markdown .pl-mb { font-weight: 700; color: rgb(51, 51, 51); }
+
+.gitment-markdown .pl-md { color: rgb(189, 44, 0); background-color: rgb(25=
+5, 236, 236); }
+
+.gitment-markdown .pl-mi1 { color: rgb(85, 165, 50); background-color: rgb(=
+234, 255, 234); }
+
+.gitment-markdown .pl-mc { color: rgb(239, 151, 0); background-color: rgb(2=
+55, 227, 180); }
+
+.gitment-markdown .pl-mi2 { color: rgb(216, 216, 216); background-color: gr=
+ey; }
+
+.gitment-markdown .pl-mdr { font-weight: 700; color: rgb(121, 93, 163); }
+
+.gitment-markdown .pl-mo { color: rgb(29, 62, 129); }
+
+.gitment-markdown .pl-ba { color: rgb(89, 94, 98); }
+
+.gitment-markdown .pl-sg { color: silver; }
+
+.gitment-markdown .pl-corl { text-decoration: underline; color: rgb(24, 54,=
+ 145); }
+
+.gitment-markdown .octicon { display: inline-block; fill: currentcolor; ver=
+tical-align: text-bottom; }
+
+.gitment-markdown hr::after, .gitment-markdown hr::before, .gitment-markdow=
+n::after, .gitment-markdown::before { display: table; content: ""; }
+
+.gitment-markdown a { background-color: transparent; color: rgb(3, 102, 214=
+); text-decoration: none; }
+
+.gitment-markdown a:active, .gitment-markdown a:hover { outline-width: 0px;=
+ }
+
+.gitment-markdown h1 { margin: 0.67em 0px; }
+
+.gitment-markdown img { border-style: none; }
+
+.gitment-markdown svg:not(:root) { overflow: hidden; }
+
+.gitment-markdown hr { box-sizing: content-box; }
+
+.gitment-markdown input { font: inherit; margin: 0px; overflow: visible; }
+
+.gitment-markdown [type=3D"checkbox"] { box-sizing: border-box; padding: 0p=
+x; }
+
+.gitment-markdown * { box-sizing: border-box; }
+
+.gitment-markdown a:hover { text-decoration: underline; }
+
+.gitment-markdown strong { font-weight: 600; }
+
+.gitment-markdown td, .gitment-markdown th { padding: 0px; }
+
+.gitment-markdown blockquote { margin: 0px; }
+
+.gitment-markdown ol ol, .gitment-markdown ul ol { list-style-type: lower-r=
+oman; }
+
+.gitment-markdown ol ol ol, .gitment-markdown ol ul ol, .gitment-markdown u=
+l ol ol, .gitment-markdown ul ul ol { list-style-type: lower-alpha; }
+
+.gitment-markdown dd { margin-left: 0px; }
+
+.gitment-markdown code { font-family: SFMono-Regular, Consolas, "Liberation=
+ Mono", Menlo, Courier, monospace; }
+
+.gitment-markdown pre { font: 12px SFMono-Regular, Consolas, "Liberation Mo=
+no", Menlo, Courier, monospace; overflow-wrap: normal; }
+
+.gitment-markdown .pl-0 { padding-left: 0px !important; }
+
+.gitment-markdown .pl-1 { padding-left: 4px !important; }
+
+.gitment-markdown .pl-2 { padding-left: 8px !important; }
+
+.gitment-markdown .pl-3 { padding-left: 16px !important; }
+
+.gitment-markdown .pl-4 { padding-left: 24px !important; }
+
+.gitment-markdown .pl-5 { padding-left: 32px !important; }
+
+.gitment-markdown .pl-6 { padding-left: 40px !important; }
+
+.gitment-markdown > :first-child { margin-top: 0px !important; }
+
+.gitment-markdown > :last-child { margin-bottom: 0px !important; }
+
+.gitment-markdown a:not([href]) { color: inherit; text-decoration: none; }
+
+.gitment-markdown .anchor { float: left; padding-right: 4px; margin-left: -=
+20px; line-height: 1; }
+
+.gitment-markdown .anchor:focus { outline: 0px; }
+
+.gitment-markdown blockquote, .gitment-markdown dl, .gitment-markdown ol, .=
+gitment-markdown p, .gitment-markdown pre, .gitment-markdown table, .gitmen=
+t-markdown ul { margin-top: 0px; margin-bottom: 16px; }
+
+.gitment-markdown hr { overflow: hidden; background: rgb(225, 228, 232); he=
+ight: 0.25em; padding: 0px; margin: 24px 0px; border: 0px; }
+
+.gitment-markdown blockquote { padding: 0px 1em; color: rgb(106, 115, 125);=
+ border-left: 0.25em solid rgb(223, 226, 229); }
+
+.gitment-markdown h1, .gitment-markdown h2 { padding-bottom: 0.3em; border-=
+bottom: 1px solid rgb(234, 236, 239); }
+
+.gitment-markdown blockquote > :first-child { margin-top: 0px; }
+
+.gitment-markdown blockquote > :last-child { margin-bottom: 0px; }
+
+.gitment-markdown h1, .gitment-markdown h2, .gitment-markdown h3, .gitment-=
+markdown h4, .gitment-markdown h5, .gitment-markdown h6 { margin-top: 24px;=
+ margin-bottom: 16px; font-weight: 600; line-height: 1.25; }
+
+.gitment-markdown h1 .octicon-link, .gitment-markdown h2 .octicon-link, .gi=
+tment-markdown h3 .octicon-link, .gitment-markdown h4 .octicon-link, .gitme=
+nt-markdown h5 .octicon-link, .gitment-markdown h6 .octicon-link { color: r=
+gb(27, 31, 35); vertical-align: middle; visibility: hidden; }
+
+.gitment-markdown h1:hover .anchor, .gitment-markdown h2:hover .anchor, .gi=
+tment-markdown h3:hover .anchor, .gitment-markdown h4:hover .anchor, .gitme=
+nt-markdown h5:hover .anchor, .gitment-markdown h6:hover .anchor { text-dec=
+oration: none; }
+
+.gitment-markdown h1:hover .anchor .octicon-link, .gitment-markdown h2:hove=
+r .anchor .octicon-link, .gitment-markdown h3:hover .anchor .octicon-link, =
+.gitment-markdown h4:hover .anchor .octicon-link, .gitment-markdown h5:hove=
+r .anchor .octicon-link, .gitment-markdown h6:hover .anchor .octicon-link {=
+ visibility: visible; }
+
+.gitment-markdown h1 { font-size: 2em; }
+
+.gitment-markdown h2 { font-size: 1.5em; }
+
+.gitment-markdown h3 { font-size: 1.25em; }
+
+.gitment-markdown h4 { font-size: 1em; }
+
+.gitment-markdown h5 { font-size: 0.875em; }
+
+.gitment-markdown h6 { font-size: 0.85em; color: rgb(106, 115, 125); }
+
+.gitment-markdown ol, .gitment-markdown ul { padding-left: 2em; }
+
+.gitment-markdown ol ol, .gitment-markdown ol ul, .gitment-markdown ul ol, =
+.gitment-markdown ul ul { margin-top: 0px; margin-bottom: 0px; }
+
+.gitment-markdown li > p { margin-top: 16px; }
+
+.gitment-markdown li + li { margin-top: 0.25em; }
+
+.gitment-markdown dl { padding: 0px; }
+
+.gitment-markdown dl dt { padding: 0px; margin-top: 16px; font-size: 1em; f=
+ont-style: italic; font-weight: 600; }
+
+.gitment-markdown dl dd { padding: 0px 16px; margin-bottom: 16px; }
+
+.gitment-markdown table { border-spacing: 0px; border-collapse: collapse; d=
+isplay: block; width: 100%; overflow: auto; }
+
+.gitment-markdown table th { font-weight: 600; }
+
+.gitment-markdown table td, .gitment-markdown table th { padding: 6px 13px;=
+ border: 1px solid rgb(223, 226, 229); }
+
+.gitment-markdown table tr { background-color: rgb(255, 255, 255); border-t=
+op: 1px solid rgb(198, 203, 209); }
+
+.gitment-markdown table tr:nth-child(2n) { background-color: rgb(245, 245, =
+245); }
+
+.gitment-markdown img { max-width: 100%; box-sizing: content-box; backgroun=
+d-color: rgb(255, 255, 255); }
+
+.gitment-markdown code { padding: 0.2em 0px; margin: 0px; font-size: 85%; b=
+ackground-color: rgba(27, 31, 35, 0.05); border-radius: 0px; }
+
+.gitment-markdown code::after, .gitment-markdown code::before { letter-spac=
+ing: -0.2em; content: "=C2=A0"; }
+
+.gitment-markdown pre > code { padding: 0px; margin: 0px; font-size: 100%; =
+word-break: normal; white-space: pre; background: 0px 0px; border: 0px; }
+
+.gitment-markdown .highlight { margin-bottom: 16px; }
+
+.gitment-markdown .highlight pre { margin-bottom: 0px; word-break: normal; =
+}
+
+.gitment-markdown .highlight pre, .gitment-markdown pre { padding: 16px; ov=
+erflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(245,=
+ 245, 245); border-radius: 0px; }
+
+.gitment-markdown pre code { display: inline; padding: 0px; margin: 0px; ov=
+erflow: visible; line-height: inherit; overflow-wrap: normal; background-co=
+lor: transparent; border: 0px; }
+
+.gitment-markdown pre code::after, .gitment-markdown pre code::before { con=
+tent: normal; }
+
+.gitment-markdown .full-commit .btn-outline:not(:disabled):hover { color: r=
+gb(0, 92, 197); border-color: rgb(0, 92, 197); }
+
+.gitment-markdown kbd { display: inline-block; padding: 3px 5px; font: 11px=
+ / 10px SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monosp=
+ace; color: rgb(68, 77, 86); vertical-align: middle; background-color: rgb(=
+252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(1=
+98, 203, 209) rgb(198, 203, 209) rgb(149, 157, 165); border-image: initial;=
+ border-radius: 0px; box-shadow: rgb(149, 157, 165) 0px -1px 0px inset; }
+
+.gitment-markdown :checked + .radio-label { position: relative; z-index: 1;=
+ border-color: rgb(3, 102, 214); }
+
+.gitment-markdown .task-list-item { list-style-type: none; }
+
+.gitment-markdown .task-list-item + .task-list-item { margin-top: 3px; }
+
+.gitment-markdown .task-list-item input { margin: 0px 0.2em 0.25em -1.6em; =
+vertical-align: middle; }
+
+.gitment-markdown hr { border-bottom-color: rgb(238, 238, 238); }
+------MultipartBoundary--Y10I2Yim8GwetRVPsCSTQg38CWp3l6syhTwaXd3Uab------

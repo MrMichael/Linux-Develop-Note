@@ -540,4 +540,49 @@ go doc package function # 获取某个函数在某个包中的文档注释，例
   $GOPATH/bin/hello
   ```
 
-  
+
+
+
+#### 3.通过go mod创建工程项目
+
+新的包管理模式有以下功能
+
+- 自动下载依赖包
+- 项目不必放在GOPATH/src内了
+- 项目内会生成一个go.mod文件，列出包依赖
+- 所以来的第三方包会准确的指定版本号
+- 对于已经转移的包，可以用replace 申明替换，不需要改代码
+
+
+
+```shell
+# 初始化模块，生成go.mod文件
+$ go mod init hello
+
+$ cat go.mod 
+    module hello
+
+    go 1.14
+
+$ touch hello.go
+    package main
+
+    import (
+        "fmt"
+    )
+
+    func main() {
+        fmt.Println("Hello, world!")
+    }
+
+$ go run hello.go
+```
+
+
+
+
+
+
+
+
+

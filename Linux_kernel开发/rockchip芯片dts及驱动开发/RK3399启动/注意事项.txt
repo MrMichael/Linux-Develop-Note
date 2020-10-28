@@ -1,0 +1,21 @@
+1、带ota参数生成固件（./mkimage.sh ota）。不带ota参数，不会影响SD升级卡升级，但升级完成后，从未升级过固件的机器会因找不到kernel而开不了机。
+2、打包update.img时用的parameter中MACHINE_MODEL必须与机器中固件的ro.product.model一致。
+对于使用emmc的机器，还需修改以下几点。
+1、请检查device\rockchip\rksdk\recovery\etc\init.bootmode.emmc.rc中有没有下面一句，若没有，则在on fs下一行增加。同时修改或删除out下的同名文件
+insmod /drmboot.ko
+2、再把
+device/rockchip/common/init.rk30board.rc 中（同时删除或修改out/target/product/rkxxx/root/init.rk30board.rc）
+on post-fs
+insmod /system/lib/modules/ump.ko
+后面加上
+insmod /drmboot.ko
+3、使用附件替换vendor和out下的同名文件。
+4、检查下使用的dts关于emmc的配置是否正确
+&nandc 设为 disabled
+&nandc0reg 设为 okay
+&emmc 设为 okay
+上面几点都修改好后，按下面步骤操作
+1、使用“AndroidTool_Release_XXX”工具打包出一个完整的固件update.img
+2、将上面的update.img烧到机器中，看看机器能否正常开机。若正常开机，插sd卡试试机器中是否能认到sd卡。能认到sd卡则进行第3步；不能认到请修改固件。
+3、使用SD_Firmware_Tool”工具制作sd升级卡，工具界面上第二步里的选择功能模式请选择“固件升级”，工具界面第三步里的选择固件，选上一步验证过的update.img
+4、第3步制作好的sd升级卡插到机器中再重启机器。

@@ -320,10 +320,32 @@ Go语言变量和常量的声明方式与C和C++语言明显不同， Go语言�
 
   - 接口（interface）
 
+    - [interface说明](https://www.cnblogs.com/52php/p/6046709.html)
+
+    - interface是一组方法签名的组合
+  
+    - 空interface(interface{})不包含任何的方法，空接口类型对满足它的类型没有要求，所以我们可以为空接口分配任何值。
+  
+      ```go
+      var any interface{}
+      any = true
+      any = 12.34
+      any = "hello"
+      any = map[string]int{"one": 1}
+      any = new(bytes.Buffer)
+      
+      // interface转换成具体类型调用方式：interfaceVar.(具体类型)
+      // 原理：断言
+      any.(int)
+      any.(string)
+      any.(byte)
+      any.(float32)
+      ```
+  
   - JSON
-
+  
     - JavaScript对象表示法（JSON）是一种用于发送和接收结构化信息的标准协议。JSON是对JavaScript中各种类型的值（字符串、数字、布尔值）和对象（Unicode本文）的编码。
-
+  
       ```go
       //1.编组（marshaling）：结构体slice转为JSON格式数据
       type Movie struct {
@@ -397,6 +419,42 @@ var a []byte = []byte{0, 1, 2, 3}
 binary.BigEndian.Uint32(a)		//0x00010203 ==> 66051
 binary.LittleEndian.Uint32(a) //0x03020100 ==> 50462976
 
+b  : = []byte{0x00, 0x00, 0x03, 0xe8}  
+b_buf  : =  bytes .NewBuffer(b)  
+var x int32  
+binary.Read(b_buf, binary.BigEndian, &x)  
+fmt.Println(x)  
+
+b := []byte{0xe8, 0x03, 0xd0, 0x07}
+x1 := binary.LittleEndian.Uint32(b[0:])
+
+// int 转 []byte
+x  =  1000  
+b_buf  :=  bytes .NewBuffer([]byte{})  
+binary.Write(b_buf, binary.BigEndian, x)  
+fmt.Println(b_buf.Bytes())  
+
+// float32 转uint32
+math.Float32bits(f float32) uint32
+
+// uint32 转 float32
+Float32frombits(b uint32) float32
+
+//uint32 转 []byte
+func EncodeUint32(v uint32) []uint8 {
+	b := make([]uint8, 4)
+	binary.LittleEndian.PutUint32(b, v)
+	return b
+}
+
+// string 转 []byte
+var str string = "test"
+var data []byte = []byte(str)
+
+// []byte 转 string
+var data [10]byte 
+var str string = string(data[:])
+
 // []byte -> String  (byte转ascii)
 data1 := []byte{0x31, 0x32, 0x33, 0x34}
 data2 := []byte("Hello")
@@ -469,6 +527,7 @@ import "strconv"
   for _, val := range sl2 {
       fmt.Printf("%s - ", val)
   }
+  // 注意：val[1:len(val)-1]才是真正的目标字符串
   
   //判断前缀
   strings.HasPrefix(str, "Th") bool
